@@ -18,43 +18,13 @@
   margin-bottom: 25px;
 }
 
-.quotation {
-  background-color: rgba(0, 0, 0, 0.1);
-
-  font-size: 13px;
-  font-style: italic;
-
-  display: table;
-
-  margin: 0;
-  margin-bottom: 25px;
-  padding: 10px;
-}
-
-.quotation:before {
-  color: var(--primary-color);
-  font-size: 3em;
-  line-height: 0;
-
-  content: open-quote;
-
-  vertical-align: -0.4em;
-  margin-right: 0.15em;
-}
-
-.quotation cite {
-  font-style: normal;
-
-  margin-left: 5px;
-}
-
 .infobox {
   background-color: rgba(0, 0, 0, 0.1);
 
   position: relative;
   float: right;
 
-  width: 250px;
+  width: 300px;
   margin: 0 0 25px 25px;
   padding: 3px;
 }
@@ -90,6 +60,36 @@
 
 .infobox th {
   text-align: left;
+}
+
+.quotation {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  font-size: 13px;
+  font-style: italic;
+
+  display: table;
+
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.quotation:before {
+  color: var(--primary-color);
+  font-size: 3em;
+  line-height: 0;
+
+  content: open-quote;
+
+  vertical-align: -0.4em;
+  margin-right: 0.15em;
+}
+
+.quotation cite {
+  font-style: normal;
+
+  margin-left: 5px;
 }
 
 .section,
