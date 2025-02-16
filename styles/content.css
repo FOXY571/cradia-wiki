@@ -1,5 +1,5 @@
 .content-body a {
-  color: rgb(159, 236, 240);
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .infobox-title {
-  color: white;
+  color: var(--secondary-color);
   background-color: rgba(0, 0, 0, 0.1);
 
   font-size: 20px;
