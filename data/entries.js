@@ -1,6 +1,6 @@
 async function getEntries() {
   try {
-    const response = await fetch('../backend/entries.json');
+    const response = await fetch('backend/entries.json');
     const fileContent = await response.json();
     return fileContent;
   } catch (error) {
@@ -12,7 +12,7 @@ export let entries = await getEntries();
 
 export async function getEntry(entryName) {
   try {
-    const response = await fetch(`../backend/entries/${entryName}.html`);
+    const response = await fetch(`backend/entries/${entryName}.html`);
     const fileContent = await response.text();
     return fileContent;
   } catch (error) {

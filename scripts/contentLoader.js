@@ -16,5 +16,5 @@ if (entryName && entries.contains(entryName)) {
     <p>Please click
       <b><a href="cradia-wiki.html">here</a></b>
     to go back to safety.</p>
-    `;
+  `;
 }
