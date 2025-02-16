@@ -2,6 +2,7 @@ async function getEntries() {
   try {
     const response = await fetch('backend/entries.json');
     const fileContent = await response.json();
+    console.log('Fetched entries successfully');
     return fileContent;
   } catch (error) {
     console.error('Error fetching entries:', error);
@@ -14,9 +15,10 @@ export async function getEntry(entryName) {
   try {
     const response = await fetch(`backend/entries/${entryName}.html`);
     const fileContent = await response.text();
+    console.log(`Fetched ${entryName} entry successfully`);
     return fileContent;
   } catch (error) {
-    console.error('Error fetching entry:', error);
+    console.error(`Error fetching ${entryName} entry:`, error);
   }
 }
 
