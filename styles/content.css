@@ -1,0 +1,106 @@
+.content-body a {
+  color: rgb(159, 236, 240);
+  text-decoration: none;
+}
+
+.content-body a:hover {
+  text-decoration: underline;
+}
+
+.line-break {
+  border-top: 1px solid rgb(20, 20, 20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  display: block;
+  overflow: auto;
+
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.quotation {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  font-size: 13px;
+  font-style: italic;
+
+  display: table;
+
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.quotation:before {
+  color: var(--primary-color);
+  font-size: 3em;
+  line-height: 0;
+
+  content: open-quote;
+
+  vertical-align: -0.4em;
+  margin-right: 0.15em;
+}
+
+.quotation cite {
+  font-style: normal;
+
+  margin-left: 5px;
+}
+
+.infobox {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  position: relative;
+  float: right;
+
+  width: 250px;
+  margin: 0 0 25px 25px;
+  padding: 3px;
+}
+
+.infobox-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+
+  padding: 5px;
+  margin-bottom: 2.5px;
+}
+
+.infobox-header {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+
+  padding: 5px;
+  margin-bottom: 2.5px;
+}
+
+.infobox table {
+  font-size: 12.5px;
+  line-height: 24px;
+}
+
+.infobox th {
+  text-align: left;
+}
+
+.section,
+.section-list {
+  margin-bottom: 50px;
+}
+
+.section-list {
+  padding-left: 17px;
+}
+
+.text-center {
+  text-align: center;
+}
