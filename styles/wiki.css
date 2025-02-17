@@ -31,6 +31,7 @@
 
 .content-wrapper {
   display: flex;
+
   margin: 25px;
   margin-top: 0;
 }
@@ -46,20 +47,29 @@
 .panels {
   background-size: unset;
 
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
   margin: 5px;
 }
 
 @media (max-width: 1000px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+  }
+
   .panels {
-    display: none;
+    flex-direction: row;
+
+    width: 400px;
   }
 }
 
 .panel {
   background-size: unset;
 
-  margin-bottom: 10px;
+  width: 200px;
 }
 
 .panel-label {
@@ -112,7 +122,7 @@
 .content-body {
   flex: 1;
 
-  min-height: 750px;
+  height: min-content;
   margin: 5px;
   padding: 20px;
 }
@@ -124,11 +134,11 @@
   justify-content: center;
 }
 
-.footer-link {
+.footer a {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.footer-link:hover {
+.footer a:hover {
   text-decoration: underline;
 }
