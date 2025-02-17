@@ -29,6 +29,18 @@
   padding: 3px;
 }
 
+@media (max-width: 1000px) {
+  .infobox {
+    width: 250px;
+  }
+}
+
+@media (max-width: 750px) {
+  .infobox {
+    width: 200px;
+  }
+}
+
 .infobox-title {
   color: var(--secondary-color);
   background-color: rgba(0, 0, 0, 0.1);
