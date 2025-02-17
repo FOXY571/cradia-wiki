@@ -12,7 +12,11 @@
   z-index: -1;
 }
 
-.logo-wrapper {
+.logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,14 +24,9 @@
   height: 175px;
 }
 
-.logo {
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: contain;
-
-  width: 25%;
-  height: 75%;
+.logo a {
+  width: 325px;
+  height: 100px;
 }
 
 .content-wrapper {
