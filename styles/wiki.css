@@ -55,18 +55,6 @@
   gap: 10px;
 }
 
-@media (max-width: 1000px) {
-  .content-wrapper {
-    flex-direction: column-reverse;
-  }
-
-  .panels {
-    flex-direction: row;
-
-    width: 400px;
-  }
-}
-
 .panel {
   background-size: unset;
 
@@ -141,4 +129,21 @@
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+
+  .panels {
+    flex-direction: row;
+
+    width: 400px;
+  }
+
+  .content-body {
+    flex: 0;
+  }
 }
