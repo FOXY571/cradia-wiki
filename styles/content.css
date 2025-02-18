@@ -41,7 +41,8 @@
   }
 }
 
-.infobox-title {
+.infobox-title,
+.linkbox-title {
   color: var(--secondary-color);
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -104,13 +105,45 @@
   margin-left: 5px;
 }
 
+.linkbox {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  min-width: 300px;
+  margin-bottom: 25px;
+  padding: 3px;
+}
+
+.linkbox ul {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 0;
+}
+
+.linkbox li {
+  white-space: nowrap;
+
+  display: inline;
+
+  margin: 10px;
+}
+
 .section,
 .section-list {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .section-list {
   padding-left: 17px;
+}
+
+.align-center {
+  justify-self: center;
 }
 
 .text-center {
