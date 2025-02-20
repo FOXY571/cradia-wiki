@@ -1,3 +1,4 @@
+/* General */
 .content-body a {
   color: var(--link-color);
   text-decoration: none;
@@ -7,17 +8,18 @@
   text-decoration: underline;
 }
 
+/* Breaks */
 .line-break {
   border-top: 1px solid rgb(20, 20, 20);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
-  display: block;
   overflow: auto;
 
   margin-top: 5px;
   margin-bottom: 25px;
 }
 
+/* Infobox & Linkbox */
 .infobox {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -75,6 +77,69 @@
   text-align: left;
 }
 
+.linkbox {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  min-width: 300px;
+  margin-bottom: 25px;
+  padding: 3px;
+}
+
+.linkbox ul {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 0;
+}
+
+.linkbox li {
+  white-space: nowrap;
+
+  display: inline;
+
+  margin: 10px;
+}
+
+/* Hatnote */
+.hatnote {
+  font-style: italic;
+
+  padding-left: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+/* Message Box */
+.msgbox {
+  color: black;
+  background-color: rgb(175, 0, 0);
+  border-left: 4px solid darkred;
+
+  display: flex;
+  align-items: center;
+  justify-self: center;
+
+  width: 90%;
+  padding: 0.4em 0.8em;
+  margin-bottom: 1em;
+}
+
+.msgbox-icon {
+  background-image: url("../images/warning-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+
+/* Quotation */
 .quotation {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -105,34 +170,7 @@
   margin-left: 5px;
 }
 
-.linkbox {
-  background-color: rgba(0, 0, 0, 0.15);
-
-  min-width: 300px;
-  margin-bottom: 25px;
-  padding: 3px;
-}
-
-.linkbox ul {
-  list-style-type: none;
-
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  margin-left: 25px;
-  margin-right: 25px;
-  padding: 0;
-}
-
-.linkbox li {
-  white-space: nowrap;
-
-  display: inline;
-
-  margin: 10px;
-}
-
+/* Sections */
 .section,
 .section-list {
   margin-bottom: 25px;
@@ -142,6 +180,7 @@
   padding-left: 17px;
 }
 
+/* Generic */
 .align-center {
   justify-self: center;
 }
