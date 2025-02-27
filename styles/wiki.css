@@ -110,6 +110,7 @@
 
 .content-body {
   flex: 1;
+  overflow: hidden;
 
   height: min-content;
   padding: 20px;
