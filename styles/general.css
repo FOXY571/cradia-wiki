@@ -18,12 +18,15 @@ body {
 
 h1 {
   color: var(--secondary-color);
+  font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
+
   margin: 0;
 }
 
 h2 {
   font-weight: normal;
+
   margin: 0;
 }
 
