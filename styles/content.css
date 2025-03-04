@@ -1,4 +1,37 @@
 /* General */
+.content-body h1 {
+  color: var(--secondary-color);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.content-body h2 {
+  font-weight: normal;
+  line-height: 32px;
+
+  display: flow-root;
+
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.content-body h1::after,
+.content-body h2::after {
+  content: "";
+  pointer-events: none;
+
+  border-top: 1px solid rgb(20, 20, 20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  display: block;
+
+  height: 0;
+  margin-top: 3px;
+}
+
 .content-body a {
   color: var(--link-color);
   text-decoration: none;
@@ -8,15 +41,8 @@
   text-decoration: underline;
 }
 
-/* Breaks */
-.line-break {
-  border-top: 1px solid rgb(20, 20, 20);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
-  overflow: auto;
-
-  margin-top: 5px;
-  margin-bottom: 25px;
+ul {
+  padding-left: 17px;
 }
 
 /* Infobox, Linkbox & Table */
@@ -126,8 +152,9 @@
 .hatnote {
   font-style: italic;
 
-  padding-left: 1.6em;
-  margin-bottom: 0.5em;
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Message Box */
@@ -165,12 +192,11 @@
 
   display: table;
 
-  margin: 0;
-  margin-bottom: 25px;
+  margin: 12px 0;
   padding: 10px;
 }
 
-.quotation:before {
+.quotation::before {
   color: var(--primary-color);
   font-size: 3em;
   line-height: 0;
@@ -185,16 +211,6 @@
   font-style: normal;
 
   margin-left: 5px;
-}
-
-/* Sections */
-.section,
-.section-list {
-  margin-bottom: 25px;
-}
-
-.section-list {
-  padding-left: 17px;
 }
 
 /* Generic */
