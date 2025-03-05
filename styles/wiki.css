@@ -108,12 +108,22 @@
   text-decoration: underline;
 }
 
-.content-body {
+.main-content {
   flex: 1;
   overflow: hidden;
 
+  display: flex;
+}
+
+.content-body {
+  flex: 1;
+
   height: min-content;
   padding: 20px;
+}
+
+.side-spacer {
+  width: 300px;
 }
 
 .footer {
@@ -144,7 +154,13 @@
     width: 400px;
   }
 
-  .content-body {
+  .main-content {
     flex: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .side-spacer {
+    width: 0;
   }
 }
