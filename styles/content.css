@@ -46,11 +46,83 @@
   text-decoration: underline;
 }
 
-ul {
+.content-body ul {
   padding-left: 17px;
 }
 
-/* Infobox, Linkbox & Table */
+.content-body li {
+  margin-bottom: 10px;
+}
+
+.content-body table {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  line-height: 24px;
+  text-align: center;
+
+  max-width: 850px;
+  margin-bottom: 25px;
+  padding: 3px;
+}
+
+.content-body th {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  white-space: nowrap;
+
+  padding: 5px;
+  margin-bottom: 2.5px;
+
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.content-body td {
+  padding: 10px 0;
+}
+
+.content-body blockquote {
+  background-color: rgba(0, 0, 0, 0.1);
+
+  font-size: 13px;
+  font-style: italic;
+
+  display: table;
+
+  margin: 12px 0;
+  padding: 10px;
+}
+
+.content-body blockquote::before {
+  color: var(--primary-color);
+  font-size: 3em;
+  line-height: 0;
+
+  content: open-quote;
+
+  vertical-align: -0.4em;
+  margin-right: 0.15em;
+}
+
+.content-body cite {
+  font-style: normal;
+
+  margin-left: 5px;
+}
+
+.content-body table,
+.content-body blockquote {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2) rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+/* Infobox & Linkbox*/
 .infobox {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -82,19 +154,20 @@ ul {
   font-size: 20px;
   text-align: center;
   line-height: 24px;
+  white-space: nowrap;
 
   padding: 5px;
   margin-bottom: 2.5px;
 }
 
-.infobox-header,
-.content-table th {
+.infobox-header {
   background-color: rgba(0, 0, 0, 0.15);
 
   font-size: 15px;
   font-weight: bold;
   text-align: center;
   line-height: 24px;
+  white-space: nowrap;
 
   padding: 5px;
   margin-bottom: 2.5px;
@@ -137,22 +210,6 @@ ul {
   margin: 10px;
 }
 
-.content-table {
-  background-color: rgba(0, 0, 0, 0.1);
-
-  line-height: 24px;
-  text-align: center;
-
-  max-width: 750px;
-  margin-bottom: 25px;
-  padding: 3px;
-}
-
-.content-table th {
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
 /* Hatnote */
 .hatnote {
   font-style: italic;
@@ -186,36 +243,6 @@ ul {
   width: 2.5em;
   height: 2.5em;
   margin-right: 1em;
-}
-
-/* Quotation */
-.quotation {
-  background-color: rgba(0, 0, 0, 0.1);
-
-  font-size: 13px;
-  font-style: italic;
-
-  display: table;
-
-  margin: 12px 0;
-  padding: 10px;
-}
-
-.quotation::before {
-  color: var(--primary-color);
-  font-size: 3em;
-  line-height: 0;
-
-  content: open-quote;
-
-  vertical-align: -0.4em;
-  margin-right: 0.15em;
-}
-
-.quotation cite {
-  font-style: normal;
-
-  margin-left: 5px;
 }
 
 /* Generic */

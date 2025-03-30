@@ -13,7 +13,7 @@ export let entries = await getEntries();
 
 export async function getEntry(entryName) {
   try {
-    const response = await fetch(`backend/entries/${entryName}.entry`);
+    const response = await fetch(`backend/entries/${entryName}.md`);
     const fileContent = await response.text();
     console.log(`Fetched ${entryName} entry successfully`);
     return fileContent;
