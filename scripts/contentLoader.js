@@ -6,7 +6,8 @@ const urlParams = new URLSearchParams(window.location.search);
 const entryName = urlParams.get('entry');
 
 if (entryName && entries.contains(entryName)) {
-  contentBody.innerHTML = await entries.getEntry(entryName);
+  const rawText = await entries.getEntry(entryName);
+  contentBody.innerHTML = marked.parse(rawText);
 } else {
   contentBody.innerHTML = `
     <h1>404</h1>
