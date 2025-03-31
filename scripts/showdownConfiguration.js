@@ -1,7 +1,22 @@
 const entryConverter = new showdown.Converter({
-  extensions: [infoboxExtension, noteExtension, hatnoteExtension],
+  extensions: [...bindingsOverride(), infoboxExtension, noteExtension, hatnoteExtension],
   tables: true
 });
+
+function bindingsOverride() {
+  const classMap = {
+    table: 'content-table'
+  }
+  
+  const bindings = Object.keys(classMap)
+    .map(key => ({
+      type: 'output',
+      regex: new RegExp(`<${key}(.*)>`, 'g'),
+      replace: `<${key} class="${classMap[key]}" $1>`
+    }));
+  
+  return bindings;
+}
 
 function infoboxExtension() {
   const infobox = {
@@ -26,7 +41,7 @@ function infoboxExtension() {
             if (output) {
               output += '</tbody></table>';
             }
-            output += `<div class="infobox-${line.startsWith('##') ? 'header' : 'title'}">${line.replace(/#/g, ' ')}</div><table><tbody>`;
+            output += `<div class="infobox-${line.startsWith('##') ? 'header' : 'title'}">${line.replace(/#/g, ' ')}</div><table cellpadding="4"><tbody>`;
           }
         });
 
