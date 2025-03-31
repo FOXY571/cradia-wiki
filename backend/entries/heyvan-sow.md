@@ -77,7 +77,6 @@ In [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth"), Heyvan 
 
 ## Backstory
 
-
 Pre Universal Destruction Heyvan's backstory is unknown. However, it is inferred that he grew up poor in Canavar without any family. Because of this, he resulted to stealing and robbery to make a living.
 
 The Post Universal Destruction Heyvan grew up with his older brother Kitab Sow in Canavar. While Heyvan was a baby, his parents were murdered by a sorcerer, forcing Heyvan and Kitab to make a living on their own. Heyvan saw his brother as his guardian and looked up to him. Unlike Kitab, who hated [magic](?entry=magic "Magic") and sorcerers, Heyvan grew to love [magic](?entry=magic "Magic") and was fascinated by sorcerers and their abilites.
