@@ -21,7 +21,7 @@ function hatnoteExtension() {
   const hatnote = {
     type: 'output',
     filter: function(text) {
-      const regex = /::(.*?)::/gs;
+      const regex = /::(.*?)::/g;
       return text.replace(regex, (match, p1, p2) => {
         return `<div class=hatnote>${p1}</div>`;
       });
