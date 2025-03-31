@@ -9,7 +9,8 @@ async function getEntries() {
   }
 }
 
-export let entries = await getEntries();
+const entries = await getEntries();
+export default entries;
 
 export async function getEntry(entryName) {
   try {
