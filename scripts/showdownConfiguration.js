@@ -1,9 +1,9 @@
 const entryConverter = new showdown.Converter({
-  extensions: [extensions],
+  extensions: [noteExtensions, hatnoteExtension],
   tables: true
 });
 
-function extensions() {
+function noteExtensions() {
   const warning = {
     type: 'output',
     filter: function(text) {
@@ -15,4 +15,18 @@ function extensions() {
   }
 
   return [warning];
+}
+
+function hatnoteExtension() {
+  const hatnote = {
+    type: 'output',
+    filter: function(text) {
+      const regex = /::(.*?)::/gs;
+      return text.replace(regex, (match, p1, p2) => {
+        return `<div class=hatnote>${p1}</div>`;
+      });
+    }
+  }
+
+  return [hatnote];
 }

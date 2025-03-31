@@ -1,8 +1,6 @@
 # Heyvan (Book)
 
-<div class="hatnote">
-  For the character, see <a href="?entry=heyvan-sow" title="Heyvan Sow">Heyvan Sow</a>.
-</div>
+::  For the character, see [Heyvan Sow](?entry=heyvan-sow "Heyvan Sow"). ::
 
 :::warning:::
   **This page is currently unfinished and is in development.**
