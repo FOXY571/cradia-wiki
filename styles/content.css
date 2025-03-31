@@ -210,20 +210,10 @@
   margin: 10px;
 }
 
-/* Hatnote */
-.hatnote {
-  font-style: italic;
-
-  padding-left: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* Warning */
+/* Note & Warning */
+.note,
 .warning {
   color: black;
-  background-color: rgb(175, 0, 0);
-  border-left: 4px solid darkred;
 
   display: flex;
   align-items: center;
@@ -232,6 +222,16 @@
   width: 90%;
   padding: 0.4em 0.8em;
   margin-bottom: 1em;
+}
+
+.note {
+  background-color: rgb(143, 175, 236);
+  border-left: 4px solid cornflowerblue;
+}
+
+.warning {
+  background-color: rgb(175, 0, 0);
+  border-left: 4px solid darkred;
 }
 
 .warning::before {
@@ -245,6 +245,15 @@
   width: 2.5em;
   height: 2.5em;
   margin-right: 1em;
+}
+
+/* Hatnote */
+.hatnote {
+  font-style: italic;
+
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Generic */

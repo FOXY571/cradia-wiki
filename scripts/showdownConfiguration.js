@@ -1,20 +1,29 @@
 const entryConverter = new showdown.Converter({
-  extensions: [noteExtensions, hatnoteExtension],
+  extensions: [noteExtension, hatnoteExtension],
   tables: true
 });
 
-function noteExtensions() {
+function noteExtension() {
+  const note = {
+    type: 'output',
+    filter: function(text) {
+      const regex = /:::(note):::(.*?):::/gs;
+      return text.replace(regex, (match, p1, p2) => {
+        return `<div class=note><div>${p2}</div></div>`;
+      });
+    }
+  }
   const warning = {
     type: 'output',
     filter: function(text) {
       const regex = /:::(warning):::(.*?):::/gs;
       return text.replace(regex, (match, p1, p2) => {
-        return `<div class=warning><div>${p2}</div></div>`.replace(/::/, '<br>');
+        return `<div class=warning><div>${p2}</div></div>`;
       });
     }
   }
 
-  return [warning];
+  return [note, warning];
 }
 
 function hatnoteExtension() {
