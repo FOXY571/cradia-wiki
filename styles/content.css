@@ -98,11 +98,11 @@
 }
 
 .content-body blockquote::before {
+  content: open-quote;
+
   color: var(--primary-color);
   font-size: 3em;
   line-height: 0;
-
-  content: open-quote;
 
   vertical-align: -0.4em;
   margin-right: 0.15em;
@@ -219,8 +219,8 @@
   margin-bottom: 10px;
 }
 
-/* Message Box */
-.msgbox {
+/* Warning */
+.warning {
   color: black;
   background-color: rgb(175, 0, 0);
   border-left: 4px solid darkred;
@@ -234,7 +234,9 @@
   margin-bottom: 1em;
 }
 
-.msgbox-icon {
+.warning::before {
+  content: "";
+
   background-image: url("../images/warning-icon.png");
   background-size: contain;
   background-repeat: no-repeat;
