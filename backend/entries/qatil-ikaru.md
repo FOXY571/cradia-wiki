@@ -1,67 +1,21 @@
 # Qatil Ikaru
 
-<div class="infobox main-border">
-  <div class="infobox-title">Qatil Ikaru</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>Name</th>
-        <td>Qatil Ikaru</td>
-      </tr>
-      <tr>
-        <th>Aliases</th>
-        <td>None</td>
-      </tr>
-      <tr>
-        <th>Kingdom of origin</th>
-        <td>Ikarye</td>
-      </tr>
-      <tr>
-        <th>Relatives</th>
-        <td>Möhnət Ikaru (sister)<br>Sirus Ikaru (father)<br>Zərərli Ikaru (mother)</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Combat</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=magic" title="Magic">Magic</a></th>
-        <td>Terra<br>Fire</td>
-      </tr>
-      <tr>
-        <th>Weapon of choice</th>
-        <td>Sythe</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Appearances</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>First appearance</th>
-        <td><a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a></td>
-      </tr>
-      <tr>
-        <th>Last appearance</th>
-        <td><a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Physical description</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=species" title="Species">Species</a></th>
-        <td>Caster</td>
-      </tr>
-      <tr>
-        <th>Gender</th>
-        <td>Male</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+({
+  # Qatil Ikaru
+  | Name: Qatil Ikaru
+  | Aliases: None
+  | Kingdom of Origin: Ikarye
+  | Relatives: Möhnət Ikaru (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
+  ## Combat
+  | [Magic](?entry=magic "Magic"): Terra <br> Fire
+  | Weapon of choice: Sythe
+  ## Appearances
+  | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+  | Last appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+  ## Physical description
+  | [Species](?entry=species "Species"): Caster
+  | Gender: Male
+})
 
 > You are strong Qatil, yet you are blind to many truths. But know this, my dear, no matter who shuns you or confronts you for what you may destroy, I will always know you were just trying to help.
 >

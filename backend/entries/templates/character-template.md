@@ -5,68 +5,22 @@
 
 # [entry name]
 
-<div class="infobox main-border">
-  <div class="infobox-title">[entry name]</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>Name</th>
-        <td>[name]</td>
-      </tr>
-      <tr>
-        <th>Aliases</th>
-        <td>[aliases]</td> <!-- If multiple values, seperate them with <br> (i.e. Value 1<br>Value 2) -->
-      </tr>
-      <tr>
-        <th>Kingdom of origin</th>
-        <td>[kingdom of origin]</td>
-      </tr>
-      <tr>
-        <th>Relatives</th>
-        <td>[relatives]</td> <!-- If multiple values, seperate them with "<br>" (i.e. Value 1<br>Value 2) -->
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Combat</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=magic" title="Magic">Magic</a></th>
-        <td>[magic]</td> <!-- If multiple values, seperate them with "<br>" (i.e. Value 1<br>Value 2) -->
-      </tr>
-      <tr>
-        <th>Weapon of choice</th>
-        <td>[weapon of choice]</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Appearances</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>First appearance</th>
-        <td>[first appearance]</td>
-      </tr>
-      <tr>
-        <th>Last appearance</th>
-        <td>[last appearance]</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Physical description</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=species" title="Species">Species</a></th>
-        <td>[species]</td>
-      </tr>
-      <tr>
-        <th>Gender</th>
-        <td>[gender]</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+({
+  # [entry name]
+  | Name: [name]
+  | Aliases: [aliases] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+  | Kingdom of origin: [kingdom of origin]
+  | Relatives: [relatives] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+  ## Combat
+  | [Magic](?entry=magic "Magic"): [magic] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+  | Weapon of choice: [weapon of choice]
+  ## Appearances
+  | First appearance: [first appearance]
+  | Last appearance: [last appearance]
+  ## Physical description
+  | [Species](?entry=species "Species"): [species]
+  | Gender: [gender]
+})
 
 <!-- A quote is optional for an entry -->
 <!-- To include a quote on the entry, delete the surrounding comment -->

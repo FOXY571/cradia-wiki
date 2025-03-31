@@ -1,67 +1,21 @@
 # Kira Amaikoru
 
-<div class="infobox main-border">
-  <div class="infobox-title">Kira Amaikoru</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>Name</th>
-        <td>Kira Amaikoru</td>
-      </tr>
-      <tr>
-        <th>Aliases</th>
-        <td>None</td>
-      </tr>
-      <tr>
-        <th>Kingdom of origin</th>
-        <td>Canavr</td>
-      </tr>
-      <tr>
-        <th>Relatives</th>
-        <td>Her sister (unnamed)</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Combat</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=magic" title="Magic">Magic</a></th>
-        <td>Creation</td>
-      </tr>
-      <tr>
-        <th>Weapon of choice</th>
-        <td>None</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Appearances</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>First appearance</th>
-        <td><a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a></td>
-      </tr>
-      <tr>
-        <th>Last appearance</th>
-        <td><a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Physical description</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=species" title="Species">Species</a></th>
-        <td>God</td>
-      </tr>
-      <tr>
-        <th>Gender</th>
-        <td>Female</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+({
+  # Kira Amaikoru
+  | Name: Kira Amaikoru
+  | Aliases: None
+  | Kingdom of Origin: Canavar
+  | Relatives: Her sister (unnamed)
+  ## Combat
+  | [Magic](?entry=magic "Magic"): Creation
+  | Weapon of choice: None
+  ## Appearances
+  | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+  | Last appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+  ## Physical description
+  | [Species](?entry=species "Species"): God
+  | Gender: Female
+})
 
 **Kira Amaikoru** is established as the acting godly figure in [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth"). Kira once lived in the kingdom of Canavar, though it isn't clearly stated if she was royal or not. The only family member she has that's been mentioned so far is her twin sister who is yet to be named.
 

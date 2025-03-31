@@ -1,106 +1,54 @@
 # Ümid
 
-<div class="infobox main-border">
-  <div class="infobox-title">Ümid</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>Name</th>
-        <td>Ümid</td>
-      </tr>
-      <tr>
-        <th>Aliases</th>
-        <td>None</td>
-      </tr>
-      <tr>
-        <th>Kingdom of origin</th>
-        <td>Ikarye</td>
-      </tr>
-      <tr>
-        <th>Relatives</th>
-        <td>None</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Combat</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=magic" title="Magic">Magic</a></th>
-        <td>Plant<br>Healing</td>
-      </tr>
-      <tr>
-        <th>Weapon of choice</th>
-        <td>None</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Appearances</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>First appearance</th>
-        <td><a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a></td>
-      </tr>
-      <tr>
-        <th>Last appearance</th>
-        <td><a href="?entry=heyvan" title="Heyvan">Heyvan</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Physical description</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=species" title="Species">Species</a></th>
-        <td>Caster</td>
-      </tr>
-      <tr>
-        <th>Gender</th>
-        <td>Female</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+({
+  # Ümid
+  | Name: Ümid
+  | Aliases: None
+  | Kingdom of Origin: Ikarye
+  | Relatives: None
+  ## Combat
+  | [Magic](?entry=magic "Magic"): Plant <br> Healing
+  | Weapon of choice: None
+  ## Appearances
+  | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+  | Last appearance: [Heyvan](?entry=heyvan-(book) "Heyvan (Book)")
+  ## Physical description
+  | [Species](?entry=species "Species"): Caster
+  | Gender: Female
+})
 
 <!-- A quote is optional for an entry -->
 <!-- To include a quote on the entry, delete the surrounding comment -->
 <!--
-  <blockquote class="quotation main-border">
-    <p>
-      [quote]
-    </p>
-    <cite>― [speaker]</cite>
-  </blockquote>
+  > [quote]
+  >
+  > ― [speaker]
 -->
 
 <!-- Introduce the character here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [introduction]
 
-<h2>Backstory</h2>
+## Backstory
+
 <!-- Put the character's backstory here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [backstory]
 
-<h2>Appearance</h2>
+## Appearance
+
 <!-- Describe the character's appearance here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [appearance]
 
-<h2>Personality</h2>
+## Personality
+
 <!-- Describe the character's personlity here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [personaility]
 
-<h2>Combat & Magic</h2>
+## Combat & Magic
+
 <!-- Describe the character's combat and magic skills here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [combat & magic]
 
-<h2>Trivia</h2>
+## Trivia
+
 <!-- Add some character trivia here -->
-<!-- Every list item should be surrounded with "<li><p></p></li>" (i.e. <li><p>list item</p></li>) -->
-<ul>
-  [trivia]
-</ul>
+[trivia]

@@ -14,7 +14,7 @@
   ## Appearances
   | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
   | Last appearance: [Heyvan](?entry=heyvan-(book) "Heyvan (Book)")
-  ## Physical Description
+  ## Physical description
   | [Species](?entry=species "Species"): Caster
   | Gender: Male
 })
