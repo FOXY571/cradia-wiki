@@ -1,12 +1,9 @@
-<h1>The Prince's Truth</h1>
+# The Prince's Truth
 
-<div class="msgbox">
-  <div class="msgbox-icon"></div>
-  <div>
-    <div><strong>This page is currently unfinished and is in development.</strong></div>
-    <div>Please be patient while we get it set up.</div>
-  </div>
-</div>
+:::warning:::
+  **This page is currently unfinished and is in development.**
+  :: Please be patient while we get it set up.
+:::
 
 <div class="infobox main-border">
   <div class="infobox-title">The Prince's Truth</div>

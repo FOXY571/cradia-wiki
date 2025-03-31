@@ -98,7 +98,7 @@
 }
 
 .content-body blockquote::before {
-  content: open-quote;
+  content: '\201C';
 
   color: var(--primary-color);
   font-size: 3em;

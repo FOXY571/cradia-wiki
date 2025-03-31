@@ -1,13 +1,11 @@
-<h1 class="text-center">Welcome to the <b>Official Cradia Wiki</b>!</h1>
+# Welcome to the **Official Cradia Wiki!**
 
-<p>
-  The Cradia Series, originally created by Lucas Rourk, is filled with wonder and adventure. Inside is a medieval world blessed with magic and secrets to be found in every corner. However, passed this wonder lies a community soaked in blood and retribution. The inhabitants of Cradia have been at war for centuries, slaughtering each other and further cultivating magic for combat. Every kingdom has their dark secrets, and many hold powerful artifacts and birth several powerful, magical warriors. Yet, further in the shadows of Cradia lie creatures of incomprehensible origin who seek the world's destruction. But above all, this world is overseen by the pantheon that balances the very universe itself.
-</p>
-<p>
-  <b>Note:</b> This wiki is currently under construction and may not have everything that you are looking for. Entries will be slowly added over time. Thank you!
-</p>
+The Cradia Series, originally created by Lucas Rourk, is filled with wonder and adventure. Inside is a medieval world blessed with magic and secrets to be found in every corner. However, passed this wonder lies a community soaked in blood and retribution. The inhabitants of Cradia have been at war for centuries, slaughtering each other and further cultivating magic for combat. Every kingdom has their dark secrets, and many hold powerful artifacts and birth several powerful, magical warriors. Yet, further in the shadows of Cradia lie creatures of incomprehensible origin who seek the world's destruction. But above all, this world is overseen by the pantheon that balances the very universe itself.
 
-<h2>Current Pages</h2>
+**Note:** This wiki is currently under construction and may not have everything that you are looking for. Entries will be slowly added over time. Thank you!
+
+## Current Pages
+
 <div class="linkbox main-border">
   <div class="linkbox-title">Books</div>
   <ul>

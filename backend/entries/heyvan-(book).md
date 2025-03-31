@@ -1,16 +1,13 @@
-<h1>Heyvan (Book)</h1>
+# Heyvan (Book)
 
 <div class="hatnote">
   For the character, see <a href="?entry=heyvan-sow" title="Heyvan Sow">Heyvan Sow</a>.
 </div>
 
-<div class="msgbox">
-  <div class="msgbox-icon"></div>
-  <div>
-    <div><strong>This page is currently unfinished and is in development.</strong></div>
-    <div>Please be patient while we get it set up.</div>
-  </div>
-</div>
+:::warning:::
+  **This page is currently unfinished and is in development.**
+  :: Please be patient while we get it set up.
+:::
 
 <div class="infobox main-border">
   <div class="infobox-title">Heyvan</div>

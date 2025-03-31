@@ -3,7 +3,7 @@
 
 <!-- Delete all comments once the page is complete to reduce file size -->
 
-<h1>[entry name]</h1>
+# [entry name]
 
 <div class="infobox main-border">
   <div class="infobox-title">[entry name]</div>
@@ -71,41 +71,35 @@
 <!-- A quote is optional for an entry -->
 <!-- To include a quote on the entry, delete the surrounding comment -->
 <!--
-  <blockquote class="quotation main-border">
-    <p>
-      [quote]
-    </p>
-    <cite>― [speaker]</cite>
-  </blockquote>
+  > [quote]
+  >
+  > ― [speaker]
 -->
 
 <!-- Introduce the character here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [introduction]
 
-<h2>Backstory</h2>
+## Backstory
+
 <!-- Put the character's backstory here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [backstory]
 
-<h2>Appearance</h2>
+## Appearance
+
 <!-- Describe the character's appearance here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [appearance]
 
-<h2>Personality</h2>
+## Personality
+
 <!-- Describe the character's personlity here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [personaility]
 
-<h2>Combat & Magic</h2>
+## Combat & Magic
+
 <!-- Describe the character's combat and magic skills here -->
-<!-- Every paragraph should be surrounded with "<p></p>" (i.e. <p>paragraph</p>) -->
 [combat & magic]
 
-<h2>Trivia</h2>
+## Trivia
+
 <!-- Add some character trivia here -->
-<!-- Every list item should be surrounded with "<li><p></p></li>" (i.e. <li><p>list item</p></li>) -->
-<ul>
-  [trivia]
-</ul>
+[trivia]
