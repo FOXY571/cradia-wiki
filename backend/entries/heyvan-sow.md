@@ -2,68 +2,22 @@
 
 :: For the book, see [Heyvan (Book)](?entry=heyvan-(book) "Heyvan (Book)"). ::
 
-<div class="infobox main-border">
-  <div class="infobox-title">Heyvan Sow</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>Name</th>
-        <td>Heyvan Sow</td>
-      </tr>
-      <tr>
-        <th>Aliases</th>
-        <td>Tyger</td>
-      </tr>
-      <tr>
-        <th>Kingdom of origin</th>
-        <td>Canavar</td>
-      </tr>
-      <tr>
-        <th>Relatives</th>
-        <td>Kitab Sow (brother)</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Combat</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=magic" title="Magic">Magic</a></th>
-        <td>Shifting<br>Healing</td>
-      </tr>
-      <tr>
-        <th>Weapon of choice</th>
-        <td>None</td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Appearances</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th>First appearance</th>
-        <td><a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a></td>
-      </tr>
-      <tr>
-        <th>Last appearance</th>
-        <td><a href="?entry=heyvan-(book)" title="Heyvan (Book)">Heyvan</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <div class="infobox-header">Physical description</div>
-  <table cellpadding="4">
-    <tbody>
-      <tr>
-        <th><a href="?entry=species" title="Species">Species</a></th>
-        <td>Caster</td>
-      </tr>
-      <tr>
-        <th>Gender</th>
-        <td>Male</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+({
+  # Heyvan Sow
+  | Name: Heyvan Sow
+  | Aliases: Tyger
+  | Kingdom of Origin: Canavar
+  | Relatives: Kitab Sow (brother)
+  ## Combat
+  | [Magic](?entry=magic "Magic"): Shifting <br> Healing
+  | Weapon of choice: None
+  ## Appearances
+  | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+  | Last appearance: [Heyvan](?entry=heyvan-(book) "Heyvan (Book)")
+  ## Physical Description
+  | [Species](?entry=species "Species"): Caster
+  | Gender: Male
+})
 
 > To be bested by some street punk. How humiliating.
 >

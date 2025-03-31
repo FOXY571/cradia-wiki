@@ -55,8 +55,6 @@
 }
 
 .content-body table {
-  background-color: rgba(0, 0, 0, 0.1);
-
   line-height: 24px;
   text-align: center;
 
@@ -86,8 +84,6 @@
 }
 
 .content-body blockquote {
-  background-color: rgba(0, 0, 0, 0.1);
-
   font-size: 13px;
   font-style: italic;
 
@@ -115,7 +111,10 @@
 }
 
 .content-body table,
-.content-body blockquote {
+.content-body blockquote,
+.infobox {
+  background-color: rgba(0, 0, 0, 0.1);
+
   border-width: 1px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2) rgba(255, 255, 255, 0.1);
@@ -124,8 +123,6 @@
 
 /* Infobox & Linkbox*/
 .infobox {
-  background-color: rgba(0, 0, 0, 0.1);
-
   position: relative;
   float: right;
 
