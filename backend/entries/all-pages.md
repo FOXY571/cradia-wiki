@@ -5,6 +5,7 @@ Want to find something specific? This list contains every page in the wiki.
 **Main:**
 * [Home](?entry=home "Home")
 * [All Pages](?entry=all-pages "All Pages")
+* [Help](?entry=help "Help")
 
 **Books:**
 * [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")

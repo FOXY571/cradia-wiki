@@ -59,6 +59,7 @@
   background-size: unset;
 
   width: 200px;
+  height: min-content;
 }
 
 .panel-label {
