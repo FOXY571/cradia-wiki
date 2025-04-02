@@ -29,7 +29,7 @@ function infoboxExtension() {
 
         lines.forEach(line => {
           if (line.startsWith('|')) {
-            const parts = line.slice(1).split(':').map(str => str.trim());
+            const parts = line.slice(1).split(':')
 
             if (parts.length == 2) {
               const header = parts[0];
