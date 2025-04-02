@@ -71,33 +71,32 @@ function generateInfobox(text) {
   return output;
 }
 
-function generateTable(sectionName, data) {
-  let tableHTML = `<h1>${sectionName}</h1><table border="1"><tbody>`;
-  data.forEach(row => {
-      tableHTML += `<tr><td>${row.header}</td><td>${row.value}</td></tr>`;
-  });
-  tableHTML += '</tbody></table>';
-  return tableHTML;
-}
-
 function noteExtension() {
   const note = {
-    type: 'output',
-    filter: function(text) {
+    type: 'lang',
+    filter: function(text, converter) {
       const regex = /:::(note):::(.*?):::/gs;
       return text.replace(regex, (match, p1, p2) => {
-        return `<div class="note"><div>${p2}</div></div>`;
+        return makeNote('note', p2, converter);
       });
     }
   }
+
   const warning = {
-    type: 'output',
-    filter: function(text) {
+    type: 'lang',
+    filter: function(text, converter) {
       const regex = /:::(warning):::(.*?):::/gs;
       return text.replace(regex, (match, p1, p2) => {
-        return `<div class="warning""><div>${p2}</div></div>`;
+        return makeNote('warning', p2, converter);
       });
     }
+  }
+
+  function makeNote(type, text, converter) {
+    let output = `<div class="${type}"><div>${converter.makeHtml(text)}</div></div>`;
+    output = output.replace(/<p>/g, '<span>');
+    output = output.replace(/<\/p>/g, '</span>');
+    return output;
   }
 
   return [note, warning];
@@ -105,11 +104,11 @@ function noteExtension() {
 
 function hatnoteExtension() {
   const hatnote = {
-    type: 'output',
-    filter: function(text) {
-      const regex = /::(.*?)::/g;
+    type: 'lang',
+    filter: function(text, converter) {
+      const regex = /^(::)[ \t]*(.+?)[ \t]*#*\n+/gm;
       return text.replace(regex, (match, p1, p2) => {
-        return `<div class="hatnote">${p1}</div>`;
+        return `<div class="hatnote">${converter.makeHtml(p2)}</div>`;
       });
     }
   }

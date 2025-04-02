@@ -232,6 +232,11 @@
   border-left: 4px solid darkred;
 }
 
+.note span,
+.wanring span {
+  display: block;
+}
+
 .warning::before {
   content: "";
 
