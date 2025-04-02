@@ -19,12 +19,13 @@ if (entryName && entries.contains(entryName)) {
       case "'": return '&apos;';
     }
   });
-  contentBody.innerHTML = `<pre>${escapedText}</pre>`;
+  contentBody.innerHTML = `
+    <h1>${entries.fomratEntryName(entryName)}</h1>
+    <pre>${escapedText}</pre>
+  `;
 } else {
   contentBody.innerHTML = `
     <h1>404</h1>
-    <div class="line-break"></div>
-
     <p>
       It looks like you steered off course! Unfortunately, There is no entry for <i>${entries.fomratEntryName(entryName)}.</i> :(
     </p>
