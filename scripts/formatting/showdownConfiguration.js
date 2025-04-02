@@ -11,7 +11,7 @@ function bindingsOverride() {
   const bindings = Object.keys(classMap)
     .map(key => ({
       type: 'output',
-      regex: new RegExp(`<${key}(.*)>`, 'g'),
+      regex: new RegExp(`<${key}>`, 'g'),
       replace: `<${key} class="${classMap[key]}" $1>`
     }));
   
@@ -20,8 +20,8 @@ function bindingsOverride() {
 
 function infoboxExtension() {
   const infobox = {
-    type: 'output',
-    filter: function(text) {
+    type: 'lang',
+    filter: function(text, converter) {
       const regex = /\({(.*?)}\)/gs;
       return text.replace(regex, (match, p1, p2) => {
         const lines = p1.trim().split('\n').map(line => line.trim());
@@ -35,7 +35,7 @@ function infoboxExtension() {
               const header = parts[0];
               const value = parts[1];
 
-              output += `<tr><th>${header}</th><td>${value}</td></tr>`;
+              output += `<tr><th>${converter.makeHtml(header)}</th><td>${converter.makeHtml(value)}</td></tr>`;
             }
           } else if (line.startsWith('#')) {
             if (output) {
@@ -45,30 +45,16 @@ function infoboxExtension() {
           }
         });
 
-        return output + '</tbody></table></div>';
+        output += '</tbody></table></div>';
+        output = output.replace(/<p>/g, '');
+        output = output.replace(/<\/p>/g, '');
+
+        return output;
       });
     }
   }
 
   return [infobox];
-}
-
-function generateInfobox(text) {
-  const lines = text.trim().split('\n');
-  let currentSection = null;
-  let output = '';
-
-  lines.forEach(line => {
-    line = line.trim();
-
-    if (line.startsWith('|')) {
-
-    } else {
-      output += line + '\n';
-    }
-  });
-
-  return output;
 }
 
 function noteExtension() {
