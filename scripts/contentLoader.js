@@ -8,9 +8,6 @@ const entryName = urlParams.get('entry');
 if (entryName && entries.contains(entryName)) {
   const text = await entries.getEntry(entryName);
   contentBody.innerHTML = entryConverter.makeHtml(text);
-} else if (entryName.endsWith('-source')) {
-  const text = await entries.getEntry(entryName.replace('-source', ''));
-  contentBody.innerHTML = entryConverter.makeHtml('```\n' + text + '\n```');
 } else {
   contentBody.innerHTML = `
     <h1>404</h1>
