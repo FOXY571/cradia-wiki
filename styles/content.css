@@ -92,6 +92,16 @@
   border-radius: 6px;
 }
 
+.content-body pre {
+  background-color: white;
+  color: black;
+
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+
+  padding: 5px;
+}
+
 /* Infobox & Linkbox */
 .infobox {
   position: relative;

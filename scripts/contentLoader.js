@@ -8,6 +8,18 @@ const entryName = urlParams.get('entry');
 if (entryName && entries.contains(entryName)) {
   const text = await entries.getEntry(entryName);
   contentBody.innerHTML = entryConverter.makeHtml(text);
+} else if (entryName.endsWith('-source')) {
+  const text = await entries.getEntry(entryName.replace('-source', ''));
+  const escapedText = text.replace(/[&<>"']/g, match => {
+    switch(match) {
+      case '&': return '&amp;';
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '"': return '&quot;';
+      case "'": return '&apos;';
+    }
+  });
+  contentBody.innerHTML = `<pre>${escapedText}</pre>`;
 } else {
   contentBody.innerHTML = `
     <h1>404</h1>
