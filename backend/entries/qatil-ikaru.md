@@ -64,7 +64,5 @@ Fire [magic](?entry=magic "Magic") was the second type of [magic](?entry=magic "
 ## Trivia
 
 * Qatil's first name, chosen by his father, means killer.
-
 * Qatil is very bad at getting signals from those that have feelings for him.
-
 * Qatil is the physical embodiment of Chaos.

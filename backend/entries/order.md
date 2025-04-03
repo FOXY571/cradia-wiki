@@ -58,5 +58,4 @@ Unfortunately, Order does not regenerate his blood faster than a normal person, 
 ## Trivia
 
 * Order is just his title and his real name, Nordac, isn't commonly known.
-
 * Order chose to practice blood [magic](?entry=magic "Magic") after being banished to Cradia because it makes him stronger the more he is hurt.

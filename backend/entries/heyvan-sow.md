@@ -54,9 +54,6 @@ Throughout [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth") 
 ## Trivia
 
 * Heyvan's first name means animal.
-
 * Heyvan's last name, Sow, is likely a nod to his character development thoughout [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth") and [Heyvan](?entry=heyvan-(book) "Heyvan (Book)").
-
 * Heyvan is the only known character in the Cradia Series that can use shifting [magic](?entry=magic "Magic").
-
 * Heyvan's last name is not revealed in [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth"). This is most likley because he didn't know what it was. In [Heyvan](?entry=heyvan-(book) "Heyvan (Book)"), his last name is revealed to be Sow, which he knew from his brother, Kitab Sow.
