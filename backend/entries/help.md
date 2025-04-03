@@ -47,7 +47,7 @@
 **This text will be bold**
 </pre>
 
-## Links
+### Links
 
 * You can create a link by wrapping the link text in brackets ```[ ]```, and the wrapping the actual link in paranthesis ```( )```.
 * When making links to another page, you append the entry name to ```?entry=```.
@@ -55,6 +55,18 @@
 
 <pre>
 [The Cradia Wiki](?entry=home "Home")
+</pre>
+
+### Lists
+
+* You can make lists by preceding list items with ```*```.
+* you can add an indent (4 spaces) before the ```*``` to indent it
+
+<pre>
+* List item 1
+* List item 2
+    * List item 3
+* List item 4
 </pre>
 
 ### Blockquotes
@@ -132,7 +144,7 @@
 
 ### Infoboxes
 
-* Infoboxes are created first created by surroudning the text in ```({ })```.
+* Infoboxes are created first created by surroudning the text in ```(​{ })```.
 * The first line of the infobox will be its title. The title will have ```#``` at the beginning of it.
 * The following lines will begin with ```|``` and contain the property name and its value seperated by a colon ```:```.
 * Headers can be created by putting ```##``` at the beginning of the header text. (Make sure an infobox does not end with a header!)
@@ -145,7 +157,7 @@
   ## Header
   | Wiki: Cradia Wiki
   | French: Baguette
-}&rpar;
+})
 </pre>
 
 * The text above will look like the infobox below.
