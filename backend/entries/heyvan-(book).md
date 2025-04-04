@@ -11,6 +11,6 @@
   # Heyvan
   | Author: Thomas Towson
   | State: Unfinished
-  | Pages: 7
+  | Pages: 9
   | Chapters: 1
 })

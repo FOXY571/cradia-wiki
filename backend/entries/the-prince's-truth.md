@@ -9,6 +9,6 @@
   # The Prince's Truth
   | Author: Lucas Rourk
   | State: Unfinished
-  | Pages: 155
-  | Chpaters: 48
+  | Pages: 164
+  | Chpaters: 50
 })
