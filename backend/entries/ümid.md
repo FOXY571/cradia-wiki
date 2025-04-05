@@ -25,8 +25,9 @@
   > ― [speaker]
 -->
 
-<!-- Introduce the character here -->
-[introduction]
+**Ümid** is first introduced in part 1 of [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth") as one of the many maids in the Ikarye castle. Later, she takes on a much more prominent role in [Qatil's](?entry=qatil-ikarye "Qatil Ikarye") story as a very close friend who he teaches magic to.
+
+In future parts of her story, Ümid appears to be more ignorant than most, not knowing the simplest of customs, as well as being exhausted easily as she travels with Qatil and his other friends. Depsite this, Ümid has a remarkable aptitude for [magic](?entry=magic "Magic"), learning it very quickly at a young age.
 
 ## Backstory
 

@@ -27,9 +27,9 @@
 
 Order's backstory is told through [The Birth of Order](https://docs.google.com/document/d/156tEg_gCU1lIk8yqMwPWvJ8fE2a_Ql3_OI6n4iYDIOs/edit?usp=sharing "The Birth of Order"), a story in an old religious book centered around worshipping Order. It describes Order being created by a big bang that was the result of chaos becoming infinitely dense. The chaos was then destroyed and all that existed in the universe was Order. The story then describes Order creating the world and everything on it, such as the humans, animals, and plants. Order created life and the world because he wanted to ascend someone to godhood.
 
-After a long period of time, Order decided to ascend [Kira Amaikoru](?entry=kira-amaikoru "Kira Amaikoru"), a girl living in Canavar at the time. After she was ascended, Order gave her half of his power. Kira was greedy and wanted more of his power, so she took it all and sent him down to Cradia where he lost his godhood and became a [demigod](?entry=species "Species").
+After a long period of time, Order decided to ascend Kira Amaikoru, a girl living in Canavar at the time. After she was ascended, Order gave her half of his power. Kira was greedy and wanted more of his power, so she took it all and sent him down to Cradia where he lost his godhood and became a [demigod](?entry=species "Species").
 
-Since then, Order has been preparing to stop Kira and return order to the universe. He's done so by killing Kira worshippers and slowing the spread of her influence around Cradia. After Order discovered that [Qatil Ikaru](?entry=qatil-ikaru "Qatil Ikaru") was working with Kira in [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth"), he set out kill him next.
+Since then, Order has been preparing to stop Kira and return order to the universe. He's done so by killing Kira worshippers and slowing the spread of her influence around Cradia. After Order discovered that Qatil was working with Kira in The Prince's Truth, he set out kill him next.
 
 ## Appearance
 
@@ -49,7 +49,7 @@ Order is very skilled in any type of combat, whether it be close combat, ranged 
 
 ### Blood Magic
 
-Order also uses blood [magic](?entry=magic "Magic") in combat, being able to move his own blood and form it into different shapes. When beginning a fight, Order cuts his wrists with a knife he always carries in order to have quick access to his blood. Order can use to his blood to form his own weapons, create shields, move objects that are stained with his blood, and much more.
+Order also uses [blood magic](?entry=magic "Magic") in combat, being able to move his own blood and form it into different shapes. When beginning a fight, Order cuts his wrists with a knife he always carries in order to have quick access to his blood. Order can use to his blood to form his own weapons, create shields, move objects that are stained with his blood, and much more.
 
 Order does not prefer to create weapons out of his blood because they shatter easily yet, he will choose to do it if he has no other choice. Order may also use his blood to steal weapons from his enemies if his blood gets stained on it. Order can also use his blood to create quick shield, which, although they shatter easily, can be used to block a quick attack. When fighting with his blood, Order's only limits are his imagination. He can create daggers with it that can be flown towards his enemies, can expand it rapdily, causing an explosion of blood, can create massive fists with it, and can even fly by moving the blood in his body.
 
@@ -58,4 +58,4 @@ Unfortunately, Order does not regenerate his blood faster than a normal person, 
 ## Trivia
 
 * Order is just his title and his real name, Nordac, isn't commonly known.
-* Order chose to practice blood [magic](?entry=magic "Magic") after being banished to Cradia because it makes him stronger the more he is hurt.
+* Order chose to practice [blood magic](?entry=magic "Magic") after being banished to Cradia because it makes him stronger the more he is hurt.

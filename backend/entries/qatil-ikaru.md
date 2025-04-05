@@ -23,7 +23,7 @@
 
 **Qatil Ikaru**, the primary protagonist of [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth"), was the crowned prince of Ikarye, one of the six kingdoms that populated the continent of Cradia. When Qatil was eight years old, he was visited by the Goddess [Kira Amaikoru](?entry=kira-amaikoru "Kira Amaikoru"), who led Qatil on the path of destruction.
 
-While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a sythe, and by his mother Zərərli Ikaru to cast terra [magic](?entry=magic "Magic"). Qatil was later gifted fire [magic](?entry=magic "Magic") by Kira during the Pre Universal Descrution fall of Canavar.
+While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a sythe, and by his mother Zərərli Ikaru to cast [terra magic](?entry=magic "Magic"). Qatil was later gifted [fire magic](?entry=magic "Magic") by Kira during the Pre Universal Descrution fall of Canavar.
 
 ## Backstory
 
@@ -39,7 +39,7 @@ In part one of [The Prince's Truth](?entry=the-prince's-truth "The Prince's Trut
 
 In part two, Qatil's appearance changes dramatically. Qatil has grown up and is much taller with much more defined features and longer hair. He also gained a much more toned body after being outside of his home kingdom for years and participating in the Cradia World War. Further into his journey, Qatil changed his outfit so that he would not be noticed as a royal, replacing the pieces of clothing that were royal garbs with cloth and what would be considered peasant clothing with colors varying from gray, brown, and a faded shade of red.
 
-In part three, Qatil grows in height slightly and adornes much longer hair and a beefier body. Parts of his clothes now had scorch marks on them after using fire [magic](?entry=magic "Magic") for the first time in Canavar. While fighting [Order](?entry=order "Order") in Günəş, Qatil's Irises periodically turn a crimson red.
+In part three, Qatil grows in height slightly and adornes much longer hair and a beefier body. Parts of his clothes now had scorch marks on them after using [fire magic](?entry=magic "Magic") for the first time in Canavar. While fighting [Order](?entry=order "Order") in Günəş, Qatil's Irises periodically turn a crimson red.
 
 ## Personality
 
@@ -47,7 +47,7 @@ Qatil Ikaru has been a pessimist at birth and always found it difficult to find 
 
 It is also shown throughout the events of part two that Qatil has an eating dissorder and doesn't like to eat much. His lack of appetite is due to his immense pessimism; he finds no need in 'overeating' even though he's clearly undereating. While Qatil is usually lenient with his friends' antics, he can quickly become stern with them when the moment calls for it.
 
-Overall, throughout the first three parts of [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth"), Qatil is a playful yet depressive character that tends to have a bleak outlook on life. However, he is easily pulled into the graces of joy via people close to him. Above all, if pushed close enough to the edge, Qatil has been shown to snap and disregard the safety and well being of anyone around him all just to achieve a goal of revenge.
+Overall, throughout the first three parts of The Prince's Truth, Qatil is a playful yet depressive character that tends to have a bleak outlook on life. However, he is easily pulled into the graces of joy via people close to him. Above all, if pushed close enough to the edge, Qatil has been shown to snap and disregard the safety and well being of anyone around him all just to achieve a goal of revenge.
 
 ## Combat & Magic
 
@@ -55,11 +55,11 @@ Qatil was one of the greatest Cradian warriors to ever live, yet he struggled to
 
 ### Terra Magic
 
-Terra [magic](?entry=magic "Magic") was the first type of magic taught to Qatil. Even from a young age Qatil, showed a vast amount of skill for the art of [magic](?entry=magic "Magic"). With Terra [magic](?entry=magic "Magic") being one of the more imaginative forms of magic, Qatil used it to its full capabilities, forming different sizes and shapes of pillars, cubes, balls, stairs, and spikes for a variety of uses. Qatil usually used terra [magic](?entry=magic "Magic") for combat and transportation. While it is easy for any Terra [magic](?entry=magic "Magic") user to cast a giant rock cube at someone, Qatil liked to take it to another step by casting said cube and splitting it into thousands of tiny spikes while it flew through the air, not only causing an unexpected surprise for his enemies but also increasing his area of the attack as he gave each spike it's own direction. As for transportation, Qatil has been seen launching himself and allies with pillars that shoot out from beneath their feet, as well as form makeshift stairs at the side of stone walls.
+[Terra magic](?entry=magic "Magic") was the first type of magic taught to Qatil. Even from a young age Qatil, showed a vast amount of skill for the art of [magic](?entry=magic "Magic"). With terra magic being one of the more imaginative forms of magic, Qatil used it to its full capabilities, forming different sizes and shapes of pillars, cubes, balls, stairs, and spikes for a variety of uses. Qatil usually used terra magic for combat and transportation. While it is easy for any terra magic user to cast a giant rock cube at someone, Qatil liked to take it to another step by casting said cube and splitting it into thousands of tiny spikes while it flew through the air, not only causing an unexpected surprise for his enemies but also increasing his area of the attack as he gave each spike it's own direction. As for transportation, Qatil has been seen launching himself and allies with pillars that shoot out from beneath their feet, as well as form makeshift stairs at the side of stone walls.
 
 ### Fire Magic
 
-Fire [magic](?entry=magic "Magic") was the second type of [magic](?entry=magic "Magic") Qatil ever casted. Qatil has been the only Cradian ever to cast fire [magic](?entry=magic "Magic") and it has been considered impossible to cast throughout Cradia. But with the divine intervention of [Kira Amaikoru](?entry=kira-amaikoru "Kira Amaikoru"), Qatil gained the ability to cast this allusive and destructive [magic](?entry=magic "Magic"). Qatil used rage to fuel his fire [magic](?entry=magic "Magic"). Due to such rage, he used the [magic](?entry=magic "Magic") irrationally, having no form or technique when using it. The way he used the [magic](?entry=magic "Magic") was always described as massive bursts and occasionally used to jet Qatil into the air.
+[Fire magic](?entry=magic "Magic") was the second type of [magic](?entry=magic "Magic") Qatil ever casted. Qatil has been the only Cradian ever to cast fire magic, and it has been considered impossible to cast throughout Cradia. But with the divine intervention of [Kira Amaikoru](?entry=kira-amaikoru "Kira Amaikoru"), Qatil gained the ability to cast this allusive and destructive magic. Qatil used rage to fuel his fire magic. Due to such rage, he used the magic irrationally, having no form or technique when using it. The way he used the magic was always described as massive bursts and occasionally used to jet Qatil into the air.
 
 ## Trivia
 
