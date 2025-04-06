@@ -1,10 +1,9 @@
 import * as entries from '../data/entries.js';
 
-const contentBody = document.querySelector('.js-content-body');
-
 const urlParams = new URLSearchParams(window.location.search);
 const entryName = urlParams.get('entry');
 
+const contentBody = document.querySelector('.js-content-body');
 if (entryName && entries.contains(entryName)) {
   const text = await entries.getEntry(entryName);
   contentBody.innerHTML = entryConverter.makeHtml(text);

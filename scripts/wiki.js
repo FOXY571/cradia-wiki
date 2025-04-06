@@ -1,10 +1,14 @@
-import {getRandomEntryName} from '../data/entries.js';
+import {getRandomEntryName, fomratEntryName} from '../data/entries.js';
 
 const urlParams = new URLSearchParams(window.location.search);
 const entryName = urlParams.get('entry');
 
 if (!entryName) {
   window.location.href = '?entry=home';
+}
+
+if (entryName != 'home') {
+  document.querySelector('title').innerHTML = `${fomratEntryName(entryName)} - Cradia Wiki`;
 }
 
 document.querySelector('.js-random-page-link')
