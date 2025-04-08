@@ -31,25 +31,20 @@ In future parts of her story, Ümid appears to be more ignorant than most, not k
 
 ## Backstory
 
-<!-- Put the character's backstory here -->
 [backstory]
 
 ## Appearance
 
-<!-- Describe the character's appearance here -->
-[appearance]
+Is a maid.
 
 ## Personality
 
-<!-- Describe the character's personlity here -->
 [personaility]
 
 ## Combat & Magic
 
-<!-- Describe the character's combat and magic skills here -->
 [combat & magic]
 
 ## Trivia
 
-<!-- Add some character trivia here -->
 [trivia]
