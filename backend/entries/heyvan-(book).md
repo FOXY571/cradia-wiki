@@ -1,6 +1,6 @@
 # Heyvan (Book)
 
-:: For the character, see [Heyvan Sow](?entry=heyvan-sow "Heyvan Sow").
+:: For the character, see [Heyvan Sow](?entry=heyvan-sow).
 
 :::warning:::
   **This page is currently unfinished and is in development.**   

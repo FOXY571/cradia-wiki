@@ -31,7 +31,7 @@ export function contains(entryName) {
   return entries.includes(entryName);
 }
 
-export function fomratEntryName(entryName) {
+export function formatEntryName(entryName) {
   let formattedName = entryName.replace(/-/g, ' ')
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))

@@ -1,4 +1,5 @@
 import * as entries from '../data/entries.js';
+import entryConverter from './formatting/showdownConfiguration.js';
 
 const urlParams = new URLSearchParams(window.location.search);
 const entryName = urlParams.get('entry');
@@ -19,7 +20,7 @@ if (entryName && entries.contains(entryName)) {
     }
   });
   contentBody.innerHTML = `
-    <h1>${entries.fomratEntryName(entryName)}</h1>
+    <h1>${entries.formatEntryName(entryName)}</h1>
     <pre>${escapedText}</pre>
   `;
 } else {

@@ -18,10 +18,10 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
   <div class="linkbox-title">Books</div>
   <ul>
     <li>
-      <a href="?entry=the-prince's-truth" title="The Prince's Truth">The Prince's Truth</a>
+      <a href="?entry=the-prince's-truth">The Prince's Truth</a>
     </li>
     <li>
-      <a href="?entry=heyvan-(book)" title="Heyvan (Book)">Heyvan (Book)</a>
+      <a href="?entry=heyvan-(book)">Heyvan (Book)</a>
     </li>
   </ul>
 </div>
@@ -29,19 +29,19 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
   <div class="linkbox-title">Characters</div>
   <ul>
     <li>
-      <a href="?entry=qatil-ikaru" title="Qatil Ikaru">Qatil Ikaru</a>
+      <a href="?entry=qatil-ikaru">Qatil Ikaru</a>
     </li>
     <li>
-      <a href="?entry=heyvan-sow" title="Heyvan Sow">Heyvan Sow</a>
+      <a href="?entry=heyvan-sow">Heyvan Sow</a>
     </li>
     <li>
-      <a href="?entry=kira-amaikoru" title="Kira Amaikoru">Kira Amaikoru</a>
+      <a href="?entry=kira-amaikoru">Kira Amaikoru</a>
     </li>
     <li>
-      <a href="?entry=order" title="Order">Order</a>
+      <a href="?entry=order">Order</a>
     </li>
     <li>
-      <a href="?entry=ümid" title="Ümid">Ümid</a>
+      <a href="?entry=ümid">Ümid</a>
     </li>
   </ul>
 </div>
@@ -49,7 +49,7 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
   <div class="linkbox-title">Objects</div>
   <ul>
     <li>
-      <a href="?entry=chaos-orb" title="Chaos Orb">Chaos Orb</a>
+      <a href="?entry=chaos-orb">Chaos Orb</a>
     </li>
   </ul>
 </div>
@@ -57,13 +57,13 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
   <div class="linkbox-title">Other</div>
   <ul>
     <li>
-      <a href="?entry=magic" title="Magic">Magic</a>
+      <a href="?entry=magic">Magic</a>
     </li>
     <li>
-      <a href="?entry=species" title="Species">Species</a>
+      <a href="?entry=species">Species</a>
     </li>
     <li>
-      <a href="?entry=extra-content" title="Extra Content">Extra Content</a>
+      <a href="?entry=extra-content">Extra Content</a>
     </li>
   </ul>
 </div>

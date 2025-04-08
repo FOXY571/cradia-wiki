@@ -12,13 +12,13 @@
   | Kingdom of origin: [kingdom of origin]
   | Relatives: [relatives] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
   ## Combat
-  | [Magic](?entry=magic "Magic"): [magic] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+  | [Magic](?entry=magic): [magic] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
   | Weapon of choice: [weapon of choice]
   ## Appearances
   | First appearance: [first appearance]
   | Last appearance: [last appearance]
   ## Physical description
-  | [Species](?entry=species "Species"): [species]
+  | [Species](?entry=species): [species]
   | Gender: [gender]
 })
 

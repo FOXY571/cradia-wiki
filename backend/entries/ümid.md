@@ -7,13 +7,13 @@
   | Kingdom of Origin: Ikarye
   | Relatives: None
   ## Combat
-  | [Magic](?entry=magic "Magic"): Plant <br> Healing
+  | [Magic](?entry=magic): Plant <br> Healing
   | Weapon of choice: None
   ## Appearances
-  | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
-  | Last appearance: [Heyvan](?entry=heyvan-(book) "Heyvan (Book)")
+  | First appearance: [The Prince's Truth](?entry=the-prince's-truth)
+  | Last appearance: [Heyvan](?entry=heyvan-(book))
   ## Physical description
-  | [Species](?entry=species "Species"): Caster
+  | [Species](?entry=species): Caster
   | Gender: Female
 })
 
@@ -25,9 +25,9 @@
   > ― [speaker]
 -->
 
-**Ümid** is first introduced in part 1 of [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth") as one of the many maids in the Ikarye castle. Later, she takes on a much more prominent role in [Qatil's](?entry=qatil-ikarye "Qatil Ikarye") story as a very close friend who he teaches magic to.
+**Ümid** is first introduced in part 1 of [The Prince's Truth](?entry=the-prince's-truth) as one of the many maids in the Ikarye castle. Later, she takes on a much more prominent role in [Qatil's](?entry=qatil-ikarye) story as a very close friend who he teaches magic to.
 
-In future parts of her story, Ümid appears to be more ignorant than most, not knowing the simplest of customs, as well as being exhausted easily as she travels with Qatil and his other friends. Depsite this, Ümid has a remarkable aptitude for [magic](?entry=magic "Magic"), learning it very quickly at a young age.
+In future parts of her story, Ümid appears to be more ignorant than most, not knowing the simplest of customs, as well as being exhausted easily as she travels with Qatil and his other friends. Depsite this, Ümid has a remarkable aptitude for [magic](?entry=magic), learning it very quickly at a young age.
 
 ## Backstory
 

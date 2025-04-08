@@ -1,7 +1,10 @@
+import {formatEntryName} from '../../data/entries.js';
+
 const entryConverter = new showdown.Converter({
-  extensions: [...bindingsOverride(), infoboxExtension, noteExtension, hatnoteExtension],
+  extensions: [...bindingsOverride(), infoboxExt, noteExt, hatnoteExt, autoTitleExt],
   tables: true
 });
+export default entryConverter;
 
 function bindingsOverride() {
   const classMap = {
@@ -18,7 +21,7 @@ function bindingsOverride() {
   return bindings;
 }
 
-function infoboxExtension() {
+function infoboxExt() {
   const infobox = {
     type: 'lang',
     filter: function(text, converter) {
@@ -57,7 +60,7 @@ function infoboxExtension() {
   return [infobox];
 }
 
-function noteExtension() {
+function noteExt() {
   const note = {
     type: 'lang',
     filter: function(text, converter) {
@@ -88,11 +91,11 @@ function noteExtension() {
   return [note, warning];
 }
 
-function hatnoteExtension() {
+function hatnoteExt() {
   const hatnote = {
     type: 'lang',
     filter: function(text, converter) {
-      const regex = /^(::)[ \t]*(.+?)[ \t]*#*\n+/gm;
+      const regex = /^(::)[ \t]*(.*?)[ \t]*#*\n+/gm;
       return text.replace(regex, (match, p1, p2) => {
         return `<div class="hatnote">${converter.makeHtml(p2)}</div>`;
       });
@@ -100,4 +103,18 @@ function hatnoteExtension() {
   }
 
   return [hatnote];
+}
+
+function autoTitleExt() {
+  const autoTitle = {
+    type: 'output',
+    filter: function(text) {
+      const regex = /(<a[^>]*href="[^"]*\?entry=([^"&]*)")([^>]*)(?!\s+title="[^"]*")([^>]*>)/g;
+      return text.replace(regex, (match, p1, p2) => {
+        return `<a ${p1.replace('<a', '')} title="${formatEntryName(p2)}">`;
+      });
+    }
+  }
+
+  return [autoTitle];
 }
