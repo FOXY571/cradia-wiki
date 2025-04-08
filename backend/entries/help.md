@@ -51,10 +51,12 @@
 
 * You can create a link by wrapping the link text in brackets ```[ ]```, and the wrapping the actual link in paranthesis ```( )```.
 * When making links to another page, you append the entry name to ```?entry=```.
-* For all links, put the name of the page or website in quotes ```" "``` after the actual link.
+* For links that go to other websites, put the name of the page or website in quotes ```" "``` after the actual link.
+    * This is not necessary for links to other pages because the formatting system already takes care of that for you!
 
 <pre>
-[The Cradia Wiki](?entry=home "Home")
+[The Cradia Wiki](?entry=home)
+[Wikipedia](https://www.wikipedia.org/ "Wikipedia")
 </pre>
 
 ### Lists
