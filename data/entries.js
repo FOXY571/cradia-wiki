@@ -34,7 +34,15 @@ export function contains(entryName) {
 export function formatEntryName(entryName) {
   let formattedName = entryName.replace(/-/g, ' ')
     .split(' ')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .map(word => {
+      let punctuationBefore = word.match(/^[^\w\u00C0-\u017F]+/);
+      let punctuationAfter = word.match(/[^\w\u00C0-\u017F]+$/);
+
+      let cleanWord = word.replace(/^[^\w\u00C0-\u017F]+|[^\w\u00C0-\u017F]+$/g, '');
+      let formattedWord = cleanWord.charAt(0).toUpperCase() + cleanWord.slice(1);
+
+      return (punctuationBefore ? punctuationBefore[0] : '') + formattedWord + (punctuationAfter ? punctuationAfter[0] : '');
+    })
     .join(' ');
   return formattedName;
 }
