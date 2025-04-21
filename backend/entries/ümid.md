@@ -17,12 +17,10 @@
   | Gender: Female
 })
 
-<!-- A quote is optional for an entry -->
-<!-- To include a quote on the entry, delete the surrounding comment -->
-<!--
-  > [quote]
+
+  > "Life is beautiful, don't you agree?"
   >
-  > ― [speaker]
+  > ― [Ümid]
 -->
 
 **Ümid** is first introduced in part 1 of [The Prince's Truth](?entry=the-prince's-truth) as one of the many maids in the Ikarye castle. Later, she takes on a much more prominent role in [Qatil's](?entry=qatil-ikarye) story as a very close friend who he teaches magic to.
@@ -31,20 +29,36 @@ In future parts of her story, Ümid appears to be more ignorant than most, not k
 
 ## Backstory
 
-[backstory]
+**Ümid's** story begins within the confines of Ikarye. She was born into a noble family though her parents identities are not mentioned as Ümid does not remember them. It is said that her parents left her at the castle of Ikarye after they were required to join the Cradian war, they never returned. Because of this Ümid nor anyone know's her family name so she is simply known as Ümid.
+
+She was thus raised in the castle of Ikarye and made into one of it's many maids. Though even at this young age she seemed to have an odd facination with magic, she was particularly drawn to the queen of Ikarye **Zerali Ikaru**, causing her to attempt to sneak into her study which caused her encounter with **Qatil Ikaru**
 
 ## Appearance
 
-Is a maid.
+She has luscious wavy silver hair that reaches the middle of her back, yellow eyes, and porceline skin.
+
+In part 1 she adorns a maid dress, being the usual black gown accented with white ruffles. Near the end of part 1 she adorned Ikarian armor accompanied by various comfortable cloths and a satchel that carried various herbs.
 
 ## Personality
 
-[personaility]
+**Ümid** is a quirky character, as at a young age she always seemed aloof in many situations, even in her later years she wasn't exactly the brightest. But even so, her love and fascination for magic never dimmed. Due to her friendship with Qatil she was able to learn healing magic, but this choice wasn't a random one it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia, this desire eventually blossomed into attraction and admiration towards Qatil.
 
 ## Combat & Magic
 
-[combat & magic]
+In terms of basic physical combat Ümid never strived to train or better herslef in this respect, as her only interest was magic and even then she only wanted to cast [healing magic]
+
+### Healing Magic
+
+[Healing Magic] Ümid was able to cast the most basic bits of healing magic, being able to form a yellow orb in her hands and use them to heal injuries (Though the best she's ever healed is a broken nose)
+
+### Plant Magic
+
+[Plant Magic] While being trained by Qatil in the art of magic Ümid briefly summoned roots from the ground to defend herself, after this she never used this skill again.
 
 ## Trivia
 
-[trivia]
+Ümid always stayed close to Qatil no matter the situation
+
+In Ümid's final moments all she felt was love
+
+Ümid never finds out who her parents are nor her family name
