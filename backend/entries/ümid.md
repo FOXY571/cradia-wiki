@@ -2,7 +2,7 @@
 
 ({
   # Ümid
-  ![Ümid](backend/images/ümid.png)
+  ![Ümid](backend/images/ümid-1.png)
   | Name: Ümid
   | Aliases: None
   | Kingdom of Origin: Ikarye
@@ -17,6 +17,11 @@
   | [Species](?entry=species): Caster
   | Gender: Female
 })
+
+<figure>
+  <img src="backend/images/ümid-2.png" alt="Ümid outside of Ikarye">
+  <figcaption>Ümid outside of Ikarye</figcaption>
+</figure>
 
 > "Life is beautiful. Don't you agree?"
 >
@@ -55,5 +60,5 @@ While being trained by Qatil in the art of magic, Ümid briefly summoned roots f
 ## Trivia
 
 * Ümid always stayed close to Qatil no matter the situation.
-* In Ümid's final moments all she felt was love.
+* In Ümid's final moments, all she felt was love.
 * Ümid never finds out who her parents are nor her family name.

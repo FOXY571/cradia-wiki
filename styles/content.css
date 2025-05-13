@@ -81,7 +81,22 @@
   margin-left: 5px;
 }
 
+.content-body figure {
+  float: right;
+  clear: right;
+
+  width: 250px;
+  margin: 0 0 15px 25px;
+  padding: 3px;
+}
+
+.content-body figcaption {
+  font-size: 12.5px;
+  line-height: 24px;
+}
+
 .content-body blockquote,
+.content-body figure,
 .content-body code,
 .infobox,
 .content-table {
@@ -109,13 +124,18 @@
   padding: 3px;
 }
 
+.content-body img {
+  width: 100%;
+  height: auto;
+}
+
 /* Infobox & Linkbox */
 .infobox {
-  position: relative;
   float: right;
+  clear: right;
 
   width: 300px;
-  margin: 0 0 25px 25px;
+  margin: 0 0 15px 25px;
   padding: 3px;
 }
 
@@ -165,11 +185,6 @@
 
 .infobox th {
   text-align: left;
-}
-
-.infobox img {
-  width: 100%;
-  height: auto;
 }
 
 .linkbox {
