@@ -45,6 +45,8 @@ function infoboxExt() {
               output += '</tbody></table>';
             }
             output += `<div class="infobox-${line.startsWith('##') ? 'header' : 'title'}">${line.replace(/#/g, ' ')}</div><table cellpadding="4"><tbody>`;
+          } else {
+            output += converter.makeHtml(line);
           }
         });
 

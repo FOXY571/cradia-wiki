@@ -27,7 +27,7 @@ if (entryName && entries.contains(entryName)) {
   contentBody.innerHTML = `
     <h1>404</h1>
     <p>
-      It looks like you steered off course! Unfortunately, There is no entry for <i>${entries.fomratEntryName(entryName)}.</i> :(
+      It looks like you steered off course! Unfortunately, There is no entry for <i>${entries.formatEntryName(entryName)}.</i> :(
     </p>
     <p>
       Please click <b><a href="?entry=home" title="Home">here</a></b> to go back to safety.

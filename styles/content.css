@@ -167,6 +167,11 @@
   text-align: left;
 }
 
+.infobox img {
+  width: 100%;
+  height: auto;
+}
+
 .linkbox {
   background-color: rgba(0, 0, 0, 0.15);
 

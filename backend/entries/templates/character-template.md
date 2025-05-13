@@ -7,6 +7,9 @@
 
 ({
   # [entry name]
+  <!-- An image is optional for an entry's infobox -->
+  <!-- To include an image in the infobox, delete the surrounding comment -->
+  <!-- ![entry name](backend/images/[image name].png) -->
   | Name: [name]
   | Aliases: [aliases] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
   | Kingdom of origin: [kingdom of origin]
