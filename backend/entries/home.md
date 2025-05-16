@@ -14,56 +14,29 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
 
 ## Current Pages
 
-<div class="linkbox main-border">
-  <div class="linkbox-title">Books</div>
-  <ul>
-    <li>
-      <a href="?entry=the-prince's-truth">The Prince's Truth</a>
-    </li>
-    <li>
-      <a href="?entry=heyvan-(book)">Heyvan (Book)</a>
-    </li>
-  </ul>
-</div>
-<div class="linkbox main-border">
-  <div class="linkbox-title">Characters</div>
-  <ul>
-    <li>
-      <a href="?entry=qatil-ikaru">Qatil Ikaru</a>
-    </li>
-    <li>
-      <a href="?entry=heyvan-sow">Heyvan Sow</a>
-    </li>
-    <li>
-      <a href="?entry=kira-amaikoru">Kira Amaikoru</a>
-    </li>
-    <li>
-      <a href="?entry=order">Order</a>
-    </li>
-    <li>
-      <a href="?entry=ümid">Ümid</a>
-    </li>
-  </ul>
-</div>
-<div class="linkbox main-border">
-  <div class="linkbox-title">Objects</div>
-  <ul>
-    <li>
-      <a href="?entry=chaos-orb">Chaos Orb</a>
-    </li>
-  </ul>
-</div>
-<div class="linkbox main-border">
-  <div class="linkbox-title">Other</div>
-  <ul>
-    <li>
-      <a href="?entry=magic">Magic</a>
-    </li>
-    <li>
-      <a href="?entry=species">Species</a>
-    </li>
-    <li>
-      <a href="?entry=extra-content">Extra Content</a>
-    </li>
-  </ul>
-</div>
+({linkbox
+# Books
+[The Prince's Truth](?entry=the-prince's-truth)
+[Heyvan (Book)](?entry=heyvan-(book))
+})
+
+({linkbox
+# Characters
+[Qatil Ikaru](?entry=qatil-ikaru)
+[Heyvan Sow](?entry=heyvan-sow)
+[Kira Amaikoru](?entry=kira-amaikoru)
+[Order](?entry=order)
+[Ümid](?entry=ümid)
+})
+
+({linkbox
+# Objects
+[Chaos Orb](?entry=chaos-orb)
+})
+
+({linkbox
+# Other
+[Magic](?entry=magic)
+[Species](?entry=species)
+[Extra Content](?entry=extra-content)
+})

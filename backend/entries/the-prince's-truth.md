@@ -5,10 +5,10 @@
   Please be patient while we get it set up.
 :::
 
-({
-  # The Prince's Truth
-  | Author: Lucas Rourk
-  | State: Unfinished
-  | Pages: 164
-  | Chpaters: 50
+({infobox
+# The Prince's Truth
+| Author: Lucas Rourk
+| State: Unfinished
+| Pages: 164
+| Chpaters: 50
 })

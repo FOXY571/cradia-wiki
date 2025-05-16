@@ -7,10 +7,10 @@
   Please be patient while we get it set up.
 :::
 
-({
-  # Heyvan
-  | Author: Thomas Towson
-  | State: Unfinished
-  | Pages: 9
-  | Chapters: 1
+({infobox
+# Heyvan
+| Author: Thomas Towson
+| State: Unfinished
+| Pages: 9
+| Chapters: 1
 })

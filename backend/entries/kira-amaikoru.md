@@ -1,20 +1,20 @@
 # Kira Amaikoru
 
-({
-  # Kira Amaikoru
-  | Name: Kira Amaikoru
-  | Aliases: None
-  | Kingdom of Origin: Canavar
-  | Relatives: Her sister (unnamed)
-  ## Combat
-  | [Magic](?entry=magic): Creation
-  | Weapon of choice: None
-  ## Appearances
-  | First appearance: [The Prince's Truth](?entry=the-prince's-truth)
-  | Last appearance: [The Prince's Truth](?entry=the-prince's-truth)
-  ## Physical description
-  | [Species](?entry=species): God
-  | Gender: Female
+({infobox
+# Kira Amaikoru
+| Name: Kira Amaikoru
+| Aliases: None
+| Kingdom of Origin: Canavar
+| Relatives: Her sister (unnamed)
+## Combat
+| [Magic](?entry=magic): Creation
+| Weapon of choice: None
+## Appearances
+| First appearance: [The Prince's Truth](?entry=the-prince's-truth)
+| Last appearance: [The Prince's Truth](?entry=the-prince's-truth)
+## Physical description
+| [Species](?entry=species): God
+| Gender: Female
 })
 
 **Kira Amaikoru** is established as the acting godly figure in [The Prince's Truth](?entry=the-prince's-truth). Kira once lived in the kingdom of Canavar, though it isn't clearly stated if she was royal or not. The only family member she has that's been mentioned so far is her twin sister who is yet to be named.

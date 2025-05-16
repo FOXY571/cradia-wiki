@@ -1,20 +1,20 @@
 # Order
 
-({
-  # Order
-  | Name: Nordac
-  | Aliases: Order <br> God of Blood
-  | Kingdom of Origin: None
-  | Relatives: None
-  ## Combat
-  | [Magic](?entry=magic "Magic"): Blood
-  | Weapon of choice: Longsword
-  ## Appearances
-  | First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
-  | Last appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
-  ## Physical description
-  | [Species](?entry=species "Species"): Demigod
-  | Gender: Male
+({infobox
+# Order
+| Name: Nordac
+| Aliases: Order <br> God of Blood
+| Kingdom of Origin: None
+| Relatives: None
+## Combat
+| [Magic](?entry=magic "Magic"): Blood
+| Weapon of choice: Longsword
+## Appearances
+| First appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+| Last appearance: [The Prince's Truth](?entry=the-prince's-truth "The Prince's Truth")
+## Physical description
+| [Species](?entry=species "Species"): Demigod
+| Gender: Male
 })
 
 > I'm gonna kill you now

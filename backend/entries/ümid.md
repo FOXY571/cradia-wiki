@@ -1,27 +1,27 @@
 # Ümid
 
-({
-  # Ümid
-  ![Ümid](backend/images/ümid-1.png)
-  | Name: Ümid
-  | Aliases: None
-  | Kingdom of Origin: Ikarye
-  | Relatives: None
-  ## Combat
-  | [Magic](?entry=magic): Plant <br> Healing
-  | Weapon of choice: None
-  ## Appearances
-  | First appearance: [The Prince's Truth](?entry=the-prince's-truth)
-  | Last appearance: [Heyvan](?entry=heyvan-(book))
-  ## Physical description
-  | [Species](?entry=species): Caster
-  | Gender: Female
+({infobox
+# Ümid
+![Ümid](backend/images/ümid-1.png)
+| Name: Ümid
+| Aliases: None
+| Kingdom of Origin: Ikarye
+| Relatives: None
+## Combat
+| [Magic](?entry=magic): Plant <br> Healing
+| Weapon of choice: None
+## Appearances
+| First appearance: [The Prince's Truth](?entry=the-prince's-truth)
+| Last appearance: [Heyvan](?entry=heyvan-(book))
+## Physical description
+| [Species](?entry=species): Caster
+| Gender: Female
 })
 
-<figure>
-  <img src="backend/images/ümid-2.png" alt="Ümid outside of Ikarye">
-  <figcaption>Ümid outside of Ikarye</figcaption>
-</figure>
+({figure
+![Ümid outside of Ikarye](backend/images/ümid-2.png)
+Ümid outside of Ikarye
+})
 
 > "Life is beautiful. Don't you agree?"
 >

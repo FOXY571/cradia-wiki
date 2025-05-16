@@ -2,21 +2,21 @@
 
 :: For the book, see [Heyvan (Book)](?entry=heyvan-(book)).
 
-({
-  # Heyvan Sow
-  | Name: Heyvan Sow
-  | Aliases: Tyger
-  | Kingdom of Origin: Canavar
-  | Relatives: Kitab Sow (brother)
-  ## Combat
-  | [Magic](?entry=magic): Shifting <br> Healing
-  | Weapon of choice: None
-  ## Appearances
-  | First appearance: [The Prince's Truth](?entry=the-prince's-truth)
-  | Last appearance: [Heyvan](?entry=heyvan-(book))
-  ## Physical description
-  | [Species](?entry=species): Caster
-  | Gender: Male
+({infobox
+# Heyvan Sow
+| Name: Heyvan Sow
+| Aliases: Tyger
+| Kingdom of Origin: Canavar
+| Relatives: Kitab Sow (brother)
+## Combat
+| [Magic](?entry=magic): Shifting <br> Healing
+| Weapon of choice: None
+## Appearances
+| First appearance: [The Prince's Truth](?entry=the-prince's-truth)
+| Last appearance: [Heyvan](?entry=heyvan-(book))
+## Physical description
+| [Species](?entry=species): Caster
+| Gender: Male
 })
 
 > To be bested by some street punk. How humiliating.
