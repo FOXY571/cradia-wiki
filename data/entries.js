@@ -1,7 +1,7 @@
 let entries = null;
 
 async function getEntries() {
-  if (entries) return entries;
+  if (entries) return entries; // Return entries to avoid reading every time
 
   try {
     const response = await fetch('backend/entries.json');
@@ -13,8 +13,6 @@ async function getEntries() {
     return [];
   }
 }
-
-export { getEntries };
 
 export async function getEntry(entryName) {
   try {

@@ -5,6 +5,7 @@ export function getEntryFromUrl() {
   return entryName;
 }
 
+// This forces a route change and calls event to update everything
 export function changeRoute(href) {
   history.pushState({}, '', href);
   document.dispatchEvent(onRouteChanged);
