@@ -37,6 +37,47 @@ When Kira first met [Qatil Ikaru](?entry=qatil-ikaru), she put on a kind facade 
 
 Throughout part three of [The Prince's Truth](?entry=the-prince's-truth), Kira talks to Qatil Ikaru much more and makes it clear that she didn't care about anyone Qatil cared for. She didn't care that he was feeling bad about everything and everyone he was killing senselessly, she only cared that he did what she said. It is apparent that Kira does care for Qatil to some extent ,although it isn't clear if it's because she needs him to destroy Order's barrier or because she's truly grown to care for him.
 
+## Combat & Magic
+
+Kira never displayed an apptitude for general combat and was always more proficcient with magic, while it is unknown what magic Kira specialized in while she was mortal, she displayed many divine abilities in her interactions with Qatil.
+
+### Creation Magic
+
+Kira has been described to have used creation magic to forge the soul of Chaos (AKA Qatil's soul). Thus displaying her capability to make and transfigure elements and matter. While her apptitude in this magic has not been described much it was shown at a much greater scale when [Order](?entry=order) created the universe, thus implying Kira could do the same.
+
+### Dreamwalking
+
+Kira has been shown to enter peoples dreams specifically that of Qatil's. She is able to navigate someone's dreamscape and even interact with the 'dreamer'.
+
+### Dream Manipulation
+
+Pairing well with dreamwalking, Kira is able to manipulate the dreams she enters, whether it be through cryptic visions or even flashbacks to the past.
+
+### Time Manipulation
+
+When the army of Canavar charged to attack Qatil and his friends, Kira had stopped time and could freely interact with the time frozen space around here, she could even allow Qatil to be uneffected by the time stop so he too could interact with frozen space.
+
+### Flight
+
+While Kira was never shown physically flying she has done it many times in the dream scape so it is heavily implied anything she does there she can do in the real world.
+
+### Magic Bestowal
+
+Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield fire magic. Thus it is also implied she can just as easily take it away.
+
+### Omniscience
+
+### Curse Bestowal
+
+### Teleportation
+
+### Telepathy
+
+### Mind Control
+
+### Cosmic Manipulation
+
 ## Trivia
 
 * Kira despises being a [god](?entry=species).
+* Kira thinks of [Qatil](?entry=qatil-ikaru) as a son, due to his soul being made out of a piece of hers
