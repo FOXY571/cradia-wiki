@@ -57,6 +57,7 @@
 .content-body blockquote {
   font-size: 13px;
   font-style: italic;
+  word-break: break-word;
 
   display: table;
 
@@ -140,18 +141,6 @@
   padding: 3px;
 }
 
-@media (max-width: 1000px) {
-  .infobox {
-    width: 250px;
-  }
-}
-
-@media (max-width: 750px) {
-  .infobox {
-    width: 200px;
-  }
-}
-
 .infobox-title,
 .linkbox-title {
   color: var(--secondary-color);
@@ -191,7 +180,6 @@
 .linkbox {
   background-color: rgba(0, 0, 0, 0.15);
 
-  min-width: 300px;
   margin-bottom: 25px;
   padding: 3px;
 }
@@ -217,12 +205,19 @@
 }
 
 /* Content Table */
+.content-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  width: 100%;
+  margin-bottom: 25px;
+}
+
 .content-table {
   line-height: 24px;
   text-align: center;
 
   max-width: 850px;
-  margin-bottom: 25px;
   padding: 3px;
 }
 
@@ -304,4 +299,34 @@
 
 .text-center {
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .content-body figure {
+    width: 200px;
+  }
+
+  .infobox {
+    width: 250px;
+  }
+}
+
+@media (max-width: 750px) {
+  .content-body figure {
+    width: 150px;
+  }
+
+  .infobox {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content-body figure,
+  .infobox {
+    float: unset;
+
+    width: 250px;
+    margin-left: 0px;
+  }
 }

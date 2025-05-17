@@ -1,7 +1,7 @@
 import {formatEntryName} from '../../data/entries.js';
 
 const entryConverter = new showdown.Converter({
-  extensions: [...bindingsOverride(), objectExt, noteExt, hatnoteExt, autoTitleExt],
+  extensions: [...bindingsOverride(), objectExt, noteExt, hatnoteExt, autoTitleExt, tableWrapperExt],
   tables: true
 });
 export default entryConverter;
@@ -15,7 +15,7 @@ function bindingsOverride() {
     .map(key => ({
       type: 'output',
       regex: new RegExp(`<${key}>`, 'g'),
-      replace: `<${key} class="${classMap[key]}" $1>`
+      replace: `<${key} class="${classMap[key]}">`
     }));
   
   return bindings;
@@ -26,7 +26,7 @@ function objectExt() {
     type: 'lang',
     filter: function(text, converter) {
       const regex = /\({(.*?)}\)/gs;
-      return text.replace(regex, (match, p1, p2) => {
+      return text.replace(regex, (_match, p1, _p2) => {
         const type = p1.trim().split('\n')[0];
         type.trim();
         const text = p1.replace(type, '');
@@ -112,7 +112,7 @@ function noteExt() {
     type: 'lang',
     filter: function(text, converter) {
       const regex = /:::(note):::(.*?):::/gs;
-      return text.replace(regex, (match, p1, p2) => {
+      return text.replace(regex, (_match, _p1, p2) => {
         return makeNote('note', p2, converter);
       });
     }
@@ -122,7 +122,7 @@ function noteExt() {
     type: 'lang',
     filter: function(text, converter) {
       const regex = /:::(warning):::(.*?):::/gs;
-      return text.replace(regex, (match, p1, p2) => {
+      return text.replace(regex, (_match, _p1, p2) => {
         return makeNote('warning', p2, converter);
       });
     }
@@ -143,7 +143,7 @@ function hatnoteExt() {
     type: 'lang',
     filter: function(text, converter) {
       const regex = /^(::)[ \t]*(.*?)[ \t]*#*\n+/gm;
-      return text.replace(regex, (match, p1, p2) => {
+      return text.replace(regex, (_match, _p1, p2) => {
         return `<div class="hatnote">${converter.makeHtml(p2)}</div>`;
       });
     }
@@ -157,11 +157,25 @@ function autoTitleExt() {
     type: 'output',
     filter: function(text) {
       const regex = /(<a[^>]*href="[^"]*\?entry=([^"&]*)")([^>]*)(?!\s+title="[^"]*")([^>]*>)/g;
-      return text.replace(regex, (match, p1, p2) => {
+      return text.replace(regex, (_match, p1, p2) => {
         return `<a ${p1.replace('<a', '')} title="${formatEntryName(p2)}">`;
       });
     }
   }
 
   return [autoTitle];
+}
+
+function tableWrapperExt() {
+  const tableWrapper = {
+    type: 'output',
+    filter: function(text) {
+      const regex = /<table[^>]*class=["'][^"'>]*\bcontent-table\b[^"'>]*["'][^>]*>[\s\S]*?<\/table>/g;
+      return text.replace(regex, (match, _p1, _p2) => {
+        return `<div class="content-table-wrapper">${match}</div>`;
+      });
+    }
+  }
+
+  return [tableWrapper];
 }

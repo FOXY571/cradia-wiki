@@ -26,7 +26,7 @@
 
 .logo a {
   width: 325px;
-  height: 100px;
+  height: 50%;
 }
 
 .content-wrapper {
@@ -139,12 +139,13 @@
 .main-content {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
 }
 
 .content-body {
   flex: 1;
+  overflow: auto;
 
   height: min-content;
   padding: 20px;
@@ -170,7 +171,23 @@
   text-decoration: underline;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
+  .side-spacer {
+    width: 0;
+  }
+
+  .header-buttons {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    background-size: auto 75%;
+
+    height: 135px;
+  }
+
   .content-wrapper {
     flex-direction: column-reverse;
     justify-content: start;
@@ -178,12 +195,6 @@
 
   .panels {
     flex-direction: row;
-
-    width: 400px;
-  }
-
-  .header-buttons {
-    margin-right: 0;
   }
 
   .main-content {
@@ -191,8 +202,20 @@
   }
 }
 
-@media (max-width: 1500px) {
-  .side-spacer {
-    width: 0;
+@media (max-width: 600px) {
+  .logo {
+    background-size: auto 65%;
+
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .panels {
+    flex-direction: column;
+  }
+
+  .panel {
+    width: auto;
   }
 }
