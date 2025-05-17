@@ -1,30 +1,43 @@
+import {getEntryFromUrl, changeRoute} from './navigationHandler.js';
 import {getRandomEntryName, formatEntryName} from '../data/entries.js';
 
-const urlParams = new URLSearchParams(window.location.search);
-const entryName = urlParams.get('entry');
+let handleSourceButtonClick;
 
-if (!entryName) {
-  window.location.href = '?entry=home';
+function pageInitialization() {
+  const entryName = getEntryFromUrl();
+
+  if (!entryName) {
+    window.location.href = '?entry=home';
+  }
+  if (entryName != 'home') {
+    document.querySelector('title').innerHTML = `${formatEntryName(entryName)} - Cradia Wiki`;
+  } else {
+    document.querySelector('title').innerHTML = 'Cradia Wiki';
+  }
+
+  const sourceButton = document.querySelector('.js-source-button');
+  sourceButton.removeEventListener('onRouteChanged', handleSourceButtonClick);
+  if (entryName.endsWith('-source')) {
+    sourceButton.innerHTML = `<a class="header-link" title="View the page">View page</a>`;
+    handleSourceButtonClick = sourceButton.addEventListener('click', () => {
+      changeRoute(`?entry=${entryName.replace('-source', '')}`);
+    });
+  } else {
+    sourceButton.innerHTML = `<a class="header-link" title="View the page's source">View source</a>`;
+    handleSourceButtonClick = sourceButton.addEventListener('click', () => {
+      changeRoute(`?entry=${entryName}-source`);
+    });
+  }
 }
 
-if (entryName != 'home') {
-  document.querySelector('title').innerHTML = `${formatEntryName(entryName)} - Cradia Wiki`;
-}
+pageInitialization();
 
+document.addEventListener('onRouteChanged', () => {
+  pageInitialization();
+});
+
+// This may only run once, hence it not being in the pageInitialization function
 document.querySelector('.js-random-page-link')
   .addEventListener('click', () => {
-    window.location.href = `?entry=${getRandomEntryName()}`;
+    changeRoute(`?entry=${getRandomEntryName()}`);
   });
-
-const sourceButton = document.querySelector('.js-source-button');
-if (entryName.endsWith('-source')) {
-  sourceButton.innerHTML = `<a class="header-link" title="View the page">View page</a>`;
-  sourceButton.addEventListener('click', () => {
-    window.location.href = `?entry=${entryName.replace('-source', '')}`;
-  });
-} else {
-  sourceButton.innerHTML = `<a class="header-link" title="View the page's source">View source</a>`;
-  sourceButton.addEventListener('click', () => {
-    window.location.href = `?entry=${entryName}-source`;
-  });
-}

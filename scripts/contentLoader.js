@@ -1,11 +1,11 @@
+import {getEntryFromUrl} from './navigationHandler.js';
 import * as entries from '../data/entries.js';
 import entryConverter from './formatting/showdownConfiguration.js';
 
 async function loadContentFromUrl() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const entryName = urlParams.get('entry');
-
+  const entryName = getEntryFromUrl();
   const contentBody = document.querySelector('.js-content-body');
+  
   if (entryName && entries.contains(entryName)) {
     const text = await entries.getEntry(entryName);
     contentBody.innerHTML = entryConverter.makeHtml(text);
@@ -39,17 +39,6 @@ async function loadContentFromUrl() {
 
 loadContentFromUrl();
 
-// Re-render when links are clicked (if using client-side routing)
-document.body.addEventListener('click', e => {
-  if (e.target.tagName == 'A' && e.target.href.includes('?entry=')) {
-    e.preventDefault();
-    const href = new URL(e.target.href);
-    history.pushState({}, '', href.search);
-    loadContentFromUrl();
-  }
-});
-
-// Handle back/forward navigation
-window.addEventListener('popstate', () => {
+document.addEventListener('onRouteChanged', () => {
   loadContentFromUrl();
 });
