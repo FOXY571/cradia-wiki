@@ -7,7 +7,7 @@ function pageInitialization() {
   const entryName = getEntryFromUrl();
 
   if (!entryName) {
-    window.location.href = '?entry=home';
+    changeRoute('?entry=home');
   }
   if (entryName != 'home') {
     document.querySelector('title').innerHTML = `${formatEntryName(entryName)} - Cradia Wiki`;

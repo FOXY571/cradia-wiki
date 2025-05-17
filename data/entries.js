@@ -1,16 +1,20 @@
+let entries = null;
+
 async function getEntries() {
+  if (entries) return entries;
+
   try {
     const response = await fetch('backend/entries.json');
-    const fileContent = await response.json();
+    entries = await response.json();
     console.log('Fetched entries successfully');
-    return fileContent;
+    return entries;
   } catch (error) {
     console.error('Error fetching entries:', error);
+    return [];
   }
 }
 
-const entries = await getEntries();
-export default entries;
+export { getEntries };
 
 export async function getEntry(entryName) {
   try {
@@ -23,12 +27,14 @@ export async function getEntry(entryName) {
   }
 }
 
-export function getRandomEntryName() {
-  return entries[Math.floor(Math.random() * entries.length)];
+export async function getRandomEntryName() {
+  const list = await getEntries();
+  return list[Math.floor(Math.random() * list.length)];
 }
 
-export function contains(entryName) {
-  return entries.includes(entryName);
+export async function contains(entryName) {
+  const list = await getEntries();
+  return list.includes(entryName);
 }
 
 export function formatEntryName(entryName) {
