@@ -39,7 +39,7 @@ In part one of [The Prince's Truth](?entry=the-prince's-truth), the story begins
 
 In part two, Qatil's appearance changes dramatically. Qatil has grown up and is much taller with much more defined features and longer hair. He also gained a much more toned body after being outside of his home kingdom for years and participating in the Cradia World War. Further into his journey, Qatil changed his outfit so that he would not be noticed as a royal, replacing the pieces of clothing that were royal garbs with cloth and what would be considered peasant clothing with colors varying from gray, brown, and a faded shade of red.
 
-In part three, Qatil grows in height slightly and adornes much longer hair and a beefier body. Parts of his clothes now had scorch marks on them after using [fire magic](?entry=magic) for the first time in Canavar. While fighting [Order](?entry=order) in Günəş, Qatil's Irises periodically turn a crimson red.
+In part three, Qatil grows in height slightly and adornes much longer hair and a beefier body. Parts of his clothes now had scorch marks on them after using [fire magic](?entry=magic) for the first time in Canavar. After Qatil leaves Canavar, he eventually grows his hair out styling it into a long wolf cut and now has a prominent scar across his left cheek.
 
 ## Personality
 
