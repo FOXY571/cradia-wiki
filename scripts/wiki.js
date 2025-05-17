@@ -16,18 +16,20 @@ function pageInitialization() {
   }
 
   const sourceButton = document.querySelector('.js-source-button');
-  sourceButton.removeEventListener('onRouteChanged', handleSourceButtonClick);
+  const newSourceButton = sourceButton.cloneNode(false);
+  sourceButton.parentNode.replaceChild(newSourceButton, sourceButton);
   if (entryName.endsWith('-source')) {
-    sourceButton.innerHTML = `<a class="header-link" title="View the page">View page</a>`;
-    handleSourceButtonClick = sourceButton.addEventListener('click', () => {
+    newSourceButton.innerHTML = `<a class="header-link" title="View the page">View page</a>`;
+    handleSourceButtonClick = () => {
       changeRoute(`?entry=${entryName.replace('-source', '')}`);
-    });
+    };
   } else {
-    sourceButton.innerHTML = `<a class="header-link" title="View the page's source">View source</a>`;
-    handleSourceButtonClick = sourceButton.addEventListener('click', () => {
+    newSourceButton.innerHTML = `<a class="header-link" title="View the page's source">View source</a>`;
+    handleSourceButtonClick = () => {
       changeRoute(`?entry=${entryName}-source`);
-    });
+    };
   }
+  newSourceButton.addEventListener('click', handleSourceButtonClick);
 }
 
 pageInitialization();

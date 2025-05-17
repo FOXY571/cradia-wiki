@@ -8,6 +8,7 @@ export function getEntryFromUrl() {
 export function changeRoute(href) {
   history.pushState({}, '', href);
   document.dispatchEvent(onRouteChanged);
+  console.log('Changed route to ' + href);
 }
 
 const onRouteChanged = new CustomEvent("onRouteChanged");
