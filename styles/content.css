@@ -322,7 +322,13 @@
 }
 
 @media screen and (max-width: 450px) {
-  .content-body figure,
+  .content-body figure {
+    float: unset;
+
+    width: 200px;
+    margin-left: 0px;
+  }
+
   .infobox {
     float: unset;
 
