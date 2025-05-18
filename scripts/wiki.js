@@ -40,6 +40,6 @@ document.addEventListener('onRouteChanged', () => {
 
 // This may only run once, hence it not being in the pageInitialization function
 document.querySelector('.js-random-page-link')
-  .addEventListener('click', () => {
-    changeRoute(`?entry=${getRandomEntryName()}`);
+  .addEventListener('click', async () => {
+    changeRoute(`?entry=${await getRandomEntryName()}`);
   });
