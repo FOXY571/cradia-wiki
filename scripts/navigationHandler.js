@@ -9,6 +9,9 @@ export function getEntryFromUrl() {
 export function changeRoute(href) {
   history.pushState({}, '', href);
   document.dispatchEvent(onRouteChanged);
+
+  window.scrollTo(0, 0);
+
   console.log('Changed route to ' + href);
 }
 
