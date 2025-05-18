@@ -36,6 +36,8 @@ async function loadContentFromUrl() {
       </p>
     `;
   }
+
+  scrollToHash(); // Scroll to hashed element when the content is done loading if it exists
 }
 
 loadContentFromUrl();
@@ -43,3 +45,13 @@ loadContentFromUrl();
 document.addEventListener('onRouteChanged', () => {
   loadContentFromUrl();
 });
+
+function scrollToHash() {
+  const hash = window.location.hash;
+  if (hash) {
+    const hashElement = document.querySelector(hash);
+    if (hashElement) {
+      hashElement.scrollIntoView();
+    }
+  }
+}
