@@ -2,7 +2,8 @@ import {formatEntryName} from '../../data/entries.js';
 
 const entryConverter = new showdown.Converter({
   extensions: [...bindingsOverride(), objectExt, noteExt, hatnoteExt, autoTitleExt, tableWrapperExt],
-  tables: true
+  tables: true,
+  ghCompatibleHeaderId: true
 });
 export default entryConverter;
 

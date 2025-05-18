@@ -37,13 +37,13 @@ When Kira first met [Qatil Ikaru](?entry=qatil-ikaru), she put on a kind facade 
 
 Throughout part three of [The Prince's Truth](?entry=the-prince's-truth), Kira talks to Qatil Ikaru much more and makes it clear that she didn't care about anyone Qatil cared for. She didn't care that he was feeling bad about everything and everyone he was killing senselessly, she only cared that he did what she said. It is apparent that Kira does care for Qatil to some extent ,although it isn't clear if it's because she needs him to destroy Order's barrier or because she's truly grown to care for him.
 
-## Combat & Magic
+## Combat and Magic
 
 Kira never displayed an apptitude for general combat and was always more proficcient with magic, while it is unknown what magic Kira specialized in while she was mortal, she displayed many divine abilities in her interactions with [Qatil](?entry=qatil-ikaru).
 
 ### Creation Magic
 
-Kira has been described to have used creation magic to forge the soul of Chaos (AKA Qatil's soul). Thus displaying her capability to make and transfigure elements and matter. While her apptitude in this magic has not been described much it was shown at a much greater scale when [Order](?entry=order) created the universe, thus implying Kira could do the same.
+Kira has been described to have used [creation magic](?entry=magic#divine-magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](?entry=magic) has not been described much it was shown at a much greater scale when [Order](?entry=order) created the universe, thus implying Kira could do the same.
 
 ### Dreamwalking
 
@@ -63,7 +63,7 @@ While Kira was never shown physically flying she has done it many times in the d
 
 ### Magic Bestowal
 
-Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield fire magic. Thus it is also implied she can just as easily take it away.
+Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield [fire magic](?entry=magic#divine-magic). Thus it is also implied she can just as easily take it away.
 
 ### Omniscience
 
