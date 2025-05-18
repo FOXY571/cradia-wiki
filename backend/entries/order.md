@@ -27,7 +27,7 @@
 
 Order's backstory is told through [The Birth of Order](https://docs.google.com/document/d/156tEg_gCU1lIk8yqMwPWvJ8fE2a_Ql3_OI6n4iYDIOs/edit?usp=sharing), a story in an old religious book centered around worshipping Order. It describes Order being created by a big bang that was the result of chaos becoming infinitely dense. The chaos was then destroyed and all that existed in the universe was Order. The story then describes Order creating the world and everything on it, such as the humans, animals, and plants. Order created life and the world because he wanted to ascend someone to godhood.
 
-After a long period of time, Order decided to ascend Kira Amaikoru, a girl living in Canavar at the time. After she was ascended, Order gave her half of his power. Kira was greedy and wanted more of his power, so she took it all and sent him down to Cradia where he lost his godhood and became a [demigod](?entry=species).
+After a long period of time, Order decided to ascend Kira Amaikoru, a girl living in the kingdom [Canavar](?entry=canavar) at the time. After she was ascended, Order gave her half of his power. Kira was greedy and wanted more of his power, so she took it all and sent him down to Cradia where he lost his godhood and became a [demigod](?entry=species).
 
 Since then, Order has been preparing to stop Kira and return order to the universe. He's done so by killing Kira worshippers and slowing the spread of her influence around Cradia. After Order discovered that Qatil was working with Kira in The Prince's Truth, he set out kill him next.
 

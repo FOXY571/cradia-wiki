@@ -7,6 +7,10 @@ Want to find something specific? This list contains every page in the wiki.
 * [All Pages](?entry=all-pages)
 * [Help](?entry=help)
 
+**Kingdoms:**
+* [Ikarye](?entry=ikarye)
+* [Canavar](?entry=canavar)
+
 **Books:**
 * [The Prince's Truth](?entry=the-prince's-truth)
 * [Heyvan (Book)](?entry=heyvan-(book))

@@ -4,7 +4,7 @@
 # Qatil Ikaru
 | Name: Qatil Ikaru
 | Aliases: None
-| Kingdom of Origin: Ikarye
+| Kingdom of Origin: [Ikarye](?entry=ikarye)
 | Relatives: Möhnət Ikaru (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
 ## Combat
 | [Magic](?entry=magic): Terra <br> Fire
@@ -21,13 +21,13 @@
 >
 > ― [Kira Amaikoru](?entry=kira-amaikoru)
 
-**Qatil Ikaru**, the primary protagonist of [The Prince's Truth](?entry=the-prince's-truth), was the crowned prince of Ikarye, one of the six kingdoms that populated the continent of Cradia. When Qatil was eight years old, he was visited by the Goddess [Kira Amaikoru](?entry=kira-amaikoru), who led Qatil on the path of destruction.
+**Qatil Ikaru**, the primary protagonist of [The Prince's Truth](?entry=the-prince's-truth), was the crowned prince of [Ikarye](?entry=ikarye), one of the six kingdoms that populated the continent of Cradia. When Qatil was eight years old, he was visited by the Goddess [Kira Amaikoru](?entry=kira-amaikoru), who led Qatil on the path of destruction.
 
-While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a sythe, and by his mother Zərərli Ikaru to cast [terra magic](?entry=magic). Qatil was later gifted [fire magic](?entry=magic) by Kira during the Pre Universal Descrution fall of Canavar.
+While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a sythe, and by his mother Zərərli Ikaru to cast [terra magic](?entry=magic). Qatil was later gifted [fire magic](?entry=magic) by Kira during the Pre Universal Descrution fall of [Canavar](?entry=canavar).
 
 ## Backstory
 
-Qatil Ikaru grew up confined within the castle walls of Ikarye, longing for the day he got to leave and discover the world. During his time in the kingdom, he only had his twin sister Möhnət Ikaru to keep him company.
+Qatil Ikaru grew up confined within the castle walls of [Ikarye](?entry=ikarye), longing for the day he got to leave and discover the world. During his time in the kingdom, he only had his twin sister Möhnət Ikaru to keep him company.
 
 Unlike his sister, who practiced [magic](?entry=magic) growing up, Qatil was taught how to wield a sythe in battle by his father Sirus Ikaru. Interactions with his father were brief but to Qatil's description, unnecessarily cruel. These abusive moments for Qatil were only alleviated by his moments with his sister whom he came to treasure greatly.
 
@@ -35,11 +35,11 @@ Qatil's relationship with his mother was much better than his relationship with 
 
 ## Appearance
 
-In part one of [The Prince's Truth](?entry=the-prince's-truth), the story begins with Qatil being six years old. He had a short stature, a roundish and chubby-like face, tan skin, short, wavy black hair, and pure black irises. During his time growing up, Qatil only adorned the prince's royal garbs. This changed when Qatil turned fourteen and left Ikarye, now dressed in an armored version of his usual royal garbs.
+In part one of [The Prince's Truth](?entry=the-prince's-truth), the story begins with Qatil being six years old. He had a short stature, a roundish and chubby-like face, tan skin, short, wavy black hair, and pure black irises. During his time growing up, Qatil only adorned the prince's royal garbs. This changed when Qatil turned fourteen and left [Ikarye](?entry=ikarye), now dressed in an armored version of his usual royal garbs.
 
 In part two, Qatil's appearance changes dramatically. Qatil has grown up and is much taller with much more defined features and longer hair. He also gained a much more toned body after being outside of his home kingdom for years and participating in the Cradia World War. Further into his journey, Qatil changed his outfit so that he would not be noticed as a royal, replacing the pieces of clothing that were royal garbs with cloth and what would be considered peasant clothing with colors varying from gray, brown, and a faded shade of red.
 
-In part three, Qatil grows in height slightly and adornes much longer hair and a beefier body. Parts of his clothes now had scorch marks on them after using [fire magic](?entry=magic) for the first time in Canavar. After Qatil leaves Canavar, he eventually grows his hair out styling it into a long wolf cut and now has a prominent scar across his left cheek.
+In part three, Qatil grows in height slightly and adornes much longer hair and a beefier body. Parts of his clothes now had scorch marks on them after using [fire magic](?entry=magic) for the first time in [Canavar](?entry=canavar). After Qatil leaves Canavar, he eventually grows his hair out styling it into a long wolf cut and now has a prominent scar across his left cheek.
 
 ## Personality
 
@@ -51,7 +51,7 @@ Overall, throughout the first three parts of The Prince's Truth, Qatil is a play
 
 ## Combat & Magic
 
-Qatil was one of the greatest Cradian warriors to ever live, yet he struggled to combine his physical fighting techniques with his magic ones. Qatil's hand-to-hand combat followed a style derived from mixed martial arts, but Qatil prefered to use weapons when available. His weapon of choice and the one he was the most skilled in using was the scythe. While training to wield proper weapons with his father, Qatil showed great promise while wielding a scythe, cutting clean through a stone dummy with one made of iron. This was due to Qatil's abnormal strength, which only arose as Qatil was destroying Canavar. This strength was also prominently shown in Qatil's fight with [Order](?entry=order).
+Qatil was one of the greatest Cradian warriors to ever live, yet he struggled to combine his physical fighting techniques with his magic ones. Qatil's hand-to-hand combat followed a style derived from mixed martial arts, but Qatil prefered to use weapons when available. His weapon of choice and the one he was the most skilled in using was the scythe. While training to wield proper weapons with his father, Qatil showed great promise while wielding a scythe, cutting clean through a stone dummy with one made of iron. This was due to Qatil's abnormal strength, which only arose as Qatil was destroying [Canavar](?entry=canavar). This strength was also prominently shown in Qatil's fight with [Order](?entry=order).
 
 ### Terra Magic
 

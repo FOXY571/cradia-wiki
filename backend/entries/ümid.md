@@ -5,7 +5,7 @@
 ![Ümid](backend/images/ümid-1.png)
 | Name: Ümid
 | Aliases: None
-| Kingdom of Origin: Ikarye
+| Kingdom of Origin: [Ikarye](?entry=ikarye)
 | Relatives: None
 ## Combat
 | [Magic](?entry=magic): Plant <br> Healing
@@ -18,24 +18,24 @@
 | Gender: Female
 })
 
-({figure
-![Ümid outside of Ikarye](backend/images/ümid-2.png)
-Ümid outside of Ikarye
-})
-
 > "Life is beautiful. Don't you agree?"
 >
 > ― Ümid
 
-**Ümid** is first introduced in part 1 of [The Prince's Truth](?entry=the-prince's-truth) as one of the many maids in the Ikarye castle. Later, she takes on a much more prominent role in [Qatil's](?entry=qatil-ikaru) story as a very close friend who he teaches magic to.
+**Ümid** is first introduced in part 1 of [The Prince's Truth](?entry=the-prince's-truth) as one of the many maids in the [Ikarye](?entry=ikarye) castle. Later, she takes on a much more prominent role in [Qatil's](?entry=qatil-ikaru) story as a very close friend who he teaches magic to.
 
 In future parts of her story, Ümid appears to be more ignorant than most, not knowing the simplest of customs, as well as being exhausted easily as she travels with Qatil and his other friends. Depsite this, Ümid has a remarkable aptitude for [magic](?entry=magic), learning it very quickly at a young age.
 
 ## Backstory
 
-Ümid's story begins within the confines of Ikarye. She was born into a noble family though her parents identities are not mentioned as Ümid does not remember them. It is said that her parents left her at the castle of Ikarye after they were required to join the Cradian war, they never returned. Because of this Ümid nor anyone know's her family name so she is simply known as Ümid.
+Ümid's story begins within the confines of [Ikarye](?entry=ikarye). She was born into a noble family though her parents identities are not mentioned as Ümid does not remember them. It is said that her parents left her at the castle of Ikarye after they were required to join the Cradian war, they never returned. Because of this Ümid nor anyone know's her family name so she is simply known as Ümid.
 
 She was thus raised in the castle of Ikarye and made into one of it's many maids. Though even at this young age she seemed to have an odd facination with magic, she was particularly drawn to the queen of Ikarye Zerali Ikaru, causing her to attempt to sneak into her study which caused her encounter with [Qatil Ikaru](?entry=qatil-ikaru)
+
+({figure
+![Ümid outside of Ikarye](backend/images/ümid-2.png)
+Ümid outside of [Ikarye](?entry=ikarye)
+})
 
 ## Appearance
 
@@ -59,6 +59,6 @@ While being trained by Qatil in the art of magic, Ümid briefly summoned roots f
 
 ## Trivia
 
-* Ümid always stayed close to Qatil no matter the situation.
+* Ümid always stayed close to [Qatil](?entry=qatil-ikaru) no matter the situation.
 * In Ümid's final moments, all she felt was love.
 * Ümid never finds out who her parents are nor her family name.

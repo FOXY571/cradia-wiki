@@ -12,12 +12,23 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
   Please proceed with caution when visiting pages.
 :::
 
+:::warning:::
+  **AI content warning.**   
+  This wiki contains AI images that represent most characters and objects.
+:::
+
 ## Current Pages
 
 ({linkbox
 # Books
 [The Prince's Truth](?entry=the-prince's-truth)
 [Heyvan (Book)](?entry=heyvan-(book))
+})
+
+({linkbox
+# Kingdoms
+[Ikarye](?entry=ikarye)
+[Canavar](?entry=canavar)
 })
 
 ({linkbox

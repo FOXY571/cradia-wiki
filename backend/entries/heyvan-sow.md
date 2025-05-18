@@ -6,7 +6,7 @@
 # Heyvan Sow
 | Name: Heyvan Sow
 | Aliases: Tyger
-| Kingdom of Origin: Canavar
+| Kingdom of Origin: [Canavar](?entry=canavar)
 | Relatives: Kitab Sow (brother)
 ## Combat
 | [Magic](?entry=magic): Shifting <br> Healing
@@ -23,13 +23,13 @@
 >
 > ― Satqin Dost
 
-**Heyvan Sow**, the primary protaganiost of [Heyvan](?entry=heyvan-(book)), is a commoner from the kingdom of Canavar. He is known for his ability to steal anything he desires and has a talent for it. Using [shifting magic](?entry=magic), he also has the power to turn into animals and uses it to make stealing things easier. Heyvan is wanted in most of the kingom's around the world and spends most of his time living nomadically. Although he is very good at stealing, and has stolen many valuable items before, it is not enough to make him a living and he remains without money.
+**Heyvan Sow**, the primary protaganiost of [Heyvan](?entry=heyvan-(book)), is a commoner from the kingdom of [Canavar](?entry=canavar). He is known for his ability to steal anything he desires and has a talent for it. Using [shifting magic](?entry=magic), he also has the power to turn into animals and uses it to make stealing things easier. Heyvan is wanted in most of the kingom's around the world and spends most of his time living nomadically. Although he is very good at stealing, and has stolen many valuable items before, it is not enough to make him a living and he remains without money.
 
 In [The Prince's Truth](?entry=the-prince's-truth), Heyvan meets [Qatil Ikaru](?entry=qatil-ikaru) and his friends before the destruction of Canavar. They end up making a proper introduction shortly after the kingdom is destroyed. Heyvan ends up joining Qatil and his friends on their journey to end the Cradia World War.
 
 ## Backstory
 
-Pre Universal Destruction Heyvan's backstory is unknown. However, it is inferred that he grew up poor in Canavar without any family. Because of this, he resulted to stealing and robbery to make a living.
+Pre Universal Destruction Heyvan's backstory is unknown. However, it is inferred that he grew up poor in [Canavar](?entry=canavar) without any family. Because of this, he resulted to stealing and robbery to make a living.
 
 The Post Universal Destruction Heyvan grew up with his older brother Kitab Sow in Canavar. While Heyvan was a baby, his parents were murdered by a sorcerer, forcing Heyvan and Kitab to make a living on their own. Heyvan saw his brother as his guardian and looked up to him. Unlike Kitab, who hated [magic](?entry=magic "Magic") and sorcerers, Heyvan grew to love them and was fascinated by sorcerers and their abilites.
 
