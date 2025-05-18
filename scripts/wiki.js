@@ -4,15 +4,17 @@ import {getRandomEntryName, formatEntryName} from '../data/entries.js';
 let handleSourceButtonClick;
 
 function pageInitialization() {
-  const entryName = getEntryFromUrl();
+  let entryName = getEntryFromUrl();
 
-  if (!entryName) {
-    changeRoute('?entry=home');
-  }
-  if (entryName != 'home') {
-    document.querySelector('title').innerHTML = `${formatEntryName(entryName)} - Cradia Wiki`;
+  if (entryName) {
+    if (entryName != 'home') {
+      document.querySelector('title').innerHTML = `${formatEntryName(entryName)} - Cradia Wiki`;
+    } else {
+      document.querySelector('title').innerHTML = 'Cradia Wiki';
+    }
   } else {
-    document.querySelector('title').innerHTML = 'Cradia Wiki';
+    changeRoute('?entry=home');
+    entryName = getEntryFromUrl();
   }
 
   const sourceButton = document.querySelector('.js-source-button');
