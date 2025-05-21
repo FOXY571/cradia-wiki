@@ -17,6 +17,10 @@
 | Gender: Female
 })
 
+> Don’t think of it as them leaving you. Think of it as taking a piece of their reality and carrying it with you. Live on, Qatil, and she will too.
+>
+> ― [Kira Amaikoru](?entry=kira-amaikoru)
+
 **Kira Amaikoru** is established as the acting godly figure in [The Prince's Truth](?entry=the-prince's-truth). Kira once lived in the kingdom of [Canavar](?entry=canavar), though it isn't clearly stated if she was royal or not. The only family member she has that's been mentioned so far is her twin sister who is yet to be named.
 
 Kira throughout the book stays close with [Qatil Ikaru](?entry=qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](?entry=magic), although [Order](?entry=order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
