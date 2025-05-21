@@ -17,7 +17,7 @@
 | Gender: Female
 })
 
-> Don’t think of it as them leaving you. Think of it as taking a piece of their reality and carrying it with you. Live on, Qatil, and she will too.
+> You know what hurts about betrayal? It never comes from an enemy.
 >
 > ― [Kira Amaikoru](?entry=kira-amaikoru)
 
