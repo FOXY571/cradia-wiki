@@ -21,6 +21,7 @@ Want to find something specific? This list contains every page in the wiki.
 * [Kira Amaikoru](?entry=kira-amaikoru)
 * [Order](?entry=order)
 * [Ümid](?entry=ümid)
+* [Möhnət Ikaru](?entry=möhnət-ikaru)
 
 **Objects:**
 * [Chaos Orb](?entry=chaos-orb)

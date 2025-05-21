@@ -5,7 +5,7 @@
 | Name: Qatil Ikaru
 | Aliases: None
 | Kingdom of Origin: [Ikarye](?entry=ikarye)
-| Relatives: Möhnət Ikaru (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
+| Relatives: [Möhnət Ikaru](?entry=möhnət-ikaru) (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
 ## Combat
 | [Magic](?entry=magic): Terra <br> Fire
 | Weapon of choice: Sythe

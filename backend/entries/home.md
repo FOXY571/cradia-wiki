@@ -38,6 +38,7 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
 [Kira Amaikoru](?entry=kira-amaikoru)
 [Order](?entry=order)
 [Ümid](?entry=ümid)
+[Möhnət Ikaru](?entry=möhnət-ikaru)
 })
 
 ({linkbox
