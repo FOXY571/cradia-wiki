@@ -2,7 +2,7 @@
 
 **Magic** is one of the main forms of combat in the Cradia series and is a key part of the storytelling found within the series. Magic can be used to do many different things such as fight, move obejcts, change the state or form of objects, and much more. There are multiple different types of magic, their only differences being how they are obtained and sometimes their level of power.
 
-Every species from [caster](?entry=species#casters) and above is able to use and control magic. It's impossible to use magic otherwise except through foregin methods that are rarely practiced and frowned upon by most sorcerers. As someone practices and uses magic, the color of their blood will slowly turn blue.
+Every [species](?entry=species) from [caster](?entry=species#casters) and above is able to use and control magic. It's impossible to use magic otherwise except through foregin methods that are rarely practiced and frowned upon by most sorcerers. As someone practices and uses magic, the color of their blood will slowly turn blue.
 
 ## Core Magic
 
@@ -13,8 +13,8 @@ A [caster](?entry=species#casters) is able to choose any core magic that they wi
 | Magic | Description | Owning Characters 
 |:--: |:--: |:--:
 |Terra |Terra magic can be used to move and shape elements of the ground. This includes dirt, rock, sand, and gravel. |[Qatil Ikaru](?entry=qatil-ikaru)
-|Air |Air magic can be used to move air. In theory, air magic can be used to make someone fly as well as propell most objects. | Samara Minarai
-|Water |Water magic can be used to move and shape water. | Möhnət Ikaru
+|Air |Air magic can be used to move air. In theory, air magic can be used to make someone fly as well as propell most objects. |Samara Minarai
+|Water |Water magic can be used to move and shape water. |Möhnət Ikaru
 |Healing |Healing magic can be used to heal living things. When used, a yellow orb grows in the user's hand. Any wound that touches the orb is slowly healed. |[Heyvan Sow](?entry=heyvan-sow) <br> [Ümid](?entry=ümid)
 
 ## Sub Magic
@@ -25,7 +25,7 @@ Sub magic is a form of magic that is derived from core magic, meaning it is a ch
 |:--: |:--: |:--:
 |Ice |Ice magic is a sub magic of water magic. It can be used to move and shape ice. Water can also be freezed and melted with ice magic. |Möhnət Ikaru
 |Shifting |Shifting magic is a sub magic of healing magic. It can be used to alter a living being's DNA. This can be used to turn living beings into different creatures, such as animals. |[Heyvan Sow](?entry=heyvan-sow)
-|Plant |Plant magic is a sub magic of healing magic. It can be used to grow and manipulate plant life. | [Ümid](?entry=ümid)
+|Plant |Plant magic is a sub magic of healing magic. It can be used to grow and manipulate plant life. |[Ümid](?entry=ümid)
 
 ## Divine Magic
 

@@ -2,6 +2,7 @@
 
 ({infobox
 # Kira Amaikoru
+![Kira Amaikoru](backend/images/kira-amaikoru-1.png)
 | Name: Kira Amaikoru
 | Aliases: None
 | Kingdom of Origin: [Canavar](?entry=canavar)
@@ -15,6 +16,8 @@
 ## Physical description
 | [Species](?entry=species): God
 | Gender: Female
+## Other
+| Theme: #sc(1799766148)
 })
 
 > You know what hurts about betrayal? It never comes from an enemy.
@@ -23,13 +26,18 @@
 
 **Kira Amaikoru** is established as the acting godly figure in [The Prince's Truth](?entry=the-prince's-truth). Kira once lived in the kingdom of [Canavar](?entry=canavar), though it isn't clearly stated if she was royal or not. The only family member she has that's been mentioned so far is her twin sister who is yet to be named.
 
-Kira throughout the book stays close with [Qatil Ikaru](?entry=qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](?entry=magic), although [Order](?entry=order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
+Kira throughout the book stays close with [Qatil Ikaru](?entry=qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](?entry=magic#divine-magic), although [Order](?entry=order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
 
 ## Backstory
 
 The revealed backstory in [The Prince's Truth](?entry=the-prince's-truth) is brief, but it reveals that Kira was born in [Canavar](?entry=canavar) with an unspecified role in it's society. She was born with her twin sister and was said to have lived a happy life until [Order](?entry=order) filled her sister's head with hate and jealousy, causing her to stab Kira in the back, ultimately killing her. Once Kira had died, Order had brought her soul to him and gifted her with half of his abilities. Kira was furious with Order and she blamed him for ruining her life, thus, she stole the rest of Order's power and casted him down to Cradia. She had attempted to destroy Cradia afterwards but later found out that Order, in his last moments of power, casted an unbreakable barrier around Cradia so that she couldn't destroy or alter anything or anyone of his creation.
 
 After Kira had dethroned Order of his godhood, chaos had begun sprouting in his absence. Kira took a piece of her soul and merged it with the chaos energy and created a soul, who was soon to be the God of Chaos. Kira then went down to Cradia and found Sirus Ikaru, giving him the soul of chaos. She promised him to assist him in taking over the kingdom of [Ikarye](?entry=ikarye) in exchange for impregnating a powerful caster with the soul.
+
+({figure
+![Kira showing the scar on her back](backend/images/kira-amaikoru-2.png)
+Kira showing the scar on her back
+})
 
 ## Appearance
 

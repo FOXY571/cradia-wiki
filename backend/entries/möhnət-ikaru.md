@@ -1,21 +1,14 @@
-<!-- Anything surrounded by "[]" can be replaced freely -->
-<!-- It is preferred that you don't touch anything else unless said otherwise-->
-
-<!-- Delete all comments once the page is complete to reduce file size -->
-
 # Möhnət Ikaru
 
 ({infobox
 # Möhnət Ikaru
-<!-- An image is optional for an entry's infobox -->
-<!-- To include an image in the infobox, delete the surrounding comment -->
-<!-- ![entry name](backend/images/[image name].png) -->
+![Möhnət Ikaru](backend/images/möhnət-ikaru-1.png)
 | Name: Möhnət Ikaru
-| Aliases: Mona <br> Queen Möhnət <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+| Aliases: Mona <br> Queen Möhnət
 | Kingdom of origin: [Ikarye](?entry=ikarye)
-| Relatives: [Qatil Ikaru](?entry=qatil-ikaru) (brother) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother) <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+| Relatives: [Qatil Ikaru](?entry=qatil-ikaru) (brother) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
 ## Combat
-| [Magic](?entry=magic): Water <br> Ice <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
+| [Magic](?entry=magic): Water <br> Ice
 | Weapon of choice: None
 ## Appearances
 | First appearance: [The Prince's Truth](?entry=the-prince's-truth)
@@ -23,6 +16,8 @@
 ## Physical description
 | [Species](?entry=species): Caster
 | Gender: Female
+## Other
+| Theme: #sc(455566374)
 })
 
 <!-- A quote is optional for an entry -->
@@ -40,6 +35,11 @@
 
 <!-- Put the character's backstory here -->
 [backstory]
+
+({figure
+![Queen Möhnət](backend/images/möhnət-ikaru-2.png)
+Queen Möhnət
+})
 
 ## Appearance
 

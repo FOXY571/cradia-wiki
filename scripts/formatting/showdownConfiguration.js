@@ -1,7 +1,7 @@
 import {formatEntryName} from '../../data/entries.js';
 
 const entryConverter = new showdown.Converter({
-  extensions: [...bindingsOverride(), objectExt, noteExt, hatnoteExt, autoTitleExt, tableWrapperExt],
+  extensions: [...bindingsOverride(), objectExt, noteExt, hatnoteExt, soundCloudPlayerExt, autoTitleExt, tableWrapperExt],
   tables: true,
   ghCompatibleHeaderId: true
 });
@@ -50,9 +50,9 @@ function objectExt() {
       if (line.startsWith('|')) {
         const parts = line.slice(1).split(':');
 
-        if (parts.length == 2) {
+        if (parts.length >= 2) {
           const header = parts[0];
-          const value = parts[1];
+          const value = line.slice(header.length + 2);
 
           output += `<tr><th>${converter.makeHtml(header)}</th><td>${converter.makeHtml(value)}</td></tr>`;
         }
@@ -151,6 +151,20 @@ function hatnoteExt() {
   }
 
   return [hatnote];
+}
+
+function soundCloudPlayerExt() {
+  const soundCloudPlayer = {
+    type: 'lang',
+    filter: function(text, converter) {
+      const regex = /#sc\(([^()]+?)\)/g;
+      return text.replace(regex, (_match, p1, _p2) => {
+        return `<div height="100%" style="display: flex; align-items: center;"><iframe width="100%" height="20" src="https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/${p1}&inverse=false&auto_play=false&show_user=false" frameborder="0" allow="autoplay" title="soundcloud" referrerpolicy="no-referrer" style="filter: invert(1) hue-rotate(225deg);"></iframe></div>`;
+      });
+    }
+  }
+
+  return [soundCloudPlayer];
 }
 
 function autoTitleExt() {

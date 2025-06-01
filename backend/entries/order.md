@@ -15,6 +15,8 @@
 ## Physical description
 | [Species](?entry=species "Species"): Demigod
 | Gender: Male
+## Other
+| Theme: #sc(1855535337)
 })
 
 > I'm gonna kill you now

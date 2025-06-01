@@ -39,8 +39,3 @@
 
 <!-- Put the kingdom's culture here -->
 [culture]
-
-## Trivia
-
-<!-- Add some kingdom trivia here -->
-[trivia]

@@ -15,6 +15,8 @@
 ## Physical description
 | [Species](?entry=species): Caster
 | Gender: Male
+## Other
+| Theme: #sc(305163327)
 })
 
 > You are strong Qatil, yet you are blind to many truths. But know this, my dear, no matter who shuns you or confronts you for what you may destroy, I will always know you were just trying to help.
