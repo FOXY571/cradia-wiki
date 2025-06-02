@@ -8,7 +8,7 @@
 | Relatives: [Möhnət Ikaru](?entry=möhnət-ikaru) (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
 ## Combat
 | [Magic](?entry=magic): Terra <br> Fire
-| Weapon of choice: Sythe
+| Weapon of choice: Scythe
 ## Appearances
 | First appearance: [The Prince's Truth](?entry=the-prince's-truth)
 | Last appearance: [The Prince's Truth](?entry=the-prince's-truth)
