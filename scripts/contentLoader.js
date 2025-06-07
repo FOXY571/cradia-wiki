@@ -6,7 +6,7 @@ const onContentLoaded = new CustomEvent("onContentLoaded");
 
 async function loadContentFromUrl() {
   const entryName = getEntryFromUrl();
-  const contentBody = document.querySelector('.js-content-body');
+  const contentBody = document.getElementById('contentBody');
 
   if (entryName && await entries.contains(entryName)) {
     const text = await entries.getEntry(entryName);

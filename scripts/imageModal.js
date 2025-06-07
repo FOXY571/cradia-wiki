@@ -1,12 +1,16 @@
 function modalInitialization() {
-  const images = Array.from(document.querySelectorAll('.js-content-body img'));
+  const images = Array.from(document.getElementById('contentBody').querySelectorAll('img'));
+  
   const modal = document.getElementById('imageModal');
   const modalImg = document.getElementById('modalImage');
+
   const captionText = document.getElementById('caption');
   const counter = document.getElementById('counter');
-  const closeBtn = document.querySelector('.close');
-  const prevBtn = document.querySelector('.prev');
-  const nextBtn = document.querySelector('.next');
+
+  const closeBtn = document.getElementById('closeButton');
+  const prevBtn = document.getElementById('previousButton');
+  const nextBtn = document.getElementById('nextButton');
+
   const thumbnailStrip = document.getElementById('thumbnailStrip');
 
   let currentIndex = 0;

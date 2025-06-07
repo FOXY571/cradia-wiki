@@ -35,12 +35,12 @@
               </a>
             </li>
             <li>
-              <a class="js-random-page-link panel-link" title="Load a random page">
+              <a id="randomPageLink" class="panel-link" title="Load a random page">
                 <span>Random page</span>
               </a>
             </li>
             <li>
-              <a class="js-help-page-link panel-link" href="?entry=help" title="Get some help">
+              <a class="panel-link" href="?entry=help" title="Get some help">
                 <span>Help</span>
               </a>
             </li>
@@ -67,27 +67,27 @@
       <div class="main-panel wiki-content main-border">
         <div class="header">
           <div class="header-buttons">
-            <div class="js-source-button">
+            <div id="sourceButton" class="source-button">
               <a class="header-link" title="View the page's source">View source</a>
             </div>
           </div>
         </div>
 
         <div class="main-content">
-          <div class="js-content-body content-body"></div>
+          <div id="contentBody" class="content-body"></div>
           <div class="side-spacer"></div>
         </div>
       </div>
     </div>
 
     <div id="imageModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="modalImage">
-      <div id="caption"></div>
-      <div id="counter"></div>
-      <a class="prev">&#10094;</a>
-      <a class="next">&#10095;</a>
-      <div class="thumbnail-strip" id="thumbnailStrip"></div>
+      <span id="closeButton" class="close-button">&times;</span>
+      <img id="modalImage" class="modal-content">
+      <div id="caption" class="caption"></div>
+      <div id="counter" class="counter"></div>
+      <a id="previousButton" class="previous-button">&#10094;</a>
+      <a id="nextButton" class="next-button">&#10095;</a>
+      <div id="thumbnailStrip" class="thumbnail-strip"></div>
     </div>
 
     <footer class="footer">

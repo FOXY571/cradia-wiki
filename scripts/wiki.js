@@ -17,7 +17,7 @@ function pageInitialization() {
     entryName = getEntryFromUrl();
   }
 
-  const sourceButton = document.querySelector('.js-source-button');
+  const sourceButton = document.getElementById('sourceButton');
   const newSourceButton = sourceButton.cloneNode(false);
   sourceButton.parentNode.replaceChild(newSourceButton, sourceButton);
   if (entryName.endsWith('-source')) {
@@ -41,7 +41,7 @@ document.addEventListener('onRouteChanged', () => {
 });
 
 // This may only run once, hence it not being in the pageInitialization function
-document.querySelector('.js-random-page-link')
+document.getElementById('randomPageLink')
   .addEventListener('click', async () => {
     changeRoute(`?entry=${await getRandomEntryName()}`);
   });
