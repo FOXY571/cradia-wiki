@@ -2,6 +2,8 @@ import { getEntryFromUrl } from './navigationHandler.js';
 import * as entries from '../data/entries.js';
 import entryConverter from './formatting/showdownConfiguration.js';
 
+const onContentLoaded = new CustomEvent("onContentLoaded");
+
 async function loadContentFromUrl() {
   const entryName = getEntryFromUrl();
   const contentBody = document.querySelector('.js-content-body');
@@ -37,6 +39,7 @@ async function loadContentFromUrl() {
     `;
   }
 
+  document.dispatchEvent(onContentLoaded);
   scrollToHash(); // Scroll to hashed element when the content is done loading if it exists
 }
 

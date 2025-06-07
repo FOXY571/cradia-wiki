@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/wiki.css">
     <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/image-modal.css">
   </head>
   <body>
     <div class="background"></div>
@@ -79,6 +80,16 @@
       </div>
     </div>
 
+    <div id="imageModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage">
+      <div id="caption"></div>
+      <div id="counter"></div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+      <div class="thumbnail-strip" id="thumbnailStrip"></div>
+    </div>
+
     <footer class="footer">
       <p>
         Website created by
@@ -90,5 +101,6 @@
     <script type="module" src="scripts/formatting/showdownConfiguration.js"></script>
     <script type="module" src="scripts/wiki.js"></script>
     <script type="module" src="scripts/contentLoader.js"></script>
+    <script type="module" src="scripts/imageModal.js"></script>
   </body>
 </html>

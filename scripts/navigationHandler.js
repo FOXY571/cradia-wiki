@@ -5,6 +5,8 @@ export function getEntryFromUrl() {
   return entryName;
 }
 
+const onRouteChanged = new CustomEvent("onRouteChanged");
+
 // This forces a route change and calls event to update everything
 export function changeRoute(href) {
   history.pushState({}, '', href);
@@ -14,8 +16,6 @@ export function changeRoute(href) {
 
   console.log('Changed route to ' + href);
 }
-
-const onRouteChanged = new CustomEvent("onRouteChanged");
 
 // Re-render when links are clicked (if using client-side routing)
 document.body.addEventListener('click', e => {
