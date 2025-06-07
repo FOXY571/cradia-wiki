@@ -1,6 +1,6 @@
 function modalInitialization() {
   const images = Array.from(document.getElementById('contentBody').querySelectorAll('img'));
-  
+
   const modal = document.getElementById('imageModal');
   const modalImg = document.getElementById('modalImage');
 
@@ -12,6 +12,7 @@ function modalInitialization() {
   const nextBtn = document.getElementById('nextButton');
 
   const thumbnailStrip = document.getElementById('thumbnailStrip');
+  thumbnailStrip.innerHTML= '';
 
   let currentIndex = 0;
 
