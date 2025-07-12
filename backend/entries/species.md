@@ -26,7 +26,7 @@ Elves are very similar to humans and pose a lot of the same qualitites as them. 
 
 ### Casters
 
-Casters are a humanoid species that is able to preform [magic](?entry=magic). Casters can be derived from either humans or elves and can also reproduce with them. As a caster becomes more in tune with magic, their blood begins to turn a dark blue. Casters can also live much longer than unmagical species, depending on how in tune they are with magic. Their lifespan can reach as high as thousands of years, however, most don't live this long because of the constant threats they reciece to their life.
+Casters are a humanoid species that is able to preform [magic](?entry=magic). Casters can be derived from either humans, elves, etc and can also reproduce with non-casters. As a caster becomes more in tune with magic, their blood begins to turn a dark blue. Casters can also live much longer than unmagical species, depending on how in tune they are with magic. Their lifespan can reach as high as thousands of years, however, most don't live this long not only because of the constant threats they recieve to their life, but because when reproducing with any species their life span is severely shortened to the point where they'd be lucky to live past their hundreds.
 
 ### Demigods
 
