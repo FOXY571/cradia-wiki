@@ -26,7 +26,7 @@ Elves are very similar to humans and pose a lot of the same qualitites as them. 
 
 ### Casters
 
-Casters are a humanoid species that is able to preform [magic](?entry=magic). Casters can be derived from either humans, elves, etc and can also reproduce with non-casters. As a caster becomes more in tune with magic, their blood begins to turn a dark blue. Casters can also live much longer than unmagical species, depending on how in tune they are with magic. Their lifespan can reach as high as thousands of years, however, most don't live this long not only because of the constant threats they recieve to their life, but because when reproducing with any species their life span is severely shortened to the point where they'd be lucky to live past their hundreds.
+Casters are a species (Humanoid or not) that is able to preform [magic](?entry=magic). Casters can be derived from humans, elves, etc and can also reproduce with non-casters. As a caster becomes more in tune with magic, their blood begins to turn a dark blue. Casters can also live much longer than unmagical species, depending on how in tune they are with magic. Their lifespan can reach as high as thousands of years, however, most don't live this long not only because of the constant threats they recieve to their life, but because when reproducing with any species their life span is severely shortened to the point where they'd be lucky to live past their hundreds.
 
 ### Demigods
 
@@ -34,4 +34,4 @@ Demigods are a mix between a human and a god. Demigods don't age, however they c
 
 ### Gods
 
-Gods are the most powerful humanoid species and exist in a realm above the Cradia universe. They are so powerful that they can perform any type of [magic](?entry=magic) whenever they please, as well as transcend someone to godhood. Their blood color, most likely not red or blue, is unknown as they've never been seen bleeding.
+Gods are the most powerful humanoid species and exist in a realm above the Cradia universe. They are so powerful that they can perform any type of [magic](?entry=magic) whenever they please, as well as transcend someone to godhood. Their blood color, most likely not red or blue, is unknown as they've never been seen bleeding, but it is suggested that it's color relates to their role as a god.
