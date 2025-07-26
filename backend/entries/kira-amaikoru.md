@@ -22,7 +22,7 @@
 
 > You know what hurts about betrayal? It never comes from an enemy.
 >
-> ― [Kira Amaikoru](?entry=kira-amaikoru)
+> ― Kira Amaikoru
 
 **Kira Amaikoru** is established as the acting godly figure in [The Prince's Truth](?entry=the-prince's-truth). Kira once lived in the kingdom of [Canavar](?entry=canavar), though it isn't clearly stated if she was royal or not. The only family member she has that's been mentioned so far is her twin sister who is yet to be named.
 

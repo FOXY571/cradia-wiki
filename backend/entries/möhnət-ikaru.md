@@ -1,6 +1,7 @@
 # Möhnət Ikaru
 
 ({infobox
+![Möhnət Ikaru](backend/images/möhnət-ikaru-1.png)
 # Möhnət Ikaru
 | Name: Möhnət Ikaru
 | Aliases: Mona <br> Queen Möhnət
@@ -15,6 +16,8 @@
 ## Physical description
 | [Species](?entry=species): Caster
 | Gender: Female
+## Other
+| Theme: #sc(455566374)
 })
 
 <!-- A quote is optional for an entry -->
