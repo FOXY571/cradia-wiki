@@ -5,7 +5,7 @@
   --background-color: rgb(67, 67, 67);
 }
 
-body {
+main {
   color: var(--primary-color);
   font-family: Arial, Helvetica, sans-serif;
 

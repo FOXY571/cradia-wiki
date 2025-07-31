@@ -1,81 +1,82 @@
-<script setup>
-</script>
-
 <template>
-<div class="background"></div>
+<main>
+  <div class="background"></div>
 
-<div class="logo">
-  <a href="?entry=home" title="Visit the main page"></a>
-</div>
-
-<div class="content-wrapper">
-  <div class="panels">
-    <div class="panel wiki-content main-border">
-      <p class="panel-label">Navigation</p>
-      <ul class="panel-list">
-        <li>
-          <a class="panel-link" href="?entry=home" title="Visit the main page">
-            <span>Main page</span>
-          </a>
-        </li>
-        <li>
-          <a class="panel-link" href="?entry=all-pages" title="Look at all pages">
-            <span>All pages</span>
-          </a>
-        </li>
-        <li>
-          <a id="randomPageLink" class="panel-link" title="Load a random page">
-            <span>Random page</span>
-          </a>
-        </li>
-        <li>
-          <a class="panel-link" href="?entry=help" title="Get some help">
-            <span>Help</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="panel wiki-content main-border">
-      <p class="panel-label">Books</p>
-      <ul class="panel-list">
-        <li>
-          <a class="panel-link" href="https://docs.google.com/document/d/1SCAqx2TM08QJp9W8waC3sXVsQbn6opX7FLpoLhBMtJM/edit?usp=sharing" target="_blank" title="Read The Prince's Truth">
-            <span>The Prince's Truth</span>
-          </a>
-        </li>
-        <li>
-          <a class="panel-link" href="https://docs.google.com/document/d/1znis8jsUf_rI-8urWsdnmdusVwqlymZG8xuqvJfN74Y/edit?usp=sharing" target="_blank" title="Read Heyvan">
-            <span>Heyvan</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+  <div class="logo">
+    <a href="?entry=home" title="Visit the main page"></a>
   </div>
-  
-  <div class="main-panel wiki-content main-border">
-    <div class="header">
-      <div class="header-buttons">
-        <div id="sourceButton" class="source-button">
-          <a class="header-link" title="View the page's source">View source</a>
-        </div>
+
+  <div class="content-wrapper">
+    <div class="panels">
+      <div class="panel wiki-content main-border">
+        <p class="panel-label">Navigation</p>
+        <ul class="panel-list">
+          <li>
+            <a class="panel-link" href="?entry=home" title="Visit the main page">
+              <span>Main page</span>
+            </a>
+          </li>
+          <li>
+            <a class="panel-link" href="?entry=all-pages" title="Look at all pages">
+              <span>All pages</span>
+            </a>
+          </li>
+          <li>
+            <a id="randomPageLink" class="panel-link" title="Load a random page">
+              <span>Random page</span>
+            </a>
+          </li>
+          <li>
+            <a class="panel-link" href="?entry=help" title="Get some help">
+              <span>Help</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="panel wiki-content main-border">
+        <p class="panel-label">Books</p>
+        <ul class="panel-list">
+          <li>
+            <a class="panel-link" href="https://docs.google.com/document/d/1SCAqx2TM08QJp9W8waC3sXVsQbn6opX7FLpoLhBMtJM/edit?usp=sharing" target="_blank" title="Read The Prince's Truth">
+              <span>The Prince's Truth</span>
+            </a>
+          </li>
+          <li>
+            <a class="panel-link" href="https://docs.google.com/document/d/1znis8jsUf_rI-8urWsdnmdusVwqlymZG8xuqvJfN74Y/edit?usp=sharing" target="_blank" title="Read Heyvan">
+              <span>Heyvan</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
+    
+    <div class="main-panel wiki-content main-border">
+      <div class="header">
+        <div class="header-buttons">
+          <div id="sourceButton" class="source-button">
+            <a class="header-link" title="View the page's source">View source</a>
+          </div>
+        </div>
+      </div>
 
-    <div class="main-content">
-      <div id="contentBody" class="content-body"></div>
-      <div class="side-spacer"></div>
+      <div class="main-content">
+        <div id="contentBody" class="content-body"></div>
+        <div class="side-spacer"></div>
+      </div>
     </div>
   </div>
-</div>
 
-<footer class="footer">
-  <p>
-    Website created by
-    <a class="footer-link" href="https://github.com/FOXY571" target="_blank">Thomas Towson</a>
-  </p>
-</footer>
+  <footer class="footer">
+    <p>
+      Website created by
+      <a class="footer-link" href="https://github.com/FOXY571" target="_blank">Thomas Towson</a>
+    </p>
+  </footer>
+</main>
 </template>
+
+<script setup></script>
 
 <style scoped>
 .background {
