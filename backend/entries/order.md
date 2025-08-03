@@ -35,7 +35,7 @@ Since then, Order has been preparing to stop Kira and return order to the univer
 
 ## Appearance
 
-Order is a tall male with light skin, black eyes, and brown hair. He isn't super muscular and is just slightly toned, however, this doesn't seem to affect his power. Order dresses in dark clothing and doesn't tend to wear shirts, preferring to have his upper body exposed. Order will sometimes wear cloaks to remain conspicuous. Additionally, he doesn't prefer wearing armor or heavy clothing items as he idolizes agility over endurance.
+Order is a tall male with light skin, amber eyes, and black hair. He isn't super muscular and is just slightly toned, however, this doesn't seem to affect his power. Order dresses in dark clothing and doesn't tend to wear shirts, preferring to have his upper body exposed. Order will sometimes wear cloaks to remain conspicuous. Additionally, he doesn't prefer wearing armor or heavy clothing items as he idolizes agility over endurance.
 
 ## Personality
 
