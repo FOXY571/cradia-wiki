@@ -1,106 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
   <head>
-    <title>Cradia Wiki</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="icon" href="images/favicon.png">
-
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/wiki.css">
-    <link rel="stylesheet" href="styles/content.css">
-    <link rel="stylesheet" href="styles/image-modal.css">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
   </head>
   <body>
-    <div class="background"></div>
-
-    <div class="logo">
-      <a href="?entry=home" title="Visit the main page"></a>
-    </div>
-
-    <div class="content-wrapper">
-      <div class="panels">
-        <div class="panel wiki-content main-border">
-          <p class="panel-label">Navigation</p>
-          <ul class="panel-list">
-            <li>
-              <a class="panel-link" href="?entry=home" title="Visit the main page">
-                <span>Main page</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-link" href="?entry=all-pages" title="Look at all pages">
-                <span>All pages</span>
-              </a>
-            </li>
-            <li>
-              <a id="randomPageLink" class="panel-link" title="Load a random page">
-                <span>Random page</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-link" href="?entry=help" title="Get some help">
-                <span>Help</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="panel wiki-content main-border">
-          <p class="panel-label">Books</p>
-          <ul class="panel-list">
-            <li>
-              <a class="panel-link" href="https://docs.google.com/document/d/1SCAqx2TM08QJp9W8waC3sXVsQbn6opX7FLpoLhBMtJM/edit?usp=sharing" target="_blank" title="Read The Prince's Truth">
-                <span>The Prince's Truth</span>
-              </a>
-            </li>
-            <li>
-              <a class="panel-link" href="https://docs.google.com/document/d/1znis8jsUf_rI-8urWsdnmdusVwqlymZG8xuqvJfN74Y/edit?usp=sharing" target="_blank" title="Read Heyvan">
-                <span>Heyvan</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="main-panel wiki-content main-border">
-        <div class="header">
-          <div class="header-buttons">
-            <div id="sourceButton" class="source-button">
-              <a class="header-link" title="View the page's source">View source</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="main-content">
-          <div id="contentBody" class="content-body"></div>
-          <div class="side-spacer"></div>
-        </div>
-      </div>
-    </div>
-
-    <div id="imageModal" class="modal">
-      <span id="closeButton" class="close-button">&times;</span>
-      <img id="modalImage" class="modal-content">
-      <div id="caption" class="caption"></div>
-      <div id="counter" class="counter"></div>
-      <a id="previousButton" class="previous-button">&#10094;</a>
-      <a id="nextButton" class="next-button">&#10095;</a>
-      <div id="thumbnailStrip" class="thumbnail-strip"></div>
-    </div>
-
-    <footer class="footer">
-      <p>
-        Website created by
-        <a class="footer-link" href="https://github.com/FOXY571" target="_blank">Thomas Towson</a>
-      </p>
-    </footer>
-
-    <script src="scripts/formatting/showdown.js"></script>
-    <script type="module" src="scripts/formatting/showdownConfiguration.js"></script>
-    <script type="module" src="scripts/wiki.js"></script>
-    <script type="module" src="scripts/contentLoader.js"></script>
-    <script type="module" src="scripts/imageModal.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
