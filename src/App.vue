@@ -3,7 +3,7 @@
 
   <div class="app-container">
     <div class="logo">
-      <a title="Visit the main page"></a>
+      <a title="Visit the main page" href="/"></a>
     </div>
 
     <div class="content-wrapper">
@@ -11,17 +11,27 @@
         <SidePanel
           label="Navigation"
           :items="[
-            { label: 'Main page', toolTip: 'Visit the main page' },
-            { label: 'All pages', toolTip: 'Look at all pages' },
-            { label: 'Random page', toolTip: 'Load a random page' },
-            { label: 'Help', toolTip: 'Get some help' },
+            { label: 'Main page', toolTip: 'Visit the main page', href: '/' },
+            { label: 'All pages', toolTip: 'Look at all pages', href: '/all-pages' },
+            { label: 'Random page', toolTip: 'Load a random page', href: '/random-page' },
+            { label: 'Help', toolTip: 'Get some help', href: '/help' },
           ]"
         />
         <SidePanel
           label="Books"
           :items="[
-            { label: 'The Prince\'s truth', toolTip: 'Read The Prince\'s Truth' },
-            { label: 'Heyvan', toolTip: 'Read Heyvan' },
+            {
+              label: 'The Prince\'s truth',
+              toolTip: 'Read The Prince\'s Truth',
+              href: 'https://docs.google.com/document/d/1SCAqx2TM08QJp9W8waC3sXVsQbn6opX7FLpoLhBMtJM/edit?usp=sharing',
+              newTab: true,
+            },
+            {
+              label: 'Heyvan',
+              toolTip: 'Read Heyvan',
+              href: 'https://docs.google.com/document/d/1znis8jsUf_rI-8urWsdnmdusVwqlymZG8xuqvJfN74Y/edit?usp=sharing',
+              newTab: true,
+            },
           ]"
         />
       </div>

@@ -3,7 +3,12 @@
     <p class="panel-label" v-if="label">{{ label }}</p>
     <ul class="panel-list">
       <li v-for="(item, index) in items" :key="index">
-        <a class="panel-link" :title="item.toolTip">
+        <a
+          class="panel-link"
+          :title="item.toolTip"
+          :href="item.href"
+          :target="item.newTab ? '_blank' : '_self'"
+        >
           <span>{{ item.label }}</span>
         </a>
       </li>
