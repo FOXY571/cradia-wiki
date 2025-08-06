@@ -2,7 +2,7 @@
 
 ({infobox
 # Chaos Orb
-![Chaos Orb](backend/images/chaos-orb-1.png)
+![Chaos Orb](src/content/images/chaos-orb-1.png)
 | First appearance: [The Prince's Truth](/the-prince's-truth)
 | Last appearance: [Heyvan](/heyvan-(book))
 })

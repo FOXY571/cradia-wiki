@@ -1,4 +1,4 @@
-import entryHandler from '../util/entryHandler'
+import entryHandler from '../entryHandler'
 
 const { formatEntryName } = entryHandler()
 

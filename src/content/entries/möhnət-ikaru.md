@@ -1,7 +1,7 @@
 # Möhnət Ikaru
 
 ({infobox
-![Möhnət Ikaru](backend/images/möhnət-ikaru-1.png)
+![Möhnət Ikaru](src/content/images/möhnət-ikaru-1.png)
 # Möhnət Ikaru
 | Name: Möhnət Ikaru
 | Aliases: Mona <br> Queen Möhnət
