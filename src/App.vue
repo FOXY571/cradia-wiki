@@ -28,7 +28,9 @@
 
       <div class="main-panel panel primary-border">
         <div class="main-content">
-          <div class="content-body"></div>
+          <div class="content-body">
+            <RouterView />
+          </div>
           <div class="side-spacer"></div>
         </div>
       </div>
@@ -39,6 +41,8 @@
 </template>
 
 <script setup>
+import { RouterView } from 'vue-router'
+
 import SidePanel from './components/SidePanel.vue'
 import PageFooter from './components/PageFooter.vue'
 </script>
