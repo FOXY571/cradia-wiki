@@ -20,6 +20,10 @@ const contentLoader = () => {
       `
     }
 
+    if (entryName !== 'home') {
+      document.title = `${formatEntryName(entryName)} - Cradia Wiki`
+    }
+
     const text = await getEntry(entryName)
     return entryConverter.makeHtml(text)
   }
