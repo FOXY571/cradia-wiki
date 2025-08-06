@@ -1,4 +1,5 @@
-import entriesHandler from '../util/entryHandler.js'
+import entriesHandler from '../util/entryHandler'
+import entryConverter from './entryConverter'
 
 const { getEntry, entryExists, formatEntryName } = entriesHandler()
 
@@ -13,12 +14,13 @@ const contentLoader = () => {
           It looks like you steered off course! Unfortunately, there is no entry for <i>${formatEntryName(entryName)}</i> :(
         </p>
         <p>
-          Please click <a href="?entry=home" title="Home">here</a> to go back to safety.
+          Please click <a title="Home" href="/">here</a> to go back to safety.
         </p>
       `
     }
 
-    return await getEntry(entryName)
+    const text = await getEntry(entryName)
+    return entryConverter.makeHtml(text)
   }
 
   return {
