@@ -13,7 +13,11 @@
           :items="[
             { label: 'Main page', toolTip: 'Visit the main page', href: '/' },
             { label: 'All pages', toolTip: 'Look at all pages', href: '/all-pages' },
-            { label: 'Random page', toolTip: 'Load a random page', href: '/random-page' },
+            {
+              label: 'Random page',
+              toolTip: 'Load a random page',
+              href: `/${getRandomEntryName()}`,
+            },
             { label: 'Help', toolTip: 'Get some help', href: '/help' },
           ]"
         />
@@ -52,9 +56,12 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
+import entryHandler from './util/entryHandler.js'
 
 import SidePanel from './components/SidePanel.vue'
 import PageFooter from './components/PageFooter.vue'
+
+const { getRandomEntryName } = entryHandler()
 </script>
 
 <style scoped>
