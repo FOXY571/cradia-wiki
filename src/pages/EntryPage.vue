@@ -1,21 +1,18 @@
 <template>
-  <VueShowdown class="entry-content" :markdown="entryContent" :extensions="showdownExtensions" />
+  <div class="entry-content" v-html="entryContent"></div>
 </template>
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import contentLoader from '../util/contentLoader'
-import showdownExtensions from '../util/showdown-extensions'
-
-import { VueShowdown } from 'vue-showdown'
 
 const { loadContentFromRoute } = contentLoader()
 
 const route = useRoute()
 const entryContent = ref('')
 
-onMounted(async () => {
+const loadEntry = async () => {
   entryContent.value = await loadContentFromRoute(route)
 
   await nextTick()
@@ -25,7 +22,9 @@ onMounted(async () => {
     const element = document.getElementById(id)
     if (element) element.scrollIntoView()
   }
-})
+}
+
+onMounted(loadEntry)
 </script>
 
 <style>

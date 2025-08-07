@@ -78,7 +78,7 @@ watch(
   (newPath) => {
     if (newPath === '/home') router.replace('/')
   },
-  { immediate: true },
+  { immediate: true }
 )
 </script>
 
