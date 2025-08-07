@@ -54,6 +54,8 @@
 
     <PageFooter />
   </div>
+
+  <ImageModal />
 </template>
 
 <script setup>
@@ -62,6 +64,7 @@ import { RouterView, useRoute, useRouter } from 'vue-router'
 import entryHandler from './util/entryHandler.js'
 
 import SidePanel from './components/SidePanel.vue'
+import ImageModal from './components/ImageModal.vue'
 import PageFooter from './components/PageFooter.vue'
 
 const { getRandomEntryName } = entryHandler()
