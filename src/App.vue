@@ -41,6 +41,8 @@
       </div>
 
       <div class="main-panel panel primary-border">
+        <div class="panel-header"></div>
+
         <div class="main-content">
           <div class="content-body">
             <RouterView />

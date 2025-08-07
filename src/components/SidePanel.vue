@@ -1,6 +1,6 @@
 <template>
   <div class="side-panel panel primary-border">
-    <p class="panel-label" v-if="label">{{ label }}</p>
+    <div class="panel-header" v-if="label">{{ label }}</div>
     <ul class="panel-list">
       <li v-for="(item, index) in items" :key="index">
         <a
@@ -35,21 +35,6 @@ defineProps({
 
   width: 200px;
   height: min-content;
-}
-
-.panel-label {
-  background-color: rgba(0, 0, 0, 0.15);
-
-  border-color: rgb(20, 20, 20);
-  border-style: solid;
-  border-width: 0 0 1px 0;
-  border-radius: 5px 5px 0 0;
-
-  font-size: 17px;
-  line-height: 10px;
-
-  margin: 0;
-  padding: 10px;
 }
 
 .panel-list {
