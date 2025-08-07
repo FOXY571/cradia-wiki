@@ -1,5 +1,4 @@
 import entriesHandler from '../util/entryHandler'
-import entryConverter from './entryConverter'
 
 const { getEntry, entryExists, formatEntryName } = entriesHandler()
 
@@ -24,8 +23,7 @@ const contentLoader = () => {
       document.title = `${formatEntryName(entryName)} - Cradia Wiki`
     }
 
-    const text = await getEntry(entryName)
-    return entryConverter.makeHtml(text)
+    return await getEntry(entryName)
   }
 
   return {
