@@ -1,4 +1,4 @@
-const entries = import.meta.glob('../content/entries/*.md', { as: 'raw' })
+const entries = import.meta.glob('../content/entries/*.md', { query: '?raw', import: 'default' })
 
 const entryHandler = () => {
   const getEntry = async (entryName) => {
