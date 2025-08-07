@@ -30,7 +30,7 @@ Casters are a species (Humanoid or not) that are able to preform [magic](/magic)
 
 ### Demigods
 
-Demigods are a mix between a human and a god. Demigods don't age, however they can be killed. Demigods can not be born and can only be created when a god is ripped of their godhood. Demigods are very powerful and can be as powerful as some gods. They are also very in tune with [magic](/magic), which is the reason for their ability to not age. Demigods are able to practice any type of magic, including divine magic, other than [creation magic](/magic), and have the ability to easily change their type of magic used with enough practice. Because of how in tune with magic demigods are, their blood is a dark purple instead of a dark blue. Currently, the only demigod that exists is [Order](/order).
+Demigods are a mix between a human and a god. Demigods don't age, however they can be killed. Demigods can not be born and can only be created when a god is ripped of their godhood. Demigods are very powerful and can be as powerful as some gods. They are also very in tune with [magic](/magic), which is the reason for their ability to not age. Demigods are able to practice any type of magic, including divine magic, other than [creation magic](/magic#divine-magic), and have the ability to easily change their type of magic used with enough practice. Because of how in tune with magic demigods are, their blood is a dark purple instead of a dark blue. Currently, the only demigod that exists is [Order](/order).
 
 ### Gods
 

@@ -55,7 +55,7 @@ Kira never displayed an apptitude for general combat and was always more proficc
 
 ### Creation Magic
 
-Kira has been described to have used [creation magic](/magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](/magic) has not been described much it was shown at a much greater scale when [Order](/order) created the universe, thus implying Kira could do the same.
+Kira has been described to have used [creation magic](/magic#divine-magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](/magic) has not been described much it was shown at a much greater scale when [Order](/order) created the universe, thus implying Kira could do the same.
 
 ### Dreamwalking
 
@@ -75,7 +75,7 @@ While Kira was never shown physically flying she has done it many times in the d
 
 ### Magic Bestowal
 
-Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield [fire magic](/magic). Thus it is also implied she can just as easily take it away.
+Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield [fire magic](/magic#divine-magic). Thus it is also implied she can just as easily take it away.
 
 ### Omniscience
 
@@ -91,5 +91,5 @@ Kira is able to give people any magic she wishes, for example she gave Qatil the
 
 ## Trivia
 
-* Kira despises being a [god](/species).
+* Kira despises being a [god](/species#gods).
 * Kira thinks of [Qatil](/qatil-ikaru) as a son, due to his soul being made out of a piece of hers.

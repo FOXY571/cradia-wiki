@@ -45,7 +45,7 @@ In part 1 she adorns a maid dress, being the usual black gown accented with whit
 
 ## Personality
 
-Ümid is a quirky character as at a young age she always seemed aloof in many situations. In her later years, she wasn't exactly the brightest, however, her love and fascination for magic never dimmed. Due to her friendship with [Qatil Ikaru](/qatil-ikaru), she was able to learn [healing magic](/magic), but this choice wasn't a random one; it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia. This desire eventually blossomed into attraction and admiration towards Qatil.
+Ümid is a quirky character as at a young age she always seemed aloof in many situations. In her later years, she wasn't exactly the brightest, however, her love and fascination for magic never dimmed. Due to her friendship with [Qatil Ikaru](/qatil-ikaru), she was able to learn [healing magic](/magic#core-magic), but this choice wasn't a random one; it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia. This desire eventually blossomed into attraction and admiration towards Qatil.
 
 ## Combat & Magic
 

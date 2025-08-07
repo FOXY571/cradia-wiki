@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import contentLoader from '../util/contentLoader'
 
@@ -12,9 +12,19 @@ const { loadContentFromRoute } = contentLoader()
 const route = useRoute()
 const entryContent = ref('')
 
-onMounted(async () => {
+const loadEntry = async () => {
   entryContent.value = await loadContentFromRoute(route)
-})
+
+  await nextTick()
+
+  if (route.hash) {
+    const id = decodeURIComponent(route.hash.slice(1))
+    const element = document.getElementById(id)
+    if (element) element.scrollIntoView()
+  }
+}
+
+onMounted(loadEntry)
 </script>
 
 <style>
