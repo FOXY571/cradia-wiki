@@ -1,8 +1,8 @@
-const entries = import.meta.glob('../content/entries/*.md', { query: '?raw', import: 'default' })
+const entries = import.meta.glob('../entries/*.md', { query: '?raw', import: 'default' })
 
 const entryHandler = () => {
   const getEntry = async (entryName) => {
-    const entry = entries[`../content/entries/${entryName}.md`]
+    const entry = entries[`../entries/${entryName}.md`]
     if (!entry) throw new Error(`Entry "${entryName}" does not exist.`)
 
     console.log(`Fetched ${entryName} entry successfully`)
@@ -18,7 +18,7 @@ const entryHandler = () => {
   }
 
   const entryExists = (entryName) => {
-    return Object.keys(entries).includes(`../content/entries/${entryName}.md`)
+    return Object.keys(entries).includes(`../entries/${entryName}.md`)
   }
 
   const formatEntryName = (entryName) => {
