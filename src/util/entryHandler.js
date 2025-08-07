@@ -5,6 +5,7 @@ const entryHandler = () => {
     const entry = entries[`../content/entries/${entryName}.md`]
     if (!entry) throw new Error(`Entry "${entryName}" does not exist.`)
 
+    console.log(`Fetched ${entryName} entry successfully`)
     return await entry()
   }
 
