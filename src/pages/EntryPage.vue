@@ -1,5 +1,10 @@
 <template>
-  <VueShowdown :markdown="entryContent" :extensions="showdownExtensions" />
+  <VueShowdown
+    :markdown="entryContent"
+    :extensions="showdownExtensions"
+    vue-template
+    :vue-template-components="entryComponents"
+  />
 </template>
 
 <script setup>
@@ -9,6 +14,7 @@ import contentLoader from '../util/contentLoader'
 import showdownExtensions from '../util/showdown-extensions'
 
 import { VueShowdown } from 'vue-showdown'
+import entryComponents from '../components/entry-components'
 
 const { loadContentFromRoute } = contentLoader()
 

@@ -1,32 +1,37 @@
+import showdownHelper from '../showdownHelper'
+
+const { convertSingleLine, escapeQuotes } = showdownHelper()
+
 const note = () => {
   const note = {
     type: 'lang',
     filter: function (text, converter) {
-      const regex = /:::(note):::(.*?):::/gs
-      return text.replace(regex, (_match, _p1, p2) => {
-        return makeNote('note', p2, converter)
+      const regex = /\({(.*?)}\)/gs
+      return text.replace(regex, (_match, p1) => {
+        const args = p1
+          .trim()
+          .split('|')
+          .map((arg) => arg.trim())
+
+        const [type, label, text] = args
+        return makeNote(
+          escapeQuotes(convertSingleLine(label || '', converter)),
+          escapeQuotes(convertSingleLine(text || '', converter)),
+          type,
+        )
       })
     },
   }
 
-  const warning = {
-    type: 'lang',
-    filter: function (text, converter) {
-      const regex = /:::(warning):::(.*?):::/gs
-      return text.replace(regex, (_match, _p1, p2) => {
-        return makeNote('warning', p2, converter)
-      })
-    },
+  const makeNote = (label, text, type) => {
+    return `<NoteBlock
+      label="${label}"
+      text="${text}"
+      type="${type}"
+    />`
   }
 
-  const makeNote = (type, text, converter) => {
-    let output = `<div class="${type}"><div>${converter.makeHtml(text)}</div></div>`
-    output = output.replace(/<p>/g, '<span>')
-    output = output.replace(/<\/p>/g, '</span>')
-    return output
-  }
-
-  return [note, warning]
+  return [note]
 }
 
 export default note

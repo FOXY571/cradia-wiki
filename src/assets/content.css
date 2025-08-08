@@ -225,48 +225,6 @@
   padding: 10px 0;
 }
 
-/* Note & Warning */
-.note,
-.warning {
-  color: black;
-
-  display: flex;
-  align-items: center;
-  justify-self: center;
-
-  width: 90%;
-  padding: 0.4em 0.8em;
-  margin-bottom: 1em;
-}
-
-.note {
-  background-color: rgb(143, 175, 236);
-  border-left: 4px solid cornflowerblue;
-}
-
-.warning {
-  background-color: rgb(175, 0, 0);
-  border-left: 4px solid darkred;
-}
-
-.note span,
-.wanring span {
-  display: block;
-}
-
-.warning::before {
-  content: '';
-
-  background-image: url('../assets/images/warning-icon.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50%;
-
-  width: 2.5em;
-  height: 2.5em;
-  margin-right: 1em;
-}
-
 /* Hatnote */
 .hatnote {
   font-style: italic;

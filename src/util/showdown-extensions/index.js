@@ -1,4 +1,4 @@
-import object from './object'
+//import object from './object'
 import note from './note'
 import hatnote from './hatnote'
 import soundCloudPlayer from './soundCloudPlayer'
@@ -19,12 +19,4 @@ const bindingsOverride = () => {
   return bindings
 }
 
-export default [
-  ...bindingsOverride(),
-  object,
-  note,
-  hatnote,
-  soundCloudPlayer,
-  autoTitleLink,
-  tableWrapper,
-]
+export default [...bindingsOverride(), note, hatnote, soundCloudPlayer, autoTitleLink, tableWrapper]
