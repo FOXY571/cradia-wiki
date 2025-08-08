@@ -1,11 +1,14 @@
 <template>
-  <div v-html="entryContent"></div>
+  <VueShowdown :markdown="entryContent" :extensions="showdownExtensions" />
 </template>
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import contentLoader from '../util/contentLoader'
+import showdownExtensions from '../util/showdown-extensions'
+
+import { VueShowdown } from 'vue-showdown'
 
 const { loadContentFromRoute } = contentLoader()
 

@@ -1,5 +1,4 @@
 import entriesHandler from '../util/entryHandler'
-import entryConverter from './entryConverter'
 
 const { getEntry, entryExists, formatEntryName } = entriesHandler()
 
@@ -9,23 +8,14 @@ const contentLoader = () => {
     const entryName = decodeURIComponent(route.path.split('/').pop() || 'home')
 
     if (!entryExists(entryName)) {
-      return `
-        <h1>404</h1>
-        <p>
-          It looks like you steered off course! Unfortunately, there is no entry for <i>${formatEntryName(entryName)}</i> :(
-        </p>
-        <p>
-          Please click <a title="Home" href="/">here</a> to go back to safety.
-        </p>
-      `
+      return `<h1 id="404">404</h1><p>It looks like you steered off course! Unfortunately, there is no entry for <i>${formatEntryName(entryName)}</i> :(</p><p>Please click <a title="Home" href="/">here</a> to go back to safety.</p>`
     }
 
     if (entryName !== 'home') {
       document.title = `${formatEntryName(entryName)} - Cradia Wiki`
     }
 
-    const text = await getEntry(entryName)
-    return entryConverter.makeHtml(text)
+    return await getEntry(entryName)
   }
 
   return {
