@@ -24,8 +24,6 @@
 .footer-link {
   color: var(--primary-color);
   text-decoration: none;
-
-  padding-left: 0.25rem;
 }
 
 .footer-link:hover {
