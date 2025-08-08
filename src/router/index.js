@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'entry',
       component: EntryPage,
     },
+    {
+      path: '/all-pages',
+      name: 'all-pages',
+      component: () => import('../pages/AllPagesPage.vue'),
+    },
   ],
 })
 

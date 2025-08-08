@@ -1,6 +1,11 @@
 const entries = import.meta.glob('../entries/*.md', { query: '?raw', import: 'default' })
 
 const entryHandler = () => {
+  const getAllEntryNames = () => {
+    const entryPaths = Object.keys(entries)
+    return entryPaths.map((path) => extractNameFromPath(path))
+  }
+
   const getEntry = async (entryName) => {
     const entry = entries[`../entries/${entryName}.md`]
     if (!entry) throw new Error(`Entry "${entryName}" does not exist.`)
@@ -43,6 +48,7 @@ const entryHandler = () => {
   }
 
   return {
+    getAllEntryNames,
     getEntry,
     getRandomEntryName,
     entryExists,

@@ -44,7 +44,7 @@
         <div class="panel-header"></div>
 
         <div class="main-content">
-          <div class="content-body">
+          <div class="content-body entry-content">
             <RouterView />
           </div>
           <div class="side-spacer"></div>
@@ -78,7 +78,7 @@ watch(
   (newPath) => {
     if (newPath === '/home') router.replace('/')
   },
-  { immediate: true }
+  { immediate: true },
 )
 </script>
 
