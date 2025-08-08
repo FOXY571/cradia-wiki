@@ -2,6 +2,7 @@
 
 ({infobox
 # Qatil Ikaru
+![Qatil Ikaru](images/qatil-ikaru-1.png)
 | Name: Qatil Ikaru
 | Aliases: None
 | Kingdom of Origin: [Ikarye](/ikarye)

@@ -52,6 +52,11 @@ In part one of [The Prince's Truth](/the-prince's-truth) Möhnət looks nearly i
 <!-- Describe the character's personlity here -->
 [personaility]
 
+({figure
+![Möhnət using her water magic](images/möhnət-ikaru-2.png)
+Möhnət using her [water magic](/magic#core-magic)
+})
+
 ## Combat & Magic
 
 <!-- Describe the character's combat and magic skills here -->
