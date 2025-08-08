@@ -1,6 +1,6 @@
 # Heyvan Sow
 
-:: For the book, see [Heyvan (Book)](/heyvan-(book)).
+-# For the book, see [Heyvan (Book)](/heyvan-(book)).
 
 ({infobox
 # Heyvan Sow
