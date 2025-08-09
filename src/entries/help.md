@@ -1,6 +1,6 @@
 # Help
 
-:: Welcome to the Cradia Wiki! Below are many topics that can help you if you get stuck.
+-# Welcome to the Cradia Wiki! Below are many topics that can help you if you get stuck.
 
 ## Navigation
 
