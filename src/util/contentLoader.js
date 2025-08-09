@@ -25,7 +25,7 @@ const contentLoader = () => {
     }
 
     const text = await getEntry(entryName)
-    return entryConverter.makeHtml(text)
+    return entryConverter.render(text)
   }
 
   return {
