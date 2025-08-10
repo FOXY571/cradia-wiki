@@ -1,12 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import entryHandler from '../util/entryHandler'
+import EntryPage from '../pages/EntryPage.vue'
 
 const { getAllEntryNames } = entryHandler()
 
 const entryRoutes = getAllEntryNames().map((name) => ({
-  path: `/${name}`,
+  path: `/${encodeURIComponent(name)}`,
   name: `entry-${name}`,
-  component: () => import('../pages/EntryPage.vue'),
+  component: EntryPage,
+  props: () => ({ entryName: name }),
 }))
 
 const router = createRouter({
@@ -15,7 +17,8 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('../pages/EntryPage.vue'),
+      component: EntryPage,
+      props: () => ({ entryName: 'home' }),
     },
     {
       path: '/all-pages',

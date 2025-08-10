@@ -1,19 +1,37 @@
 <template>
-  <div v-html="entryContent"></div>
+  <div v-if="entryContent" v-html="entryContent"></div>
+  <div v-else>Loading...</div>
 </template>
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
-import contentLoader from '../util/contentLoader'
+import entriesHandler from '../util/entryHandler'
+import entryConverter from '../util/entryConverter'
 
-const { loadContentFromRoute } = contentLoader()
+const { getEntry, formatEntryName } = entriesHandler()
 
 const route = useRoute()
 const entryContent = ref('')
 
-const loadEntry = async () => {
-  entryContent.value = await loadContentFromRoute(route)
+const loadEntry = async (entryName) => {
+  const entry = await getEntry(entryName)
+  entryContent.value = entryConverter.makeHtml(entry)
+}
+
+const props = defineProps({
+  entryName: {
+    type: String,
+    required: true,
+  },
+})
+
+onMounted(async () => {
+  await loadEntry(props.entryName)
+
+  if (props.entryName !== 'home') {
+    document.title = `${formatEntryName(props.entryName)} - Cradia Wiki`
+  }
 
   await nextTick()
 
@@ -22,9 +40,7 @@ const loadEntry = async () => {
     const element = document.getElementById(id)
     if (element) element.scrollIntoView()
   }
-}
-
-onMounted(loadEntry)
+})
 </script>
 
 <style scoped></style>
