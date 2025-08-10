@@ -12,11 +12,15 @@
 <script setup>
 import { useRoute } from 'vue-router'
 import entryHandler from '../utils/entryHandler'
+import titleHandler from '../utils/titleHandler'
 
 const route = useRoute()
 const { formatEntryName } = entryHandler()
+const { setTitle } = titleHandler()
 
 const entryName = decodeURIComponent(route.path.split('/').pop() || 'home')
+
+setTitle(formatEntryName(entryName))
 </script>
 
 <style scoped></style>

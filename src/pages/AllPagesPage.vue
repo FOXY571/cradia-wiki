@@ -14,8 +14,12 @@
 
 <script setup>
 import entryHandler from '../utils/entryHandler'
+import titleHandler from '../utils/titleHandler'
 
 const { getAllEntryNames, formatEntryName } = entryHandler()
+const { setTitle } = titleHandler()
+
+setTitle('All Pages')
 </script>
 
 <style scoped></style>

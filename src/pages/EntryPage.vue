@@ -8,8 +8,10 @@ import { ref, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 import entriesHandler from '../utils/entryHandler'
 import entryConverter from '../utils/entryConverter'
+import titleHandler from '../utils/titleHandler'
 
 const { getEntry, formatEntryName } = entriesHandler()
+const { setTitle } = titleHandler()
 
 const route = useRoute()
 const entryContent = ref('')
@@ -30,7 +32,7 @@ onMounted(async () => {
   await loadEntry(props.entryName)
 
   if (props.entryName !== 'home') {
-    document.title = `${formatEntryName(props.entryName)} - Cradia Wiki`
+    setTitle(formatEntryName(props.entryName))
   }
 
   await nextTick()
