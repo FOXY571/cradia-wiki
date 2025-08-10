@@ -11,7 +11,7 @@
 
 <script setup>
 import { useRoute } from 'vue-router'
-import entryHandler from '../util/entryHandler'
+import entryHandler from '../utils/entryHandler'
 
 const route = useRoute()
 const { formatEntryName } = entryHandler()

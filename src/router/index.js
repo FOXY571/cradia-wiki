@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import entryHandler from '../util/entryHandler'
+import entryHandler from '../utils/entryHandler'
 import EntryPage from '../pages/EntryPage.vue'
 
 const { getAllEntryNames } = entryHandler()

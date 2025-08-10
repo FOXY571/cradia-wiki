@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import entryHandler from '../util/entryHandler'
+import entryHandler from '../utils/entryHandler'
 
 const { getAllEntryNames, formatEntryName } = entryHandler()
 </script>

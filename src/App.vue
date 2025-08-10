@@ -61,7 +61,7 @@
 <script setup>
 import { watch } from 'vue'
 import { RouterView, useRoute, useRouter } from 'vue-router'
-import entryHandler from './util/entryHandler.js'
+import entryHandler from './utils/entryHandler'
 
 import SidePanel from './components/SidePanel.vue'
 import ImageModal from './components/ImageModal.vue'

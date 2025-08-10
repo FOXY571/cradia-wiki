@@ -22,10 +22,6 @@ const entryHandler = () => {
     return extractNameFromPath(randomPath)
   }
 
-  const entryExists = (entryName) => {
-    return Object.keys(entries).includes(`../entries/${entryName}.md`)
-  }
-
   const formatEntryName = (entryName) => {
     let formattedName = entryName
       .replace(/-/g, ' ')
@@ -51,7 +47,6 @@ const entryHandler = () => {
     getAllEntryNames,
     getEntry,
     getRandomEntryName,
-    entryExists,
     formatEntryName,
   }
 }

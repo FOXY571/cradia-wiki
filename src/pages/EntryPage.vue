@@ -6,8 +6,8 @@
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
-import entriesHandler from '../util/entryHandler'
-import entryConverter from '../util/entryConverter'
+import entriesHandler from '../utils/entryHandler'
+import entryConverter from '../utils/entryConverter'
 
 const { getEntry, formatEntryName } = entriesHandler()
 
