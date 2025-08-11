@@ -11,7 +11,7 @@ Humanoid species are species that derive from or resemble humans. These species 
 This table shows the hierarchy of humanoid species.
 
 |Level |Species |Description
-|:--: |:--:
+|:--: |:--: |:--:
 |Divine |God <br> Demigod |Are some of the most powerful species.
 |Magical |Caster |Have the ability to practice [magic](/magic).
 |Unmagical |Human <br> Elf |Are not magical biologically.

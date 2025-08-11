@@ -10,7 +10,7 @@ Core magic is the most basic type of magic, yet that doesn't make it any worse t
 
 A [caster](/species#casters) is able to choose any core magic that they wish to learn. They can also switch their chosen magic, but it becomes near impossible to do so when a they have gained a lot of experience it.
 
-| Magic | Description | Owning Characters 
+|Magic |Description |Owning Characters
 |:--: |:--: |:--:
 |Terra |Terra magic can be used to move and shape elements of the ground. This includes dirt, rock, sand, and gravel. |[Qatil Ikaru](/qatil-ikaru)
 |Air |Air magic can be used to move air. In theory, air magic can be used to make someone fly as well as propell most objects. |Samara Minarai
