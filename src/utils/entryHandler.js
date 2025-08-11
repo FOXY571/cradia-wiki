@@ -7,11 +7,8 @@ const entryHandler = () => {
   }
 
   const getEntry = async (entryName) => {
-    const entry = entries[`../entries/${entryName}.md`]
-    if (!entry) throw new Error(`Entry "${entryName}" does not exist.`)
-
-    console.log(`Fetched ${entryName} entry successfully`)
-    return await entry()
+    const module = await import(`../entries/${entryName}.md`)
+    return module.default
   }
 
   const getRandomEntryName = () => {

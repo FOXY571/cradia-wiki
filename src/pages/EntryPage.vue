@@ -1,24 +1,22 @@
 <template>
-  <div v-if="entryContent" v-html="entryContent"></div>
+  <component :is="entryContent" v-if="entryContent" />
   <div v-else>Loading...</div>
 </template>
 
 <script setup>
-import { ref, onMounted, nextTick } from 'vue'
+import { onMounted, nextTick, shallowRef } from 'vue'
 import { useRoute } from 'vue-router'
 import entriesHandler from '../utils/entryHandler'
-import entryConverter from '../utils/entryConverter'
 import titleHandler from '../utils/titleHandler'
 
 const { getEntry, formatEntryName } = entriesHandler()
 const { setTitle } = titleHandler()
 
 const route = useRoute()
-const entryContent = ref('')
+const entryContent = shallowRef('')
 
 const loadEntry = async (entryName) => {
-  const entry = await getEntry(entryName)
-  entryContent.value = entryConverter.makeHtml(entry)
+  entryContent.value = await getEntry(entryName)
 }
 
 const props = defineProps({
