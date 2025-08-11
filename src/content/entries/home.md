@@ -20,36 +20,46 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
 
 ## Current Pages
 
-({linkbox
-# Books
-[The Prince's Truth](/the-prince's-truth)
-[Heyvan (Book)](/heyvan-(book))
-})
+<LinkBox
+  label="Books"
+  :links="[
+    'the-prince\'s-truth',
+    'heyvan-(book)',
+  ]"
+/>
 
-({linkbox
-# Kingdoms
-[Ikarye](/ikarye)
-[Canavar](/canavar)
-})
+<LinkBox
+  label="Kingdoms"
+  :links="[
+    'ikarye',
+    'canavar',
+  ]"
+/>
 
-({linkbox
-# Characters
-[Qatil Ikaru](/qatil-ikaru)
-[Heyvan Sow](/heyvan-sow)
-[Kira Amaikoru](/kira-amaikoru)
-[Order](/order)
-[Ümid](/ümid)
-[Möhnət Ikaru](/möhnət-ikaru)
-})
+<LinkBox
+  label="Characters"
+  :links="[
+    'qatil-ikaru',
+    'heyvan-sow',
+    'kira-amaikoru',
+    'order',
+    'ümid',
+    'möhnət-ikaru',
+  ]"
+/>
 
-({linkbox
-# Objects
-[Chaos Orb](/chaos-orb)
-})
+<LinkBox
+  label="Objects"
+  :links="[
+    'chaos-orb',
+  ]"
+/>
 
-({linkbox
-# Other
-[Magic](/magic)
-[Species](/species)
-[Extra Content](/extra-content)
-})
+<LinkBox
+  label="Other"
+  :links="[
+    'magic',
+    'species',
+    'extra-content',
+  ]"
+/>
