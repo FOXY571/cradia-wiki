@@ -17,4 +17,8 @@
 * Pages about most topics will be similarly structured.
     * Subtopics are seperated by headings for cleaner and clearer navigation.
     * The right side of most pages will contain an infobox. They give basic information about the topic and can also contain links to other pages.
-    * Some pages contain tables. These are used to easily organize structured information.
+    * Some pages contain tables. These are used to easily organize structured information. On smaller devices, tables can be navigated horizontally.
+
+## Development
+
+If you are a developer of the Cradia Wiki, you can view development documentation [here](https://docs.google.com/document/d/1RAJxMvn6o8nUZy38LsR_0T-fHZbQsZbJJ7_aIK1GgGM/edit?tab=t.0).
