@@ -1,4 +1,4 @@
-const entries = import.meta.glob('../entries/*.md', { query: '?raw', import: 'default' })
+const entries = import.meta.glob('../content/entries/*.md', { query: '?raw', import: 'default' })
 
 const entryHandler = () => {
   const getAllEntryNames = () => {
@@ -7,7 +7,7 @@ const entryHandler = () => {
   }
 
   const getEntry = async (entryName) => {
-    const module = await import(`../entries/${entryName}.md`)
+    const module = await import(`../content/entries/${entryName}.md`)
     return module.default
   }
 

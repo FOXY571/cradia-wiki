@@ -1,7 +1,7 @@
 # Möhnət Ikaru
 
 ({infobox
-![Möhnət Ikaru](images/möhnət-ikaru-1.png)
+![Möhnət Ikaru](../images/möhnət-ikaru-1.png)
 # Möhnət Ikaru
 | Name: Möhnət Ikaru
 | Aliases: Mona <br> Queen Möhnət
@@ -53,7 +53,7 @@ In part one of [The Prince's Truth](/the-prince's-truth) Möhnət looks nearly i
 Möhnət Ikaru has been an optimist since birth and has always found it easy to find joy in many things. In the darkest of times she always found a way to look on the bright side, yet even she has her fragile moments and falls into despair. Möhnət is protective of those close to her, almost acting as a motherly figure. Möhnət has also been seen being very cocky and full of herself, most likely because of her advanced combat and magic abilities, this can cause her to be careless and underestimate people. Unlike her brother Qatil, Möhnət appears to be a sceptic, always asking questions and never being satisfied with the answers she receives.
 
 ({figure
-![Möhnət using her water magic](images/möhnət-ikaru-2.png)
+![Möhnət using her water magic](../images/möhnət-ikaru-2.png)
 Möhnət using her [water magic](/magic#core-magic)
 })
 
