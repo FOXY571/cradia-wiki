@@ -2,7 +2,7 @@
 
 ({infobox
 # Ümid
-![Ümid](images/ümid-1.png)
+![Ümid](../images/ümid-1.png)
 | Name: Ümid
 | Aliases: None
 | Kingdom of Origin: [Ikarye](/ikarye)
@@ -33,7 +33,7 @@ In future parts of her story, Ümid appears to be more ignorant than most, not k
 She was thus raised in the castle of Ikarye and made into one of it's many maids. Though even at this young age she seemed to have an odd facination with magic, she was particularly drawn to the queen of Ikarye Zerali Ikaru, causing her to attempt to sneak into her study which caused her encounter with [Qatil Ikaru](/qatil-ikaru)
 
 ({figure
-![Ümid outside of Ikarye](images/ümid-2.png)
+![Ümid outside of Ikarye](../images/ümid-2.png)
 Ümid outside of [Ikarye](/ikarye)
 })
 
