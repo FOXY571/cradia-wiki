@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import markdown from 'unplugin-vue-markdown/vite'
 
-import markdownitExtensions from './src/markdownit-extensions'
+import markdownitExtensions from './src/markdown/plugins'
 
 // https://vite.dev/config/
 export default defineConfig({
