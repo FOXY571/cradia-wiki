@@ -32,10 +32,10 @@
       { key: 'Name', value: '[name]' },
       { key: 'Aliases', value: '[aliases]' },
       { key: 'Kingdom of Origin', value: '[kingdom of origin]' },
-      { key: 'Relatives', value: '[relatives]' }, // If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2)
+      { key: 'Relatives', value: '[relatives]' },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: '[magic]' }, // If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2)
+      { key: 'Magic', keyLink: 'magic', value: '[magic]' },
       { key: 'Weapon of Choice', value: '[weapon of choice]' },
     ],
     'Appearances': [

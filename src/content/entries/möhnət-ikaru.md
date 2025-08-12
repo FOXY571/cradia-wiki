@@ -3,9 +3,13 @@
   :content="{
     '': [
       { key: 'Name', value: 'Möhnət Ikaru' },
-      { key: 'Aliases', value: 'Mona <br> Queen Möhnət' },
+      { key: 'Aliases', value: [ 'Mona', 'Queen Möhnət' ] },
       { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
-      { key: 'Relatives', value: 'Qatil Ikaru (brother) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)' },
+      {
+        key: 'Relatives',
+        value: [ 'Qatil Ikaru (brother)', 'Sirus Ikaru (father)', 'Zərərli Ikaru (mother)' ],
+        valueLink: { 'Qatil Ikaru (brother)': 'qatil-ikaru' },
+      },
     ],
     'Combat': [
       { key: 'Magic', keyLink: 'magic', value: 'Water <br> Ice' },

@@ -3,7 +3,7 @@
   :content="{
     '': [
       { key: 'Name', value: 'Nordac' },
-      { key: 'Aliases', value: 'Order <br> God of Blood' },
+      { key: 'Aliases', value: [ 'Order', 'God of Blood' ] },
       { key: 'Kingdom of Origin', value: 'None', },
       { key: 'Relatives', value: 'None' },
     ],

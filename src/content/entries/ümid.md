@@ -8,7 +8,7 @@
       { key: 'Relatives', value: 'None' },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: 'Plant <br> Healing' },
+      { key: 'Magic', keyLink: 'magic', value: [ 'Plant', 'Healing' ] },
       { key: 'Weapon of Choice', value: 'None' },
     ],
     'Appearances': [

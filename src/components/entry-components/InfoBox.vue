@@ -18,7 +18,19 @@
               <span v-else>{{ item.key }}</span>
             </th>
             <td>
-              <SoundCloud v-if="item.sc" :songId="item.value" />
+              <div v-if="Array.isArray(item.value)">
+                <div v-for="(value, valueIndex) in item.value" :key="valueIndex">
+                  <a
+                    v-if="item.valueLink && item.valueLink[value]"
+                    :title="formatEntryName(item.valueLink[value])"
+                    :href="`/${item.valueLink[value]}`"
+                  >
+                    {{ value }}
+                  </a>
+                  <span v-else>{{ value }}</span>
+                </div>
+              </div>
+              <SoundCloud v-else-if="item.sc" :songId="item.value" />
               <a
                 v-else-if="item.valueLink"
                 :title="formatEntryName(item.valueLink)"
@@ -26,7 +38,7 @@
               >
                 {{ item.value }}
               </a>
-              <span v-else v-html="item.value"></span>
+              <span v-else>{{ item.value }}</span>
             </td>
           </tr>
         </tbody>

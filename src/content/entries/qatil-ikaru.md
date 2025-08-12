@@ -5,10 +5,14 @@
       { key: 'Name', value: 'Qatil Ikaru' },
       { key: 'Aliases', value: 'None' },
       { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
-      { key: 'Relatives', value: 'Möhnət Ikaru (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)' },
+      {
+        key: 'Relatives',
+        value: [ 'Möhnət Ikaru (sister)', 'Sirus Ikaru (father)', 'Zərərli Ikaru (mother)' ],
+        valueLink: { 'Möhnət Ikaru (sister)': 'möhnət-ikaru' },
+      },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: 'Terra <br> Fire' },
+      { key: 'Magic', keyLink: 'magic', value: [ 'Terra', 'Fire' ] },
       { key: 'Weapon of Choice', value: 'Scythe' },
     ],
     'Appearances': [

@@ -12,7 +12,7 @@
       { key: 'Relatives', value: 'Kitab Sow (brother)' },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: 'Shifting <br> Healing' },
+      { key: 'Magic', keyLink: 'magic', value: [ 'Shifting', 'Healing' ] },
       { key: 'Weapon of Choice', value: 'None' },
     ],
     'Appearances': [
