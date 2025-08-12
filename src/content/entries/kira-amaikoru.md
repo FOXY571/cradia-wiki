@@ -32,10 +32,10 @@ The revealed backstory in [The Prince's Truth](/the-prince's-truth) is brief, bu
 
 After Kira had dethroned Order of his godhood, chaos had begun sprouting in his absence. Kira took a piece of her soul and merged it with the chaos energy and created a soul, who was soon to be the God of Chaos. Kira then went down to Cradia and found Sirus Ikaru, giving him the soul of chaos. She promised him to assist him in taking over the kingdom of [Ikarye](/ikarye) in exchange for impregnating a powerful caster with the soul.
 
-({figure
-![Kira showing the scar on her back](../images/kira-amaikoru-2.png)
-Kira showing the scar on her back
-})
+<ContentFigure>
+  <img src="../images/kira-amaikoru-2.png" alt="Kira showing the scar on her back" />
+  <template #caption>Kira showing the scar on her back</template>
+</ContentFigure>
 
 ## Appearance
 
