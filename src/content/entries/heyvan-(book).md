@@ -1,6 +1,4 @@
-<div class="hat-note">
-  For the character, see <a title="Heyvan Sow" href="/heyvan-sow">Heyvan Sow</a>.
-</div>
+-# For the character, see [Heyvan Sow](/heyvan-sow).
 
 <NoteBlock
   label="This page is currently unfinished and is in development."
