@@ -1,6 +1,8 @@
 # Heyvan Sow
 
--# For the book, see [Heyvan (Book)](/heyvan-(book)).
+<div class="hat-note">
+  For the book, see <a title="Heyvan (Book)" href="/heyvan-(book)">Heyvan (Book)</a>.
+</div>
 
 ({infobox
 # Heyvan Sow

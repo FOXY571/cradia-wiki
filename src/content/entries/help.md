@@ -1,6 +1,8 @@
 # Help
 
--# Welcome to the Cradia Wiki! Below are many topics that can help you if you get stuck.
+<div class="hat-note">
+    Welcome to the Cradia Wiki! Below are many topics that can help you if you get stuck.
+</div>
 
 ## Navigation
 

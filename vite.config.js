@@ -13,9 +13,8 @@ export default defineConfig({
     }),
     vueDevTools(),
     markdown({
-      // eslint-disable-next-line no-unused-vars
-      markdownItSetup(md) {
-        /* Markdown options */
+      markdownItOptions: {
+        html: true,
       },
     }),
   ],
