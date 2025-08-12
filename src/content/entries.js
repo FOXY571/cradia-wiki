@@ -9,7 +9,9 @@ const extractNameFromPath = (path) => {
 
 for (const path in entryPaths) {
   const name = extractNameFromPath(path)
-  const module = await import(path)
+  // Don't use path for a dynamic import to avoid problems with static analysis:
+  // https://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations
+  const module = await import(`./entries/${name}.md`)
 
   const realName = module.name || name
 
