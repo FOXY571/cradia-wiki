@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import { onMounted, shallowRef } from 'vue'
+import { onMounted, nextTick, shallowRef } from 'vue'
 import { useRoute } from 'vue-router'
 import entriesHandler from '../utils/entryHandler'
 import titleHandler from '../utils/titleHandler'
@@ -30,12 +30,14 @@ const props = defineProps({
   },
 })
 
-onMounted(() => {
+onMounted(async () => {
   loadEntry(props.entryName)
 
   if (props.entryName !== 'home') {
     setTitle(formatEntryName(props.entryName))
   }
+
+  await nextTick()
 
   if (route.hash) {
     const id = decodeURIComponent(route.hash.slice(1))
