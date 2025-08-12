@@ -15,3 +15,15 @@
 | Pages: 9
 | Chapters: 1
 })
+
+<InfoBox
+  label="Heyvan"
+  :content="{
+    '': [
+      { key: 'Author', value: 'Thomas Towson' },
+      { key: 'State', value: 'Unfinished' },
+      { key: 'Pages', value: '9' },
+      { key: 'Chapters', value: '1' },
+    ],
+  }"
+/>

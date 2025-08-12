@@ -1,9 +1,14 @@
-({infobox
-# Chaos Orb
-![Chaos Orb](../images/chaos-orb-1.png)
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [Heyvan](/heyvan-(book))
-})
+<InfoBox
+  label="Chaos Orb"
+  :content="{
+    '': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+    ],
+  }"
+>
+  <img src="../images/chaos-orb-1.png" alt="Chaos Orb" />
+</InfoBox>
 
 The **Chaos Orb** is a magical orb with chaos contained inside of it. It is made of a super strong glass-like material that allows the chaos inside to be seen swriling around. Because of this, the orb looks a fiery orange.
 

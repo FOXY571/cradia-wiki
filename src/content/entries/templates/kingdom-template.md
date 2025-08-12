@@ -3,19 +3,25 @@
 
 <!-- Delete all comments once the page is complete to reduce file size -->
 
-# [entry name]
-
-({infobox
-# [entry name]
-<!-- An image is optional for an entry's infobox -->
-<!-- To include an image in the infobox, delete the surrounding comment -->
-<!-- ![entry name](backend/images/[image name].png) -->
-| Alias: [alias]
-| Location: [location]
-## Appearances
-| First appearance: [first appearance]
-| Last appearance: [last appearance]
-})
+<!-- Info boxes are recieiving some massive changes -->
+<!-- I highly recommend asking for help when handling them -->
+<InfoBox
+  label="[entry name]"
+  :content="{
+    '': [
+      { key: 'Alias', value: '[alias]' },
+      { key: 'Location', value: '[location]' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: '[first appearance]' },
+      { key: 'Last appearance', value: '[last appearance]' },
+    ],
+  }"
+>
+  <!-- An image is optional for an entry's infobox -->
+  <!-- To include an image in the infobox, delete the surrounding comment below -->
+  <!-- <img src="../images/[image name].png" alt="[entry name]" /> -->
+<InfoBox>
 
 <!-- Introduce the kingdom here -->
 [introduction]

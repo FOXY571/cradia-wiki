@@ -4,14 +4,19 @@
   type="warning"
 />
 
-({infobox
-# Canavar
-| Alias: Kingdom of the Wild
-| Location: South East
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [Heyvan](/heyvan-(book))
-})
+<InfoBox
+  label="Canavar"
+  :content="{
+    '': [
+      { key: 'Alias', value: 'Kingdom of the Wild' },
+      { key: 'Location', value: 'South East' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+    ],
+  }"
+/>
 
 **Canavar**, also known as the Kingdom of the Wild, is located on the South East edge of Cradia pre Universal Destruction and on the Southern edge of the East Lands post Universal Destruction. The kingdom plays a huge role in both [The Prince's Truth](/the-prince's-truth) and [Heyvan](/heyvan-(book)) storylines. Additionally, Canavar is the first kingdom to fall pre Universal Destruction.
 

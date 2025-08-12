@@ -2,22 +2,29 @@
   For the book, see <a title="Heyvan (Book)" href="/heyvan-(book)">Heyvan (Book)</a>.
 </div>
 
-({infobox
-# Heyvan Sow
-| Name: Heyvan Sow
-| Aliases: Tyger
-| Kingdom of Origin: [Canavar](/canavar)
-| Relatives: Kitab Sow (brother)
-## Combat
-| [Magic](/magic): Shifting <br> Healing
-| Weapon of choice: None
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [Heyvan](/heyvan-(book))
-## Physical description
-| [Species](/species): Caster
-| Gender: Male
-})
+<InfoBox
+  label="Heyvan Sow"
+  :content="{
+    '': [
+      { key: 'Name', value: 'Heyvan Sow' },
+      { key: 'Aliases', value: 'Tyger' },
+      { key: 'Kingdom of Origin', value: 'Canavar', valueLink: 'canavar' },
+      { key: 'Relatives', value: 'Kitab Sow (brother)' },
+    ],
+    'Combat': [
+      { key: 'Magic', keyLink: 'magic', value: 'Shifting <br> Healing' },
+      { key: 'Weapon of Choice', value: 'None' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+    ],
+    'Physical description': [
+      { key: 'Species', keyLink: 'species', value: 'Caster' },
+      { key: 'Gender', value: 'Male' },
+    ],
+  }"
+/>
 
 > To be bested by some street punk. How humiliating.
 >

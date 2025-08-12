@@ -1,20 +1,28 @@
-({infobox
-# Ümid
-![Ümid](../images/ümid-1.png)
-| Name: Ümid
-| Aliases: None
-| Kingdom of Origin: [Ikarye](/ikarye)
-| Relatives: None
-## Combat
-| [Magic](/magic): Plant <br> Healing
-| Weapon of choice: None
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [Heyvan](/heyvan-(book))
-## Physical description
-| [Species](/species): Caster
-| Gender: Female
-})
+<InfoBox
+  label="Ümid"
+  :content="{
+    '': [
+      { key: 'Name', value: 'Ümid' },
+      { key: 'Aliases', value: 'None' },
+      { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
+      { key: 'Relatives', value: 'None' },
+    ],
+    'Combat': [
+      { key: 'Magic', keyLink: 'magic', value: 'Plant <br> Healing' },
+      { key: 'Weapon of Choice', value: 'None' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+    ],
+    'Physical description': [
+      { key: 'Species', keyLink: 'species', value: 'Caster' },
+      { key: 'Gender', value: 'Female' },
+    ],
+  }"
+>
+  <img src="../images/ümid-1.png" alt="Ümid" />
+</InfoBox>
 
 > "Life is beautiful. Don't you agree?"
 >

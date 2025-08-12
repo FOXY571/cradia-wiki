@@ -1,8 +1,8 @@
 <template>
   <figure class="primary-border">
-    <slot></slot>
+    <slot />
     <figcaption>
-      <slot name="caption"></slot>
+      <slot name="caption" />
     </figcaption>
   </figure>
 </template>

@@ -83,7 +83,6 @@
 }
 
 .entry-content blockquote,
-.infobox,
 .content-table {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -97,51 +96,6 @@
 .entry-content img {
   width: 100%;
   height: auto;
-}
-
-/* Infobox */
-.infobox {
-  float: right;
-  clear: right;
-
-  width: 300px;
-  margin: 0 0 15px 25px;
-  padding: 3px;
-}
-
-.infobox-title {
-  color: var(--secondary-color);
-  background-color: rgba(0, 0, 0, 0.1);
-
-  font-size: 20px;
-  text-align: center;
-  line-height: 24px;
-  white-space: nowrap;
-
-  padding: 5px;
-  margin-bottom: 2.5px;
-}
-
-.infobox-header {
-  background-color: rgba(0, 0, 0, 0.15);
-
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 24px;
-  white-space: nowrap;
-
-  padding: 5px;
-  margin-bottom: 2.5px;
-}
-
-.infobox table {
-  font-size: 12.5px;
-  line-height: 24px;
-}
-
-.infobox th {
-  text-align: left;
 }
 
 /* Content Table */
@@ -197,25 +151,4 @@
 
 .text-center {
   text-align: center;
-}
-
-@media (max-width: 1000px) {
-  .infobox {
-    width: 250px;
-  }
-}
-
-@media (max-width: 750px) {
-  .infobox {
-    width: 200px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .infobox {
-    float: unset;
-
-    width: 250px;
-    margin-left: 0px;
-  }
 }

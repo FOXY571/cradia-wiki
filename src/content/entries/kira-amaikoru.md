@@ -1,22 +1,31 @@
-({infobox
-# Kira Amaikoru
-![Kira Amaikoru](../images/kira-amaikoru-1.png)
-| Name: Kira Amaikoru
-| Aliases: None
-| Kingdom of Origin: [Canavar](/canavar)
-| Relatives: Her sister (unnamed)
-## Combat
-| [Magic](/magic): Creation
-| Weapon of choice: None
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [The Prince's Truth](/the-prince's-truth)
-## Physical description
-| [Species](/species): God
-| Gender: Female
-## Other
-| Theme: #sc(1799766148)
-})
+<InfoBox
+  label="Kira Amaikoru"
+  :content="{
+    '': [
+      { key: 'Name', value: 'Kira Amaikoru' },
+      { key: 'Aliases', value: 'None' },
+      { key: 'Kingdom of Origin', value: 'Canavar', valueLink: 'canavar' },
+      { key: 'Relatives', value: 'Her sister (unnamed)' },
+    ],
+    'Combat': [
+      { key: 'Magic', keyLink: 'magic', value: 'Creation' },
+      { key: 'Weapon of Choice', value: 'None' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+    ],
+    'Physical description': [
+      { key: 'Species', keyLink: 'species', value: 'God' },
+      { key: 'Gender', value: 'Female' },
+    ],
+    'Other': [
+      { key: 'Theme', sc: true, value: '1799766148' },
+    ],
+  }"
+>
+  <img src="../images/kira-amaikoru-1.png" alt="Kira Amaikoru" />
+</InfoBox>
 
 > You know what hurts about betrayal? It never comes from an enemy.
 >

@@ -1,21 +1,29 @@
-({infobox
-# Order
-| Name: Nordac
-| Aliases: Order <br> God of Blood
-| Kingdom of Origin: None
-| Relatives: None
-## Combat
-| [Magic](/magic "Magic"): Blood
-| Weapon of choice: Longsword
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth "The Prince's Truth")
-| Last appearance: [The Prince's Truth](/the-prince's-truth "The Prince's Truth")
-## Physical description
-| [Species](/species "Species"): Demigod
-| Gender: Male
-## Other
-| Theme: #sc(1855535337)
-})
+<InfoBox
+  label="Order"
+  :content="{
+    '': [
+      { key: 'Name', value: 'Nordac' },
+      { key: 'Aliases', value: 'Order <br> God of Blood' },
+      { key: 'Kingdom of Origin', value: 'None', },
+      { key: 'Relatives', value: 'None' },
+    ],
+    'Combat': [
+      { key: 'Magic', keyLink: 'magic', value: 'Blood' },
+      { key: 'Weapon of Choice', value: 'Longsword' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+    ],
+    'Physical description': [
+      { key: 'Species', keyLink: 'species', value: 'Demigod' },
+      { key: 'Gender', value: 'Male' },
+    ],
+    'Other': [
+      { key: 'Theme', sc: true, value: '1855535337' },
+    ],
+  }"
+/>
 
 > I'm gonna kill you now
 >

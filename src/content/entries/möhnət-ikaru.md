@@ -1,22 +1,31 @@
-({infobox
-![Möhnət Ikaru](../images/möhnət-ikaru-1.png)
-# Möhnət Ikaru
-| Name: Möhnət Ikaru
-| Aliases: Mona <br> Queen Möhnət
-| Kingdom of origin: [Ikarye](/ikarye)
-| Relatives: [Qatil Ikaru](/qatil-ikaru) (brother) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother) 
-## Combat
-| [Magic](/magic): Water <br> Ice
-| Weapon of choice: None
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [Heyvan](/heyvan-(book))
-## Physical description
-| [Species](/species): Caster
-| Gender: Female
-## Other
-| Theme: #sc(455566374)
-})
+<InfoBox
+  label="Möhnət Ikaru"
+  :content="{
+    '': [
+      { key: 'Name', value: 'Möhnət Ikaru' },
+      { key: 'Aliases', value: 'Mona <br> Queen Möhnət' },
+      { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
+      { key: 'Relatives', value: 'Qatil Ikaru (brother) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)' },
+    ],
+    'Combat': [
+      { key: 'Magic', keyLink: 'magic', value: 'Water <br> Ice' },
+      { key: 'Weapon of Choice', value: 'None' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+    ],
+    'Physical description': [
+      { key: 'Species', keyLink: 'species', value: 'Caster' },
+      { key: 'Gender', value: 'Female' },
+    ],
+    'Other': [
+      { key: 'Theme', sc: true, value: '455566374' },
+    ],
+  }"
+>
+  <img src="../images/möhnət-ikaru-1.png" alt="Möhnət Ikaru" />
+</InfoBox>
 
 <!-- A quote is optional for an entry -->
 <!-- To include a quote on the entry, delete the surrounding comment -->

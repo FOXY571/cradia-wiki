@@ -4,14 +4,19 @@
   type="warning"
 />
 
-({infobox
-# Ikarye
-| Alias: Kingdom of the Dark
-| Location: East
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [Heyvan](/heyvan-(book))
-})
+<InfoBox
+  label="Ikarye"
+  :content="{
+    '': [
+      { key: 'Alias', value: 'Kingdom of the Dark' },
+      { key: 'Location', value: 'East' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+    ],
+  }"
+/>
 
 <!-- Introduce the kingdom here -->
 Ikarye also known as the kingdom of the dark is the home kingdom of many main characters from The Prince's Truth such as Qatil Ikaru, Möhnət Ikaru, and Ümid. The majority of part 1 takes place here.

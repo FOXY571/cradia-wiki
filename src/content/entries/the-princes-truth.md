@@ -8,10 +8,14 @@ name: the-prince's-truth
   type="warning"
 />
 
-({infobox
-# The Prince's Truth
-| Author: Lucas Rourk
-| State: Unfinished
-| Pages: 164
-| Chpaters: 50
-})
+<InfoBox
+  label="The Prince's Truth"
+  :content="{
+    '': [
+      { key: 'Author', value: 'Lucas Rourk' },
+      { key: 'State', value: 'Unfinished' },
+      { key: 'Pages', value: '164' },
+      { key: 'Chapters', value: '50' },
+    ],
+  }"
+/>

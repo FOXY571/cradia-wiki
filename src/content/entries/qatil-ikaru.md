@@ -1,22 +1,31 @@
-({infobox
-# Qatil Ikaru
-![Qatil Ikaru](../images/qatil-ikaru-1.png)
-| Name: Qatil Ikaru
-| Aliases: None
-| Kingdom of Origin: [Ikarye](/ikarye)
-| Relatives: [Möhnət Ikaru](/möhnət-ikaru) (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)
-## Combat
-| [Magic](/magic): Terra <br> Fire
-| Weapon of choice: Scythe
-## Appearances
-| First appearance: [The Prince's Truth](/the-prince's-truth)
-| Last appearance: [The Prince's Truth](/the-prince's-truth)
-## Physical description
-| [Species](/species): Caster
-| Gender: Male
-## Other
-| Theme: #sc(305163327)
-})
+<InfoBox
+  label="Qatil Ikaru"
+  :content="{
+    '': [
+      { key: 'Name', value: 'Qatil Ikaru' },
+      { key: 'Aliases', value: 'None' },
+      { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
+      { key: 'Relatives', value: 'Möhnət Ikaru (sister) <br> Sirus Ikaru (father) <br> Zərərli Ikaru (mother)' },
+    ],
+    'Combat': [
+      { key: 'Magic', keyLink: 'magic', value: 'Terra <br> Fire' },
+      { key: 'Weapon of Choice', value: 'Scythe' },
+    ],
+    'Appearances': [
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+      { key: 'Last appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
+    ],
+    'Physical description': [
+      { key: 'Species', keyLink: 'species', value: 'Caster' },
+      { key: 'Gender', value: 'Male' },
+    ],
+    'Other': [
+      { key: 'Theme', sc: true, value: '305163327' },
+    ],
+  }"
+>
+  <img src="../images/qatil-ikaru-1.png" alt="Qatil Ikaru" />
+</InfoBox>
 
 > You are strong Qatil, yet you are blind to many truths. But know this, my dear, no matter who shuns you or confronts you for what you may destroy, I will always know you were just trying to help.
 >
