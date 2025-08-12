@@ -6,8 +6,7 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import markdown from 'unplugin-vue-markdown/vite'
 
-import markdownItAnchor from 'markdown-it-anchor'
-import markdownitExtensions from './src/markdown/plugins'
+import markdownItConfig from './src/markdown-it'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -16,22 +15,7 @@ export default defineConfig({
       include: [/\.vue$/, /\.md$/], // Allows Vue to compile Markdown files
     }),
     vueDevTools(),
-    markdown({
-      markdownItOptions: {
-        html: true,
-        wrapperComponent: true,
-      },
-      markdownItSetup(md) {
-        md.use(markdownItAnchor, {
-          slugify: (s) => s.trim().toLowerCase().replace(/\s+/g, '-'),
-          tabIndex: false,
-        })
-
-        Object.values(markdownitExtensions).forEach((plugin) => {
-          md.use(plugin)
-        })
-      },
-    }),
+    markdown(markdownItConfig),
   ],
   resolve: {
     alias: {
