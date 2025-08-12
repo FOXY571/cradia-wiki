@@ -51,7 +51,7 @@
   <!-- An image is optional for an entry's infobox -->
   <!-- To include an image in the infobox, delete the surrounding comment below -->
   <!-- <img src="../images/[image name].png" alt="[entry name]" /> -->
-<InfoBox>
+</InfoBox>
 
 <!-- A quote is optional for an entry -->
 <!-- To include a quote on the entry, delete the surrounding comment below -->

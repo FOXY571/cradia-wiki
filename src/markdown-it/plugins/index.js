@@ -1,4 +1,5 @@
-import hatnote from './hatenote'
+import hatnote from './hatnote'
 import contentTable from './contentTable'
+import autoTitleLink from './autoTitleLink'
 
-export default { hatnote, contentTable }
+export default { hatnote, contentTable, autoTitleLink }

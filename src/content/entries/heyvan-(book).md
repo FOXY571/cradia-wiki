@@ -6,14 +6,6 @@
   type="warning"
 />
 
-({infobox
-# Heyvan
-| Author: Thomas Towson
-| State: Unfinished
-| Pages: 9
-| Chapters: 1
-})
-
 <InfoBox
   label="Heyvan"
   :content="{
