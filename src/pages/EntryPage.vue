@@ -1,22 +1,26 @@
 <template>
+  <h1 :id="entryName" v-if="getEntryProp(entryName, 'automaticHeader')">
+    {{ formatEntryName(props.entryName) }}
+  </h1>
+
   <component :is="entryContent" v-if="entryContent" />
   <div v-else>Loading...</div>
 </template>
 
 <script setup>
-import { onMounted, nextTick, shallowRef } from 'vue'
+import { onMounted, shallowRef } from 'vue'
 import { useRoute } from 'vue-router'
 import entriesHandler from '../utils/entryHandler'
 import titleHandler from '../utils/titleHandler'
 
-const { getEntry, formatEntryName } = entriesHandler()
+const { getEntry, getEntryProp, formatEntryName } = entriesHandler()
 const { setTitle } = titleHandler()
 
 const route = useRoute()
 const entryContent = shallowRef('')
 
-const loadEntry = async (entryName) => {
-  entryContent.value = await getEntry(entryName)
+const loadEntry = (entryName) => {
+  entryContent.value = getEntry(entryName)
 }
 
 const props = defineProps({
@@ -26,14 +30,12 @@ const props = defineProps({
   },
 })
 
-onMounted(async () => {
-  await loadEntry(props.entryName)
+onMounted(() => {
+  loadEntry(props.entryName)
 
   if (props.entryName !== 'home') {
     setTitle(formatEntryName(props.entryName))
   }
-
-  await nextTick()
 
   if (route.hash) {
     const id = decodeURIComponent(route.hash.slice(1))

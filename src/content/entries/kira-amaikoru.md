@@ -1,5 +1,3 @@
-# Kira Amaikoru
-
 ({infobox
 # Kira Amaikoru
 ![Kira Amaikoru](../images/kira-amaikoru-1.png)

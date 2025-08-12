@@ -1,5 +1,3 @@
-# Möhnət Ikaru
-
 ({infobox
 ![Möhnət Ikaru](../images/möhnət-ikaru-1.png)
 # Möhnət Ikaru

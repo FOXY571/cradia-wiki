@@ -1,5 +1,3 @@
-# Heyvan Sow
-
 <div class="hat-note">
   For the book, see <a title="Heyvan (Book)" href="/heyvan-(book)">Heyvan (Book)</a>.
 </div>

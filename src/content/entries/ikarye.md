@@ -1,5 +1,3 @@
-# Ikarye
-
 <NoteBlock
   label="This page is currently unfinished and is in development."
   text="Please be patient while we get it set up."

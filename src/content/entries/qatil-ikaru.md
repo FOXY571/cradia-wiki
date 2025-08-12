@@ -1,5 +1,3 @@
-# Qatil Ikaru
-
 ({infobox
 # Qatil Ikaru
 ![Qatil Ikaru](../images/qatil-ikaru-1.png)

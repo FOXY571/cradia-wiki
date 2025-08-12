@@ -5,8 +5,15 @@ const entryHandler = () => {
     return Object.keys(entries)
   }
 
-  const getEntry = async (entryName) => {
-    return entries[entryName]
+  const getEntry = (entryName) => {
+    return entries[entryName].default
+  }
+
+  const getEntryProp = (entryName, propName) => {
+    const entryProps = { ...entries[entryName] }
+    delete entryProps.default // Remove the default content from props
+
+    return entryProps[propName] != false
   }
 
   const getRandomEntryName = () => {
@@ -40,6 +47,7 @@ const entryHandler = () => {
   return {
     getAllEntryNames,
     getEntry,
+    getEntryProp,
     getRandomEntryName,
     formatEntryName,
   }

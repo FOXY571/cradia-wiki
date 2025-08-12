@@ -13,7 +13,7 @@ for (const path in entryPaths) {
 
   const realName = module.name || name
 
-  entries[realName] = module.default
+  entries[realName] = module
 }
 
 export default entries

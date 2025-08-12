@@ -1,5 +1,3 @@
-# Ümid
-
 ({infobox
 # Ümid
 ![Ümid](../images/ümid-1.png)

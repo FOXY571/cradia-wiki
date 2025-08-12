@@ -1,5 +1,3 @@
-# Order
-
 ({infobox
 # Order
 | Name: Nordac

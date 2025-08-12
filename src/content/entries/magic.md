@@ -1,5 +1,3 @@
-# Magic
-
 **Magic** is one of the main forms of combat in the Cradia series and is a key part of the storytelling found within the series. Magic can be used to do many different things such as fight, move obejcts, change the state or form of objects, and much more. There are multiple different types of magic, their only differences being how they are obtained and sometimes their level of power.
 
 Every [species](/species) from [caster](/species#casters) and above is able to use and control magic. It's impossible to use magic otherwise except through foregin methods that are rarely practiced and frowned upon by most sorcerers. As someone practices and uses magic, the color of their blood will slowly turn blue.

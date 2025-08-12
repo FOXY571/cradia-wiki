@@ -1,5 +1,3 @@
-# Chaos Orb
-
 ({infobox
 # Chaos Orb
 ![Chaos Orb](../images/chaos-orb-1.png)

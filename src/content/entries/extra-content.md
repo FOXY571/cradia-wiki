@@ -1,5 +1,3 @@
-# Extra Content
-
 This page contains extra content related to the Cradia Series. Everything in this page here is **NOT** canon and is just for laughs.
 
 ## Low Taper Fade
