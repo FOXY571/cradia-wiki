@@ -1,22 +1,19 @@
-const entries = import.meta.glob('../content/entries/*.md', { query: '?raw', import: 'default' })
+import entries from '../content/entries'
 
 const entryHandler = () => {
   const getAllEntryNames = () => {
-    const entryPaths = Object.keys(entries)
-    return entryPaths.map((path) => extractNameFromPath(path))
+    return Object.keys(entries)
   }
 
   const getEntry = async (entryName) => {
-    const module = await import(`../content/entries/${entryName}.md`)
-    return module.default
+    return entries[entryName]
   }
 
   const getRandomEntryName = () => {
-    const entryPaths = Object.keys(entries)
-    if (entryPaths.length === 0) return null
+    const entryNames = Object.keys(entries)
+    if (entryNames.length === 0) return null
 
-    const randomPath = entryPaths[Math.floor(Math.random() * entryPaths.length)]
-    return extractNameFromPath(randomPath)
+    return entryNames[Math.floor(Math.random() * entryNames.length)]
   }
 
   const formatEntryName = (entryName) => {
@@ -46,11 +43,6 @@ const entryHandler = () => {
     getRandomEntryName,
     formatEntryName,
   }
-}
-
-const extractNameFromPath = (path) => {
-  const match = path.match(/\/([^/]+)\.md$/)
-  return match ? match[1] : null
 }
 
 export default entryHandler

@@ -1,3 +1,7 @@
+---
+name: the-prince's-truth
+---
+
 # The Prince's Truth
 
 <NoteBlock

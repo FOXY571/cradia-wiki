@@ -15,6 +15,7 @@ export default defineConfig({
     markdown({
       markdownItOptions: {
         html: true,
+        wrapperComponent: true,
       },
     }),
   ],
