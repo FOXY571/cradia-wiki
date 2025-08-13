@@ -50,6 +50,10 @@
   padding-left: 17px;
 }
 
+.entry-content ul ul {
+  padding-top: 5px;
+}
+
 .entry-content li {
   margin-bottom: 10px;
 }
