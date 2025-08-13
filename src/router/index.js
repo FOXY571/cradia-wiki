@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import entryHandler from '../utils/entryHandler'
-import EntryPage from '../pages/EntryPage.vue'
+import { getAllEntryNames } from '../utils/entryHandler'
 
-const { getAllEntryNames } = entryHandler()
+import EntryPage from '../pages/EntryPage.vue'
 
 const entryRoutes = getAllEntryNames().map((name) => ({
   path: `/${encodeURIComponent(name)}`,

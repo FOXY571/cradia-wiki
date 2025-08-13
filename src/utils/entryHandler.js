@@ -1,56 +1,46 @@
 import entries from '../content/entries'
 
-const entryHandler = () => {
-  const getAllEntryNames = () => {
-    return Object.keys(entries)
-  }
-
-  const getEntry = (entryName) => {
-    return entries[entryName].default
-  }
-
-  const getEntryProp = (entryName, propName) => {
-    const entryProps = { ...entries[entryName] }
-    delete entryProps.default // Remove the default content from props
-
-    return entryProps[propName] != false
-  }
-
-  const getRandomEntryName = () => {
-    const entryNames = Object.keys(entries)
-    if (entryNames.length === 0) return null
-
-    return entryNames[Math.floor(Math.random() * entryNames.length)]
-  }
-
-  const formatEntryName = (entryName) => {
-    let formattedName = entryName
-      .replace(/-/g, ' ')
-      .split(' ')
-      .map((word) => {
-        let punctuationBefore = word.match(/^[^\w\u00C0-\u017F]+/)
-        let punctuationAfter = word.match(/[^\w\u00C0-\u017F]+$/)
-
-        let cleanWord = word.replace(/^[^\w\u00C0-\u017F]+|[^\w\u00C0-\u017F]+$/g, '')
-        let formattedWord = cleanWord.charAt(0).toUpperCase() + cleanWord.slice(1)
-
-        return (
-          (punctuationBefore ? punctuationBefore[0] : '') +
-          formattedWord +
-          (punctuationAfter ? punctuationAfter[0] : '')
-        )
-      })
-      .join(' ')
-    return formattedName
-  }
-
-  return {
-    getAllEntryNames,
-    getEntry,
-    getEntryProp,
-    getRandomEntryName,
-    formatEntryName,
-  }
+/**
+ * Get the names of all loaded entries.
+ *
+ * @returns {string[]} An array of all entry names.
+ */
+export function getAllEntryNames() {
+  return Object.keys(entries)
 }
 
-export default entryHandler
+/**
+ * Get the content of a specific entry.
+ *
+ * @param {string} entryName - The name of the entry to retrieve.
+ * @returns {string} The content of the entry.
+ */
+export function getEntry(entryName) {
+  return entries[entryName].default
+}
+
+/**
+ * Get a specific property of an entry.
+ *
+ * @param {string} entryName - The name of the entry.
+ * @param {string} propName - The name of the property to retrieve.
+ * @returns {boolean} The value of the property, or true if not found.
+ */
+export function getEntryProp(entryName, propName) {
+  const entryProps = { ...entries[entryName] }
+  delete entryProps.default // Remove the default content from props
+
+  return entryProps[propName] != false
+}
+
+/**
+ * Get a random entry name.
+ *
+ * @returns {string|null} A random entry name, or null if no entries exist.
+ */
+export function getRandomEntryName() {
+  const entryNames = Object.keys(entries)
+  if (entryNames.length === 0) return null
+
+  return entryNames[Math.floor(Math.random() * entryNames.length)]
+}

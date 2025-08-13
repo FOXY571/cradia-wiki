@@ -10,11 +10,9 @@
 <script setup>
 import { onMounted, nextTick, shallowRef } from 'vue'
 import { useRoute } from 'vue-router'
-import entriesHandler from '../utils/entryHandler'
-import titleHandler from '../utils/titleHandler'
-
-const { getEntry, getEntryProp, formatEntryName } = entriesHandler()
-const { setTitle } = titleHandler()
+import { getEntry, getEntryProp } from '../utils/entryHandler'
+import { formatEntryName } from '../utils/formatting'
+import { setTitle } from '../utils/titleHandler'
 
 const route = useRoute()
 const entryContent = shallowRef('')

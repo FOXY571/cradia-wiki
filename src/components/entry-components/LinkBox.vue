@@ -10,9 +10,7 @@
 </template>
 
 <script setup>
-import entryHandler from '../../utils/entryHandler'
-
-const { formatEntryName } = entryHandler()
+import { formatEntryName } from '../../utils/formatting'
 
 defineProps({
   label: {

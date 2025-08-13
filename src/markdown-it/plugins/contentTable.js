@@ -1,4 +1,4 @@
-const contentTable = (md) => {
+function contentTable(md) {
   // Core rule: run after parsing to mutate token stream
   md.core.ruler.push('content_table', (state) => {
     const Token = state.Token

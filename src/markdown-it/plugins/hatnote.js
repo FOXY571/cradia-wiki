@@ -1,4 +1,4 @@
-const hatnote = (md) => {
+function hatnote(md) {
   md.block.ruler.before('paragraph', 'hatnote', (state, startIndex) => {
     let pos = state.bMarks[startIndex] + state.tShift[startIndex]
     let max = state.eMarks[startIndex]

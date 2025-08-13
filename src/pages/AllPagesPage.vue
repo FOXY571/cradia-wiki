@@ -13,11 +13,9 @@
 </template>
 
 <script setup>
-import entryHandler from '../utils/entryHandler'
-import titleHandler from '../utils/titleHandler'
-
-const { getAllEntryNames, formatEntryName } = entryHandler()
-const { setTitle } = titleHandler()
+import { getAllEntryNames } from '../utils/entryHandler'
+import { formatEntryName } from '../utils/formatting'
+import { setTitle } from '../utils/titleHandler'
 
 setTitle('All Pages')
 </script>

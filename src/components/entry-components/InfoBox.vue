@@ -48,11 +48,9 @@
 </template>
 
 <script setup>
-import entryHandler from '../../utils/entryHandler'
+import { formatEntryName } from '../../utils/formatting'
 
 import SoundCloud from './SoundCloud.vue'
-
-const { formatEntryName } = entryHandler()
 
 defineProps({
   label: {
