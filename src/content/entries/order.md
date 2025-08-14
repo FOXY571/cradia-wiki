@@ -23,7 +23,9 @@
       { key: 'Theme', sc: true, value: '1855535337' },
     ],
   }"
-/>
+>
+  <img src="../images/order-1.png" alt="Order" />
+</InfoBox>
 
 > I'm gonna kill you now
 >
@@ -38,6 +40,11 @@ Order's backstory is told through [The Birth of Order](https://docs.google.com/d
 After a long period of time, Order decided to ascend Kira Amaikoru, a girl living in the kingdom [Canavar](/canavar) at the time. After she was ascended, Order gave her half of his power. Kira was greedy and wanted more of his power, so she took it all and sent him down to Cradia where he lost his godhood and became a [demigod](/species#demigods).
 
 Since then, Order has been preparing to stop Kira and return order to the universe. He's done so by killing Kira worshippers and slowing the spread of her influence around Cradia. After Order discovered that Qatil was working with Kira in The Prince's Truth, he set out kill him next.
+
+<ContentFigure>
+  <img src="../images/order-2.png" alt="Order with his hood down" />
+  <template #caption>Order with his hood down</template>
+</ContentFigure>
 
 ## Appearance
 
