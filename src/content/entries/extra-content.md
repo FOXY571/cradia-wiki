@@ -1,5 +1,11 @@
 This page contains extra content related to the Cradia Series. Everything in this page here is **NOT** canon and is just for laughs.
 
+<TableOfContents
+  :contents="[
+    { text: 'low-taper-fade' },
+  ]"
+/>
+
 ## Low Taper Fade
 
 In chapter 47 of [The Prince's Truth](/the-prince's-truth), a paragraph centered around the [Low Taper Fade](https://en.wikipedia.org/wiki/Ninja_(gamer)#Low_Taper_Fade "Low Taper Fade") meme could be seen for a very limited time. It was later removed and replaced with the book's canon chapter. Because of its short existance, the paragraph was not edited, resulting in poor sentence structure and grammar.

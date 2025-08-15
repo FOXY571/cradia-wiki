@@ -14,6 +14,12 @@ The **Chaos Orb** is a magical orb with chaos contained inside of it. It is made
 
 Currently, its purpose is unclear, and its lore has yet to be explored.
 
+<TableOfContents
+  :contents="[
+    { text: 'creation' },
+  ]"
+/>
+
 ## Creation
 
 The Chaos Orb was created during a battle between [Qatil Ikaru](/qatil-ikaru) and [Order](/order) in Günəş. The power of the two combined in a huge collision that formed the orb. It was taken by Order when the fight was finished.

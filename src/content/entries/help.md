@@ -1,5 +1,13 @@
 -# Welcome to the Cradia Wiki! Below are many topics that can help you if you get stuck.
 
+<TableOfContents
+  :contents="[
+    { text: 'navigation' },
+    { text: 'page-structure' },
+    { text: 'development' },
+  ]"
+/>
+
 ## Navigation
 
 * To begin learning about this wiki and the wonderful world of Cradia, visit the [home page](/home). From there, you can view the wiki's main pages, such as main characters, important places, cool topics, and much more!

@@ -20,6 +20,15 @@
 
 **Canavar**, also known as the Kingdom of the Wild, is located on the South East edge of Cradia pre Universal Destruction and on the Southern edge of the East Lands post Universal Destruction. The kingdom plays a huge role in both [The Prince's Truth](/the-prince's-truth) and [Heyvan](/heyvan-(book)) storylines. Additionally, Canavar is the first kingdom to fall pre Universal Destruction.
 
+<TableOfContents
+  :contents="[
+    { text: 'history' },
+    { text: 'layout' },
+    { text: 'government' },
+    { text: 'culture' },
+  ]"
+/>
+
 ## History
 
 Canavar started off as a military camp and grew into one of the biggest kingdoms in Cradia. Before [magic](/magic) was discovered, Canavar had one of the world's strongest militaries. When kingdoms started adopting magic into their armies, Canavar was very hesitant. The king believed that magic was an evil force primarily used for destruction, however, they ultimately incorporated magic anyway as to not be overtaken by other kingdoms in strength. Even so, Canavar created many laws to limit magic use in the kingdom and was always more strict about its use than the other kingdoms.

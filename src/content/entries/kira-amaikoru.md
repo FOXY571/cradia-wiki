@@ -35,6 +35,33 @@
 
 Kira throughout the book stays close with [Qatil Ikaru](/qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](/magic#divine-magic), although [Order](/order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
 
+<TableOfContents
+  :contents="[
+    { text: 'backstory' },
+    { text: 'appearance' },
+    { text: 'personality' },
+    { text: 'culture' },
+    {
+      text: 'combat-and-magic',
+      children: [
+        { text: 'creation-magic' },
+        { text: 'dreamwalking' },
+        { text: 'dream-manipulation' },
+        { text: 'time-manipulation' },
+        { text: 'flight' },
+        { text: 'magic-bestowal' },
+        { text: 'omniscience' },
+        { text: 'curse-bestowal' },
+        { text: 'teleportation' },
+        { text: 'telepathy' },
+        { text: 'mind-control' },
+        { text: 'cosmic-manipulation' },
+      ],
+    },
+    { text: 'trivia' }
+  ]"
+/>
+
 ## Backstory
 
 The revealed backstory in [The Prince's Truth](/the-prince's-truth) is brief, but it reveals that Kira was born in [Canavar](/canavar) with an unspecified role in it's society. She was born with her twin sister and was said to have lived a happy life until [Order](/order) filled her sister's head with hate and jealousy, causing her to stab Kira in the back, ultimately killing her. Once Kira had died, Order had brought her soul to him and gifted her with half of his abilities. Kira was furious with Order and she blamed him for ruining her life, thus, she stole the rest of Order's power and casted him down to Cradia. She had attempted to destroy Cradia afterwards but later found out that Order, in his last moments of power, casted an unbreakable barrier around Cradia so that she couldn't destroy or alter anything or anyone of his creation.

@@ -32,6 +32,23 @@
 
 In future parts of her story, Ümid appears to be more ignorant than most, not knowing the simplest of customs, as well as being exhausted easily as she travels with Qatil and his other friends. Depsite this, Ümid has a remarkable aptitude for [magic](/magic), learning it very quickly at a young age.
 
+<TableOfContents
+  :contents="[
+    { text: 'backstory' },
+    { text: 'appearance' },
+    { text: 'personality' },
+    { text: 'culture' },
+    {
+      text: 'combat-and-magic',
+      children: [
+        { text: 'healing-magic' },
+        { text: 'plant-magic' },
+      ],
+    },
+    { text: 'trivia' }
+  ]"
+/>
+
 ## Backstory
 
 Ümid's story begins within the confines of [Ikarye](/ikarye). She was born into a noble family though her parents identities are not mentioned as Ümid does not remember them. It is said that her parents left her at the castle of Ikarye after they were required to join the Cradian war, they never returned. Because of this Ümid nor anyone know's her family name so she is simply known as Ümid.

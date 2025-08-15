@@ -2,6 +2,14 @@
 
 Every [species](/species) from [caster](/species#casters) and above is able to use and control magic. It's impossible to use magic otherwise except through foregin methods that are rarely practiced and frowned upon by most sorcerers. As someone practices and uses magic, the color of their blood will slowly turn blue.
 
+<TableOfContents
+  :contents="[
+    { text: 'core-magic' },
+    { text: 'sub-magic' },
+    { text: 'divine-magic' },
+  ]"
+/>
+
 ## Core Magic
 
 Core magic is the most basic type of magic, yet that doesn't make it any worse than its counterparts as it can still be powerful. It is also the most common type of magic, used by almost all sorcerers in kingdoms' armies. This is because it is the easiest to learn and isn't derived by any other magic. Additionally, a core magic is needed first in order to practice another type of magic (this does not apply to divine magic).

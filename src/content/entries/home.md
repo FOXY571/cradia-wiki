@@ -1,5 +1,6 @@
 ---
 automaticHeader: false
+toc: false
 ---
 
 # Welcome to the **Official Cradia Wiki!**

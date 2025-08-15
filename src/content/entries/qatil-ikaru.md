@@ -39,6 +39,23 @@
 
 While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a sythe, and by his mother Zərərli Ikaru to cast [terra magic](/magic#core-magic). Qatil was later gifted [fire magic](/magic#divine-magic) by Kira during the Pre Universal Descrution fall of [Canavar](/canavar).
 
+<TableOfContents
+  :contents="[
+    { text: 'backstory' },
+    { text: 'appearance' },
+    { text: 'personality' },
+    { text: 'culture' },
+    {
+      text: 'combat-and-magic',
+      children: [
+        { text: 'terra-magic' },
+        { text: 'fire-magic' },
+      ],
+    },
+    { text: 'trivia' }
+  ]"
+/>
+
 ## Backstory
 
 Qatil Ikaru grew up confined within the castle walls of [Ikarye](/ikarye), longing for the day he got to leave and discover the world. During his time in the kingdom, he only had his twin sister Möhnət Ikaru to keep him company.

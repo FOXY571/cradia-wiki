@@ -32,6 +32,23 @@
 
 In [The Prince's Truth](/the-prince's-truth), Heyvan meets [Qatil Ikaru](/qatil-ikaru) and his friends before the destruction of Canavar. They end up making a proper introduction shortly after the kingdom is destroyed. Heyvan ends up joining Qatil and his friends on their journey to end the Cradia World War.
 
+<TableOfContents
+  :contents="[
+    { text: 'backstory' },
+    { text: 'appearance' },
+    { text: 'personality' },
+    { text: 'culture' },
+    {
+      text: 'combat-and-magic',
+      children: [
+        { text: 'shifting-magic' },
+        { text: 'healing-magic' },
+      ],
+    },
+    { text: 'trivia' }
+  ]"
+/>
+
 ## Backstory
 
 Pre Universal Destruction Heyvan's backstory is unknown. However, it is inferred that he grew up poor in [Canavar](/canavar) without any family. Because of this, he resulted to stealing and robbery to make a living.
