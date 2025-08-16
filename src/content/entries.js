@@ -2,7 +2,7 @@ const entryPaths = import.meta.glob('./entries/*.md', { query: '?raw', import: '
 
 const entries = {}
 
-const extractNameFromPath = (path) => {
+function extractNameFromPath(path) {
   const match = path.match(/\/([^/]+)\.md$/)
   return match ? match[1] : null
 }
