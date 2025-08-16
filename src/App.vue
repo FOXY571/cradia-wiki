@@ -40,7 +40,7 @@
         />
       </div>
 
-      <div class="main-panel panel primary-border">
+      <Panel class="main-panel">
         <div class="panel-header"></div>
 
         <div class="main-content">
@@ -49,7 +49,7 @@
           </div>
           <div class="side-spacer"></div>
         </div>
-      </div>
+      </Panel>
     </div>
 
     <PageFooter />
@@ -64,6 +64,7 @@ import { RouterView, useRoute, useRouter } from 'vue-router'
 import { getRandomEntryName } from './utils/entryHandler'
 
 import SidePanel from './components/SidePanel.vue'
+import Panel from './components/PanelContainer.vue'
 import ImageModal from './components/ImageModal.vue'
 import PageFooter from './components/PageFooter.vue'
 
@@ -142,8 +143,6 @@ watch(
 }
 
 .main-content {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-
   display: flex;
   overflow: hidden;
 }

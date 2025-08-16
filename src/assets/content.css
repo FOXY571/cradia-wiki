@@ -21,7 +21,6 @@
 .entry-content h1::after,
 .entry-content h2::after {
   content: '';
-  pointer-events: none;
 
   border-top: 1px solid rgb(20, 20, 20);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);

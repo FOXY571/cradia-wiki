@@ -1,6 +1,6 @@
 <template>
-  <div class="side-panel panel primary-border">
-    <div class="panel-header" v-if="label">{{ label }}</div>
+  <Panel class="side-panel" background-size="unset">
+    <template #header>{{ label }}</template>
     <ul class="panel-list">
       <li v-for="(item, index) in items" :key="index">
         <a
@@ -13,10 +13,12 @@
         </a>
       </li>
     </ul>
-  </div>
+  </Panel>
 </template>
 
 <script setup>
+import Panel from './PanelContainer.vue'
+
 defineProps({
   label: {
     type: String,
@@ -38,8 +40,6 @@ defineProps({
 }
 
 .panel-list {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-
   list-style-type: none;
 
   margin: 0;

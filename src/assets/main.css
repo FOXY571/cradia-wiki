@@ -21,26 +21,3 @@ body {
     rgba(255, 255, 255, 0.1);
   border-radius: 6px;
 }
-
-.panel {
-  background: url('./images/content-background.jpg');
-  background-repeat: repeat-y;
-  background-size: 100%;
-
-  box-shadow: 2.5px 2.5px 10px 0 rgba(10, 10, 10, 0.7);
-}
-
-.panel-header {
-  background-color: rgba(0, 0, 0, 0.15);
-
-  border-color: rgb(20, 20, 20);
-  border-style: solid;
-  border-width: 0 0 1px 0;
-  border-radius: 5px 5px 0 0;
-
-  font-size: 17px;
-  line-height: 10px;
-
-  height: 10px;
-  padding: 10px;
-}
