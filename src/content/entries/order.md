@@ -38,7 +38,6 @@
     { text: 'Backstory' },
     { text: 'Appearance' },
     { text: 'Personality' },
-    { text: 'Culture' },
     {
       text: 'Combat_and_magic',
       children: [

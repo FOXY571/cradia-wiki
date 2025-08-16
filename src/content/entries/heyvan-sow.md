@@ -37,7 +37,6 @@ In [The Prince's Truth](/the-prince's-truth), Heyvan meets [Qatil Ikaru](/qatil-
     { text: 'Backstory' },
     { text: 'Appearance' },
     { text: 'Personality' },
-    { text: 'Culture' },
     {
       text: 'Combat_and_magic',
       children: [

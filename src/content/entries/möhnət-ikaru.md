@@ -49,7 +49,6 @@ While growing up Möhnət was always in her brother's shadow, no matter how she 
     { text: 'Backstory' },
     { text: 'Appearance' },
     { text: 'Personality' },
-    { text: 'Culture' },
     { text: 'Combat_and_magic' },
     { text: 'Trivia' }
   ]"

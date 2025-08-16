@@ -40,7 +40,6 @@ Kira throughout the book stays close with [Qatil Ikaru](/qatil-ikaru), guiding h
     { text: 'Backstory' },
     { text: 'Appearance' },
     { text: 'Personality' },
-    { text: 'Culture' },
     {
       text: 'Combat_and_magic',
       children: [

@@ -44,7 +44,6 @@ While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a 
     { text: 'Backstory' },
     { text: 'Appearance' },
     { text: 'Personality' },
-    { text: 'Culture' },
     {
       text: 'Combat_and_magic',
       children: [
