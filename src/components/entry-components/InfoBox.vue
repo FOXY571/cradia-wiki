@@ -111,20 +111,20 @@ th {
   text-align: left;
 }
 
-@media (max-width: 1000px) {
-  .infobox {
+@media (max-width: 1280px) {
+  .info-box {
     width: 250px;
   }
 }
 
-@media (max-width: 750px) {
-  .infobox {
+@media (max-width: 768px) {
+  .info-box {
     width: 200px;
   }
 }
 
-@media screen and (max-width: 450px) {
-  .infobox {
+@media screen and (max-width: 576px) {
+  .info-box {
     float: unset;
 
     width: 250px;

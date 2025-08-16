@@ -69,7 +69,7 @@ defineProps({
   text-decoration: underline;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
   .side-panel {
     width: auto;
   }

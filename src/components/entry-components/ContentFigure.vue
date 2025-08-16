@@ -26,19 +26,19 @@ figcaption {
   line-height: 24px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1280px) {
   figure {
     width: 200px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   figure {
     width: 150px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
   figure {
     float: unset;
 

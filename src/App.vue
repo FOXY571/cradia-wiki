@@ -160,17 +160,13 @@ watch(
   width: 300px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1440px) {
   .side-spacer {
     width: 0;
   }
-
-  .header-buttons {
-    margin-right: 0;
-  }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .logo {
     background-size: auto 75%;
 
@@ -191,15 +187,13 @@ watch(
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   .logo {
     background-size: auto 65%;
 
     height: 100px;
   }
-}
 
-@media screen and (max-width: 450px) {
   .panels {
     flex-direction: column;
   }

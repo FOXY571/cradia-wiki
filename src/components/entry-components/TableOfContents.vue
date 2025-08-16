@@ -151,7 +151,7 @@ a:hover {
   color: var(--primary-color);
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .toc {
     width: 250px;
   }
