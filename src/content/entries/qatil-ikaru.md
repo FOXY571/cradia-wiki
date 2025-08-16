@@ -3,7 +3,7 @@
   :content="{
     '': [
       { key: 'Name', value: 'Qatil Ikaru' },
-      { key: 'Aliases', value: 'None' },
+      { key: 'Aliases', value: 'Chaos' },
       { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
       {
         key: 'Relatives',
