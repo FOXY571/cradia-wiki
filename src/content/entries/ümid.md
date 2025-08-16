@@ -34,18 +34,17 @@ In future parts of her story, Ümid appears to be more ignorant than most, not k
 
 <TableOfContents
   :contents="[
-    { text: 'backstory' },
-    { text: 'appearance' },
-    { text: 'personality' },
-    { text: 'culture' },
+    { text: 'Backstory' },
+    { text: 'Appearance' },
+    { text: 'Personality' },
     {
-      text: 'combat-and-magic',
+      text: 'Combat_and_magic',
       children: [
-        { text: 'healing-magic' },
-        { text: 'plant-magic' },
+        { text: 'Healing_magic' },
+        { text: 'Plant_magic' },
       ],
     },
-    { text: 'trivia' }
+    { text: 'Trivia' }
   ]"
 />
 
@@ -68,15 +67,15 @@ In part 1 she adorns a maid dress, being the usual black gown accented with whit
 
 ## Personality
 
-Ümid is a quirky character as at a young age she always seemed aloof in many situations. In her later years, she wasn't exactly the brightest, however, her love and fascination for magic never dimmed. Due to her friendship with [Qatil Ikaru](/qatil-ikaru), she was able to learn [healing magic](/magic#core-magic), but this choice wasn't a random one; it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia. This desire eventually blossomed into attraction and admiration towards Qatil.
+Ümid is a quirky character as at a young age she always seemed aloof in many situations. In her later years, she wasn't exactly the brightest, however, her love and fascination for magic never dimmed. Due to her friendship with [Qatil Ikaru](/qatil-ikaru), she was able to learn [healing magic](/magic#Core_magic), but this choice wasn't a random one; it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia. This desire eventually blossomed into attraction and admiration towards Qatil.
 
-## Combat & Magic
+## Combat and magic
 
-### Healing Magic
+### Healing magic
 
 Ümid was able to cast the most basic bits of healing magic, being able to form a yellow orb in her hands and use them to heal injuries. Unfortunately, the biggest wound she's healed was just a broken nose.
 
-### Plant Magic
+### Plant magic
 
 While being trained by Qatil in the art of magic, Ümid briefly summoned roots from the ground to defend herself. After this, she never used this skill again.
 

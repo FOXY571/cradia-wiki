@@ -1,5 +1,5 @@
 <template>
-  <h1 id="all-pages">All Pages</h1>
+  <h1>All Pages</h1>
 
   <p>Want to find something specific? This list contains every page in the wiki.</p>
 

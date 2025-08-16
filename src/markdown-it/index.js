@@ -12,7 +12,7 @@ const markdownItConfig = {
 
 const setUpMarkdownIt = (md) => {
   md.use(markdownItAnchor, {
-    slugify: (s) => s.trim().toLowerCase().replace(/\s+/g, '-'),
+    slugify: (s) => s.replace(/ /g, '_'),
     tabIndex: false,
   })
 

@@ -46,12 +46,12 @@ While growing up Möhnət was always in her brother's shadow, no matter how she 
 
 <TableOfContents
   :contents="[
-    { text: 'backstory' },
-    { text: 'appearance' },
-    { text: 'personality' },
-    { text: 'culture' },
-    { text: 'combat-and-magic' },
-    { text: 'trivia' }
+    { text: 'Backstory' },
+    { text: 'Appearance' },
+    { text: 'Personality' },
+    { text: 'Culture' },
+    { text: 'Combat_and_magic' },
+    { text: 'Trivia' }
   ]"
 />
 
@@ -76,10 +76,10 @@ Möhnət Ikaru has been an optimist since birth and has always found it easy to 
 
 <ContentFigure>
   <img src="../images/möhnət-ikaru-2.png" alt="Möhnət using her water magic" />
-  <template #caption>Möhnət using her <a title="Core Magic" href="/magic#core-magic">water magic</a></template>
+  <template #caption>Möhnət using her <a title="Core Magic" href="/magic#Core_magic">water magic</a></template>
 </ContentFigure>
 
-## Combat & Magic
+## Combat and magic
 
 <!-- Describe the character's combat and magic skills here -->
 [combat & magic]

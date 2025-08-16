@@ -1,5 +1,6 @@
 /**
  * Formats the entry name by replacing dashes with spaces and capitalizing the first letter of each word.
+ * Example: "my-entry" -> "My Entry"
  *
  * @param {string} entryName - The entry name to format.
  * @returns {string} The formatted entry name.
@@ -23,4 +24,15 @@ export function formatEntryName(entryName) {
     })
     .join(' ')
   return formattedName
+}
+
+/**
+ * Formats the header id by replacing underscores with spaces.
+ * Example: "My_header" -> "My header"
+ *
+ * @param {string} headerId - The header id to format.
+ * @returns {string} The formatted header id.
+ */
+export function formatHeaderId(headerId) {
+  return headerId.replace(/_/g, ' ')
 }

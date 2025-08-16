@@ -1,4 +1,4 @@
-import { formatEntryName } from '../../utils/formatting'
+import { formatEntryName, formatHeaderId } from '../../utils/formatting'
 
 function autoTitleLink(md) {
   const defaultRender =
@@ -12,14 +12,22 @@ function autoTitleLink(md) {
     const hrefAttr = token.attrGet('href')
 
     if (hrefAttr && hrefAttr.startsWith('/')) {
-      const entryName = hrefAttr.replace(/^\/+/, '')
-      // Set the new title of the entry link here:
-      const title = formatEntryName(entryName)
+      const location = hrefAttr.replace(/^\/+/, '')
+      const title = formatLocation(location)
 
       token.attrSet('title', title)
     }
 
     return defaultRender(tokens, idx, options, env, self)
+  }
+}
+
+function formatLocation(location) {
+  if (location.includes('#')) {
+    const headerId = location.split('#')[1]
+    return formatHeaderId(headerId)
+  } else {
+    return formatEntryName(location)
   }
 }
 

@@ -23,7 +23,7 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
   type="warning"
 />
 
-## Current Pages
+## Current pages
 
 <LinkBox
   label="Books"

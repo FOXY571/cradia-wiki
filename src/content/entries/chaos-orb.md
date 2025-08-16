@@ -16,7 +16,7 @@ Currently, its purpose is unclear, and its lore has yet to be explored.
 
 <TableOfContents
   :contents="[
-    { text: 'creation' },
+    { text: 'Creation' },
   ]"
 />
 

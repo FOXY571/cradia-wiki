@@ -2,7 +2,7 @@ This page contains extra content related to the Cradia Series. Everything in thi
 
 <TableOfContents
   :contents="[
-    { text: 'low-taper-fade' },
+    { text: 'Low_Taper_Fade' },
   ]"
 />
 

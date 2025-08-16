@@ -3,26 +3,6 @@
 
 <!-- Delete all comments once the page is complete to reduce file size -->
 
-({infobox
-# [entry name]
-<!-- An image is optional for an entry's infobox -->
-<!-- To include an image in the infobox, delete the surrounding comment -->
-<!-- ![entry name](backend/images/[image name].png) -->
-| Name: [name]
-| Aliases: [aliases] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
-| Kingdom of origin: [kingdom of origin]
-| Relatives: [relatives] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
-## Combat
-| [Magic](/magic): [magic] <!-- If multiple values, seperate them with <br> (i.e. Value 1 <br> Value 2) -->
-| Weapon of choice: [weapon of choice]
-## Appearances
-| First appearance: [first appearance]
-| Last appearance: [last appearance]
-## Physical description
-| [Species](/species): [species]
-| Gender: [gender]
-})
-
 <!-- Info boxes are recieiving some massive changes -->
 <!-- I highly recommend asking for help when handling them -->
 <InfoBox
@@ -64,6 +44,23 @@
 <!-- Introduce the character here -->
 [introduction]
 
+<TableOfContents
+  :contents="[
+    { text: 'Backstory' },
+    { text: 'Appearance' },
+    { text: 'Personality' },
+    {
+      text: 'Combat_and_magic',
+      /* children: [
+        // Put children headings for the Combat and magic section here
+        // Replace each space of the headings with underscores (_)
+        // Format: { text: [heading] },
+      ], */
+    },
+    { text: 'Trivia' },
+  ]"
+/>
+
 ## Backstory
 
 <!-- Put the character's backstory here -->
@@ -79,7 +76,7 @@
 <!-- Describe the character's personlity here -->
 [personaility]
 
-## Combat & Magic
+## Combat and magic
 
 <!-- Describe the character's combat and magic skills here -->
 [combat & magic]

@@ -26,6 +26,15 @@
 <!-- Introduce the kingdom here -->
 [introduction]
 
+<TableOfContents
+  :contents="[
+    { text: 'History' },
+    { text: 'Layout' },
+    { text: 'Government' },
+    { text: 'Culture' },
+  ]"
+/>
+
 ## History
 
 <!-- Put the kingdom's history here -->

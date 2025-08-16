@@ -1,5 +1,5 @@
 <template>
-  <h1 id="404">404</h1>
+  <h1>404</h1>
 
   <p>
     It looks like you steered off course! Unfortunately, there is no entry for

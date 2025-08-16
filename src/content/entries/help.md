@@ -2,9 +2,9 @@
 
 <TableOfContents
   :contents="[
-    { text: 'navigation' },
-    { text: 'page-structure' },
-    { text: 'development' },
+    { text: 'Navigation' },
+    { text: 'Page_structure' },
+    { text: 'Development' },
   ]"
 />
 
@@ -18,7 +18,7 @@
     * The "Random page" button will take you to—you guessed it—a random page. This is useful if you're interested in learning something new.
     * The "Help" button will take you to this page.
 
-## Page Structure
+## Page structure
 
 * Pages about most topics will be similarly structured.
     * Subtopics are seperated by headings for cleaner and clearer navigation.

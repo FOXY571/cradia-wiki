@@ -1,5 +1,5 @@
 <template>
-  <h1 :id="entryName" v-if="getEntryProp(entryName, 'automaticHeader')">
+  <h1 v-if="getEntryProp(entryName, 'automaticHeader')">
     {{ formatEntryName(props.entryName) }}
   </h1>
 

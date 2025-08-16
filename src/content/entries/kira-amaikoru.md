@@ -33,32 +33,32 @@
 
 **Kira Amaikoru** is established as the acting godly figure in [The Prince's Truth](/the-prince's-truth). Kira once lived in the kingdom of [Canavar](/canavar), though it isn't clearly stated if she was royal or not. The only family member she has that's been mentioned so far is her twin sister who is yet to be named.
 
-Kira throughout the book stays close with [Qatil Ikaru](/qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](/magic#divine-magic), although [Order](/order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
+Kira throughout the book stays close with [Qatil Ikaru](/qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](/magic#Divine_magic), although [Order](/order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
 
 <TableOfContents
   :contents="[
-    { text: 'backstory' },
-    { text: 'appearance' },
-    { text: 'personality' },
-    { text: 'culture' },
+    { text: 'Backstory' },
+    { text: 'Appearance' },
+    { text: 'Personality' },
+    { text: 'Culture' },
     {
-      text: 'combat-and-magic',
+      text: 'Combat_and_magic',
       children: [
-        { text: 'creation-magic' },
-        { text: 'dreamwalking' },
-        { text: 'dream-manipulation' },
-        { text: 'time-manipulation' },
-        { text: 'flight' },
-        { text: 'magic-bestowal' },
-        { text: 'omniscience' },
-        { text: 'curse-bestowal' },
-        { text: 'teleportation' },
-        { text: 'telepathy' },
-        { text: 'mind-control' },
-        { text: 'cosmic-manipulation' },
+        { text: 'Creation_magic' },
+        { text: 'Dreamwalking' },
+        { text: 'Dream_manipulation' },
+        { text: 'Time_manipulation' },
+        { text: 'Flight' },
+        { text: 'Magic_Bestowal' },
+        { text: 'Omniscience' },
+        { text: 'Curse_bestowal' },
+        { text: 'Teleportation' },
+        { text: 'Telepathy' },
+        { text: 'Mind_control' },
+        { text: 'Cosmic_manipulation' },
       ],
     },
-    { text: 'trivia' }
+    { text: 'Trivia' }
   ]"
 />
 
@@ -83,23 +83,23 @@ When Kira first met [Qatil Ikaru](/qatil-ikaru), she put on a kind facade as ass
 
 Throughout part three of [The Prince's Truth](/the-prince's-truth), Kira talks to Qatil Ikaru much more and makes it clear that she didn't care about anyone Qatil cared for. She didn't care that he was feeling bad about everything and everyone he was killing senselessly, she only cared that he did what she said. It is apparent that Kira does care for Qatil to some extent ,although it isn't clear if it's because she needs him to destroy Order's barrier or because she's truly grown to care for him.
 
-## Combat and Magic
+## Combat and magic
 
 Kira never displayed an apptitude for general combat and was always more proficcient with magic, while it is unknown what magic Kira specialized in while she was mortal, she displayed many divine abilities in her interactions with [Qatil](/qatil-ikaru).
 
-### Creation Magic
+### Creation magic
 
-Kira has been described to have used [creation magic](/magic#divine-magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](/magic) has not been described much it was shown at a much greater scale when [Order](/order) created the universe, thus implying Kira could do the same.
+Kira has been described to have used [creation magic](/magic#Divine_magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](/magic) has not been described much it was shown at a much greater scale when [Order](/order) created the universe, thus implying Kira could do the same.
 
 ### Dreamwalking
 
 Kira has been shown to enter peoples dreams specifically that of Qatil's. She is able to navigate someone's dreamscape and even interact with the 'dreamer'.
 
-### Dream Manipulation
+### Dream manipulation
 
 Pairing well with dreamwalking, Kira is able to manipulate the dreams she enters, whether it be through cryptic visions or even flashbacks to the past.
 
-### Time Manipulation
+### Time manipulation
 
 When the army of [Canavar](/canavar) charged to attack Qatil and his friends, Kira had stopped time and could freely interact with the time frozen space around here, she could even allow Qatil to be uneffected by the time stop so he too could interact with frozen space.
 
@@ -107,23 +107,23 @@ When the army of [Canavar](/canavar) charged to attack Qatil and his friends, Ki
 
 While Kira was never shown physically flying she has done it many times in the dream scape so it is heavily implied anything she does there she can do in the real world.
 
-### Magic Bestowal
+### Magic bestowal
 
-Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield [fire magic](/magic#divine-magic). Thus it is also implied she can just as easily take it away.
+Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield [fire magic](/magic#Divine_magic). Thus it is also implied she can just as easily take it away.
 
 ### Omniscience
 
-### Curse Bestowal
+### Curse bestowal
 
 ### Teleportation
 
 ### Telepathy
 
-### Mind Control
+### Mind control
 
-### Cosmic Manipulation
+### Cosmic manipulation
 
 ## Trivia
 
-* Kira despises being a [god](/species#gods).
+* Kira despises being a [god](/species#Gods).
 * Kira thinks of [Qatil](/qatil-ikaru) as a son, due to his soul being made out of a piece of hers.

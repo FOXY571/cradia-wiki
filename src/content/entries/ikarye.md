@@ -22,10 +22,10 @@
 
 <TableOfContents
   :contents="[
-    { text: 'history' },
-    { text: 'layout' },
-    { text: 'government' },
-    { text: 'culture' },
+    { text: 'History' },
+    { text: 'Layout' },
+    { text: 'Government' },
+    { text: 'Culture' },
   ]"
 />
 

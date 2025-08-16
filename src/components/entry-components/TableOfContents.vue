@@ -5,7 +5,7 @@
         <ContentsIcon />
         Contents
       </span>
-      <span id="toggle" class="toggle" @click="toggle">
+      <span class="toggle" @click="toggle">
         <ArrowDownIcon />
       </span>
     </div>
@@ -16,13 +16,13 @@
       <li v-for="(category1, category1Index) in contents" :key="category1Index">
         <a :href="`#${category1.text}`">
           <span class="number">{{ `${category1Index + 1}` }}</span>
-          <span class="text">{{ formatEntryName(category1.text) }}</span>
+          <span class="text">{{ formatHeaderId(category1.text) }}</span>
         </a>
         <ul>
           <li v-for="(category2, category2Index) in category1.children" :key="category2Index">
             <a :href="`#${category2.text}`">
               <span class="number">{{ `${category1Index + 1}.${category2Index + 1}` }}</span>
-              <span class="text">{{ formatEntryName(category2.text) }}</span>
+              <span class="text">{{ formatHeaderId(category2.text) }}</span>
             </a>
             <ul>
               <li v-for="(category3, category3Index) in category2.children" :key="category3Index">
@@ -30,7 +30,7 @@
                   <span class="number">
                     {{ `${category1Index + 1}.${category2Index + 1}.${category3Index + 1}` }}
                   </span>
-                  <span class="text">{{ formatEntryName(category3.text) }}</span>
+                  <span class="text">{{ formatHeaderId(category3.text) }}</span>
                 </a>
               </li>
             </ul>
@@ -43,7 +43,7 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-import { formatEntryName } from '../../utils/formatting'
+import { formatHeaderId } from '../../utils/formatting'
 
 import ContentsIcon from '../icons/ContentsIcon.vue'
 import ArrowDownIcon from '../icons/ArrowDownIcon.vue'

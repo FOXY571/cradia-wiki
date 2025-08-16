@@ -22,10 +22,10 @@
 
 <TableOfContents
   :contents="[
-    { text: 'history' },
-    { text: 'layout' },
-    { text: 'government' },
-    { text: 'culture' },
+    { text: 'History' },
+    { text: 'Layout' },
+    { text: 'Government' },
+    { text: 'Culture' },
   ]"
 />
 
@@ -33,7 +33,7 @@
 
 Canavar started off as a military camp and grew into one of the biggest kingdoms in Cradia. Before [magic](/magic) was discovered, Canavar had one of the world's strongest militaries. When kingdoms started adopting magic into their armies, Canavar was very hesitant. The king believed that magic was an evil force primarily used for destruction, however, they ultimately incorporated magic anyway as to not be overtaken by other kingdoms in strength. Even so, Canavar created many laws to limit magic use in the kingdom and was always more strict about its use than the other kingdoms.
 
-Many conservative Canavarians would think lowly of magic users and in some situations, magic users were attacked without much reason. Because of the kingom's distate for the practice, many [casters](/species#casters) were thrown in jail for very little reason, and they would have much more severe punishments than non-magic users.
+Many conservative Canavarians would think lowly of magic users and in some situations, magic users were attacked without much reason. Because of the kingom's distate for the practice, many [casters](/species#Casters) were thrown in jail for very little reason, and they would have much more severe punishments than non-magic users.
 
 As Canavar grew, they created close ties to other nearby kingdoms, especially [Ikarye](/ikarye), trading and making peace with them. Ikarye gifted Canavar with a large amount of resources and money, allowing the kingdom to expand even further. Canavar used these resources to upgrade their defenses, castle, and build better housing. Unfortunately, this new housing split Canavar's populous into social classes as only the rich could offord to live in Canavar's new neighborhoods.
 
