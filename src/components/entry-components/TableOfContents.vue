@@ -1,13 +1,11 @@
 <template>
   <div class="toc primary-border">
     <div class="header">
-      <span class="label">
-        <ContentsIcon />
-        Contents
-      </span>
-      <span class="toggle" @click="toggle">
-        <ArrowDownIcon />
-      </span>
+      <input id="tocCheckbox" type="checkbox" role="button" @click="toggle" />
+      <label for="tocCheckbox">
+        <span class="label"><ContentsIcon /> Contents</span>
+        <span class="arrow-icon" :class="{ open: isOpen }"><ArrowDownIcon /></span>
+      </label>
     </div>
 
     <!-- Only goes three levels deep -->
@@ -42,7 +40,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import { formatHeaderId } from '../../utils/formatting'
 
 import ContentsIcon from '../icons/ContentsIcon.vue'
@@ -57,19 +55,9 @@ defineProps({
 
 const isOpen = ref(true)
 
-let toggleElement = null
-
 function toggle() {
   isOpen.value = !isOpen.value
-
-  if (toggleElement && toggleElement.style) {
-    toggleElement.style.transform = isOpen.value ? 'rotate(180deg)' : 'rotate(0deg)'
-  }
 }
-
-onMounted(() => {
-  toggleElement = document.getElementById('toggle')
-})
 </script>
 
 <style scoped>
@@ -84,23 +72,32 @@ onMounted(() => {
   color: var(--secondary-color);
   background-color: rgba(0, 0, 0, 0.1);
 
-  display: flex;
   line-height: 24px;
 
   padding: 5px;
   margin-bottom: 2.5px;
 }
 
+input {
+  display: none;
+}
+
+label {
+  display: flex;
+  cursor: pointer;
+}
+
 .label {
   flex: 1;
 }
 
-.toggle {
+.arrow-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+}
 
+.arrow-icon.open {
   transform: rotate(180deg);
 }
 
