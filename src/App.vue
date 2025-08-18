@@ -59,9 +59,10 @@
 </template>
 
 <script setup>
-import { watch } from 'vue'
+import { onMounted, watch } from 'vue'
 import { RouterView, useRoute, useRouter } from 'vue-router'
 import { getRandomEntryName } from './utils/entryHandler'
+import { switchTheme } from './utils/themeSwitcher'
 
 import SidePanel from './components/SidePanel.vue'
 import Panel from './components/PanelContainer.vue'
@@ -79,13 +80,17 @@ watch(
   },
   { immediate: true },
 )
+
+onMounted(() => {
+  switchTheme('chaos')
+})
 </script>
 
 <style scoped>
 .background {
   position: fixed;
 
-  background-image: url('./assets/images/background.jpg');
+  background-image: var(--theme-background);
   background-size: cover;
   background-position: center;
   filter: blur(3px);

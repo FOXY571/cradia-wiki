@@ -5,6 +5,10 @@
   --secondary-color: white;
   --link-color: rgb(159, 236, 240);
   --background-color: rgb(67, 67, 67);
+
+  /* Theme variables */
+  --theme-background: url('./images/backgrounds/ikarye.jpg');
+  --theme-panel-background: url('./images/panel-backgrounds/ikarye.jpg');
 }
 
 body {

@@ -20,7 +20,7 @@ defineProps({
 
 <style scoped>
 .panel {
-  background: url('../assets/images/content-background.jpg');
+  background: var(--theme-panel-background);
   background-repeat: repeat-y;
   background-size: v-bind(backgroundSize);
 
