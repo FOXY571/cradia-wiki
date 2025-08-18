@@ -9,11 +9,9 @@
 
 <script setup></script>
 
-<style lang="scss" scoped>
-@import '../assets/variables';
-
+<style scoped>
 .footer {
-  background-color: $background-color;
+  background-color: var(--background-color);
 
   display: flex;
   justify-content: center;

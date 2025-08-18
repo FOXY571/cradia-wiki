@@ -2,7 +2,7 @@
   <div id="imageModal" class="modal">
     <span id="closeButton" class="close-button">&times;</span>
 
-    <img class="modal-content" :src="imageSource" />
+    <img class="modal-content" :src="imageSource">
     <div class="caption" v-html="imageCaption"></div>
     <div class="counter" v-html="counter"></div>
 
@@ -66,9 +66,8 @@ onMounted(() => {
   modalElement = document.getElementById('imageModal')
 
   const attachListeners = () => {
-    images = Array.from(document.querySelectorAll('img')).filter(
-      (img) => !img.closest('#imageModal'),
-    )
+    images = Array.from(document.querySelectorAll('img'))
+      .filter(img => !img.closest('#imageModal'))
 
     images.forEach((img, idx) => {
       if (!img.dataset.modalListener) {
@@ -100,7 +99,7 @@ window.addEventListener('keydown', (e) => {
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .modal {
   background-color: rgba(0, 0, 0, 0.9);
 
@@ -121,7 +120,7 @@ window.addEventListener('keydown', (e) => {
 
   max-width: 90%;
   max-height: calc(100vh - 225px);
-
+  
   margin: auto;
 }
 
@@ -153,7 +152,7 @@ window.addEventListener('keydown', (e) => {
 }
 
 .next-button {
-  right: 0;
+  right: 0; 
 }
 
 .caption {

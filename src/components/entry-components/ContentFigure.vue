@@ -9,7 +9,7 @@
 
 <script setup></script>
 
-<style lang="scss" scoped>
+<style scoped>
 figure {
   background-color: rgba(0, 0, 0, 0.1);
 

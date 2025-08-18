@@ -1,8 +1,14 @@
-@import './variables';
-@import './content';
+@import url('./content.css');
+
+:root {
+  --primary-color: rgb(229, 223, 214);
+  --secondary-color: white;
+  --link-color: rgb(159, 236, 240);
+  --background-color: rgb(67, 67, 67);
+}
 
 body {
-  color: $primary-color;
+  color: var(--primary-color);
   font-family: Arial, Helvetica, sans-serif;
 
   overscroll-behavior: none;

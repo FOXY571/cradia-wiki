@@ -21,7 +21,7 @@ defineProps({
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 iframe {
   filter: invert(1) hue-rotate(225deg);
 }

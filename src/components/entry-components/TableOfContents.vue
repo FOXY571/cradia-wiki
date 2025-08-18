@@ -60,9 +60,7 @@ function toggle() {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '../../assets/variables';
-
+<style scoped>
 .toc {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -71,7 +69,7 @@ function toggle() {
 }
 
 .header {
-  color: $secondary-color;
+  color: var(--secondary-color);
   background-color: rgba(0, 0, 0, 0.1);
 
   line-height: 24px;
@@ -119,7 +117,7 @@ li {
 }
 
 a {
-  color: $link-color;
+  color: var(--link-color);
   font-size: 14px;
   text-decoration: none !important;
 
@@ -147,7 +145,7 @@ a:hover {
 }
 
 .text {
-  color: $primary-color;
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {

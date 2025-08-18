@@ -64,9 +64,7 @@ defineProps({
 })
 </script>
 
-<style lang="scss" scoped>
-@import '../../assets/variables';
-
+<style scoped>
 .info-box {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -79,7 +77,7 @@ defineProps({
 }
 
 .label {
-  color: $secondary-color;
+  color: var(--secondary-color);
   background-color: rgba(0, 0, 0, 0.1);
 
   font-size: 20px;

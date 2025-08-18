@@ -21,4 +21,4 @@ const entryName = decodeURIComponent(route.path.split('/').pop() || 'home')
 setTitle(formatEntryName(entryName))
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>

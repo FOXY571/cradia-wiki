@@ -24,7 +24,7 @@ defineProps({
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .note,
 .warning {
   color: black;
