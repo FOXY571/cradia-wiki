@@ -20,4 +20,4 @@ import { setTitle } from '../utils/titleHandler'
 setTitle('All Pages')
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>

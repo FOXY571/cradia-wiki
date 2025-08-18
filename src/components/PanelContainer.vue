@@ -18,7 +18,7 @@ defineProps({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .panel {
   background: url('../assets/images/content-background.jpg');
   background-repeat: repeat-y;

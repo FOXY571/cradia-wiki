@@ -31,7 +31,9 @@ defineProps({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../assets/variables';
+
 .side-panel {
   background-size: unset;
 
@@ -47,7 +49,7 @@ defineProps({
 }
 
 .panel-link {
-  color: var(--link-color);
+  color: $link-color;
   font-size: 14px;
   text-decoration: none;
 

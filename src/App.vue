@@ -81,7 +81,7 @@ watch(
 )
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .background {
   position: fixed;
 

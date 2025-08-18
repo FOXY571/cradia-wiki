@@ -24,7 +24,9 @@ defineProps({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../../assets/variables';
+
 .link-box {
   background-color: rgba(0, 0, 0, 0.1);
 
@@ -33,7 +35,7 @@ defineProps({
 }
 
 .label {
-  color: var(--secondary-color);
+  color: $secondary-color;
   background-color: rgba(0, 0, 0, 0.1);
 
   font-size: 20px;
