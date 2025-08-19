@@ -1,3 +1,5 @@
+import cookies from 'vue-cookies'
+
 import backgrounds from '../assets/images/backgrounds'
 import panelBackgrounds from '../assets/images/panel-backgrounds'
 
@@ -16,6 +18,10 @@ const themes = {
   },
 }
 
+export function getCurrentTheme() {
+  return cookies.get('theme') || 'ikarye'
+}
+
 export function switchTheme(themeName) {
   const theme = themes[themeName]
   if (theme) {
@@ -24,5 +30,7 @@ export function switchTheme(themeName) {
       `url(${theme.panelBackground})`,
     )
     document.documentElement.style.setProperty('--theme-background', `url(${theme.background})`)
+
+    cookies.set('theme', themeName, Infinity)
   }
 }
