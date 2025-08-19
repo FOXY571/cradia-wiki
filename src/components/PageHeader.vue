@@ -14,28 +14,9 @@
         <div v-if="isOpen" class="theme-popup">
           <div class="theme-popup-inner">
             <ul>
-              <li>
-                <button
-                  :class="{ selected: currentTheme === 'ikarye' }"
-                  @click="switchTheme('ikarye')"
-                >
-                  Ikarye
-                </button>
-              </li>
-              <li>
-                <button
-                  :class="{ selected: currentTheme === 'canavar' }"
-                  @click="switchTheme('canavar')"
-                >
-                  Canavar
-                </button>
-              </li>
-              <li>
-                <button
-                  :class="{ selected: currentTheme === 'chaos' }"
-                  @click="switchTheme('chaos')"
-                >
-                  Chaos
+              <li v-for="(theme, name) in themes" :key="name">
+                <button :class="{ selected: currentTheme === name }" @click="switchTheme(name)">
+                  {{ theme.name }}
                 </button>
               </li>
             </ul>
@@ -48,7 +29,7 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-import { currentTheme, switchTheme } from '../utils/themeSwitcher'
+import { themes, currentTheme, switchTheme } from '../utils/themeSwitcher'
 
 import ArrowDownIcon from './icons/ArrowDownIcon.vue'
 

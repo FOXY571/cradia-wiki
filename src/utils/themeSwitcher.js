@@ -4,16 +4,19 @@ import cookies from 'vue-cookies'
 import backgrounds from '../assets/images/backgrounds'
 import panelBackgrounds from '../assets/images/panel-backgrounds'
 
-const themes = {
+export const themes = {
   ikarye: {
+    name: 'Ikarye',
     background: backgrounds.ikarye,
     panelBackground: panelBackgrounds.ikarye,
   },
   canavar: {
+    name: 'Canavar',
     background: backgrounds.canavar,
     panelBackground: panelBackgrounds.canavar,
   },
   chaos: {
+    name: 'Chaos',
     background: backgrounds.chaos,
     panelBackground: panelBackgrounds.chaos,
   },
