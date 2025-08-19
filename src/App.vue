@@ -49,11 +49,7 @@
           <div class="content-body entry-content">
             <RouterView />
           </div>
-          <div class="side-spacer">
-            <button @click="switchTheme('ikarye')">Ikarye</button>
-            <button @click="switchTheme('canavar')">Canavar</button>
-            <button @click="switchTheme('chaos')">Chaos</button>
-          </div>
+          <div class="side-spacer"></div>
         </div>
       </Panel>
     </div>
@@ -65,10 +61,9 @@
 </template>
 
 <script setup>
-import { onMounted, watch } from 'vue'
+import { watch } from 'vue'
 import { RouterView, useRoute, useRouter } from 'vue-router'
 import { getRandomEntryName } from './utils/entryHandler'
-import { getCurrentTheme, switchTheme } from './utils/themeSwitcher'
 
 import Header from './components/PageHeader.vue'
 import SidePanel from './components/SidePanel.vue'
@@ -87,11 +82,6 @@ watch(
   },
   { immediate: true },
 )
-
-onMounted(() => {
-  const theme = getCurrentTheme()
-  switchTheme(theme)
-})
 </script>
 
 <style scoped>

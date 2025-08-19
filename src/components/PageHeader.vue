@@ -5,11 +5,63 @@
         <img src="../assets/images/logo.png" alt="Cradia Wiki logo" />
       </a>
     </div>
-    <div class="header-buttons"></div>
+    <div class="header-buttons">
+      <div class="theme-select">
+        <input id="themesCheckbox" type="checkbox" role="button" @click="toggle" />
+        <label for="themesCheckbox">
+          <span>Appearance <ArrowDownIcon class="arrow-icon" :class="{ open: isOpen }" /></span>
+        </label>
+        <div v-if="isOpen" class="theme-popup">
+          <div class="theme-popup-inner">
+            <ul>
+              <li>
+                <button
+                  :class="{ selected: currentTheme === 'ikarye' }"
+                  @click="switchTheme('ikarye')"
+                >
+                  Ikarye
+                </button>
+              </li>
+              <li>
+                <button
+                  :class="{ selected: currentTheme === 'canavar' }"
+                  @click="switchTheme('canavar')"
+                >
+                  Canavar
+                </button>
+              </li>
+              <li>
+                <button
+                  :class="{ selected: currentTheme === 'chaos' }"
+                  @click="switchTheme('chaos')"
+                >
+                  Chaos
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted, ref } from 'vue'
+import { currentTheme, switchTheme } from '../utils/themeSwitcher'
+
+import ArrowDownIcon from './icons/ArrowDownIcon.vue'
+
+const isOpen = ref(false)
+
+function toggle() {
+  isOpen.value = !isOpen.value
+}
+
+onMounted(() => {
+  switchTheme(currentTheme.value)
+})
+</script>
 
 <style scoped>
 header {
@@ -20,8 +72,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
 
-  width: 100%;
   height: 35px;
   padding: 0 5px;
 }
@@ -32,5 +84,87 @@ header {
 
 .header-buttons {
   flex: 1;
+
+  justify-items: right;
+}
+
+.theme-select {
+  position: relative;
+}
+
+.theme-select input {
+  display: none;
+}
+
+.theme-select label {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  padding: 3px 0.4em;
+}
+
+.theme-select label span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.arrow-icon.open {
+  transform: rotate(180deg);
+}
+
+.theme-popup {
+  position: absolute;
+  right: 0;
+  left: auto;
+
+  max-width: 300px;
+  padding-top: 5px;
+}
+
+.theme-popup-inner {
+  background: var(--background-color);
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+
+  padding: 10px;
+}
+
+.theme-popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.theme-popup li {
+  margin: 5px 0;
+}
+
+.theme-popup button {
+  color: var(--primary-color);
+  text-align: left;
+
+  width: 100%;
+}
+
+.theme-popup button:hover,
+.theme-popup button.selected {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.theme-popup button {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.theme-popup button:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 </style>

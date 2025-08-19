@@ -1,3 +1,4 @@
+import { ref } from 'vue'
 import cookies from 'vue-cookies'
 
 import backgrounds from '../assets/images/backgrounds'
@@ -18,14 +19,7 @@ const themes = {
   },
 }
 
-/**
- * Get the current theme from cookies.
- *
- * @returns {string} The name of the current theme or 'ikarye' if there is none.
- */
-export function getCurrentTheme() {
-  return cookies.get('theme') || 'ikarye'
-}
+export let currentTheme = ref(cookies.get('theme') || 'ikarye')
 
 /**
  * Switch the theme to the specified theme name. If the theme does not exist, the theme will not switch.
@@ -41,6 +35,7 @@ export function switchTheme(themeName) {
     )
     document.documentElement.style.setProperty('--theme-background', `url(${theme.background})`)
 
+    currentTheme.value = themeName
     cookies.set('theme', themeName, Infinity)
   }
 }
