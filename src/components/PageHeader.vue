@@ -66,11 +66,14 @@ header {
 .header-buttons {
   flex: 1;
 
-  justify-items: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .theme-select {
   position: relative;
+  display: inline-block;
 }
 
 .theme-select input {
