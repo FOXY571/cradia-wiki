@@ -1,6 +1,8 @@
 <template>
   <div class="background"></div>
 
+  <Header />
+
   <div class="app-container">
     <div class="logo">
       <a title="Visit the main page" href="/"></a>
@@ -56,7 +58,7 @@
       </Panel>
     </div>
 
-    <PageFooter />
+    <Footer />
   </div>
 
   <ImageModal />
@@ -68,10 +70,11 @@ import { RouterView, useRoute, useRouter } from 'vue-router'
 import { getRandomEntryName } from './utils/entryHandler'
 import { getCurrentTheme, switchTheme } from './utils/themeSwitcher'
 
+import Header from './components/PageHeader.vue'
 import SidePanel from './components/SidePanel.vue'
 import Panel from './components/PanelContainer.vue'
 import ImageModal from './components/ImageModal.vue'
-import PageFooter from './components/PageFooter.vue'
+import Footer from './components/PageFooter.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -111,6 +114,7 @@ onMounted(() => {
   flex-direction: column;
 
   min-height: 100vh;
+  padding-top: 35px;
 }
 
 .logo {

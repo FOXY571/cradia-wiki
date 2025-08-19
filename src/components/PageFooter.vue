@@ -1,24 +1,23 @@
 <template>
-  <div class="footer">
-    <span class="footer-text">
+  <footer>
+    <span>
       Website created by
       <a class="footer-link" href="https://github.com/FOXY571" target="_blank">Thomas Towson</a>
     </span>
-  </div>
+  </footer>
 </template>
 
 <script setup></script>
 
 <style scoped>
-.footer {
+footer {
   background-color: var(--background-color);
 
   display: flex;
   justify-content: center;
-}
+  align-items: center;
 
-.footer-text {
-  margin: 0.75em 0;
+  height: 35px;
 }
 
 .footer-link {
