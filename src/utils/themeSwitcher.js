@@ -20,6 +20,11 @@ export const themes = {
     background: backgrounds.chaos,
     panelBackground: panelBackgrounds.chaos,
   },
+  sanctuary: {
+    name: 'Sanctuary',
+    background: backgrounds.sanctuary,
+    panelBackground: panelBackgrounds.sanctuary,
+  },
 }
 
 export let currentTheme = ref(cookies.get('theme') || 'ikarye')

@@ -1,6 +1,6 @@
 <template>
   <h1 v-if="getEntryProp(entryName, 'automaticHeader')">
-    {{ formatEntryName(props.entryName) }}
+    {{ formatEntryName(entryName) }}
   </h1>
 
   <component :is="entryContent" v-if="entryContent" />
