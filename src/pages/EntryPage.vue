@@ -21,7 +21,7 @@ const loadEntry = (entryName) => {
   entryContent.value = getEntry(entryName)
 }
 
-const props = defineProps({
+const { entryName } = defineProps({
   entryName: {
     type: String,
     required: true,
@@ -29,10 +29,10 @@ const props = defineProps({
 })
 
 onMounted(async () => {
-  loadEntry(props.entryName)
+  loadEntry(entryName)
 
-  if (props.entryName !== 'home') {
-    setTitle(formatEntryName(props.entryName))
+  if (entryName !== 'home') {
+    setTitle(formatEntryName(entryName))
   }
 
   await nextTick()
