@@ -5,7 +5,7 @@
       { key: 'Name', value: 'Kira Amaikoru' },
       { key: 'Aliases', value: 'None' },
       { key: 'Kingdom of Origin', value: 'Canavar', valueLink: 'canavar' },
-      { key: 'Relatives', value: 'Her sister (unnamed)' },
+      { key: 'Relatives', value: 'Wachi Amaikoru' },
     ],
     'Combat': [
       { key: 'Magic', keyLink: 'magic', value: 'Creation' },
