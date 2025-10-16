@@ -12,7 +12,7 @@
     '': [
       { key: 'Author', value: 'Thomas Towson' },
       { key: 'State', value: 'Unfinished' },
-      { key: 'Pages', value: '9' },
+      { key: 'Pages', value: '10' },
       { key: 'Chapters', value: '1' },
     ],
   }"

@@ -48,7 +48,7 @@ Kira throughout the book stays close with [Qatil Ikaru](/qatil-ikaru), guiding h
         { text: 'Dream_manipulation' },
         { text: 'Time_manipulation' },
         { text: 'Flight' },
-        { text: 'Magic_Bestowal' },
+        { text: 'Magic_bestowal' },
         { text: 'Omniscience' },
         { text: 'Curse_bestowal' },
         { text: 'Teleportation' },

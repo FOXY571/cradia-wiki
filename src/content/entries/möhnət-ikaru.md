@@ -12,7 +12,7 @@
       },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: 'Water <br> Ice' },
+      { key: 'Magic', keyLink: 'magic', value: [ 'Water', 'Ice' ] },
       { key: 'Weapon of Choice', value: 'None' },
     ],
     'Appearances': [

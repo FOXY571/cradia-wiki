@@ -14,8 +14,8 @@ name: the-prince's-truth
     '': [
       { key: 'Author', value: 'Lucas Rourk' },
       { key: 'State', value: 'Unfinished' },
-      { key: 'Pages', value: '164' },
-      { key: 'Chapters', value: '50' },
+      { key: 'Pages', value: '179' },
+      { key: 'Chapters', value: '55' },
     ],
   }"
 />

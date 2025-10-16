@@ -5,9 +5,9 @@
   :content="{
     '': [
       { key: 'Name', value: 'Heyvan Sow' },
-      { key: 'Aliases', value: 'Tyger' },
+      { key: 'Aliases', value: 'None' },
       { key: 'Kingdom of Origin', value: 'Canavar', valueLink: 'canavar' },
-      { key: 'Relatives', value: 'Kitab Sow (brother)' },
+      { key: 'Relatives', value: 'None' },
     ],
     'Combat': [
       { key: 'Magic', keyLink: 'magic', value: [ 'Shifting', 'Healing' ] },
@@ -62,7 +62,7 @@ From then on, Heyvan lived on his own, practicing and using magic to steal in or
 
 Heyvan Sow is a male [caster](/species#Casters) with a tall, lanky build and white skin. He has short gray hair and green eyes. He jumps between outfits when shifting, yet most of the clothes he wears are rough, commoner outfits. Unlike most commoner clothes that are faint grays and browns, Heyvan likes to wear outfits with prominent black and red colors. His signature clothing items are a pair of black fingerless gloves and a black tophat with a feather sticking out of its band.
 
-Due to his shifting abilites, Heyvan has been seen to take on the forms of many animals including cats, birds, small critters, and more. Heyvan's signature form is that of a shorthair cat with gray fur and green eyes that has been named Tyger by one of his friends.
+Due to his shifting abilites, Heyvan has been seen to take on the forms of many animals including cats, birds, small critters, and more. Heyvan's signature form is that of a shorthair cat with gray fur and green eyes.
 
 ## Personality
 
