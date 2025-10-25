@@ -35,31 +35,7 @@
 
 Kira throughout the book stays close with [Qatil Ikaru](/qatil-ikaru), guiding him through a variety of situations whilst also attempting to explain to him what his true purpose should be. Kira was the one who assisted Qatil in unlocking his [fire magic](/magic#Divine_magic), although [Order](/order) suggests she simply gave it to him. Such a thing was most likely done when she forced Ümid's blood down his throat when she stopped time at Canavar.
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    {
-      text: 'Combat_and_magic',
-      children: [
-        { text: 'Creation_magic' },
-        { text: 'Dreamwalking' },
-        { text: 'Dream_manipulation' },
-        { text: 'Time_manipulation' },
-        { text: 'Flight' },
-        { text: 'Magic_bestowal' },
-        { text: 'Omniscience' },
-        { text: 'Curse_bestowal' },
-        { text: 'Teleportation' },
-        { text: 'Telepathy' },
-        { text: 'Mind_control' },
-        { text: 'Cosmic_manipulation' },
-      ],
-    },
-    { text: 'Trivia' }
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

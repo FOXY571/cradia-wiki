@@ -1,10 +1,6 @@
 This page contains extra content related to the Cradia Series. Everything in this page here is **NOT** canon and is just for laughs.
 
-<TableOfContents
-  :contents="[
-    { text: 'Low_Taper_Fade' },
-  ]"
-/>
+<TableOfContents />
 
 ## Low Taper Fade
 

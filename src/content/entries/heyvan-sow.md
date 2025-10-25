@@ -32,21 +32,7 @@
 
 In [The Prince's Truth](/the-prince's-truth), Heyvan meets [Qatil Ikaru](/qatil-ikaru) and his friends before the destruction of Canavar. They end up making a proper introduction shortly after the kingdom is destroyed. Heyvan ends up joining Qatil and his friends on their journey to end the Cradia World War.
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    {
-      text: 'Combat_and_magic',
-      children: [
-        { text: 'Shifting_magic' },
-        { text: 'Healing_magic' },
-      ],
-    },
-    { text: 'Trivia' }
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

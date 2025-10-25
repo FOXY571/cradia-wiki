@@ -33,20 +33,7 @@
 
 **Order** is the main antaganist of [The Prince's Truth](/the-prince's-truth) and is also an antaganist in [Heyvan](/heyvan-(book)). He was the first being to ever be created and created everything in the universe that existed pre Universal Destruction. The only things he did not create was anything derived of chaos. This includes chaos itself and [Qatil Ikaru](/qatil-ikaru). Order is an enemy of [Kira Amaikoru](/kira-amaikoru) and seeks to bring her to justice and restore order to the universe.
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    {
-      text: 'Combat_and_magic',
-      children: [
-        { text: 'Blood_magic' },
-      ],
-    },
-    { text: 'Trivia' }
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

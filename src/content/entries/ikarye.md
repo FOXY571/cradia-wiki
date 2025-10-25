@@ -20,14 +20,7 @@
 
 **Ikarye** also known as the kingdom of the dark is the home kingdom of many main characters from The Prince's Truth such as Qatil Ikaru, Möhnət Ikaru, and Ümid. The majority of part 1 takes place here.
 
-<TableOfContents
-  :contents="[
-    { text: 'History' },
-    { text: 'Layout' },
-    { text: 'Government' },
-    { text: 'Culture' },
-  ]"
-/>
+<TableOfContents />
 
 ## History
 

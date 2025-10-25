@@ -20,14 +20,7 @@
 
 **Canavar**, also known as the Kingdom of the Wild, is located on the South East edge of Cradia pre Universal Destruction and on the Southern edge of the East Lands post Universal Destruction. The kingdom plays a huge role in both [The Prince's Truth](/the-prince's-truth) and [Heyvan](/heyvan-(book)) storylines. Additionally, Canavar is the first kingdom to fall pre Universal Destruction.
 
-<TableOfContents
-  :contents="[
-    { text: 'History' },
-    { text: 'Layout' },
-    { text: 'Government' },
-    { text: 'Culture' },
-  ]"
-/>
+<TableOfContents />
 
 ## History
 

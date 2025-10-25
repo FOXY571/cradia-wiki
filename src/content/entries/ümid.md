@@ -32,21 +32,7 @@
 
 In future parts of her story, Ümid appears to be more ignorant than most, not knowing the simplest of customs, as well as being exhausted easily as she travels with Qatil and his other friends. Depsite this, Ümid has a remarkable aptitude for [magic](/magic), learning it very quickly at a young age.
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    {
-      text: 'Combat_and_magic',
-      children: [
-        { text: 'Healing_magic' },
-        { text: 'Plant_magic' },
-      ],
-    },
-    { text: 'Trivia' }
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

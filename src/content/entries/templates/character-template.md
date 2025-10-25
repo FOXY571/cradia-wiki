@@ -44,22 +44,7 @@
 <!-- Introduce the character here -->
 [introduction]
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    {
-      text: 'Combat_and_magic',
-      /* children: [
-        // Put children headings for the Combat and magic section here
-        // Replace each space of the headings with underscores (_)
-        // Format: { text: [heading] },
-      ], */
-    },
-    { text: 'Trivia' },
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

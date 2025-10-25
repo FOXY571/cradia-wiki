@@ -39,21 +39,7 @@
 
 While Qatil was growing up, he was trained by his father Sirus Ikaru to wield a sythe, and by his mother Zərərli Ikaru to cast [terra magic](/magic#Core_magic). Qatil was later gifted [fire magic](/magic#Divine_magic) by Kira during the Pre Universal Descrution fall of [Canavar](/canavar).
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    {
-      text: 'Combat_and_magic',
-      children: [
-        { text: 'Terra_magic' },
-        { text: 'Fire_magic' },
-      ],
-    },
-    { text: 'Trivia' }
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

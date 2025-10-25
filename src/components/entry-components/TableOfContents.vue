@@ -40,24 +40,33 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
+import { createToc } from '../../utils/tocHelper'
 import { formatHeaderId } from '../../utils/formatting'
 
 import ContentsIcon from '../icons/ContentsIcon.vue'
 import ArrowDownIcon from '../icons/ArrowDownIcon.vue'
 
-defineProps({
-  contents: {
-    type: Object,
-    required: true,
-  },
-})
+// defineProps({
+//   contents: {
+//     type: Object,
+//     required: true,
+//   },
+// })
+
+const contents = ref([])
 
 const isOpen = ref(true)
 
 function toggle() {
   isOpen.value = !isOpen.value
 }
+
+onMounted(() => {
+  const content = document.querySelector('.markdown-body')
+  const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6')
+  contents.value = createToc(headings)
+})
 </script>
 
 <style scoped>

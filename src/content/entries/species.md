@@ -1,20 +1,6 @@
 **Species** are the different entities and creatures, whether intelligent or not, that exist in the Cradia universe. Although there are thousands of animal, plant, and humanoid species that exist in the Craida universe, this page only covers a few important ones in regards to the universe's lore.
 
-<TableOfContents
-  :contents="[
-    {
-      text: 'Humanoid_species',
-      children: [
-        { text: 'Hierarchy' },
-        { text: 'Humans' },
-        { text: 'Elves' },
-        { text: 'Casters' },
-        { text: 'Demigods' },
-        { text: 'Gods' },
-      ],
-    },
-  ]"
-/>
+<TableOfContents />
 
 ## Humanoid species
 

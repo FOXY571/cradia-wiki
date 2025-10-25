@@ -2,13 +2,7 @@
 
 Every [species](/species) from [caster](/species#Casters) and above is able to use and control magic. It's impossible to use magic otherwise except through foregin methods that are rarely practiced and frowned upon by most sorcerers. As someone practices and uses magic, the color of their blood will slowly turn blue.
 
-<TableOfContents
-  :contents="[
-    { text: 'Core_magic' },
-    { text: 'Sub_magic' },
-    { text: 'Divine_magic' },
-  ]"
-/>
+<TableOfContents />
 
 ## Core magic
 

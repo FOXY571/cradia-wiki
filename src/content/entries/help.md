@@ -1,12 +1,6 @@
 -# Welcome to the Cradia Wiki! Below are many topics that can help you if you get stuck.
 
-<TableOfContents
-  :contents="[
-    { text: 'Navigation' },
-    { text: 'Page_structure' },
-    { text: 'Development' },
-  ]"
-/>
+<TableOfContents />
 
 ## Navigation
 

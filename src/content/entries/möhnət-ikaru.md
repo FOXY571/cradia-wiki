@@ -44,15 +44,7 @@
 
 While growing up Möhnət was always in her brother's shadow, no matter how she excelled in magic or in ettiquet she was always second to Qatil, even when it came to her parents love and attention she was disregarded. The only love she ever knew growing up was from that of her brother, because of this Qatil meant the world to Möhnət, because as far as she was concerned Qatil was all she had.
 
-<TableOfContents
-  :contents="[
-    { text: 'Backstory' },
-    { text: 'Appearance' },
-    { text: 'Personality' },
-    { text: 'Combat_and_magic' },
-    { text: 'Trivia' }
-  ]"
-/>
+<TableOfContents />
 
 ## Backstory
 

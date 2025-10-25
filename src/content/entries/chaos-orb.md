@@ -14,11 +14,7 @@ The **Chaos Orb** is a magical orb with chaos contained inside of it. It is made
 
 Currently, its purpose is unclear, and its lore has yet to be explored.
 
-<TableOfContents
-  :contents="[
-    { text: 'Creation' },
-  ]"
-/>
+<TableOfContents />
 
 ## Creation
 
