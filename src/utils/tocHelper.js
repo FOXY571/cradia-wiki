@@ -1,3 +1,9 @@
+/**
+ * Returns a table of contents based on the provided headings.
+ *
+ * @param {NodeListOf<Element>} headings - The headings to create the TOC from. Should be in order of appearance in the document and must contain ids.
+ * @returns {Array} The generated table of contents.
+ */
 export function createToc(headings) {
   const content = Array.from(headings).map((h) => ({
     id: h.id,

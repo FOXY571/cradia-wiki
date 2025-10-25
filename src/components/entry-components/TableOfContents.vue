@@ -47,13 +47,6 @@ import { formatHeaderId } from '../../utils/formatting'
 import ContentsIcon from '../icons/ContentsIcon.vue'
 import ArrowDownIcon from '../icons/ArrowDownIcon.vue'
 
-// defineProps({
-//   contents: {
-//     type: Object,
-//     required: true,
-//   },
-// })
-
 const contents = ref([])
 
 const isOpen = ref(true)
