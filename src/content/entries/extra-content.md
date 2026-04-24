@@ -9,3 +9,14 @@ In chapter 47 of [The Prince's Truth](/the-prince's-truth), a paragraph centered
 The main protagonist [Qatil Ikaru](/qatil-ikaru) asked his sister Möhnət Ikaru if she knew "what's crazy" and proceeded to try and convince her that the [Low Taper Fade](https://en.wikipedia.org/wiki/Ninja_(gamer)#Low_Taper_Fade "Low Taper Fade") meme was "still massive." Everyone soon began chanting "LOW TAPER FADE," including the people of Günəş. Shortly after, [Walter White](https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad) "Walter White (Breaking Bad)") stepped through a portal, as well as [Miles Morales](https://en.wikipedia.org/wiki/Miles_Morales "Miles Morales") and the [Fantastic Four](https://en.wikipedia.org/wiki/Fantastic_Four "Fantastic Four"). After a couple of jokes are cracked, [Martin Scorsese](https://en.wikipedia.org/wiki/Martin_Scorsese "Martin Scorsese") walked out of the same portal and said "Absolute cinema."
 
 > Relieved my friends were ok I came closer to Mona and kneeled down to her and asked “You know what's crazy mona?” I paused for a bit to see if she'd know what I was talking about then finally spoke “That low taper fade meme is still massive, it's massive Mona.” Heyvan then stood up looking down at me with a smirk and asked “And you know what else is massive?” and as if we were a church choir we all yelled out in synch “LLLLLLLLLLLLLLLLLLLOOOOOOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWWWWWWWWW TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPEEEEEEEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRR FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADE.” Suddenly the surviving people of the kingdom began to make a tribal chant as they heard our cry all saying “LOW TAPER FADE LOW TAPER FADE LOW TAPER FADE LOW TAPER FADE.” Suddenly a magical portal opened up and Walter H. White walked out and said “I am the danger.” Soon Miles Morales spiderman came out of the portal too and said “What's up danger?” and finally the Fantastic Four came out of the portal and looked around, the thing then said “Wow this place is fantastic.” Then Mr. Fantastic turned to the thing and said “Say that again.” Finally Martin Scorsese came out of the portal and put his hands in the air and said “Absolute Cinema.”
+
+## Cradia Minecraft Mod
+
+A [Minecraft mod](https://en.wikipedia.org/wiki/Minecraft_modding "Minecraft modding") centered around the Cradia universe is currently in development. The mod is called Cradia Mod and, although it is not yet finished, its development can be viewed on its [GitHub page](https://github.com/FOXY571/Cradia-Mod).
+
+Currently, the mod plans to add these features:
+* Cradium and its respective blocks and items
+* Adrena and its respective blocks and items
+* Nauadian and its respective blocks and items
+* New weapons for each metal
+* Runes for both player and weapons
