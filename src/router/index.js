@@ -5,7 +5,7 @@ import EntryPage from '../pages/EntryPage.vue'
 
 const entryRoutes = getAllEntryNames().map((name) => ({
   path: `/${encodeURIComponent(name)}`,
-  name: `entry-${name}`,
+  name: `${name}`,
   component: EntryPage,
   props: () => ({ entryName: name }),
 }))
@@ -15,18 +15,18 @@ const router = createRouter({
   routes: entryRoutes.concat([
     {
       path: '/',
-      name: 'home',
+      name: 'Cradia_Wiki',
       component: EntryPage,
-      props: () => ({ entryName: 'home' }),
+      props: () => ({ entryName: 'Cradia_Wiki' }),
     },
     {
-      path: '/all-pages',
-      name: 'all-pages',
+      path: '/All_Pages',
+      name: 'All_Pages',
       component: () => import('../pages/AllPagesPage.vue'),
     },
     {
       path: '/:pathMatch(.*)*',
-      name: 'not-found',
+      name: 'Not_Found',
       component: () => import('../pages/NotFoundPage.vue'),
     },
   ]),

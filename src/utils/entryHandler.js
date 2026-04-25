@@ -42,5 +42,11 @@ export function getRandomEntryName() {
   const entryNames = Object.keys(entries)
   if (entryNames.length === 0) return null
 
+  // Remove the "Cradia_Wiki" entry from the list of random entries
+  const index = entryNames.indexOf('Cradia_Wiki')
+  if (index !== -1) {
+    entryNames.splice(index, 1)
+  }
+
   return entryNames[Math.floor(Math.random() * entryNames.length)]
 }

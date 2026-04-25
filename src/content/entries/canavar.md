@@ -12,23 +12,23 @@
       { key: 'Location', value: 'South East' },
     ],
     'Appearances': [
-      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
-      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'The_Prince\'s_Truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'Heyvan_(Book)' },
     ],
   }"
 />
 
-**Canavar**, also known as the Kingdom of the Wild, is located on the South East edge of Cradia pre Universal Destruction and on the Southern edge of the East Lands post Universal Destruction. The kingdom plays a huge role in both [The Prince's Truth](/the-prince's-truth) and [Heyvan](/heyvan-(book)) storylines. Additionally, Canavar is the first kingdom to fall pre Universal Destruction.
+**Canavar**, also known as the Kingdom of the Wild, is located on the South East edge of Cradia pre Universal Destruction and on the Southern edge of the East Lands post Universal Destruction. The kingdom plays a huge role in both [The Prince's Truth](/The_Prince's_Truth) and [Heyvan](/Heyvan_(Book)) storylines. Additionally, Canavar is the first kingdom to fall pre Universal Destruction.
 
 <TableOfContents />
 
 ## History
 
-Canavar started off as a military camp and grew into one of the biggest kingdoms in Cradia. Before [magic](/magic) was discovered, Canavar had one of the world's strongest militaries. When kingdoms started adopting magic into their armies, Canavar was very hesitant. The king believed that magic was an evil force primarily used for destruction, however, they ultimately incorporated magic anyway as to not be overtaken by other kingdoms in strength. Even so, Canavar created many laws to limit magic use in the kingdom and was always more strict about its use than the other kingdoms.
+Canavar started off as a military camp and grew into one of the biggest kingdoms in Cradia. Before [magic](/Magic) was discovered, Canavar had one of the world's strongest militaries. When kingdoms started adopting magic into their armies, Canavar was very hesitant. The king believed that magic was an evil force primarily used for destruction, however, they ultimately incorporated magic anyway as to not be overtaken by other kingdoms in strength. Even so, Canavar created many laws to limit magic use in the kingdom and was always more strict about its use than the other kingdoms.
 
-Many conservative Canavarians would think lowly of magic users and in some situations, magic users were attacked without much reason. Because of the kingom's distate for the practice, many [casters](/species#Casters) were thrown in jail for very little reason, and they would have much more severe punishments than non-magic users.
+Many conservative Canavarians would think lowly of magic users and in some situations, magic users were attacked without much reason. Because of the kingom's distate for the practice, many [casters](/Species#Casters) were thrown in jail for very little reason, and they would have much more severe punishments than non-magic users.
 
-As Canavar grew, they created close ties to other nearby kingdoms, especially [Ikarye](/ikarye), trading and making peace with them. Ikarye gifted Canavar with a large amount of resources and money, allowing the kingdom to expand even further. Canavar used these resources to upgrade their defenses, castle, and build better housing. Unfortunately, this new housing split Canavar's populous into social classes as only the rich could offord to live in Canavar's new neighborhoods.
+As Canavar grew, they created close ties to other nearby kingdoms, especially [Ikarye](/Ikarye), trading and making peace with them. Ikarye gifted Canavar with a large amount of resources and money, allowing the kingdom to expand even further. Canavar used these resources to upgrade their defenses, castle, and build better housing. Unfortunately, this new housing split Canavar's populous into social classes as only the rich could offord to live in Canavar's new neighborhoods.
 
 The oppression of magic and the splitting of society created many inside conflicts within Canavar, such as riots and street fights. The most destructive conflicts led to the burning of buildings and the involvance of the military. This continued conflict created many radical organizations within Canavar, splitting the kingdom even more. Riots grew in size, civillians were killed, and the king's life was even threatened.
 

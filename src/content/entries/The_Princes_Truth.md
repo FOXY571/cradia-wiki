@@ -1,5 +1,5 @@
 ---
-name: the-prince's-truth
+name: The_Prince's_Truth
 ---
 
 <NoteBlock

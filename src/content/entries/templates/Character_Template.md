@@ -15,7 +15,7 @@
       { key: 'Relatives', value: '[relatives]' },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: '[magic]' },
+      { key: 'Magic', keyLink: 'Magic', value: '[magic]' },
       { key: 'Weapon of Choice', value: '[weapon of choice]' },
     ],
     'Appearances': [
@@ -23,7 +23,7 @@
       { key: 'Last appearance', value: '[last appearance]' },
     ],
     'Physical description': [
-      { key: 'Species', keyLink: 'species', value: '[species]' },
+      { key: 'Species', keyLink: 'Species', value: '[species]' },
       { key: 'Gender', value: '[gender]' },
     ],
   }"

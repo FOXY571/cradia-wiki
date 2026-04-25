@@ -1,4 +1,4 @@
--# For the character, see [Heyvan Sow](/heyvan-sow).
+-# For the character, see [Heyvan Sow](/Heyvan_Sow).
 
 <NoteBlock
   label="This page is currently unfinished and is in development."

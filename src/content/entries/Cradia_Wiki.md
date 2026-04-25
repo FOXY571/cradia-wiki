@@ -27,8 +27,8 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
 <LinkBox
   label="Books"
   :links="[
-    'the-prince\'s-truth',
-    'heyvan-(book)',
+    'The_Prince\'s_Truth',
+    'Heyvan_(book)',
   ]"
 />
 
@@ -43,27 +43,27 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
 <LinkBox
   label="Characters"
   :links="[
-    'qatil-ikaru',
-    'heyvan-sow',
-    'kira-amaikoru',
-    'order',
-    'ümid',
-    'möhnət-ikaru',
+    'Qatil_Ikaru',
+    'Heyvan_Sow',
+    'Kira_Amaikoru',
+    'Order',
+    'Ümid',
+    'Möhnət_Ikaru',
   ]"
 />
 
 <LinkBox
   label="Objects"
   :links="[
-    'chaos-orb',
+    'Chaos_Orb',
   ]"
 />
 
 <LinkBox
   label="Other"
   :links="[
-    'magic',
-    'species',
-    'extra-content',
+    'Magic',
+    'Species',
+    'Extra_Content',
   ]"
 />

@@ -4,7 +4,7 @@
 
 ## Navigation
 
-* To begin learning about this wiki and the wonderful world of Cradia, visit the [home page](/home). From there, you can view the wiki's main pages, such as main characters, important places, cool topics, and much more!
+* To begin learning about this wiki and the wonderful world of Cradia, visit the [home page](/Cradia_Wiki). From there, you can view the wiki's main pages, such as main characters, important places, cool topics, and much more!
 * Don't just stop there! Most pages will contain light blue text that can take you to other pages when clicked. These can be used to learn even more about topics and gain context about certain pages.
 * On the left side of the webpage (or on the bottom if you're on mobile) are other useful links that can take you to different parts of the wiki.
     * The "Main page" button will bring you back to the home page.

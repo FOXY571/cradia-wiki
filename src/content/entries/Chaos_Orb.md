@@ -2,8 +2,8 @@
   label="Chaos Orb"
   :content="{
     '': [
-      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
-      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'The_Prince\'s_Truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'Heyvan_(Book)' },
     ],
   }"
 >
@@ -18,4 +18,4 @@ Currently, its purpose is unclear, and its lore has yet to be explored.
 
 ## Creation
 
-The Chaos Orb was created during a battle between [Qatil Ikaru](/qatil-ikaru) and [Order](/order) in Günəş. The power of the two combined in a huge collision that formed the orb. It was taken by Order when the fight was finished.
+The Chaos Orb was created during a battle between [Qatil Ikaru](/Qatil_Ikaru) and [Order](/Order) in Günəş. The power of the two combined in a huge collision that formed the orb. It was taken by Order when the fight was finished.

@@ -4,23 +4,23 @@
     '': [
       { key: 'Name', value: 'Möhnət Ikaru' },
       { key: 'Aliases', value: [ 'Mona', 'Queen Möhnət' ] },
-      { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'ikarye' },
+      { key: 'Kingdom of Origin', value: 'Ikarye', valueLink: 'Ikarye' },
       {
         key: 'Relatives',
         value: [ 'Qatil Ikaru (brother)', 'Sirus Ikaru (father)', 'Zərərli Ikaru (mother)' ],
-        valueLink: { 'Qatil Ikaru (brother)': 'qatil-ikaru' },
+        valueLink: { 'Qatil Ikaru (brother)': 'Qatil_Ikaru' },
       },
     ],
     'Combat': [
-      { key: 'Magic', keyLink: 'magic', value: [ 'Water', 'Ice' ] },
+      { key: 'Magic', keyLink: 'Magic', value: [ 'Water', 'Ice' ] },
       { key: 'Weapon of Choice', value: 'None' },
     ],
     'Appearances': [
-      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'the-prince\'s-truth' },
-      { key: 'Last appearance', value: 'Heyvan', valueLink: 'heyvan-(book)' },
+      { key: 'First appearance', value: 'The Prince\'s Truth', valueLink: 'The_Prince\'s_Truth' },
+      { key: 'Last appearance', value: 'Heyvan', valueLink: 'Heyvan_(book)' },
     ],
     'Physical description': [
-      { key: 'Species', keyLink: 'species', value: 'Caster' },
+      { key: 'Species', keyLink: 'Species', value: 'Caster' },
       { key: 'Gender', value: 'Female' },
     ],
     'Other': [
@@ -40,7 +40,7 @@
 -->
 
 <!-- Introduce the character here -->
-**Möhnət Ikaru** is the twin sister of [Qatil Ikaru](/qatil-ikaru), and is the crowned princess of [Ikarye](/ikarye). As a child Möhnət was revered by her people as a magic prodigy having been taught by her mother Zerali Ikaru one of the greatets casters in all of Cradia. Much like her mother Möhnət chose to specialize in water magic, which she would eagerly attempt to flaunt off to her brother Qatil.
+**Möhnət Ikaru** is the twin sister of [Qatil Ikaru](/Qatil_Ikaru), and is the crowned princess of [Ikarye](/Ikarye). As a child Möhnət was revered by her people as a magic prodigy having been taught by her mother Zerali Ikaru one of the greatets casters in all of Cradia. Much like her mother Möhnət chose to specialize in water magic, which she would eagerly attempt to flaunt off to her brother Qatil.
 
 While growing up Möhnət was always in her brother's shadow, no matter how she excelled in magic or in ettiquet she was always second to Qatil, even when it came to her parents love and attention she was disregarded. The only love she ever knew growing up was from that of her brother, because of this Qatil meant the world to Möhnət, because as far as she was concerned Qatil was all she had.
 
@@ -58,7 +58,7 @@ Now separated from her brother Möhnət had no choice but to continue focusing o
 ## Appearance
 
 <!-- Describe the character's appearance here -->
-In part one of [The Prince's Truth](/the-prince's-truth) Möhnət looks nearly indetical to her twin brother Qatil. She had short black hair, tan skin, dark black iris's, and the same chubby like features. Möhnət wore small dark colored dresses as she was drawn to less vibrant colors unlike most young girls, this fassion choice would soon change when she was sent off to a military outpost where she was forced to adorn chain mail as regular armor was to big for her along with what she would describe as uncomfortable peasant wear. 
+In part one of [The Prince's Truth](/The_Prince's_Truth) Möhnət looks nearly indetical to her twin brother Qatil. She had short black hair, tan skin, dark black iris's, and the same chubby like features. Möhnət wore small dark colored dresses as she was drawn to less vibrant colors unlike most young girls, this fassion choice would soon change when she was sent off to a military outpost where she was forced to adorn chain mail as regular armor was to big for her along with what she would describe as uncomfortable peasant wear. 
 
 ## Personality
 
@@ -67,7 +67,7 @@ Möhnət Ikaru has been an optimist since birth and has always found it easy to 
 
 <ContentFigure>
   <img src="../images/möhnət-ikaru-2.png" alt="Möhnət using her water magic" />
-  <template #caption>Möhnət using her <a title="Core Magic" href="/magic#Core_magic">water magic</a></template>
+  <template #caption>Möhnət using her <a title="Core Magic" href="/Magic#Core_magic">water magic</a></template>
 </ContentFigure>
 
 ## Combat and magic

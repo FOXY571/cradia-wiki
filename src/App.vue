@@ -14,13 +14,13 @@
           label="Navigation"
           :items="[
             { label: 'Main page', toolTip: 'Visit the main page', href: '/' },
-            { label: 'All pages', toolTip: 'Look at all pages', href: '/all-pages' },
+            { label: 'All pages', toolTip: 'Look at all pages', href: '/All_Pages' },
             {
               label: 'Random page',
               toolTip: 'Load a random page',
               href: `/${getRandomEntryName()}`,
             },
-            { label: 'Help', toolTip: 'Get some help', href: '/help' },
+            { label: 'Help', toolTip: 'Get some help', href: '/Help' },
           ]"
         />
         <SidePanel
@@ -47,7 +47,9 @@
 
         <div class="main-content">
           <div class="content-body entry-content">
-            <RouterView />
+            <main>
+              <RouterView />
+            </main>
           </div>
           <div class="side-spacer"></div>
         </div>
@@ -74,11 +76,11 @@ import Footer from './components/PageFooter.vue'
 const route = useRoute()
 const router = useRouter()
 
-// Redirect /home to /
+// Redirect /Cradia_Wiki to /
 watch(
   () => route.path,
   (newPath) => {
-    if (newPath === '/home') router.replace('/')
+    if (newPath === '/Cradia_Wiki') router.replace('/')
   },
   { immediate: true },
 )
