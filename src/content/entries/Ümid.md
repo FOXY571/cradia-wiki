@@ -42,7 +42,7 @@ She was thus raised in the castle of Ikarye and made into one of it's many maids
 
 <ContentFigure>
   <img src="../images/ümid-2.png" alt="Ümid outside of Ikarye" />
-  <template #caption>Ümid outside of <a title="Ikarye" href="/Ikarye">Ikarye</a></template>
+  <template #caption>Ümid outside of <a title="Ikarye" href="/wiki/Ikarye">Ikarye</a></template>
 </ContentFigure>
 
 ## Appearance

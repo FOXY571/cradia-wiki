@@ -67,7 +67,7 @@ Möhnət Ikaru has been an optimist since birth and has always found it easy to 
 
 <ContentFigure>
   <img src="../images/möhnət-ikaru-2.png" alt="Möhnət using her water magic" />
-  <template #caption>Möhnət using her <a title="Core Magic" href="/Magic#Core_magic">water magic</a></template>
+  <template #caption>Möhnət using her <a title="Core Magic" href="/wiki/Magic#Core_magic">water magic</a></template>
 </ContentFigure>
 
 ## Combat and magic
