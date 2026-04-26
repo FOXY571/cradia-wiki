@@ -1,18 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { getAllEntryNames } from '../utils/entryHandler'
 
 import EntryPage from '../pages/EntryPage.vue'
 
-const entryRoutes = getAllEntryNames().map((name) => ({
-  path: `/wiki/${encodeURIComponent(name)}`,
-  name: `${name}`,
-  component: EntryPage,
-  props: () => ({ entryName: name }),
-}))
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: entryRoutes.concat([
+  routes: [
     {
       path: '/',
       component: EntryPage,
@@ -20,15 +12,14 @@ const router = createRouter({
     },
     {
       path: '/wiki/All_Pages',
-      name: 'All_Pages',
       component: () => import('../pages/AllPagesPage.vue'),
     },
     {
-      path: '/wiki/:pathMatch(.*)*',
-      name: 'Not_Found',
-      component: () => import('../pages/NotFoundPage.vue'),
+      path: '/wiki/:entryName',
+      component: EntryPage,
+      props: (route) => ({ entryName: route.params.entryName }),
     },
-  ]),
+  ],
 })
 
 export default router

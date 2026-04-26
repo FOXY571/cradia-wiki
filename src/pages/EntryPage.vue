@@ -3,22 +3,34 @@
     {{ formatEntryName(entryName) }}
   </h1>
 
-  <component :is="entryContent" v-if="entryContent" />
+  <div v-if="!entryExists">
+    This page does not currently exist. You can view all existing pages
+    <a title="All Pages" href="/wiki/All_Pages">here</a>.
+  </div>
+  <component :is="entryContent" v-else-if="entryContent" />
   <div v-else>Loading...</div>
 </template>
 
 <script setup>
-import { onMounted, nextTick, shallowRef } from 'vue'
+import { onMounted, nextTick, shallowRef, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { getEntry, getEntryProp } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
 import { setTitle } from '../utils/titleHandler'
 
 const route = useRoute()
-const entryContent = shallowRef('')
+
+const entryContent = shallowRef(null)
+const entryExists = ref(true)
 
 const loadEntry = (entryName) => {
-  entryContent.value = getEntry(entryName)
+  const entry = getEntry(entryName)
+  if (!entry) {
+    entryExists.value = false
+    return
+  }
+
+  entryContent.value = entry
 }
 
 const { entryName } = defineProps({

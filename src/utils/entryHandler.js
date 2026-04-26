@@ -13,10 +13,13 @@ export function getAllEntryNames() {
  * Get the content of a specific entry.
  *
  * @param {string} entryName - The name of the entry to retrieve.
- * @returns {string} The content of the entry.
+ * @returns {string|null} The content of the entry, or null if not found.
  */
 export function getEntry(entryName) {
-  return entries[entryName].default
+  const entry = entries[entryName]
+
+  if (!entry) return null
+  return entry.default
 }
 
 /**
@@ -27,7 +30,10 @@ export function getEntry(entryName) {
  * @returns {boolean} The value of the property, or true if not found.
  */
 export function getEntryProp(entryName, propName) {
-  const entryProps = { ...entries[entryName] }
+  const entry = entries[entryName]
+  if (!entry) return true
+
+  const entryProps = { ...entry }
   delete entryProps.default // Remove the default content from props
 
   return entryProps[propName] != false
