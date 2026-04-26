@@ -11,7 +11,7 @@
               <a
                 v-if="item.keyLink"
                 :title="formatEntryName(item.keyLink)"
-                :href="`/${item.keyLink}`"
+                :href="`/wiki/${item.keyLink}`"
               >
                 {{ item.key }}
               </a>
@@ -23,7 +23,7 @@
                   <a
                     v-if="item.valueLink && item.valueLink[value]"
                     :title="formatEntryName(item.valueLink[value])"
-                    :href="`/${item.valueLink[value]}`"
+                    :href="`/wiki/${item.valueLink[value]}`"
                   >
                     {{ value }}
                   </a>
@@ -34,7 +34,7 @@
               <a
                 v-else-if="item.valueLink"
                 :title="formatEntryName(item.valueLink)"
-                :href="`/${item.valueLink}`"
+                :href="`/wiki/${item.valueLink}`"
               >
                 {{ item.value }}
               </a>

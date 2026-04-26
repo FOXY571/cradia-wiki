@@ -3,7 +3,7 @@
     <div class="label">{{ label }}</div>
     <ul>
       <li v-for="(link, index) in links" :key="index">
-        <a :title="formatEntryName(link)" :href="`/${link}`">{{ formatEntryName(link) }}</a>
+        <a :title="formatEntryName(link)" :href="`/wiki/${link}`">{{ formatEntryName(link) }}</a>
       </li>
     </ul>
   </div>

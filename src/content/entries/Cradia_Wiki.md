@@ -35,8 +35,8 @@ The Cradia Series, originally created by Lucas Rourk, is filled with wonder and 
 <LinkBox
   label="Kingdoms"
   :links="[
-    'ikarye',
-    'canavar',
+    'Ikarye',
+    'Canavar',
   ]"
 />
 

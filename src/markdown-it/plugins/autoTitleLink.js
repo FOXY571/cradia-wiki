@@ -16,6 +16,7 @@ function autoTitleLink(md) {
       const title = formatLocation(location)
 
       token.attrSet('title', title)
+      token.attrSet('href', '/wiki' + hrefAttr)
     }
 
     return defaultRender(tokens, idx, options, env, self)

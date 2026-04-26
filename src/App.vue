@@ -14,13 +14,13 @@
           label="Navigation"
           :items="[
             { label: 'Main page', toolTip: 'Visit the main page', href: '/' },
-            { label: 'All pages', toolTip: 'Look at all pages', href: '/All_Pages' },
+            { label: 'All pages', toolTip: 'Look at all pages', href: '/wiki/All_Pages' },
             {
               label: 'Random page',
               toolTip: 'Load a random page',
-              href: `/${getRandomEntryName()}`,
+              href: `/wiki/${getRandomEntryName()}`,
             },
-            { label: 'Help', toolTip: 'Get some help', href: '/Help' },
+            { label: 'Help', toolTip: 'Get some help', href: '/wiki/Help' },
           ]"
         />
         <SidePanel
@@ -76,6 +76,7 @@ import Footer from './components/PageFooter.vue'
 const route = useRoute()
 const router = useRouter()
 
+// Should probably externalize this for greater use
 watch(
   () => route.path,
   (newPath) => {
