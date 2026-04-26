@@ -13,11 +13,12 @@
 </template>
 
 <script setup>
+import config from '../config'
 import { getAllEntryNames } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
 import { setTitle } from '../utils/titleHandler'
 
-const entryNames = getAllEntryNames().filter((name) => name !== 'Cradia_Wiki')
+const entryNames = getAllEntryNames().filter((name) => name !== config.mainPage)
 
 setTitle('All Pages')
 </script>

@@ -2,7 +2,7 @@
   <header>
     <div class="header-title">
       <a title="Visit the main page" href="/">
-        <img src="../assets/images/logo.png" alt="Cradia Wiki logo" />
+        <img src="../assets/images/logo.png" :alt="`${config.wikiName} Wiki logo`" />
       </a>
     </div>
     <div class="header-buttons">
@@ -29,6 +29,7 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
+import config from '../config'
 import { themes, currentTheme, switchTheme } from '../utils/themeSwitcher'
 
 import ArrowDownIcon from './icons/ArrowDownIcon.vue'

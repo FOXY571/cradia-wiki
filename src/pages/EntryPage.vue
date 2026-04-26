@@ -14,6 +14,7 @@
 <script setup>
 import { onMounted, nextTick, shallowRef, ref } from 'vue'
 import { useRoute } from 'vue-router'
+import config from '../config'
 import { getEntry, getEntryProp } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
 import { setTitle } from '../utils/titleHandler'
@@ -43,7 +44,7 @@ const { entryName } = defineProps({
 onMounted(async () => {
   loadEntry(entryName)
 
-  if (entryName !== 'home') {
+  if (entryName !== config.mainPage) {
     setTitle(formatEntryName(entryName))
   }
 

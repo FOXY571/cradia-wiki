@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { registerGuards } from './guards'
+import config from '../config'
 
 import EntryPage from '../pages/EntryPage.vue'
 
@@ -9,7 +10,7 @@ const router = createRouter({
     {
       path: '/',
       component: EntryPage,
-      props: () => ({ entryName: 'Cradia_Wiki' }),
+      props: () => ({ entryName: config.mainPage }),
     },
     {
       path: '/wiki/All_Pages',
