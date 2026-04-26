@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { registerGuards } from './guards'
 
 import EntryPage from '../pages/EntryPage.vue'
 
@@ -21,5 +22,7 @@ const router = createRouter({
     },
   ],
 })
+
+registerGuards(router)
 
 export default router

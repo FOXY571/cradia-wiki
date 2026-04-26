@@ -63,8 +63,7 @@
 </template>
 
 <script setup>
-import { watch } from 'vue'
-import { RouterView, useRoute, useRouter } from 'vue-router'
+import { RouterView } from 'vue-router'
 import { getRandomEntryName } from './utils/entryHandler'
 
 import Header from './components/PageHeader.vue'
@@ -72,21 +71,6 @@ import SidePanel from './components/SidePanel.vue'
 import Panel from './components/PanelContainer.vue'
 import ImageModal from './components/ImageModal.vue'
 import Footer from './components/PageFooter.vue'
-
-const route = useRoute()
-const router = useRouter()
-
-// Should probably externalize this for greater use
-watch(
-  () => route.path,
-  (newPath) => {
-    // Redirect to /wiki/* for all paths except the main page
-    if (newPath !== '/' && !newPath.startsWith('/wiki')) router.replace(`/wiki${newPath}`)
-    // Redirect to / if the user tries to access /wiki directly
-    if (newPath === '/wiki' || newPath === '/wiki/') router.replace('/')
-  },
-  { immediate: true },
-)
 </script>
 
 <style scoped>
