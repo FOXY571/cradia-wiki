@@ -6,7 +6,7 @@
     <i>{{ formatEntryName(entryName) }}</i> :(
   </p>
 
-  <p>Please click <a title="Home" href="/">here</a> to go back to safety.</p>
+  <p>Please click <a title="Main page" href="/">here</a> to go back to safety.</p>
 </template>
 
 <script setup>

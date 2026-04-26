@@ -76,11 +76,13 @@ import Footer from './components/PageFooter.vue'
 const route = useRoute()
 const router = useRouter()
 
-// Redirect /Cradia_Wiki to /
 watch(
   () => route.path,
   (newPath) => {
-    if (newPath === '/Cradia_Wiki') router.replace('/')
+    // Redirect to /wiki/* for all paths except the main page
+    if (newPath !== '/' && !newPath.startsWith('/wiki')) router.replace(`/wiki${newPath}`)
+    // Redirect to / if the user tries to access /wiki directly
+    if (newPath === '/wiki' || newPath === '/wiki/') router.replace('/')
   },
   { immediate: true },
 )
