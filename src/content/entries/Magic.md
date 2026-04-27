@@ -8,7 +8,7 @@ Every [species](/Species) from [caster](/Species#Casters) and above is able to u
 
 Core magic is the most basic type of magic, yet that doesn't make it any worse than its counterparts as it can still be powerful. It is also the most common type of magic, used by almost all sorcerers in kingdoms' armies. This is because it is the easiest to learn and isn't derived by any other magic. Additionally, a core magic is needed first in order to practice another type of magic (this does not apply to divine magic).
 
-A [caster](/Species#Casters) is able to choose any core magic that they wish to learn. They can also switch their chosen magic, but it becomes near impossible to do so when a they have gained a lot of experience it.
+A caster is able to choose any core magic that they wish to learn. They can also switch their chosen magic, but it becomes near impossible to do so when a they have gained a lot of experience it.
 
 |Magic |Description |Owning Characters
 |:--: |:--: |:--:
@@ -19,7 +19,7 @@ A [caster](/Species#Casters) is able to choose any core magic that they wish to 
 
 ## Sub magic
 
-Sub magic is a form of magic that is derived from core magic, meaning it is a child of core magic. To practice sub magic, one will need to know the magic's core magic parent. For example, to practice ice magic, one will need to know water magic. Sub magic's abilities can range from fairley simple to very exotic. A [caster](/Species#Casters) that uses a sub magic can also use the core magic that it is derived from.
+Sub magic is a form of magic that is derived from core magic, meaning it is a child of core magic. To practice sub magic, one will need to know the magic's core magic parent. For example, to practice ice magic, one will need to know water magic. Sub magic's abilities can range from fairley simple to very exotic. A caster that uses a sub magic can also use the core magic that it is derived from.
 
 |Magic |Description |Owning Characters
 |:--: |:--: |:--:

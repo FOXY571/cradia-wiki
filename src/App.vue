@@ -20,6 +20,7 @@
               toolTip: 'Load a random page',
               href: `/wiki/${getRandomEntryName()}`,
             },
+            { label: 'Style guide', toolTip: 'Read the style guide', href: '/wiki/Style_Guide' },
             { label: 'Help', toolTip: 'Get some help', href: '/wiki/Help' },
           ]"
         />

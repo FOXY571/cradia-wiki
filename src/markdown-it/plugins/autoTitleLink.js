@@ -12,7 +12,7 @@ function autoTitleLink(md) {
     const hrefAttr = token.attrGet('href')
 
     if (hrefAttr && hrefAttr.startsWith('/')) {
-      const location = hrefAttr.replace(/^\/+/, '')
+      const location = decodeURIComponent(hrefAttr.replace(/^\/+/, '')) // Decoding makes sure that title does not have %xx sequences in it
       const title = formatLocation(location)
 
       token.attrSet('title', title)

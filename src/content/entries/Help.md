@@ -21,4 +21,4 @@
 
 ## Development
 
-If you are a developer of the Cradia Wiki, you can view development documentation [here](https://docs.google.com/document/d/1RAJxMvn6o8nUZy38LsR_0T-fHZbQsZbJJ7_aIK1GgGM/edit?tab=t.0).
+If you are a developer of the Cradia Wiki, you can view development documentation [here](https://docs.google.com/document/d/1RAJxMvn6o8nUZy38LsR_0T-fHZbQsZbJJ7_aIK1GgGM/edit?tab=t.0). It is recommened that you also read the [style guide](/Style_Guide).

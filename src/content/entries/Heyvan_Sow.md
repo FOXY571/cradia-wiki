@@ -1,4 +1,4 @@
--# For the book, see [Heyvan (book)](/Heyvan_(book)).
+-# For the book, see [Heyvan (book)](/Heyvan_(book))
 
 <InfoBox
   label="Heyvan Sow"
@@ -36,13 +36,13 @@ In [The Prince's Truth](/The_Prince's_Truth), Heyvan meets [Qatil Ikaru](/Qatil_
 
 ## Backstory
 
-Pre Universal Destruction Heyvan's backstory is unknown. However, it is inferred that he grew up poor in [Canavar](/Canavar) without any family. Because of this, he resulted to stealing and robbery to make a living.
+Pre Universal Destruction Heyvan's backstory is unknown. However, it is inferred that he grew up poor in Canavar without any family. Because of this, he resulted to stealing and robbery to make a living.
 
 The Post Universal Destruction Heyvan grew up with his older brother Kitab Sow in Canavar. While Heyvan was a baby, his parents were murdered by a sorcerer, forcing Heyvan and Kitab to make a living on their own. Heyvan saw his brother as his guardian and looked up to him. Unlike Kitab, who hated [magic](/Magic) and sorcerers, Heyvan grew to love them and was fascinated by sorcerers and their abilites.
 
 Heyvan and Kitab would visit a spot in Canavar that overlooked the sorcerer training grounds regularly. Although Kitab didn't enjoy going, he did it for his brother who he loved dearly. Heyvan would try to copy the sorcerers' moves with no luck, wondering if he could one day be a sorcerer himself. One day, Heyvan's luck turned around and he was able to cast some magic. This caused him and Kitab to be spotted by the training sorcerers. Spying on sorcerer training was strictly illegal in Canavar and the two boys were chased down by the sorcerers. Luckily, Heyvan managed to get away, yet his brother was caught and taken away.
 
-From then on, Heyvan lived on his own, practicing and using magic to steal in order to get by alone. He also traveled to different kingdoms, growing a reputation for his skills in thievery and stealing. Through practice, he discovered [shifting magic](/Magic#Sub_magic) and used it to hide in plain sight, all the while his wanted level grew.
+From then on, Heyvan lived on his own, practicing and using magic to steal in order to get by alone. He also traveled to different kingdoms, growing a reputation for his skills in thievery and stealing. Through practice, he discovered shifting magic and used it to hide in plain sight, all the while his wanted level grew.
 
 ## Appearance
 
@@ -56,7 +56,7 @@ Due to his rough and challenging childhood, Heyvan has grown to distrust other p
 
 Pre Universal Destruction Heyvan has more of an egotistical personality in comparision to his Post Universal Destruction counterpart, who is more dismissive and aloof. Pre Universal Destruction Heyvan can be seen making fun at royals and enjoys pushing people's buttons. He is also always seen carrying a smirk on his face and believes he is better than others. Post Universal Destruction Heyvan is instead warry of others and prefers to be left alone. His distrust easily makes him snap back at others even when no ill intent was directed toward him. The differences in his personaility in the two universes are inferred to be different because of the differences in his backstories.
 
-Throughout [The Prince's Truth](/The_Prince's_Truth) and [Heyvan](/Heyvan_(book)), Heyvan experiences character growth that changes much of his personality. He learns to trust others, work in a team, and rely on people. Additionally, with the help of his friends, he learns to empathize with others and to love people. Heyvan also learns how to be a hero and help others, changing his personality from one of disdain to one of heroism.
+Throughout The Prince's Truth and Heyvan, Heyvan experiences character growth that changes much of his personality. He learns to trust others, work in a team, and rely on people. Additionally, with the help of his friends, he learns to empathize with others and to love people. Heyvan also learns how to be a hero and help others, changing his personality from one of disdain to one of heroism.
 
 ## Combat and magic
 
@@ -64,15 +64,15 @@ Heyvan does not like to fight others and will do his best to avoid conflict. Not
 
 ### Shifting magic
 
-Heyvan has the ability to shift into other living forms using his [shifting magic](/Magic#Sub_magic). It is unknown whether or not this is only limited to animals or any biologial creature. Heyvan uses this ability to blend in to places and/or sneak by people unnoticed. The bigger or more powerful the creature is, the more energy and concentration it takes for Heyvan to take that form. This is why he prefers to mostly shift into smaller forms than bigger ones.
+Heyvan has the ability to shift into other living forms using his shifting magic. It is unknown whether or not this is only limited to animals or any biologial creature. Heyvan uses this ability to blend in to places and/or sneak by people unnoticed. The bigger or more powerful the creature is, the more energy and concentration it takes for Heyvan to take that form. This is why he prefers to mostly shift into smaller forms than bigger ones.
 
 ### Healing magic
 
-The first [magic](/Magic) that Heyvan learned was [healing magic](/Magic#Core_magic). He doesn't use it as much as his other abilites, yet he will use it when it is needed, such as healing himself or an ally. Unlike most healing mains, Heyvan's ability to heal is slower than others'. This is because he stopped practicing his healing ability after learning how to shift forms.
+The first magic that Heyvan learned was [healing magic](/Magic#Core_magic). He doesn't use it as much as his other abilites, yet he will use it when it is needed, such as healing himself or an ally. Unlike most healing mains, Heyvan's ability to heal is slower than others'. This is because he stopped practicing his healing ability after learning how to shift forms.
 
 ## Trivia
 
 * Heyvan's first name means animal.
-* Heyvan's last name, Sow, is likely a nod to his character development thoughout [The Prince's Truth](/The_Prince's_Truth) and [Heyvan](/Heyvan_(book)).
-* Heyvan is the only known character in the Cradia Series that can use [shifting magic](/Magic#Sub_magic).
-* Heyvan's last name is not revealed in [The Prince's Truth](/The_Prince's_Truth). This is most likley because he didn't know what it was. In [Heyvan](/Heyvan_(book)), his last name is revealed to be Sow, which he knew from his brother, Kitab Sow.
+* Heyvan's last name, Sow, is likely a nod to his character development thoughout The Prince's Truth and Heyvan.
+* Heyvan is the only known character in the Cradia Series that can use shifting magic.
+* Heyvan's last name is not revealed in The Prince's Truth. This is most likley because he didn't know what it was. In Heyvan, his last name is revealed to be Sow, which he knew from his brother, Kitab Sow.

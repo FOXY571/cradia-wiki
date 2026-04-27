@@ -36,9 +36,9 @@ In future parts of her story, Ümid appears to be more ignorant than most, not k
 
 ## Backstory
 
-Ümid's story begins within the confines of [Ikarye](/Ikarye). She was born into a noble family though her parents identities are not mentioned as Ümid does not remember them. It is said that her parents left her at the castle of Ikarye after they were required to join the Cradian war, they never returned. Because of this Ümid nor anyone know's her family name so she is simply known as Ümid.
+Ümid's story begins within the confines of Ikarye. She was born into a noble family though her parents identities are not mentioned as Ümid does not remember them. It is said that her parents left her at the castle of Ikarye after they were required to join the Cradian war, they never returned. Because of this Ümid nor anyone know's her family name so she is simply known as Ümid.
 
-She was thus raised in the castle of Ikarye and made into one of it's many maids. Though even at this young age she seemed to have an odd facination with magic, she was particularly drawn to the queen of Ikarye Zerali Ikaru, causing her to attempt to sneak into her study which caused her encounter with [Qatil Ikaru](/Qatil_Ikaru)
+She was thus raised in the castle of Ikarye and made into one of it's many maids. Though even at this young age she seemed to have an odd facination with magic, she was particularly drawn to the queen of Ikarye Zerali Ikaru, causing her to attempt to sneak into her study which caused her encounter with Qatil Ikaru.
 
 <ContentFigure>
   <img src="../images/ümid-2.png" alt="Ümid outside of Ikarye" />
@@ -53,7 +53,7 @@ In part 1 she adorns a maid dress, being the usual black gown accented with whit
 
 ## Personality
 
-Ümid is a quirky character as at a young age she always seemed aloof in many situations. In her later years, she wasn't exactly the brightest, however, her love and fascination for magic never dimmed. Due to her friendship with [Qatil Ikaru](/Qatil_Ikaru), she was able to learn [healing magic](/Magic#Core_magic), but this choice wasn't a random one; it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia. This desire eventually blossomed into attraction and admiration towards Qatil.
+Ümid is a quirky character as at a young age she always seemed aloof in many situations. In her later years, she wasn't exactly the brightest, however, her love and fascination for magic never dimmed. Due to her friendship with Qatil Ikaru, she was able to learn [healing magic](/Magic#Core_magic), but this choice wasn't a random one; it is revealed she chose this so she could support Qatil in his dream to bring peace to Cradia. This desire eventually blossomed into attraction and admiration towards Qatil.
 
 ## Combat and magic
 
@@ -67,6 +67,6 @@ While being trained by Qatil in the art of magic, Ümid briefly summoned roots f
 
 ## Trivia
 
-* Ümid always stayed close to [Qatil](/Qatil-ikaru) no matter the situation.
+* Ümid always stayed close to Qatil no matter the situation.
 * In Ümid's final moments, all she felt was love.
 * Ümid never finds out who her parents are nor her family name.

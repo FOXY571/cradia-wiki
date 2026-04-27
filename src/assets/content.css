@@ -101,6 +101,32 @@
   height: auto;
 }
 
+.entry-content pre code,
+.entry-content code {
+  background-color: #ffffffe0;
+  color: black;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray darkslategray darkslategray gray;
+  border-radius: 5px;
+}
+
+.entry-content pre code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+
+  display: block;
+  white-space: pre-wrap;
+
+  width: fit-content;
+  padding: 5px;
+}
+
+.entry-content code {
+  padding: 2px 4px;
+}
+
 /* Content Table */
 .content-table-wrapper {
   overflow-x: auto;

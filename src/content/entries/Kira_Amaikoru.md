@@ -39,7 +39,7 @@ Kira throughout the book stays close with [Qatil Ikaru](/Qatil_Ikaru), guiding h
 
 ## Backstory
 
-The revealed backstory in [The Prince's Truth](/The_Prince's_Truth) is brief, but it reveals that Kira was born in [Canavar](/Canavar) with an unspecified role in it's society. She was born with her twin sister and was said to have lived a happy life until [Order](/Order) filled her sister's head with hate and jealousy, causing her to stab Kira in the back, ultimately killing her. Once Kira had died, Order had brought her soul to him and gifted her with half of his abilities. Kira was furious with Order and she blamed him for ruining her life, thus, she stole the rest of Order's power and casted him down to Cradia. She had attempted to destroy Cradia afterwards but later found out that Order, in his last moments of power, casted an unbreakable barrier around Cradia so that she couldn't destroy or alter anything or anyone of his creation.
+The revealed backstory in The Prince's Truth is brief, but it reveals that Kira was born in Canavar with an unspecified role in it's society. She was born with her twin sister and was said to have lived a happy life until Order filled her sister's head with hate and jealousy, causing her to stab Kira in the back, ultimately killing her. Once Kira had died, Order had brought her soul to him and gifted her with half of his abilities. Kira was furious with Order and she blamed him for ruining her life, thus, she stole the rest of Order's power and casted him down to Cradia. She had attempted to destroy Cradia afterwards but later found out that Order, in his last moments of power, casted an unbreakable barrier around Cradia so that she couldn't destroy or alter anything or anyone of his creation.
 
 After Kira had dethroned Order of his godhood, chaos had begun sprouting in his absence. Kira took a piece of her soul and merged it with the chaos energy and created a soul, who was soon to be the God of Chaos. Kira then went down to Cradia and found Sirus Ikaru, giving him the soul of chaos. She promised him to assist him in taking over the kingdom of [Ikarye](/Ikarye) in exchange for impregnating a powerful caster with the soul.
 
@@ -54,17 +54,17 @@ Kira has long pure white hair that reaches down to her waist, pale red irises, a
 
 ## Personality
 
-When Kira first met [Qatil Ikaru](/Qatil_Ikaru), she put on a kind facade as assisted Qatil in finding his way back to [Ikarye](/Ikarye) when he was lost in the woods. At first, Kira seemed kind as she told Qatil where to find his twin sister and warned him of a coming omen in [Canavar](/Canavar). Although in reality, these were far from just being kind acts. When Kira appeared to Qatil after Ümid died in Canavar, she forced Ümid's blood down Qatil's throat and told him to ignore her death and only use the rage from it to destroy his enemies. In that moment, Kira revealed her true colors. After that moment, she became much more cynical and less lenient with Qatil's attempted positivity, telling him to ignore his friends' problems and to focus on what she needed him to do for her.
+When Kira first met Qatil Ikaru, she put on a kind facade as assisted Qatil in finding his way back to Ikarye when he was lost in the woods. At first, Kira seemed kind as she told Qatil where to find his twin sister and warned him of a coming omen in Canavar. Although in reality, these were far from just being kind acts. When Kira appeared to Qatil after Ümid died in Canavar, she forced Ümid's blood down Qatil's throat and told him to ignore her death and only use the rage from it to destroy his enemies. In that moment, Kira revealed her true colors. After that moment, she became much more cynical and less lenient with Qatil's attempted positivity, telling him to ignore his friends' problems and to focus on what she needed him to do for her.
 
-Throughout part three of [The Prince's Truth](/The_Prince's_Truth), Kira talks to Qatil Ikaru much more and makes it clear that she didn't care about anyone Qatil cared for. She didn't care that he was feeling bad about everything and everyone he was killing senselessly, she only cared that he did what she said. It is apparent that Kira does care for Qatil to some extent ,although it isn't clear if it's because she needs him to destroy Order's barrier or because she's truly grown to care for him.
+Throughout part three of The Prince's Truth, Kira talks to Qatil Ikaru much more and makes it clear that she didn't care about anyone Qatil cared for. She didn't care that he was feeling bad about everything and everyone he was killing senselessly, she only cared that he did what she said. It is apparent that Kira does care for Qatil to some extent, although it isn't clear if it's because she needs him to destroy Order's barrier or because she's truly grown to care for him.
 
 ## Combat and magic
 
-Kira never displayed an apptitude for general combat and was always more proficcient with magic, while it is unknown what magic Kira specialized in while she was mortal, she displayed many divine abilities in her interactions with [Qatil](/Qatil_ikaru).
+Kira never displayed an apptitude for general combat and was always more proficcient with magic, while it is unknown what magic Kira specialized in while she was mortal, she displayed many divine abilities in her interactions with Qatil.
 
 ### Creation magic
 
-Kira has been described to have used [creation magic](/Magic#Divine_magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](/Magic) has not been described much it was shown at a much greater scale when [Order](/Order) created the universe, thus implying Kira could do the same.
+Kira has been described to have used [creation magic](/Magic#Divine_magic) to forge the soul of Chaos (AKA Qatil's soul). Thus, displaying her capability to make and transfigure elements and matter. While her apptitude in this [magic](/Magic) has not been described much it was shown at a much greater scale when Order created the universe, thus implying Kira could do the same.
 
 ### Dreamwalking
 
@@ -76,7 +76,7 @@ Pairing well with dreamwalking, Kira is able to manipulate the dreams she enters
 
 ### Time manipulation
 
-When the army of [Canavar](/Canavar) charged to attack Qatil and his friends, Kira had stopped time and could freely interact with the time frozen space around here, she could even allow Qatil to be uneffected by the time stop so he too could interact with frozen space.
+When the army of Canavar charged to attack Qatil and his friends, Kira had stopped time and could freely interact with the time frozen space around here, she could even allow Qatil to be uneffected by the time stop so he too could interact with frozen space.
 
 ### Flight
 
@@ -84,7 +84,7 @@ While Kira was never shown physically flying she has done it many times in the d
 
 ### Magic bestowal
 
-Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield [fire magic](/Magic#Divine_magic). Thus it is also implied she can just as easily take it away.
+Kira is able to give people any magic she wishes, for example she gave Qatil the ability to wield fire magic. Thus it is also implied she can just as easily take it away.
 
 ### Omniscience
 
@@ -101,4 +101,4 @@ Kira is able to give people any magic she wishes, for example she gave Qatil the
 ## Trivia
 
 * Kira despises being a [god](/Species#Gods).
-* Kira thinks of [Qatil](/Qatil_Ikaru) as a son, due to his soul being made out of a piece of hers.
+* Kira thinks of Qatil as a son, due to his soul being made out of a piece of hers.

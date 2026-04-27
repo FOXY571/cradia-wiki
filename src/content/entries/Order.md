@@ -58,7 +58,7 @@ It is hard to tell what kind of personality Order has because he is very monoton
 
 Order doesn't seem to have any empathy for the people of Cradia, his intentions to them being more indifferent. He doesn't have any issues killing and destroying if it means achieving what he deems necessary, however, he won't kill anyone if it doesn't serve a purpose. Some believe Order has a huge ego, yet Order doesn't believe highly of himself, he knows he's better than others because of what he's able to do.
 
-Order is driven by what he believes should be done to save the universe, which is stopping [Kira Amaikoru](/Kira_Amaikoru) and putting an end to chaos. He doesn't let anyone get in his way or try to stop him, and he will stop at nothing to achieve his goal.
+Order is driven by what he believes should be done to save the universe, which is stopping Kira Amaikoru and putting an end to chaos. He doesn't let anyone get in his way or try to stop him, and he will stop at nothing to achieve his goal.
 
 ## Combat and magic
 
@@ -75,4 +75,4 @@ Unfortunately, Order does not regenerate his blood faster than a normal person, 
 ## Trivia
 
 * Order is just his title and his real name, Nordac, isn't commonly known.
-* Order chose to practice [blood magic](/Magic#Divine_magic) after being banished to Cradia because it makes him stronger the more he is hurt.
+* Order chose to practice blood magic after being banished to Cradia because it makes him stronger the more he is hurt.
