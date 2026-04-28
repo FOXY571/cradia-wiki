@@ -1,5 +1,4 @@
 import entries from '../content/entries'
-import config from '../config'
 
 /**
  * Get the names of all loaded entries.
@@ -38,16 +37,4 @@ export function getEntryProp(entryName, propName) {
   delete entryProps.default // Remove the default content from props
 
   return entryProps[propName] != false
-}
-
-/**
- * Get a random entry name.
- *
- * @returns {string|null} A random entry name, or null if no entries exist.
- */
-export function getRandomEntryName() {
-  const entryNames = getAllEntryNames().filter((name) => name !== config.mainPage)
-  if (entryNames.length === 0) return null
-
-  return entryNames[Math.floor(Math.random() * entryNames.length)]
 }

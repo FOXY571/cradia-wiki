@@ -17,6 +17,10 @@ const router = createRouter({
       component: () => import('../pages/AllPagesPage.vue'),
     },
     {
+      path: '/wiki/Random',
+      component: () => import('../pages/RandomPage.vue'),
+    },
+    {
       path: '/wiki/:entryName',
       component: EntryPage,
       props: (route) => ({ entryName: route.params.entryName }),

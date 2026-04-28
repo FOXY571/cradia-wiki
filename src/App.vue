@@ -18,7 +18,7 @@
             {
               label: 'Random page',
               toolTip: 'Load a random page',
-              href: `/wiki/${getRandomEntryName()}`,
+              href: `/wiki/Random`,
             },
             { label: 'Style guide', href: '/wiki/Style_Guide' },
             { label: 'Help', href: '/wiki/Help' },
@@ -63,7 +63,6 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
-import { getRandomEntryName } from './utils/entryHandler'
 
 import Header from './components/PageHeader.vue'
 import SidePanel from './components/SidePanel.vue'

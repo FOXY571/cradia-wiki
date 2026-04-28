@@ -5,7 +5,7 @@
 
   <ul>
     <li v-for="entryName in entryNames" :key="entryName">
-      <a :title="formatEntryName(entryName)" :href="entryName">
+      <a :title="formatEntryName(entryName)" :href="`/wiki/${entryName}`">
         {{ formatEntryName(entryName) }}
       </a>
     </li>
@@ -22,5 +22,3 @@ const entryNames = getAllEntryNames().filter((name) => name !== config.mainPage)
 
 setTitle('All Pages')
 </script>
-
-<style scoped></style>
