@@ -38,6 +38,7 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
+import cookies from 'vue-cookies'
 import { createToc } from '../../utils/tocHelper'
 import { formatHeaderId } from '../../utils/formatting'
 
@@ -46,10 +47,11 @@ import ArrowDownIcon from '../icons/ArrowDownIcon.vue'
 
 const contents = ref([])
 
-const isOpen = ref(true)
+const isOpen = ref(cookies.get('toc-state') !== 'false')
 
 function toggle() {
   isOpen.value = !isOpen.value
+  cookies.set('toc-state', isOpen.value, '7d')
 }
 
 onMounted(() => {
