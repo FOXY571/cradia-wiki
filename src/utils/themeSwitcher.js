@@ -1,33 +1,22 @@
 import { ref } from 'vue'
 import cookies from 'vue-cookies'
+import config from '../config'
 
 import backgrounds from '../assets/images/backgrounds'
 import panelBackgrounds from '../assets/images/panel-backgrounds'
 
-export const themes = {
-  ikarye: {
-    name: 'Ikarye',
-    background: backgrounds.ikarye,
-    panelBackground: panelBackgrounds.ikarye,
-  },
-  canavar: {
-    name: 'Canavar',
-    background: backgrounds.canavar,
-    panelBackground: panelBackgrounds.canavar,
-  },
-  chaos: {
-    name: 'Chaos',
-    background: backgrounds.chaos,
-    panelBackground: panelBackgrounds.chaos,
-  },
-  sanctuary: {
-    name: 'Sanctuary',
-    background: backgrounds.sanctuary,
-    panelBackground: panelBackgrounds.sanctuary,
-  },
-}
+export const themes = Object.fromEntries(
+  Object.entries(config.themes).map(([key, theme]) => [
+    key,
+    {
+      name: theme.name,
+      background: backgrounds[theme.background],
+      panelBackground: panelBackgrounds[theme.panelBackground],
+    },
+  ]),
+)
 
-export let currentTheme = ref(cookies.get('theme') || 'ikarye')
+export let currentTheme = ref(cookies.get('theme') || config.defaultTheme)
 
 /**
  * Switch the theme to the specified theme name. If the theme does not exist, the theme will not switch.

@@ -1,4 +1,27 @@
 {
   "wikiName": "Cradia",
-  "mainPage": "Cradia_Wiki"
+  "mainPage": "Cradia_Wiki",
+  "themes": {
+    "ikarye": {
+      "name": "Ikarye",
+      "background": "ikarye",
+      "panelBackground": "ikarye"
+    },
+    "canavar": {
+      "name": "Canavar",
+      "background": "canavar",
+      "panelBackground": "canavar"
+    },
+    "chaos": {
+      "name": "Chaos",
+      "background": "chaos",
+      "panelBackground": "chaos"
+    },
+    "sanctuary": {
+      "name": "Sanctuary",
+      "background": "sanctuary",
+      "panelBackground": "sanctuary"
+    }
+  },
+  "defaultTheme": "ikarye"
 }
