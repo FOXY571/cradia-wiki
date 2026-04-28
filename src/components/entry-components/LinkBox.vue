@@ -1,5 +1,5 @@
 <template>
-  <div class="link-box">
+  <div class="link-box primary-border">
     <div class="label">{{ label }}</div>
     <ul>
       <li v-for="(link, index) in links" :key="index">

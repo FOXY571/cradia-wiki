@@ -1,11 +1,8 @@
 <template>
   <div class="toc primary-border">
-    <div class="header">
-      <input id="tocCheckbox" type="checkbox" role="button" @click="toggle" />
-      <label for="tocCheckbox">
-        <span class="label"><ContentsIcon /> Contents</span>
-        <span class="arrow-icon" :class="{ open: isOpen }"><ArrowDownIcon /></span>
-      </label>
+    <div class="header" @click="toggle">
+      <span class="label"><ContentsIcon /> Contents</span>
+      <span class="arrow-icon" :class="{ open: isOpen }"><ArrowDownIcon /></span>
     </div>
 
     <!-- Only goes three levels deep -->
@@ -76,17 +73,10 @@ onMounted(() => {
 
   line-height: 24px;
 
-  padding: 5px;
-  margin-bottom: 2.5px;
-}
-
-input {
-  display: none;
-}
-
-label {
   display: flex;
   cursor: pointer;
+
+  padding: 5px;
 }
 
 .label {
@@ -106,7 +96,7 @@ label {
 ul {
   list-style: none;
 
-  padding: 0;
+  padding: 2.5px 0 0 0;
   margin: 0;
 }
 

@@ -20,8 +20,8 @@
               toolTip: 'Load a random page',
               href: `/wiki/${getRandomEntryName()}`,
             },
-            { label: 'Style guide', toolTip: 'Read the style guide', href: '/wiki/Style_Guide' },
-            { label: 'Help', toolTip: 'Get some help', href: '/wiki/Help' },
+            { label: 'Style guide', href: '/wiki/Style_Guide' },
+            { label: 'Help', href: '/wiki/Help' },
           ]"
         />
         <SidePanel
@@ -43,18 +43,16 @@
         />
       </div>
 
-      <Panel class="main-panel">
+      <div class="main-panel primary-border">
         <div class="panel-header"></div>
 
         <div class="main-content">
-          <div class="content-body entry-content">
-            <main>
-              <RouterView />
-            </main>
-          </div>
+          <main class="content-body entry-content">
+            <RouterView />
+          </main>
           <div class="side-spacer"></div>
         </div>
-      </Panel>
+      </div>
     </div>
 
     <Footer />
@@ -69,7 +67,6 @@ import { getRandomEntryName } from './utils/entryHandler'
 
 import Header from './components/PageHeader.vue'
 import SidePanel from './components/SidePanel.vue'
-import Panel from './components/PanelContainer.vue'
 import ImageModal from './components/ImageModal.vue'
 import Footer from './components/PageFooter.vue'
 </script>
@@ -133,10 +130,28 @@ import Footer from './components/PageFooter.vue'
 }
 
 .main-panel {
+  background: var(--theme-panel-background);
+  background-repeat: repeat-y;
+  background-size: 100%;
+
+  box-shadow: 2.5px 2.5px 10px 0 rgba(10, 10, 10, 0.7);
+
   flex: 1;
 }
 
+.panel-header {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  border-bottom: 1px solid rgb(20, 20, 20);
+  border-radius: 5px 5px 0 0;
+
+  height: 10px;
+  padding: 10px;
+}
+
 .main-content {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
   display: flex;
   overflow: hidden;
 }
