@@ -101,8 +101,8 @@
   height: auto;
 }
 
-.entry-content pre code,
-.entry-content code {
+.entry-content code,
+.entry-content pre code {
   background-color: #ffffffe0;
   color: black;
 
@@ -110,6 +110,10 @@
   border-style: solid;
   border-color: gray darkslategray darkslategray gray;
   border-radius: 5px;
+}
+
+.entry-content code {
+  padding: 2px 4px;
 }
 
 .entry-content pre code {
@@ -121,10 +125,6 @@
 
   width: fit-content;
   padding: 5px;
-}
-
-.entry-content code {
-  padding: 2px 4px;
 }
 
 /* Content Table */
