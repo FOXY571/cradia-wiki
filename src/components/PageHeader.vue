@@ -2,19 +2,31 @@
   <header>
     <div class="header-title">
       <a title="Visit the main page" href="/">
-        <img src="../assets/images/logo.png" :alt="`${config.wikiName} Wiki logo`" />
+        <img src="../assets/images/logo.png" :alt="`${config.wikiName} Wiki`" />
       </a>
     </div>
     <div class="header-buttons">
       <ThemeChanger />
+      <a
+        :href="createAccountUrl"
+        title="You are encouraged to create an account and log in; however, it is not mandatory"
+      >
+        Create account
+      </a>
+      <a :href="loginUrl" title="You are encouraged to log in; however, it is not mandatory">
+        Log in
+      </a>
     </div>
   </header>
 </template>
 
 <script setup>
 import config from '../config'
+import { useAuthUrls } from '../utils/authUrls'
 
 import ThemeChanger from './ThemeChanger.vue'
+
+const { createAccountUrl, loginUrl } = useAuthUrls()
 </script>
 
 <style scoped>
@@ -30,7 +42,7 @@ header {
   z-index: 1;
 
   height: 35px;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 
 .header-title img {
@@ -43,5 +55,17 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  gap: 0.75rem;
+}
+
+.header-buttons a {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.header-buttons a:hover {
+  text-decoration: underline;
 }
 </style>

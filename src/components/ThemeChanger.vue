@@ -37,6 +37,8 @@ onMounted(() => {
 
 <style scoped>
 .theme-select {
+  font-size: 0.9rem;
+
   position: relative;
   display: inline-block;
 }

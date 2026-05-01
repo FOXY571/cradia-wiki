@@ -13,12 +13,20 @@ const router = createRouter({
       props: () => ({ entryName: config.mainPage }),
     },
     {
-      path: '/wiki/All_Pages',
+      path: '/wiki/AllPages',
       component: () => import('../pages/AllPagesPage.vue'),
+    },
+    {
+      path: '/wiki/CreateAccount',
+      component: () => import('../pages/CreateAccountPage.vue'),
     },
     {
       path: '/wiki/Random',
       component: () => import('../pages/RandomPage.vue'),
+    },
+    {
+      path: '/wiki/UserLogin',
+      component: () => import('../pages/UserLoginPage.vue'),
     },
     {
       path: '/wiki/:entryName',

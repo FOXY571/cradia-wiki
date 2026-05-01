@@ -1,0 +1,224 @@
+<template>
+  <h1>Create a {{ config.wikiName }} Wiki account</h1>
+
+  <!-- Add warning for when a user is already logged in -->
+
+  <div class="create-account-form">
+    <form @submit.prevent="submit">
+      <Transition name="fade">
+        <div class="warning-text" v-if="createAccountError">{{ createAccountError }}</div>
+      </Transition>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+          v-model="email"
+        />
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter a password"
+          required
+          v-model="password"
+        />
+        <Transition name="fade">
+          <div class="warning-text" v-if="badPassword">
+            Passwords must be at least 8 characters long.
+          </div>
+        </Transition>
+        <div class="help-text">
+          It is recommended to use a unique password that you are not using on any other website.
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="confirm-password">Confirm Password</label>
+        <input
+          id="confirm-password"
+          type="password"
+          placeholder="Confirm password again"
+          required
+          v-model="confirmPassword"
+        />
+        <Transition name="fade">
+          <div class="warning-text" v-if="!passwordsMatch">Passwords do not match.</div>
+        </Transition>
+      </div>
+
+      <button class="form-button" type="submit" :disabled="!canSubmit">Create Account</button>
+    </form>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
+import config from '../config'
+
+const route = useRoute()
+const router = useRouter()
+
+const email = ref('')
+const password = ref('')
+const confirmPassword = ref('')
+
+// Pre-submit conditions
+const badPassword = computed(() => password.value && password.value.length < 8)
+const passwordsMatch = computed(
+  () => !confirmPassword.value || password.value === confirmPassword.value,
+)
+const canSubmit = computed(() => !badPassword.value && passwordsMatch.value)
+
+// Post-submit states
+const createAccountError = ref(null)
+
+function submit() {
+  createAccountError.value = null
+
+  const auth = getAuth()
+
+  createUserWithEmailAndPassword(auth, email.value, password.value)
+    .then(() => {
+      const returnTo = route.query.returnto || config.mainPage
+      router.push(`/wiki/${returnTo}`)
+    })
+    .catch((error) => catchErrors(error))
+}
+
+function catchErrors(error) {
+  switch (error.code) {
+    case 'auth/email-already-in-use':
+      createAccountError.value =
+        'Email address entered already in use. Please use a different email address.'
+      break
+    default:
+      createAccountError.value = 'An error occurred. Please try again.'
+  }
+}
+</script>
+
+<style scoped>
+.create-account-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  max-width: 400px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.field label {
+  font-weight: bold;
+}
+
+.field input {
+  color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.25);
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2)
+    rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+
+  outline: transparent 2px solid;
+
+  padding: 0.5rem;
+
+  transition: all 0.2s;
+}
+
+.field input:hover {
+  border-color: gray;
+}
+
+.field input:focus-visible {
+  border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2)
+    rgba(255, 255, 255, 0.1);
+
+  outline-color: var(--link-color);
+}
+
+.field input::placeholder {
+  color: gray;
+}
+
+.field ::-ms-reveal {
+  filter: invert(100%);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.warning-text,
+.help-text {
+  font-size: 0.875rem;
+}
+
+.warning-text {
+  background-color: darkred;
+  border: #550000 1px solid;
+  border-radius: 1px;
+  font-style: italic;
+
+  padding: 3px;
+}
+
+.help-text {
+  color: darkgray;
+}
+
+.form-button {
+  color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.25);
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2)
+    rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+
+  font-weight: bold;
+  outline: transparent 2px solid;
+  cursor: pointer;
+
+  padding: 0.5rem;
+
+  transition: all 0.2s;
+}
+
+.form-button:disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+.form-button:hover:not(:disabled) {
+  border-color: gray;
+}
+
+.form-button:focus-visible:not(:disabled),
+.form-button:active:not(:disabled) {
+  outline-color: var(--link-color);
+}
+</style>
