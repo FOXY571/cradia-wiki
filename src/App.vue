@@ -51,7 +51,12 @@
       </div>
     </div>
 
-    <Footer />
+    <footer>
+      <span>
+        Website created by
+        <a class="footer-link" href="https://github.com/FOXY571" target="_blank">Thomas Towson</a>
+      </span>
+    </footer>
   </div>
 
   <ImageModal />
@@ -63,7 +68,6 @@ import { RouterView } from 'vue-router'
 import Header from './components/PageHeader.vue'
 import SidePanel from './components/SidePanel.vue'
 import ImageModal from './components/ImageModal.vue'
-import Footer from './components/PageFooter.vue'
 </script>
 
 <style scoped>
@@ -200,5 +204,24 @@ import Footer from './components/PageFooter.vue'
   .panels {
     flex-direction: column;
   }
+}
+
+footer {
+  background-color: var(--background-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35px;
+}
+
+.footer-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 </style>
