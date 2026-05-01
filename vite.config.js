@@ -4,18 +4,14 @@ import { defineConfig } from 'vite'
 
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
-import markdown from 'unplugin-vue-markdown/vite'
-
-import markdownItConfig from './src/markdown-it'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     vue({
-      include: [/\.vue$/, /\.md$/], // Allows Vue to compile Markdown files
+      include: [/\.vue$/],
     }),
     vueDevTools(),
-    markdown(markdownItConfig),
   ],
   resolve: {
     alias: {

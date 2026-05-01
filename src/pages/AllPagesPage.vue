@@ -13,12 +13,18 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue'
 import config from '../config'
 import { getAllEntryNames } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
 import { setTitle } from '../utils/titleHandler'
 
-const entryNames = getAllEntryNames().filter((name) => name !== config.mainPage)
+const entryNames = ref([])
 
 setTitle('All Pages')
+
+onMounted(async () => {
+  const names = await getAllEntryNames()
+  entryNames.value = names.filter((name) => name !== config.mainPage)
+})
 </script>

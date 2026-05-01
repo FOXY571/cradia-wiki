@@ -1,24 +1,18 @@
+import MarkdownIt from 'markdown-it'
 import markdownItAnchor from 'markdown-it-anchor'
 import markdownitPlugins from './plugins'
 
-const markdownItConfig = {
-  markdownItOptions: {
-    html: true,
-  },
-  markdownItSetup(md) {
-    setUpMarkdownIt(md)
-  },
-}
+export const md = new MarkdownIt({
+  html: true,
+})
 
-const setUpMarkdownIt = (md) => {
-  md.use(markdownItAnchor, {
-    slugify: (s) => s.replace(/ /g, '_'),
-    tabIndex: false,
-  })
+md.use(markdownItAnchor, {
+  slugify: (s) => s.replace(/ /g, '_'),
+  tabIndex: false,
+})
 
-  Object.values(markdownitPlugins).forEach((plugin) => {
-    md.use(plugin)
-  })
-}
+Object.values(markdownitPlugins).forEach((plugin) => {
+  md.use(plugin)
+})
 
-export default markdownItConfig
+export default md

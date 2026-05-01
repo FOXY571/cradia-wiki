@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, nextTick, ref } from 'vue'
 import cookies from 'vue-cookies'
 import { createToc } from '../../utils/tocHelper'
 import { formatHeaderId } from '../../utils/formatting'
@@ -54,7 +54,8 @@ function toggle() {
   cookies.set('toc-state', isOpen.value, '7d')
 }
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick()
   const content = document.querySelector('.markdown-body')
   const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6')
   contents.value = createToc(headings)

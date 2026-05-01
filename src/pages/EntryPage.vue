@@ -1,5 +1,5 @@
 <template>
-  <h1 v-if="getEntryProp(entryName, 'automaticHeader')">
+  <h1 v-if="automaticHeader">
     {{ formatEntryName(entryName) }}
   </h1>
 
@@ -7,32 +7,30 @@
     This page does not currently exist. You can view all existing pages
     <a title="All Pages" href="/wiki/All_Pages">here</a>.
   </div>
-  <component :is="entryContent" v-else-if="entryContent" />
+  <MarkdownContent
+    v-else-if="entryContent"
+    :content="entryContent"
+    :customComponents="entryComponents"
+  />
   <div v-else>Loading...</div>
 </template>
 
 <script setup>
-import { onMounted, nextTick, shallowRef, ref } from 'vue'
+import { onMounted, nextTick, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import config from '../config'
-import { getEntry, getEntryProp } from '../utils/entryHandler'
+import { getEntry } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
 import { setTitle } from '../utils/titleHandler'
 
+import entryComponents from '../components/entry-components'
+import MarkdownContent from '../components/MarkdownContent.vue'
+
 const route = useRoute()
 
-const entryContent = shallowRef(null)
+const entryContent = ref(null)
 const entryExists = ref(true)
-
-const loadEntry = (entryName) => {
-  const entry = getEntry(entryName)
-  if (!entry) {
-    entryExists.value = false
-    return
-  }
-
-  entryContent.value = entry
-}
+const automaticHeader = ref(true)
 
 const { entryName } = defineProps({
   entryName: {
@@ -42,7 +40,14 @@ const { entryName } = defineProps({
 })
 
 onMounted(async () => {
-  loadEntry(entryName)
+  const entry = await getEntry(entryName)
+
+  if (!entry) {
+    entryExists.value = false
+  } else {
+    automaticHeader.value = entry.automaticHeader !== false
+    entryContent.value = entry.content
+  }
 
   if (entryName !== config.mainPage) {
     setTitle(formatEntryName(entryName))

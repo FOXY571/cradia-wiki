@@ -12,7 +12,7 @@ export function registerGuards(router) {
   })
 }
 
-function entryRedirectGuard(to) {
+async function entryRedirectGuard(to) {
   let newPath = to.path
 
   // Make sure path starts with /wiki
@@ -26,7 +26,7 @@ function entryRedirectGuard(to) {
   newPath = `/wiki/${capitalizedEntryName}`
 
   // Check if it matches an existing entry name
-  const allEntryNames = getAllEntryNames()
+  const allEntryNames = await getAllEntryNames()
   const matchingEntry = allEntryNames.find(
     (name) => name.toLowerCase() === capitalizedEntryName.toLowerCase(),
   )

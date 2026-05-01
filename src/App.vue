@@ -15,11 +15,7 @@
           :items="[
             { label: 'Main page', toolTip: 'Visit the main page', href: '/' },
             { label: 'All pages', toolTip: 'Look at all pages', href: '/wiki/All_Pages' },
-            {
-              label: 'Random page',
-              toolTip: 'Load a random page',
-              href: `/wiki/Random`,
-            },
+            { label: 'Random page', toolTip: 'Load a random page', href: '/wiki/Random' },
             { label: 'Style guide', href: '/wiki/Style_Guide' },
             { label: 'Help', href: '/wiki/Help' },
           ]"
