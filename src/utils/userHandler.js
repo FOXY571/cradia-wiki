@@ -48,7 +48,7 @@ export async function createUserAccount(username, email, password) {
   const auth = getAuth()
 
   try {
-    const userCredential = await createUserWithEmailAndPassword(auth, email.value, password.value)
+    const userCredential = await createUserWithEmailAndPassword(auth, email, password)
     const uid = userCredential.user.uid
 
     await setUserDocs(uid, username, email)
