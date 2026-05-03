@@ -44,6 +44,11 @@ defineProps({
 }
 
 .warning {
+  background-color: rgb(236, 171, 8);
+  border-left: 4px solid darkgoldenrod;
+}
+
+.error {
   background-color: rgb(175, 0, 0);
   border-left: 4px solid darkred;
 }
@@ -56,7 +61,8 @@ span {
   font-weight: bold;
 }
 
-.warning::before {
+.warning::before,
+.error::before {
   content: '';
 
   background-image: url('../../assets/images/warning-icon.png');

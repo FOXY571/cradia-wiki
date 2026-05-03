@@ -1,14 +1,20 @@
 <template>
   <h1>Create a {{ config.wikiName }} Wiki account</h1>
 
-  <!-- Add error for when a user is already logged in -->
-
   <NoteBlock
-    label="Creating an account does not guarentee editing access for pages."
-    text="An admin must grant you permssion to edit pages on the wiki."
+    label="Creating an account currently does not have any use."
+    text="Editing pages locally is slowly being implemeneted. Until then, feel free to test this new feature."
   />
 
+  <NoteBlock :label="`You are already logged in as ${userData.username}.`" type="warning" />
+
   <div class="create-account-form">
+    <a :href="returnTo" v-if="userData">
+      <button class="form-button">Continue as {{ userData.username }}</button>
+    </a>
+
+    <h2 v-if="currentUser">Create another account</h2>
+
     <form @submit.prevent="submit">
       <Transition name="fade">
         <div class="error-text" v-if="createAccountError">{{ createAccountError }}</div>
@@ -71,7 +77,7 @@
         <input
           id="confirm-password"
           type="password"
-          placeholder="Confirm password again"
+          placeholder="Enter password again"
           required
           v-model="confirmPassword"
         />
@@ -86,15 +92,27 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import config from '../config'
-import { createUserAccount } from '../utils/UserHandler'
-import { useAuthUrls } from '../utils/authUrls'
+import { currentUser, getUserData, createUserAccount } from '../firebase/authHandler'
 import { setTitle } from '../utils/titleHandler'
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
-const { returnTo } = useAuthUrls()
+const route = useRoute()
+const returnTo = route.query.returnto ? `/wiki/${route.query.returnto}` : '/'
+
+const userData = ref(null)
+watch(
+  currentUser,
+  async (newUser) => {
+    if (newUser) {
+      userData.value = await getUserData(newUser.uid)
+    }
+  },
+  { immediate: true },
+)
 
 const username = ref('')
 const email = ref('')
@@ -126,7 +144,7 @@ async function submit() {
 
   try {
     await createUserAccount(trueUsername.value, email.value, password.value)
-    document.location.href = `/wiki/${returnTo.value}`
+    document.location.href = returnTo
   } catch (error) {
     createAccountError.value = error.message
   }
@@ -136,12 +154,14 @@ setTitle(`Create a ${config.wikiName} Wiki account`)
 </script>
 
 <style scoped>
+.create-account-form {
+  max-width: 400px;
+}
+
 .create-account-form form {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-
-  max-width: 400px;
 }
 
 .field {
@@ -242,6 +262,7 @@ setTitle(`Create a ${config.wikiName} Wiki account`)
   outline: transparent 2px solid;
   cursor: pointer;
 
+  width: 100%;
   padding: 0.5rem;
 
   transition: all 0.2s;

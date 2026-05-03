@@ -5,7 +5,7 @@ import config from '../config'
 /**
  * Composable for generating authentication-related URLs with return paths.
  *
- * @returns {Object} An object containing the returnTo path, createAccountUrl, and loginUrl.
+ * @returns {Object} An object containing the createAccountUrl and loginUrl.
  */
 export function useAuthUrls() {
   const route = useRoute()
@@ -20,5 +20,5 @@ export function useAuthUrls() {
   )
   const loginUrl = computed(() => `/wiki/UserLogin?returnto=${encodeURIComponent(returnTo.value)}`)
 
-  return { returnTo, createAccountUrl, loginUrl }
+  return { createAccountUrl, loginUrl }
 }

@@ -1,6 +1,12 @@
+import { ref } from 'vue'
 import { serverTimestamp } from 'firebase/firestore'
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth'
-import { documentExists, getDocument, setDocument } from '../firebase/databaseHandler'
+import {
+  getAuth,
+  onAuthStateChanged,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from 'firebase/auth'
+import { documentExists, getDocument, setDocument } from './databaseHandler'
 
 class AuthError extends Error {
   constructor(code, message, cause) {
@@ -9,6 +15,30 @@ class AuthError extends Error {
     this.code = code
     this.cause = cause
   }
+}
+
+const auth = getAuth()
+
+onAuthStateChanged(auth, async (user) => {
+  currentUser.value = user
+})
+
+/**
+ * A reactive reference to the currently authenticated user.
+ * - `undefined` — auth state not yet resolved (page just loaded)
+ * - `null` — signed out
+ * - user object — signed in
+ */
+export const currentUser = ref(undefined)
+
+/**
+ * Fetches the user data for the given user ID (uid) from the firestore database.
+ *
+ * @param {string} uid
+ * @returns {Promise<Object|null>} The user data object if found, or null if user not found.
+ */
+export async function getUserData(uid) {
+  return await getDocument('users', uid)
 }
 
 function getNormalizedUsername(username) {
@@ -44,8 +74,6 @@ export async function createUserAccount(username, email, password) {
       'Username entered already in use. Please choose a different username.',
     )
   }
-
-  const auth = getAuth()
 
   try {
     const userCredential = await createUserWithEmailAndPassword(auth, email, password)
@@ -86,7 +114,6 @@ export async function logInUser(username, password) {
   }
 
   try {
-    const auth = getAuth()
     await signInWithEmailAndPassword(auth, userDoc.email, password)
   } catch (error) {
     switch (error.code) {

@@ -7,21 +7,25 @@
     </div>
     <div class="header-buttons">
       <ThemeChanger />
-      <a
-        :href="createAccountUrl"
-        title="You are encouraged to create an account and log in; however, it is not mandatory"
-      >
-        Create account
-      </a>
-      <a :href="loginUrl" title="You are encouraged to log in; however, it is not mandatory">
-        Log in
-      </a>
+      <div v-if="currentUser">SIGNED IN</div>
+      <div v-else-if="currentUser === null">
+        <a
+          :href="createAccountUrl"
+          title="You are encouraged to create an account and log in; however, it is not mandatory"
+        >
+          Create account
+        </a>
+        <a :href="loginUrl" title="You are encouraged to log in; however, it is not mandatory">
+          Log in
+        </a>
+      </div>
     </div>
   </header>
 </template>
 
 <script setup>
 import config from '../config'
+import { currentUser } from '../firebase/authHandler'
 import { useAuthUrls } from '../utils/authUrls'
 
 import ThemeChanger from './ThemeChanger.vue'

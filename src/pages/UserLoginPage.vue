@@ -1,9 +1,15 @@
 <template>
   <h1>Log in</h1>
 
-  <!-- Add warning for when a user is already logged in -->
+  <NoteBlock :label="`You are already logged in as ${userData.username}.`" type="warning" />
 
   <div class="login-form">
+    <a :href="returnTo" v-if="userData">
+      <button class="form-button">Continue as {{ userData.username }}</button>
+    </a>
+
+    <h2 v-if="currentUser">Log in as another user</h2>
+
     <form @submit.prevent="submit">
       <Transition name="fade">
         <div class="warning-text" v-if="loginError">{{ loginError }}</div>
@@ -41,13 +47,30 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import config from '../config'
-import { logInUser } from '../utils/UserHandler'
+import { currentUser, getUserData, logInUser } from '../firebase/authHandler'
 import { useAuthUrls } from '../utils/authUrls'
 import { setTitle } from '../utils/titleHandler'
 
-const { returnTo, createAccountUrl } = useAuthUrls()
+import NoteBlock from '../components/entry-components/NoteBlock.vue'
+
+const route = useRoute()
+const { createAccountUrl } = useAuthUrls()
+
+const returnTo = route.query.returnto ? `/wiki/${route.query.returnto}` : '/'
+
+const userData = ref(null)
+watch(
+  currentUser,
+  async (newUser) => {
+    if (newUser) {
+      userData.value = await getUserData(newUser.uid)
+    }
+  },
+  { immediate: true },
+)
 
 const username = ref('')
 const password = ref('')
@@ -60,7 +83,7 @@ async function submit() {
 
   try {
     await logInUser(username.value, password.value)
-    document.location.href = `/wiki/${returnTo.value}`
+    document.location.href = returnTo
   } catch (error) {
     loginError.value = error.message
   }
@@ -70,12 +93,14 @@ setTitle('Log in')
 </script>
 
 <style scoped>
+.login-form {
+  max-width: 400px;
+}
+
 .login-form form {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-
-  max-width: 400px;
 }
 
 .field {
@@ -161,6 +186,7 @@ setTitle('Log in')
   outline: transparent 2px solid;
   cursor: pointer;
 
+  width: 100%;
   padding: 0.5rem;
 
   transition: all 0.2s;
