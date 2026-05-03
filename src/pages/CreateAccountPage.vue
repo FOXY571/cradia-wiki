@@ -1,13 +1,40 @@
 <template>
   <h1>Create a {{ config.wikiName }} Wiki account</h1>
 
-  <!-- Add warning for when a user is already logged in -->
+  <!-- Add error for when a user is already logged in -->
+
+  <NoteBlock
+    label="Creating an account does not guarentee editing access for pages."
+    text="An admin must grant you permssion to edit pages on the wiki."
+  />
 
   <div class="create-account-form">
     <form @submit.prevent="submit">
       <Transition name="fade">
-        <div class="warning-text" v-if="createAccountError">{{ createAccountError }}</div>
+        <div class="error-text" v-if="createAccountError">{{ createAccountError }}</div>
       </Transition>
+
+      <div class="field">
+        <label for="username">Username</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="Enter your username"
+          required
+          v-model="username"
+        />
+        <Transition name="fade">
+          <div class="error-text" v-if="invalidUsername">
+            You have not specified a valid username.
+          </div>
+          <div class="error-text" v-else-if="noCharsUsername">
+            Your username must contain at least one letter or number.
+          </div>
+          <div class="warning-text" v-else-if="username !== trueUsername">
+            Your username will be adjusted to "{{ trueUsername }}" due to technical restrictions.
+          </div>
+        </Transition>
+      </div>
 
       <div class="field">
         <label for="email">Email</label>
@@ -30,7 +57,7 @@
           v-model="password"
         />
         <Transition name="fade">
-          <div class="warning-text" v-if="badPassword">
+          <div class="error-text" v-if="badPassword">
             Passwords must be at least 8 characters long.
           </div>
         </Transition>
@@ -49,7 +76,7 @@
           v-model="confirmPassword"
         />
         <Transition name="fade">
-          <div class="warning-text" v-if="!passwordsMatch">Passwords do not match.</div>
+          <div class="error-text" v-if="!passwordsMatch">Passwords do not match.</div>
         </Transition>
       </div>
 
@@ -60,50 +87,52 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
 import config from '../config'
+import { createUserAccount } from '../utils/UserHandler'
+import { useAuthUrls } from '../utils/authUrls'
+import { setTitle } from '../utils/titleHandler'
 
-const route = useRoute()
-const router = useRouter()
+import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
+const { returnTo } = useAuthUrls()
+
+const username = ref('')
 const email = ref('')
 const password = ref('')
 const confirmPassword = ref('')
 
+const trueUsername = computed(() => {
+  const trimmed = username.value.replaceAll('_', ' ').replace(/\s+/g, ' ').trim()
+  return trimmed.charAt(0).toUpperCase() + trimmed.slice(1)
+})
+
 // Pre-submit conditions
+const invalidUsername = computed(() => username.value && !/^[A-Za-z0-9 _-]+$/.test(username.value))
+const noCharsUsername = computed(() => username.value && !/(?=.*[A-Za-z0-9])/.test(username.value))
+const badUsername = computed(
+  () => username.value && (invalidUsername.value || noCharsUsername.value),
+)
 const badPassword = computed(() => password.value && password.value.length < 8)
 const passwordsMatch = computed(
   () => !confirmPassword.value || password.value === confirmPassword.value,
 )
-const canSubmit = computed(() => !badPassword.value && passwordsMatch.value)
+const canSubmit = computed(() => !badUsername.value && !badPassword.value && passwordsMatch.value)
 
 // Post-submit states
 const createAccountError = ref(null)
 
-function submit() {
+async function submit() {
   createAccountError.value = null
 
-  const auth = getAuth()
-
-  createUserWithEmailAndPassword(auth, email.value, password.value)
-    .then(() => {
-      const returnTo = route.query.returnto || config.mainPage
-      router.push(`/wiki/${returnTo}`)
-    })
-    .catch((error) => catchErrors(error))
-}
-
-function catchErrors(error) {
-  switch (error.code) {
-    case 'auth/email-already-in-use':
-      createAccountError.value =
-        'Email address entered already in use. Please use a different email address.'
-      break
-    default:
-      createAccountError.value = 'An error occurred. Please try again.'
+  try {
+    await createUserAccount(trueUsername.value, email.value, password.value)
+    document.location.href = `/wiki/${returnTo.value}`
+  } catch (error) {
+    createAccountError.value = error.message
   }
 }
+
+setTitle(`Create a ${config.wikiName} Wiki account`)
 </script>
 
 <style scoped>
@@ -171,14 +200,24 @@ function catchErrors(error) {
   opacity: 0;
 }
 
+.error-text,
 .warning-text,
 .help-text {
   font-size: 0.875rem;
 }
 
-.warning-text {
+.error-text {
   background-color: darkred;
   border: #550000 1px solid;
+  border-radius: 1px;
+  font-style: italic;
+
+  padding: 3px;
+}
+
+.warning-text {
+  background-color: darkgoldenrod;
+  border: #554400 1px solid;
   border-radius: 1px;
   font-style: italic;
 

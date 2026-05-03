@@ -1,4 +1,4 @@
-import { collection, doc, getDoc, getDocs } from 'firebase/firestore'
+import { collection, doc, getDoc, getDocs, setDoc, deleteDoc } from 'firebase/firestore'
 import { db } from '../firebase'
 
 /**
@@ -27,4 +27,41 @@ export async function getDocument(collectionName, docId) {
 
   if (!snapshot.exists()) return null
   return { id: snapshot.id, ...snapshot.data() }
+}
+
+/**
+ * Checks if a document exists in a specified Firestore collection.
+ *
+ * @param {string} collectionName - The name of the Firestore collection.
+ * @param {string} docId - The ID of the document to check.
+ * @returns {Promise<boolean>} A promise that resolves to true if the document exists, false otherwise.
+ */
+export async function documentExists(collectionName, docId) {
+  const docRef = doc(db, collectionName, docId)
+  const snapshot = await getDoc(docRef)
+
+  return snapshot.exists()
+}
+
+/**
+ * Sets a document in a specified Firestore collection with the given data.
+ *
+ * @param {string} collectionName - The name of the Firestore collection.
+ * @param {string} docId - The ID of the document to set.
+ * @param {Object} data - The data to set in the document.
+ */
+export async function setDocument(collectionName, docId, data) {
+  const docRef = doc(db, collectionName, docId)
+  await setDoc(docRef, data)
+}
+
+/**
+ * Deletes a document from a specified Firestore collection.
+ *
+ * @param {string} collectionName - The name of the Firestore collection.
+ * @param {string} docId - The ID of the document to delete.
+ */
+export async function deleteDocument(collectionName, docId) {
+  const docRef = doc(db, collectionName, docId)
+  await deleteDoc(docRef)
 }

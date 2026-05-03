@@ -10,13 +10,13 @@
       </Transition>
 
       <div class="field">
-        <label for="email">Email</label>
+        <label for="username">Username</label>
         <input
-          id="email"
-          type="email"
-          placeholder="Enter your email address"
+          id="username"
+          type="text"
+          placeholder="Enter your username"
           required
-          v-model="email"
+          v-model="username"
         />
       </div>
 
@@ -42,43 +42,31 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useRouter } from 'vue-router'
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 import config from '../config'
+import { logInUser } from '../utils/UserHandler'
 import { useAuthUrls } from '../utils/authUrls'
+import { setTitle } from '../utils/titleHandler'
 
-const router = useRouter()
 const { returnTo, createAccountUrl } = useAuthUrls()
 
-const email = ref('')
+const username = ref('')
 const password = ref('')
 
 // Post-submit states
 const loginError = ref(null)
 
-function submit() {
+async function submit() {
   loginError.value = null
 
-  const auth = getAuth()
-
-  signInWithEmailAndPassword(auth, email.value, password.value)
-    .then(() => {
-      router.push(`/wiki/${returnTo.value}`)
-    })
-    .catch((error) => catchErrors(error))
-}
-
-function catchErrors(error) {
-  switch (error.code) {
-    case 'auth/user-not-found':
-    case 'auth/wrong-password':
-    case 'auth/invalid-credential':
-      loginError.value = 'Incorrect email or password. Please try again.'
-      break
-    default:
-      loginError.value = 'An error occurred. Please try again.'
+  try {
+    await logInUser(username.value, password.value)
+    document.location.href = `/wiki/${returnTo.value}`
+  } catch (error) {
+    loginError.value = error.message
   }
 }
+
+setTitle('Log in')
 </script>
 
 <style scoped>
