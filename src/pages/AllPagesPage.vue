@@ -3,23 +3,27 @@
 
   <p>Want to find something specific? This list contains every page in the wiki.</p>
 
-  <ul>
+  <p v-if="entryNames === null">Loading...</p>
+  <p v-else-if="entryNames.length === 0">There are no pages available.</p>
+  <ul v-else>
     <li v-for="entryName in entryNames" :key="entryName">
-      <a :title="formatEntryName(entryName)" :href="`/wiki/${entryName}`">
+      <RouterLink :title="formatEntryName(entryName)" :to="`/wiki/${entryName}`">
         {{ formatEntryName(entryName) }}
-      </a>
+      </RouterLink>
     </li>
   </ul>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
 import config from '../config'
 import { getAllEntryNames } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
 import { setTitle } from '../utils/titleHandler'
 
-const entryNames = ref([])
+// The list of all entry names, excluding the main page. `null` while loading.
+const entryNames = ref(null)
 
 setTitle('All Pages')
 

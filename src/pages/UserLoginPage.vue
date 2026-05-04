@@ -8,11 +8,11 @@
   />
 
   <div class="login-form">
-    <a :href="returnTo" v-if="userData">
+    <RouterLink :to="returnTo" v-if="userData">
       <button class="form-button">Continue as {{ userData.username }}</button>
-    </a>
+    </RouterLink>
 
-    <h2 v-if="currentUser">Log in as another user</h2>
+    <h2 v-if="currentUser && !submitted">Log in as another user</h2>
 
     <form @submit.prevent="submit">
       <Transition name="fade">
@@ -44,7 +44,8 @@
       <button class="form-button" type="submit">Log In</button>
 
       <div>
-        Don't have an account? <a :href="createAccountUrl">Join {{ config.wikiName }} Wiki.</a>
+        Don't have an account?
+        <RouterLink :to="createAccountUrl">Join {{ config.wikiName }} Wiki.</RouterLink>
       </div>
     </form>
   </div>
@@ -52,7 +53,8 @@
 
 <script setup>
 import { ref, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRouter } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import config from '../config'
 import { currentUser, getUserData, logInUser } from '../firebase/authHandler'
 import { useAuthUrls } from '../utils/authUrls'
@@ -60,10 +62,11 @@ import { setTitle } from '../utils/titleHandler'
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
-const route = useRoute()
+const router = useRouter()
 const { createAccountUrl } = useAuthUrls()
 
-const returnTo = route.query.returnto ? `/wiki/${route.query.returnto}` : '/'
+const query = router.currentRoute.value.query
+const returnTo = query.returnto ? `/wiki/${query.returnto}` : '/'
 
 const userData = ref(null)
 watch(
@@ -80,6 +83,7 @@ const username = ref('')
 const password = ref('')
 
 // Post-submit states
+const submitted = ref(false)
 const loginError = ref(null)
 
 async function submit() {
@@ -87,7 +91,8 @@ async function submit() {
 
   try {
     await logInUser(username.value, password.value)
-    document.location.href = returnTo
+    submitted.value = true
+    await router.push(returnTo)
   } catch (error) {
     loginError.value = error.message
   }

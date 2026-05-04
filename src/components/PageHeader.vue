@@ -1,41 +1,40 @@
 <template>
   <header>
     <div class="header-title">
-      <a title="Visit the main page" href="/">
+      <RouterLink title="Visit the main page" to="/">
         <img src="../assets/images/logo.png" :alt="`${config.wikiName} Wiki`" />
-      </a>
+      </RouterLink>
     </div>
     <div class="header-buttons">
       <ThemeChanger />
       <div v-if="currentUser">
-        <a href="#" title="Log out" @click="handleLogOut">Log out</a>
+        <a href="#" title="Log out" @click.prevent="logOut()">Log out</a>
       </div>
       <div v-else-if="currentUser === null">
-        <a
-          :href="createAccountUrl"
+        <RouterLink
+          :to="createAccountUrl"
           title="You are encouraged to create an account and log in; however, it is not mandatory"
         >
           Create account
-        </a>
-        <a :href="loginUrl" title="You are encouraged to log in; however, it is not mandatory">
+        </RouterLink>
+        <RouterLink
+          :to="loginUrl"
+          title="You are encouraged to log in; however, it is not mandatory"
+        >
           Log in
-        </a>
+        </RouterLink>
       </div>
     </div>
   </header>
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router'
 import config from '../config'
 import { currentUser, logOut } from '../firebase/authHandler'
 import { useAuthUrls } from '../utils/authUrls'
 
 import ThemeChanger from './ThemeChanger.vue'
-
-async function handleLogOut() {
-  await logOut()
-  window.location.reload()
-}
 
 const { createAccountUrl, loginUrl } = useAuthUrls()
 </script>

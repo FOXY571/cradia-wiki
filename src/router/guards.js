@@ -3,7 +3,7 @@ import { getAllEntryNames } from '../utils/entryHandler'
 export function registerGuards(router) {
   router.beforeEach((to) => {
     if (to.path === '/wiki' || to.path === '/wiki/') {
-      return '/'
+      return { path: '/', replace: true }
     }
 
     if (to.path !== '/') {
@@ -35,6 +35,6 @@ async function entryRedirectGuard(to) {
   }
 
   if (newPath !== to.path) {
-    return newPath
+    return { path: newPath, replace: true }
   }
 }

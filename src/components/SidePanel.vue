@@ -8,14 +8,14 @@
       <div class="content" v-if="isOpen">
         <ul class="panel-list">
           <li v-for="(item, index) in items" :key="index">
-            <a
+            <component
+              :is="item.newTab ? 'a' : RouterLink"
               class="panel-link"
               :title="item.toolTip"
-              :href="item.href"
-              :target="item.newTab ? '_blank' : '_self'"
+              v-bind="item.newTab ? { href: item.href, target: '_blank' } : { to: item.href }"
             >
               <span>{{ item.label }}</span>
-            </a>
+            </component>
           </li>
         </ul>
       </div>
@@ -25,6 +25,7 @@
 
 <script setup>
 import { computed, ref } from 'vue'
+import { RouterLink } from 'vue-router'
 import cookies from 'vue-cookies'
 
 import ArrowDownIcon from './icons/ArrowDownIcon.vue'

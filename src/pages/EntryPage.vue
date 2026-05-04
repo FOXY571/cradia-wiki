@@ -1,64 +1,83 @@
 <template>
-  <h1 v-if="automaticHeader">
+  <h1 v-if="entryContent !== undefined && entryProps.automaticHeader !== false">
     {{ formatEntryName(entryName) }}
   </h1>
 
-  <div v-if="!entryExists">
+  <p v-if="entryContent === undefined">Loading...</p>
+  <p v-else-if="entryContent === null">
     This page does not currently exist. You can view all existing pages
-    <a title="All Pages" href="/wiki/All_Pages">here</a>.
-  </div>
-  <MarkdownContent
-    v-else-if="entryContent"
-    :content="entryContent"
-    :customComponents="entryComponents"
-  />
-  <div v-else>Loading...</div>
+    <RouterLink title="All Pages" :to="`/wiki/All_Pages`">here</RouterLink>.
+  </p>
+  <MarkdownContent v-else :content="entryContent" :customComponents="entryComponents" />
 </template>
 
 <script setup>
-import { onMounted, nextTick, ref } from 'vue'
+import { nextTick, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import config from '../config'
 import { getEntry } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
-import { setTitle } from '../utils/titleHandler'
+import { setTitle, resetTitle } from '../utils/titleHandler'
 
 import entryComponents from '../components/entry-components'
 import MarkdownContent from '../components/MarkdownContent.vue'
 
 const route = useRoute()
 
-const entryContent = ref(null)
-const entryExists = ref(true)
-const automaticHeader = ref(true)
+// The content of the entry. `undefined` while loading, `null` if the entry doesn't exist, and a string if it does.
+const entryContent = ref(undefined)
+const entryProps = ref({})
 
-const { entryName } = defineProps({
+const props = defineProps({
   entryName: {
     type: String,
     required: true,
   },
 })
 
-onMounted(async () => {
+watch(
+  () => props.entryName,
+  async (entryName) => {
+    entryContent.value = undefined
+    entryProps.value = {}
+
+    await loadEntry(entryName)
+
+    changeTitle(entryName !== config.mainPage ? formatEntryName(entryName) : null)
+
+    await nextTick()
+
+    scrollToHash()
+  },
+  { immediate: true },
+)
+
+async function loadEntry(entryName) {
   const entry = await getEntry(entryName)
 
   if (!entry) {
-    entryExists.value = false
+    entryContent.value = null
   } else {
-    automaticHeader.value = entry.automaticHeader !== false
     entryContent.value = entry.content
+    entryProps.value = entry.properties || {}
   }
+}
 
-  if (entryName !== config.mainPage) {
-    setTitle(formatEntryName(entryName))
+function changeTitle(newTitle) {
+  if (newTitle) {
+    setTitle(newTitle)
+  } else {
+    resetTitle()
   }
+}
 
-  await nextTick()
-
+function scrollToHash() {
   if (route.hash) {
     const id = decodeURIComponent(route.hash.slice(1))
     const element = document.getElementById(id)
     if (element) element.scrollIntoView()
+  } else {
+    window.scrollTo(0, 0)
   }
-})
+}
 </script>

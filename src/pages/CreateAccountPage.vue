@@ -13,11 +13,11 @@
   />
 
   <div class="create-account-form">
-    <a :href="returnTo" v-if="userData">
+    <RouterLink :to="returnTo" v-if="userData">
       <button class="form-button">Continue as {{ userData.username }}</button>
-    </a>
+    </RouterLink>
 
-    <h2 v-if="currentUser">Create another account</h2>
+    <h2 v-if="currentUser && !submitted">Create another account</h2>
 
     <form @submit.prevent="submit">
       <Transition name="fade">
@@ -97,15 +97,18 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRouter } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import config from '../config'
 import { currentUser, getUserData, createUserAccount } from '../firebase/authHandler'
 import { setTitle } from '../utils/titleHandler'
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
-const route = useRoute()
-const returnTo = route.query.returnto ? `/wiki/${route.query.returnto}` : '/'
+const router = useRouter()
+
+const query = router.currentRoute.value.query
+const returnTo = query.returnto ? `/wiki/${query.returnto}` : '/'
 
 const userData = ref(null)
 watch(
@@ -141,6 +144,7 @@ const passwordsMatch = computed(
 const canSubmit = computed(() => !badUsername.value && !badPassword.value && passwordsMatch.value)
 
 // Post-submit states
+const submitted = ref(false)
 const createAccountError = ref(null)
 
 async function submit() {
@@ -148,7 +152,8 @@ async function submit() {
 
   try {
     await createUserAccount(trueUsername.value, email.value, password.value)
-    document.location.href = returnTo
+    submitted.value = true
+    await router.push(returnTo)
   } catch (error) {
     createAccountError.value = error.message
   }
