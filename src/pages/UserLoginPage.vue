@@ -52,11 +52,13 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { RouterLink } from 'vue-router'
 import config from '../config'
-import { currentUser, getUserData, logInUser } from '../firebase/authHandler'
+import { currentUser, useUserData, logInUser } from '../firebase/authHandler'
+
+const userData = useUserData()
 import { useAuthUrls } from '../utils/authUrls'
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
@@ -66,17 +68,6 @@ const { createAccountUrl } = useAuthUrls()
 
 const query = router.currentRoute.value.query
 const returnTo = query.returnto ? `/wiki/${query.returnto}` : '/'
-
-const userData = ref(null)
-watch(
-  currentUser,
-  async (newUser) => {
-    if (newUser) {
-      userData.value = await getUserData(newUser.uid)
-    }
-  },
-  { immediate: true },
-)
 
 const username = ref('')
 const password = ref('')

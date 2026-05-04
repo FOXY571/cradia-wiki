@@ -6,7 +6,7 @@
   <p v-if="entryContent === undefined">Loading...</p>
   <p v-else-if="entryContent === null">
     This page does not currently exist. You can view all existing pages
-    <RouterLink title="All Pages" :to="`/wiki/All_Pages`">here</RouterLink>.
+    <RouterLink title="All Pages" :to="`/wiki/AllPages`">here</RouterLink>.
   </p>
   <MarkdownContent v-else :content="entryContent" :customComponents="entryComponents" />
 </template>

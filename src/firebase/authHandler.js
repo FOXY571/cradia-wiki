@@ -1,4 +1,4 @@
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { serverTimestamp } from 'firebase/firestore'
 import {
   getAuth,
@@ -21,7 +21,7 @@ class AuthError extends Error {
 
 const auth = getAuth()
 
-onAuthStateChanged(auth, async (user) => {
+onAuthStateChanged(auth, (user) => {
   currentUser.value = user
 })
 
@@ -32,6 +32,33 @@ onAuthStateChanged(auth, async (user) => {
  * - user object — signed in
  */
 export const currentUser = ref(undefined)
+
+const userData = ref(undefined)
+let userDataWatcherActive = false
+
+/**
+ * Returns a reference to the Firestore user document for the current user.
+ * The database fetch is only set up when this composable is first called.
+ * - `undefined` — auth state not yet resolved
+ * - `null` — signed out or user doc not found
+ * - object — the user's Firestore data
+ */
+export function useUserData() {
+  // This is lazy-loaded to prevent uneccessary calls to the database.
+  // In hindsight, there will always be a mounted component that needs this per page (i.e. header), but whatever idgaf.
+  if (!userDataWatcherActive) {
+    userDataWatcherActive = true
+    watch(
+      currentUser,
+      async (newUser) => {
+        if (newUser === undefined) return
+        userData.value = newUser ? await getDocument('users', newUser.uid) : null
+      },
+      { immediate: true },
+    )
+  }
+  return userData
+}
 
 /**
  * Fetches the user data for the given user ID (uid) from the firestore database.

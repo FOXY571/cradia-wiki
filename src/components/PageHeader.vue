@@ -7,23 +7,25 @@
     </div>
     <div class="header-buttons">
       <ThemeChanger />
-      <div v-if="currentUser">
-        <a href="#" title="Log out" @click.prevent="logOut()">Log out</a>
-      </div>
-      <div v-else-if="currentUser === null">
-        <RouterLink
-          :to="createAccountUrl"
-          title="You are encouraged to create an account and log in; however, it is not mandatory"
-        >
-          Create account
-        </RouterLink>
-        <RouterLink
-          :to="loginUrl"
-          title="You are encouraged to log in; however, it is not mandatory"
-        >
-          Log in
-        </RouterLink>
-      </div>
+
+      <div class="header-divider"></div>
+
+      <UserMenu v-if="currentUser && userData" :userData="userData" />
+
+      <RouterLink
+        :to="createAccountUrl"
+        title="You are encouraged to create an account and log in; however, it is not mandatory"
+        v-if="currentUser === null"
+      >
+        Create account
+      </RouterLink>
+      <RouterLink
+        :to="loginUrl"
+        title="You are encouraged to log in; however, it is not mandatory"
+        v-if="currentUser === null"
+      >
+        Log in
+      </RouterLink>
     </div>
   </header>
 </template>
@@ -31,10 +33,13 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import config from '../config'
-import { currentUser, logOut } from '../firebase/authHandler'
+import { currentUser, useUserData } from '../firebase/authHandler'
+
+const userData = useUserData()
 import { useAuthUrls } from '../utils/authUrls'
 
 import ThemeChanger from './ThemeChanger.vue'
+import UserMenu from './UserMenu.vue'
 
 const { createAccountUrl, loginUrl } = useAuthUrls()
 </script>
@@ -77,5 +82,12 @@ header {
 
 .header-buttons a:hover {
   text-decoration: underline;
+}
+
+.header-divider {
+  width: 1px;
+  height: 18px;
+  background-color: var(--primary-color);
+  opacity: 0.4;
 }
 </style>

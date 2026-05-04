@@ -96,11 +96,13 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { RouterLink } from 'vue-router'
 import config from '../config'
-import { currentUser, getUserData, createUserAccount } from '../firebase/authHandler'
+import { currentUser, useUserData, createUserAccount } from '../firebase/authHandler'
+
+const userData = useUserData()
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
@@ -108,17 +110,6 @@ const router = useRouter()
 
 const query = router.currentRoute.value.query
 const returnTo = query.returnto ? `/wiki/${query.returnto}` : '/'
-
-const userData = ref(null)
-watch(
-  currentUser,
-  async (newUser) => {
-    if (newUser) {
-      userData.value = await getUserData(newUser.uid)
-    }
-  },
-  { immediate: true },
-)
 
 const username = ref('')
 const email = ref('')

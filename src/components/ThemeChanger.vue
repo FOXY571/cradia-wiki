@@ -2,7 +2,8 @@
   <div class="theme-select">
     <input id="themesCheckbox" type="checkbox" role="button" @click="toggle" />
     <label for="themesCheckbox">
-      <span>Appearance <ArrowDownIcon class="arrow-icon" :class="{ open: isOpen }" /></span>
+      <span>Themes</span>
+      <ArrowDownIcon class="arrow-icon" :class="{ open: isOpen }" />
     </label>
     <div v-if="isOpen" class="theme-popup">
       <div class="theme-popup-inner">
@@ -96,26 +97,24 @@ onMounted(() => {
 }
 
 .theme-popup button {
+  background: none;
   color: var(--primary-color);
+
+  border: none;
+  border-radius: 5px;
   text-align: left;
 
-  width: 100%;
-}
-
-.theme-popup button:hover,
-.theme-popup button.selected {
-  background-color: rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-}
-
-.theme-popup button {
-  background: none;
-  border: none;
-  padding: 5px 10px;
   cursor: pointer;
+
+  width: 100%;
+  padding: 5px 10px;
 }
 
 .theme-popup button:hover {
   background: rgba(0, 0, 0, 0.1);
+}
+
+.theme-popup button.selected {
+  background-color: rgba(0, 0, 0, 0.15);
 }
 </style>
