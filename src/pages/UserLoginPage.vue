@@ -1,7 +1,11 @@
 <template>
   <h1>Log in</h1>
 
-  <NoteBlock :label="`You are already logged in as ${userData.username}.`" type="warning" />
+  <NoteBlock
+    :label="`You are already logged in as ${userData.username}.`"
+    type="warning"
+    v-if="userData"
+  />
 
   <div class="login-form">
     <a :href="returnTo" v-if="userData">

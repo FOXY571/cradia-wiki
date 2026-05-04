@@ -6,7 +6,11 @@
     text="Editing pages locally is slowly being implemeneted. Until then, feel free to test this new feature."
   />
 
-  <NoteBlock :label="`You are already logged in as ${userData.username}.`" type="warning" />
+  <NoteBlock
+    :label="`You are already logged in as ${userData.username}.`"
+    type="warning"
+    v-if="userData"
+  />
 
   <div class="create-account-form">
     <a :href="returnTo" v-if="userData">

@@ -5,6 +5,7 @@ import {
   onAuthStateChanged,
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
+  signOut,
 } from 'firebase/auth'
 import { documentExists, getDocument, setDocument } from './databaseHandler'
 
@@ -128,5 +129,18 @@ export async function logInUser(username, password) {
       default:
         throw new AuthError('UNKNOWN_ERROR', 'An error occurred. Please try again.', error)
     }
+  }
+}
+
+/**
+ * Logs out the currently authenticated user.
+ *
+ * @throws {AuthError} Throws an AuthError if an unknown error occurs during logout.
+ */
+export async function logOut() {
+  try {
+    await signOut(auth)
+  } catch (error) {
+    throw new AuthError('UNKNOWN_ERROR', 'An error occurred. Please try again.', error)
   }
 }

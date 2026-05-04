@@ -7,7 +7,9 @@
     </div>
     <div class="header-buttons">
       <ThemeChanger />
-      <div v-if="currentUser">SIGNED IN</div>
+      <div v-if="currentUser">
+        <a href="#" title="Log out" @click="handleLogOut">Log out</a>
+      </div>
       <div v-else-if="currentUser === null">
         <a
           :href="createAccountUrl"
@@ -25,10 +27,15 @@
 
 <script setup>
 import config from '../config'
-import { currentUser } from '../firebase/authHandler'
+import { currentUser, logOut } from '../firebase/authHandler'
 import { useAuthUrls } from '../utils/authUrls'
 
 import ThemeChanger from './ThemeChanger.vue'
+
+async function handleLogOut() {
+  await logOut()
+  window.location.reload()
+}
 
 const { createAccountUrl, loginUrl } = useAuthUrls()
 </script>
