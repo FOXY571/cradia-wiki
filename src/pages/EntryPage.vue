@@ -14,10 +14,8 @@
 <script setup>
 import { nextTick, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import config from '../config'
 import { getEntry } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
-import { setTitle, resetTitle } from '../utils/titleHandler'
 
 import entryComponents from '../components/entry-components'
 import MarkdownContent from '../components/MarkdownContent.vue'
@@ -42,11 +40,7 @@ watch(
     entryProps.value = {}
 
     await loadEntry(entryName)
-
-    changeTitle(entryName !== config.mainPage ? formatEntryName(entryName) : null)
-
     await nextTick()
-
     scrollToHash()
   },
   { immediate: true },
@@ -60,14 +54,6 @@ async function loadEntry(entryName) {
   } else {
     entryContent.value = entry.content
     entryProps.value = entry.properties || {}
-  }
-}
-
-function changeTitle(newTitle) {
-  if (newTitle) {
-    setTitle(newTitle)
-  } else {
-    resetTitle()
   }
 }
 

@@ -9,11 +9,11 @@
   <NoteBlock
     :label="`You are already logged in as ${userData.username}.`"
     type="warning"
-    v-if="userData"
+    v-if="userData && !submitted"
   />
 
   <div class="create-account-form">
-    <RouterLink :to="returnTo" v-if="userData">
+    <RouterLink :to="returnTo" v-if="userData && !submitted">
       <button class="form-button">Continue as {{ userData.username }}</button>
     </RouterLink>
 
@@ -101,7 +101,6 @@ import { useRouter } from 'vue-router'
 import { RouterLink } from 'vue-router'
 import config from '../config'
 import { currentUser, getUserData, createUserAccount } from '../firebase/authHandler'
-import { setTitle } from '../utils/titleHandler'
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
@@ -158,8 +157,6 @@ async function submit() {
     createAccountError.value = error.message
   }
 }
-
-setTitle(`Create a ${config.wikiName} Wiki account`)
 </script>
 
 <style scoped>

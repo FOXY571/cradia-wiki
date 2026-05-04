@@ -20,12 +20,9 @@ import { RouterLink } from 'vue-router'
 import config from '../config'
 import { getAllEntryNames } from '../utils/entryHandler'
 import { formatEntryName } from '../utils/formatting'
-import { setTitle } from '../utils/titleHandler'
 
 // The list of all entry names, excluding the main page. `null` while loading.
 const entryNames = ref(null)
-
-setTitle('All Pages')
 
 onMounted(async () => {
   const names = await getAllEntryNames()

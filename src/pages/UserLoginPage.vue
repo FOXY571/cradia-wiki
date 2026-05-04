@@ -4,11 +4,11 @@
   <NoteBlock
     :label="`You are already logged in as ${userData.username}.`"
     type="warning"
-    v-if="userData"
+    v-if="userData && !submitted"
   />
 
   <div class="login-form">
-    <RouterLink :to="returnTo" v-if="userData">
+    <RouterLink :to="returnTo" v-if="userData && !submitted">
       <button class="form-button">Continue as {{ userData.username }}</button>
     </RouterLink>
 
@@ -58,7 +58,6 @@ import { RouterLink } from 'vue-router'
 import config from '../config'
 import { currentUser, getUserData, logInUser } from '../firebase/authHandler'
 import { useAuthUrls } from '../utils/authUrls'
-import { setTitle } from '../utils/titleHandler'
 
 import NoteBlock from '../components/entry-components/NoteBlock.vue'
 
@@ -97,8 +96,6 @@ async function submit() {
     loginError.value = error.message
   }
 }
-
-setTitle('Log in')
 </script>
 
 <style scoped>

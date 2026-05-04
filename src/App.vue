@@ -5,7 +5,7 @@
 
   <div class="app-container">
     <div class="logo">
-      <a title="Visit the main page" href="/"></a>
+      <RouterLink title="Visit the main page" to="/"></RouterLink>
     </div>
 
     <div class="content-wrapper">
@@ -43,7 +43,7 @@
         <div class="panel-header"></div>
 
         <div class="main-content">
-          <main class="content-body entry-content">
+          <main ref="contentBody" class="content-body entry-content">
             <RouterView />
           </main>
           <div class="side-spacer"></div>
@@ -63,11 +63,36 @@
 </template>
 
 <script setup>
-import { RouterView } from 'vue-router'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { RouterView, RouterLink, useRouter } from 'vue-router'
+import { setTitle, resetTitle } from './utils/titleHandler'
 
 import Header from './components/PageHeader.vue'
 import SidePanel from './components/SidePanel.vue'
 import ImageModal from './components/ImageModal.vue'
+
+const router = useRouter()
+router.beforeEach(resetTitle)
+
+const contentBody = ref(null)
+let observer = null
+
+function updateTitle() {
+  const h1 = contentBody.value?.querySelector('h1')
+  const text = h1?.textContent?.trim()
+  if (text) setTitle(text)
+  else resetTitle()
+}
+
+onMounted(() => {
+  observer = new MutationObserver(updateTitle)
+  observer.observe(contentBody.value, { childList: true, subtree: true, characterData: true })
+  updateTitle()
+})
+
+onBeforeUnmount(() => {
+  observer?.disconnect()
+})
 </script>
 
 <style scoped>
