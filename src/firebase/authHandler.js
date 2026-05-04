@@ -6,6 +6,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
+  updateProfile,
 } from 'firebase/auth'
 import { documentExists, getDocument, setDocument } from './databaseHandler'
 
@@ -50,9 +51,9 @@ async function setUserDocs(uid, username, email) {
   const normalizedUsername = getNormalizedUsername(username)
 
   await setDocument('users', uid, {
-    username: username,
-    normalizedUsername: normalizedUsername,
-    email: email.value,
+    username,
+    normalizedUsername,
+    email,
     registeredAt: serverTimestamp(),
   })
   await setDocument('usernames', normalizedUsername, { uid })
@@ -80,6 +81,7 @@ export async function createUserAccount(username, email, password) {
     const userCredential = await createUserWithEmailAndPassword(auth, email, password)
     const uid = userCredential.user.uid
 
+    await updateProfile(userCredential.user, { displayName: username })
     await setUserDocs(uid, username, email)
   } catch (error) {
     switch (error.code) {
