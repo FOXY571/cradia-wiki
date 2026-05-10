@@ -15,7 +15,7 @@ md.use(markdownItAnchor, {
 })
 
 md.use(componentPlugin, {
-  // options
+  // Options
 })
 
 Object.values(markdownitPlugins).forEach((plugin) => {
