@@ -3,13 +3,16 @@
     <div class="label">{{ label }}</div>
     <ul>
       <li v-for="(link, index) in links" :key="index">
-        <a :title="formatEntryName(link)" :href="`/wiki/${link}`">{{ formatEntryName(link) }}</a>
+        <RouterLink :to="`/wiki/${link}`" :title="formatEntryName(link)">
+          {{ formatEntryName(link) }}
+        </RouterLink>
       </li>
     </ul>
   </div>
 </template>
 
 <script setup>
+import { RouterLink } from 'vue-router'
 import { formatEntryName } from '../../utils/formatting'
 
 defineProps({

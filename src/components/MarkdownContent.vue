@@ -19,6 +19,7 @@ const { content, customComponents } = defineProps({
 })
 
 const html = md.render(preprocessMarkdown(content))
+console.log(preprocessMarkdown(content))
 
 const RenderedContent = defineComponent({
   render: () => h('div', { class: 'markdown-body' }, htmlToVNodes(html, customComponents)),
