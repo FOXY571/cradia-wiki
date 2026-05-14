@@ -2,6 +2,7 @@
   <div class="user-menu">
     <input id="userMenuCheckbox" type="checkbox" role="button" @click="toggle" />
     <label for="userMenuCheckbox">
+      <UserIcon />
       <span>{{ userData.username || 'User' }}</span>
       <ArrowDownIcon class="arrow-icon" :class="{ open: isOpen }" />
     </label>
@@ -31,6 +32,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { logOut } from '../firebase/authHandler'
 
+import UserIcon from './icons/UserIcon.vue'
 import ArrowDownIcon from './icons/ArrowDownIcon.vue'
 import GearIcon from './icons/GearIcon.vue'
 import LogoutIcon from './icons/LogoutIcon.vue'
@@ -77,6 +79,7 @@ async function handleLogout() {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.3em;
   cursor: pointer;
 
   padding: 3px 0.4em;
